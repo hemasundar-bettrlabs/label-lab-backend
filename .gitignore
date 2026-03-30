@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Package init files
+__init__.py
+
+# Environment variables
+.env
+
+# Credentials
+bettrlabs-vertex-ai.json
+!requirements.txt

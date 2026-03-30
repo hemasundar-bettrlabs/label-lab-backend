@@ -1,0 +1,72 @@
+{
+    "RDA": {
+        "energy": {
+            "rda_constant": 2000,
+            "unit": "kcal/d"
+        },
+        "total_fat": {
+            "rda_constant": 67,
+            "unit": "g/d"
+        },
+        "saturated_fat": {
+            "rda_constant": 22,
+            "unit": "g/d"
+        },
+        "trans_fat": {
+            "rda_constant": 2,
+            "unit": "g/d"
+        },
+        "cholesterol": {
+            "rda_constant": 300,
+            "unit": "mg/d"
+        },
+        "total_carbohydrate": {
+            "rda_constant": 300,
+            "unit": "g/d"
+        },
+        "added_sugars": {
+            "rda_constant": 50,
+            "unit": "g/d"
+        },
+        "sodium": {
+            "rda_constant": 2000,
+            "unit": "mg/d"
+        },
+        "vitamin_e": {
+            "rda_constant": 10,
+            "unit": "mg/d"
+        },
+        "vitamin_k": {
+            "rda_constant": 55,
+            "unit": "µg/d"
+        },
+        "phosphorous": {
+            "rda_constant": 1000,
+            "unit": "mg/d"
+        },
+        "potassium": {
+            "rda_constant": 3500,
+            "unit": "mg/d"
+        },
+        "copper": {
+            "rda_constant": 1.7,
+            "unit": "mg/d"
+        },
+        "manganese": {
+            "rda_constant": 4,
+            "unit": "mg/d"
+        },
+        "chromium": {
+            "rda_constant": 50,
+            "unit": "µg/d"
+        },
+        "selenium": {
+            "rda_constant": 40,
+            "unit": "µg/d"
+        },
+        "molybdenum": {
+            "rda_constant": 45,
+            "unit": "µg/d"
+        }
+    }
+}

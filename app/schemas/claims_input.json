@@ -1,0 +1,92 @@
+{
+  "type": "object",
+  "properties": {
+    "nutrition_table": {
+      "type": "array",
+      "description": "Extract the complete nutrition information table.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nutrient": {
+            "type": "string"
+          },
+          "per_100g": {
+            "type": "string"
+          },
+          "per_serve": {
+            "type": "string",
+            "nullable": true
+          },
+          "unit": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "nutrient",
+          "per_100g",
+          "unit"
+        ]
+      }
+    },
+    "ingredients": {
+      "type": "array",
+      "description": "Extract the complete list of ingredients in the exact order they appear.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "allergens": {
+      "type": "array",
+      "description": "Extract any allergen declarations or 'Contains' statements.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "servings": {
+      "type": "object",
+      "properties": {
+        "serving_size": {
+          "type": "string",
+          "nullable": true
+        },
+        "servings_per_container": {
+          "type": "string",
+          "nullable": true
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "description": "Extract ALL marketing, nutritional, or health claims found on the package.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The exact text of the claim as it appears on the label."
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "Nutritional Claim",
+              "Health Claim",
+              "Ingredient Claim"
+            ],
+            "description": "Categorize the claim."
+          }
+        },
+        "required": [
+          "text",
+          "type"
+        ]
+      }
+    }
+  },
+  "required": [
+    "nutrition_table",
+    "ingredients",
+    "allergens",
+    "servings",
+    "claims"
+  ]
+}

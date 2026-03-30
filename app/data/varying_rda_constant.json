@@ -1,0 +1,140 @@
+{
+    "RDA": {
+        "men": {
+            "sedentary": {
+                "protein": { "rda_constant": 54.0, "unit": "g/d" },
+                "dietary_fiber": { "rda_constant": 30, "unit": "g/d" },
+                "calcium": { "rda_constant": 1000, "unit": "mg/d" },
+                "magnesium": { "rda_constant": 440, "unit": "mg/d" },
+                "iron": { "rda_constant": 19, "unit": "mg/d" },
+                "zinc": { "rda_constant": 17, "unit": "mg/d" },
+                "iodine": { "rda_constant": 150, "unit": "µg/d" },
+                "thiamine": { "rda_constant": 1.4, "unit": "mg/d" },
+                "riboflavin": { "rda_constant": 2.0, "unit": "mg/d" },
+                "niacin": { "rda_constant": 14, "unit": "mg/d" },
+                "vitamin_b6": { "rda_constant": 1.9, "unit": "mg/d" },
+                "folate": { "rda_constant": 300, "unit": "µg/d" },
+                "vitamin_b12": { "rda_constant": 2.2, "unit": "µg/d" },
+                "vitamin_c": { "rda_constant": 80, "unit": "mg/d" },
+                "vitamin_a": { "rda_constant": 1000, "unit": "µg/d" },
+                "vitamin_d": { "rda_constant": 15, "unit": "µg/d" },
+                "biotin": { "rda_constant": 40, "unit": "µg/d" },
+                "pantothenic_acid": { "rda_constant": 5, "unit": "mg/d" }
+            },
+            "moderate": {
+                "protein": { "rda_constant": 54.0, "unit": "g/d" },
+                "dietary_fiber": { "rda_constant": 40, "unit": "g/d" },
+                "calcium": { "rda_constant": 1000, "unit": "mg/d" },
+                "magnesium": { "rda_constant": 440, "unit": "mg/d" },
+                "iron": { "rda_constant": 19, "unit": "mg/d" },
+                "zinc": { "rda_constant": 17, "unit": "mg/d" },
+                "iodine": { "rda_constant": 150, "unit": "µg/d" },
+                "thiamine": { "rda_constant": 1.8, "unit": "mg/d" },
+                "riboflavin": { "rda_constant": 2.5, "unit": "mg/d" },
+                "niacin": { "rda_constant": 18, "unit": "mg/d" },
+                "vitamin_b6": { "rda_constant": 2.4, "unit": "mg/d" },
+                "folate": { "rda_constant": 300, "unit": "µg/d" },
+                "vitamin_b12": { "rda_constant": 2.2, "unit": "µg/d" },
+                "vitamin_c": { "rda_constant": 80, "unit": "mg/d" },
+                "vitamin_a": { "rda_constant": 1000, "unit": "µg/d" },
+                "vitamin_d": { "rda_constant": 15, "unit": "µg/d" },
+                "biotin": { "rda_constant": 40, "unit": "µg/d" },
+                "pantothenic_acid": { "rda_constant": 5, "unit": "mg/d" }
+            },
+            "heavy": {
+                "protein": { "rda_constant": 54.0, "unit": "g/d" },
+                "dietary_fiber": { "rda_constant": 50, "unit": "g/d" },
+                "calcium": { "rda_constant": 1000, "unit": "mg/d" },
+                "magnesium": { "rda_constant": 440, "unit": "mg/d" },
+                "iron": { "rda_constant": 19, "unit": "mg/d" },
+                "zinc": { "rda_constant": 17, "unit": "mg/d" },
+                "iodine": { "rda_constant": 150, "unit": "µg/d" },
+                "thiamine": { "rda_constant": 2.3, "unit": "mg/d" },
+                "riboflavin": { "rda_constant": 3.2, "unit": "mg/d" },
+                "niacin": { "rda_constant": 23, "unit": "mg/d" },
+                "vitamin_b6": { "rda_constant": 3.1, "unit": "mg/d" },
+                "folate": { "rda_constant": 300, "unit": "µg/d" },
+                "vitamin_b12": { "rda_constant": 2.2, "unit": "µg/d" },
+                "vitamin_c": { "rda_constant": 80, "unit": "mg/d" },
+                "vitamin_a": { "rda_constant": 1000, "unit": "µg/d" },
+                "vitamin_d": { "rda_constant": 15, "unit": "µg/d" },
+                "biotin": { "rda_constant": 40, "unit": "µg/d" },
+                "pantothenic_acid": { "rda_constant": 5, "unit": "mg/d" }
+            }
+        },
+        "women": {
+            "sedentary": {
+                "protein": { "rda_constant": 46.0, "unit": "g/d" },
+                "dietary_fiber": { "rda_constant": 25, "unit": "g/d" },
+                "calcium": { "rda_constant": 1000, "unit": "mg/d" },
+                "magnesium": { "rda_constant": 370, "unit": "mg/d" },
+                "iron": { "rda_constant": 29, "unit": "mg/d" },
+                "zinc": { "rda_constant": 13.0, "unit": "mg/d" },
+                "iodine": { "rda_constant": 150, "unit": "µg/d" },
+                "thiamine": { "rda_constant": 1.4, "unit": "mg/d" },
+                "riboflavin": { "rda_constant": 1.9, "unit": "mg/d" },
+                "niacin": { "rda_constant": 11, "unit": "mg/d" },
+                "vitamin_b6": { "rda_constant": 1.9, "unit": "mg/d" },
+                "folate": { "rda_constant": 220, "unit": "µg/d" },
+                "vitamin_b12": { "rda_constant": 2.2, "unit": "µg/d" },
+                "vitamin_c": { "rda_constant": 65, "unit": "mg/d" },
+                "vitamin_a": { "rda_constant": 840, "unit": "µg/d" },
+                "vitamin_d": { "rda_constant": 15, "unit": "µg/d" },
+                "biotin": { "rda_constant": 40, "unit": "µg/d" },
+                "pantothenic_acid": { "rda_constant": 5, "unit": "mg/d" }
+            },
+            "moderate": {
+                "protein": { "rda_constant": 46.0, "unit": "g/d" },
+                "dietary_fiber": { "rda_constant": 30, "unit": "g/d" },
+                "calcium": { "rda_constant": 1000, "unit": "mg/d" },
+                "magnesium": { "rda_constant": 370, "unit": "mg/d" },
+                "iron": { "rda_constant": 29, "unit": "mg/d" },
+                "zinc": { "rda_constant": 13.0, "unit": "mg/d" },
+                "iodine": { "rda_constant": 150, "unit": "µg/d" },
+                "thiamine": { "rda_constant": 1.7, "unit": "mg/d" },
+                "riboflavin": { "rda_constant": 2.4, "unit": "mg/d" },
+                "niacin": { "rda_constant": 14, "unit": "mg/d" },
+                "vitamin_b6": { "rda_constant": 1.9, "unit": "mg/d" },
+                "folate": { "rda_constant": 220, "unit": "µg/d" },
+                "vitamin_b12": { "rda_constant": 2.2, "unit": "µg/d" },
+                "vitamin_c": { "rda_constant": 65, "unit": "mg/d" },
+                "vitamin_a": { "rda_constant": 840, "unit": "µg/d" },
+                "vitamin_d": { "rda_constant": 15, "unit": "µg/d" },
+                "biotin": { "rda_constant": 40, "unit": "µg/d" },
+                "pantothenic_acid": { "rda_constant": 5, "unit": "mg/d" }
+            },
+            "heavy": {
+                "protein": { "rda_constant": 46.0, "unit": "g/d" },
+                "dietary_fiber": { "rda_constant": 40, "unit": "g/d" },
+                "calcium": { "rda_constant": 1000, "unit": "mg/d" },
+                "magnesium": { "rda_constant": 370, "unit": "mg/d" },
+                "iron": { "rda_constant": 29, "unit": "mg/d" },
+                "zinc": { "rda_constant": 13.0, "unit": "mg/d" },
+                "iodine": { "rda_constant": 150, "unit": "µg/d" },
+                "thiamine": { "rda_constant": 2.2, "unit": "mg/d" },
+                "riboflavin": { "rda_constant": 3.1, "unit": "mg/d" },
+                "niacin": { "rda_constant": 18, "unit": "mg/d" },
+                "vitamin_b6": { "rda_constant": 2.4, "unit": "mg/d" },
+                "folate": { "rda_constant": 220, "unit": "µg/d" },
+                "vitamin_b12": { "rda_constant": 2.2, "unit": "µg/d" },
+                "vitamin_c": { "rda_constant": 65, "unit": "mg/d" },
+                "vitamin_a": { "rda_constant": 840, "unit": "µg/d" },
+                "vitamin_d": { "rda_constant": 15, "unit": "µg/d" },
+                "biotin": { "rda_constant": 40, "unit": "µg/d" },
+                "pantothenic_acid": { "rda_constant": 5, "unit": "mg/d" }
+            },
+            "pregnant": {
+                "2nd_trimester": { "protein": { "rda_constant": 55.5, "unit": "g/d" }, "calcium": { "rda_constant": 1000 }, "iron": { "rda_constant": 27 }, "folate": { "rda_constant": 570 }, "vitamin_a": { "rda_constant": 900 } },
+                "3rd_trimester": { "protein": { "rda_constant": 67.7, "unit": "g/d" }, "calcium": { "rda_constant": 1000 }, "iron": { "rda_constant": 27 }, "folate": { "rda_constant": 570 }, "vitamin_a": { "rda_constant": 900 } }
+            },
+            "lactation": {
+                "zero_six_months": { "protein": { "rda_constant": 63, "unit": "g/d" }, "calcium": { "rda_constant": 1200 }, "iron": { "rda_constant": 23 }, "folate": { "rda_constant": 330 }, "vitamin_a": { "rda_constant": 950 } },
+                "seven_twelve_months": { "protein": { "rda_constant": 58.9, "unit": "g/d" }, "calcium": { "rda_constant": 1200 }, "iron": { "rda_constant": 23 }, "folate": { "rda_constant": 330 }, "vitamin_a": { "rda_constant": 950 } }
+            }
+        },
+        "infants": {
+            "zero_six_months": { "protein": { "rda_constant": 8.0 }, "calcium": { "rda_constant": 300 }, "vitamin_a": { "rda_constant": 350 }, "vitamin_d": { "rda_constant": 400, "unit": "IU/d" } },
+            "six_twelve_months": { "protein": { "rda_constant": 10.5 }, "calcium": { "rda_constant": 300 }, "vitamin_a": { "rda_constant": 350 }, "vitamin_d": { "rda_constant": 400, "unit": "IU/d" } }
+        }
+    }
+}

@@ -1,0 +1,313 @@
+[
+    {
+        "Category": "Amino Acid Analyzer",
+        "Test": "Amino Acid (per AA or 17 AA Package)",
+        "price_low": 1100,
+        "price_high": 11000,
+        "Scenario": "Profiling a vegan protein powder to claim it has a \"Complete Amino Acid Profile\".",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "Automated Microbial",
+        "Test": "Detection/Enumeration of Pathogens",
+        "price_low": 1200,
+        "price_high": 2000,
+        "Scenario": "Fast-track batch clearance of perishable goods (like raw oysters) for the market.",
+        "Nutritional/Functional Claim (Y/N)": null,
+        "Ingredient Claim (Y/N)": "N"
+    },
+    {
+        "Category": "Food Quality Analysis",
+        "Test": "Adulteration Test for Food Product",
+        "price": 385,
+        "Scenario": "Checking milk for urea or melamine, or spices for artificial brick powder.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "Food Quality Analysis",
+        "Test": "Gluten",
+        "price": 550,
+        "Scenario": "Certifying that an oat product is safe to carry the \"Gluten-Free\" label.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "Food Quality Analysis",
+        "Test": "Lycopene",
+        "price": 1100,
+        "Scenario": "Backing up a \"Rich in Lycopene\" health claim on a new tomato-based health drink.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "N"
+    },
+    {
+        "Category": "Food Quality Analysis",
+        "Test": "SNF (Solid Not Fat)",
+        "price": 550,
+        "Scenario": "Standardizing milk at a dairy plant to meet regulatory definitions for whole or skim milk.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "N"
+    },
+    {
+        "Category": "Food Quality Analysis",
+        "Test": "Starch / Reducing Sugar / Sucrose",
+        "price": 1100,
+        "Scenario": "Formulating a low-sugar fruit jam and verifying the carbohydrate breakdown.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "Food Quality Analysis",
+        "Test": "Vitamin C",
+        "price": 1100,
+        "Scenario": "Validating the \"100% Daily Value of Vitamin C\" label on a commercial orange juice.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "N"
+    },
+    {
+        "Category": "GC-MS Analysis",
+        "Test": "Fatty Acid Profile",
+        "price": 3300,
+        "Scenario": "Detailing the EPA/DHA breakdown to support an \"Omega-3 Rich\" claim on fish oil.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "GC-MS/MS Analysis",
+        "Test": "Pesticide Residual Analysis",
+        "price": 5500,
+        "Scenario": "Checking a batch of organic apples to ensure no prohibited synthetic pesticides are present.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "GC-MS/MS Analysis",
+        "Test": "Phytochemical Screening",
+        "price": 3300,
+        "Scenario": "Identifying volatile bioactive compounds in a new herbal extract intended for health supplements.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "GMO Analysis",
+        "Test": "GMO-355 & NOST (Qual/Quant)",
+        "price_low": 5500,
+        "price_high": 7500,
+        "Scenario": "Certifying a batch of corn as \"Non-GMO\" for export to strict European markets.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "HPLC Analysis",
+        "Test": "Aflatoxin / Ochrotoxin / Melamine / Antibiotics",
+        "price_low": 2750,
+        "price_high": 4400,
+        "Scenario": "Safety screening of peanuts, milk, and meat for dangerous toxins or illicit drugs.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "HPLC Analysis",
+        "Test": "Cholesterol",
+        "price": 2750,
+        "Scenario": "Backing up a \"Cholesterol-Free\" claim on a plant-based butter alternative.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "HPLC Analysis",
+        "Test": "Organic Acids",
+        "price": 2750,
+        "Scenario": "Profiling the tartness compounds in wine or fermented kombucha.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "HPLC Analysis",
+        "Test": "Phenolic / Curcuminoids / Capsaicinoids",
+        "price": 2750,
+        "Scenario": "Standardizing a turmeric supplement to guarantee it contains exactly 95% curcuminoids.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "HPLC Analysis",
+        "Test": "Preservatives / Food Additives / HMF",
+        "price": 2750,
+        "Scenario": "Ensuring a soda recipe doesn't exceed legal limits for artificial colors or benzoates.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "HPLC Analysis",
+        "Test": "Sugar Profile",
+        "price": 2750,
+        "Scenario": "Proving a product contains \"No Fructose\" by separating and quantifying exact sugars.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "HPLC Analysis",
+        "Test": "Vitamin B Group / A, D, E & K / Folic Acid",
+        "price": 2750,
+        "Scenario": "Validating the vitamin fortification levels in a commercial breakfast cereal.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "H¹-NMR Analysis",
+        "Test": "Proton NMR (CDCl3)",
+        "price": 1650,
+        "Scenario": "Determining the exact molecular structure of a newly synthesized food preservative.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "H¹-NMR Analysis",
+        "Test": "Proton NMR (D2O Exchange)",
+        "price": 1650,
+        "Scenario": "Identifying exchangeable protons in water-soluble food additives like amino acids.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "H¹-NMR Analysis",
+        "Test": "Proton NMR (DMSO Exchange)",
+        "price": 1650,
+        "Scenario": "Analyzing complex, polar organic molecules (like certain sugars) in R&D formulation.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "ICP-MS Mineral",
+        "Test": "Heavy Metal Analysis",
+        "price": 880,
+        "Scenario": "Screening baby food for toxic heavy metals to ensure regulatory compliance.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "ICP-OES Mineral",
+        "Test": "Minerals (Na, K, Mg, Ca, Fe...)",
+        "price": 825,
+        "Scenario": "Verifying sodium levels for a \"Low Sodium\" claim or Calcium for a \"Fortified\" claim.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "N"
+    },
+    {
+        "Category": "LC-MS/MS & GC-MS",
+        "Test": "Pesticides / Color / Single Pesticide",
+        "price_low": 2500,
+        "price_high": 11000,
+        "Scenario": "Highly sensitive screening of export-bound grapes for banned agricultural chemicals.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "Oil Quality Analysis",
+        "Test": "Brix Value",
+        "price": 385,
+        "Scenario": "Measuring the dissolved sugar concentration in a vat of concentrated fruit syrup.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "N"
+    },
+    {
+        "Category": "Oil Quality Analysis",
+        "Test": "Iodine Number",
+        "price": 550,
+        "Scenario": "Measuring the degree of unsaturation to classify a new hybrid sunflower oil.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "N"
+    },
+    {
+        "Category": "Paddy/Rice Quality",
+        "Test": "Amylose",
+        "price": 1100,
+        "Scenario": "Formulating a diet-friendly rice product, as high amylose digests slower.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "N"
+    },
+    {
+        "Category": "Paddy/Rice Quality",
+        "Test": "Insoluble Amylose",
+        "price": 2200,
+        "Scenario": "Advanced profiling of starch resistance for creating diabetic-friendly rice products.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "N"
+    },
+    {
+        "Category": "Paddy/Rice Quality",
+        "Test": "Rice Color / Aroma / Hardness",
+        "price": 275,
+        "Scenario": "Sensory and physical QC for premium jasmine or basmati rice export batches.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "Phyto-Chemical Analysis",
+        "Test": "Antioxidant Activity (DPPH / FRAP)",
+        "price": 1100,
+        "Scenario": "Supporting a \"High Antioxidant Capacity\" claim on a pomegranate juice blend.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "Phyto-Chemical Analysis",
+        "Test": "Fluorescence Analysis",
+        "price": 385,
+        "Scenario": "Identifying specific plant powders or detecting fluorescent adulterants under UV light.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "Phyto-Chemical Analysis",
+        "Test": "Phytochemical Screening",
+        "price": 1100,
+        "Scenario": "Broad-spectrum testing of a new tea blend for beneficial plant compounds.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "Phyto-Chemical Analysis",
+        "Test": "Total Phenolics / Flavonoids",
+        "price": 1100,
+        "Scenario": "Quantifying active compounds in dark chocolate for cardiovascular health claims.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "Phyto-Chemical Analysis",
+        "Test": "Water/Alcohol Soluble Extracts",
+        "price": 385,
+        "Scenario": "Determining the yield of a medicinal mushroom extract for supplement capsules.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "Prep HPLC / FTIR",
+        "Test": "Prep HPLC / Functional Compound Analysis",
+        "price_low": 550,
+        "price_high": 6600,
+        "Scenario": "R&D isolation of a specific, high-value flavor compound from vanilla beans.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    },
+    {
+        "Category": "Proximate/Nutritional",
+        "Test": "Moisture / Fat / Protein / Fiber / Ash / Carb / Energy",
+        "price_low": 165,
+        "price_high": 1100,
+        "Scenario": "The required suite of tests to legally generate the \"Nutrition Facts\" panel on retail foods.",
+        "Nutritional/Functional Claim (Y/N)": "Y",
+        "Ingredient Claim (Y/N)": "N"
+    },
+    {
+        "Category": "Water Quality Analysis",
+        "Test": "Color",
+        "price": 385,
+        "Scenario": "Checking well water for organic matter or iron contamination before use in production.",
+        "Nutritional/Functional Claim (Y/N)": "N",
+        "Ingredient Claim (Y/N)": "Y"
+    }
+]

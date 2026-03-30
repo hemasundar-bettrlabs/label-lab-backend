@@ -1,0 +1,230 @@
+{
+  "nutritional_claims": [
+    {
+      "nutrient": "energy_or_calorie",
+      "claim": "low",
+      "conditions": {
+        "solids": "≤ 40 kcal per 100 g",
+        "liquids": "≤ 20 kcal per 100 ml"
+      }
+    },
+    {
+      "nutrient": "energy_or_calorie",
+      "claim": "free",
+      "conditions": {
+        "liquids": "≤ 4 kcal per 100 ml"
+      }
+    },
+    {
+      "nutrient": "fat",
+      "claim": "low",
+      "conditions": {
+        "solids": "≤ 3 g fat per 100 g",
+        "liquids": "≤ 1.5 g fat per 100 ml"
+      }
+    },
+    {
+      "nutrient": "fat",
+      "claim": "free",
+      "conditions": {
+        "general": "≤ 0.5 g fat per 100 g or 100 ml"
+      }
+    },
+    {
+      "nutrient": "cholesterol",
+      "claim": "low",
+      "conditions": {
+        "solids": "≤ 20 mg cholesterol per 100 g AND ≤ 1.5 g saturated fat per 100 g",
+        "liquids": "≤ 10 mg cholesterol per 100 ml AND ≤ 0.75 g saturated fat per 100 ml",
+        "additional": "≤ 10% of energy from saturated fat"
+      }
+    },
+    {
+      "nutrient": "cholesterol",
+      "claim": "free",
+      "conditions": {
+        "general": "≤ 5 mg cholesterol per 100 g or 100 ml",
+        "additional": "≤ 1.5 g saturated fat per 100 g OR ≤ 0.75 g per 100 ml AND ≤ 10% energy from saturated fat"
+      }
+    },
+    {
+      "nutrient": "saturated_fat",
+      "claim": "low",
+      "conditions": {
+        "solids": "≤ 1.5 g per 100 g",
+        "liquids": "≤ 0.75 g per 100 ml",
+        "additional": "≤ 10% energy from saturated fat"
+      }
+    },
+    {
+      "nutrient": "saturated_fat",
+      "claim": "free",
+      "conditions": {
+        "general": "≤ 0.1 g per 100 g or 100 ml"
+      }
+    },
+    {
+      "nutrient": "unsaturated_fat",
+      "claim": "high",
+      "conditions": {
+        "general": "≥ 70% of fatty acids are unsaturated",
+        "additional": "unsaturated fat provides > 20% of total energy"
+      }
+    },
+    {
+      "nutrient": "trans_fat",
+      "claim": "free",
+      "conditions": {
+        "general": "< 0.2 g trans fat per 100 g or 100 ml",
+        "oils": "≤ 1 g per 100 g or 100 ml for edible oils/fats"
+      }
+    },
+    {
+      "nutrient": "monounsaturated_fatty_acids",
+      "claim": "high",
+      "conditions": {
+        "general": "≥ 45% of fatty acids are monounsaturated",
+        "additional": "monounsaturated fat provides > 20% energy"
+      }
+    },
+    {
+      "nutrient": "polyunsaturated_fatty_acids",
+      "claim": "high",
+      "conditions": {
+        "general": "≥ 45% of fatty acids are polyunsaturated",
+        "additional": "polyunsaturated fat provides > 20% energy"
+      }
+    },
+    {
+      "nutrient": "omega3_fatty_acids",
+      "claim": "source",
+      "conditions": {
+        "general": "≥ 0.3 g ALA per 100 g or per 100 kcal OR ≥ 40 mg EPA + DHA per 100 g or per 100 kcal"
+      }
+    },
+    {
+      "nutrient": "omega3_fatty_acids",
+      "claim": "high",
+      "conditions": {
+        "general": "≥ 0.6 g ALA per 100 g or per 100 kcal OR ≥ 80 mg EPA + DHA per 100 g or per 100 kcal"
+      }
+    },
+    {
+      "nutrient": "sugars",
+      "claim": "low",
+      "conditions": {
+        "solids": "≤ 5 g per 100 g",
+        "liquids": "≤ 2.5 g per 100 ml"
+      }
+    },
+    {
+      "nutrient": "sugars",
+      "claim": "free",
+      "conditions": {
+        "general": "≤ 0.5 g per 100 g or 100 ml"
+      }
+    },
+    {
+      "nutrient": "protein",
+      "claim": "source",
+      "conditions": {
+        "general": "≥ 10% RDA per 100 g OR ≥ 5% RDA per 100 ml OR ≥ 5% RDA per 100 kcal OR ≥ 10% RDA per serving"
+      }
+    },
+    {
+      "nutrient": "protein",
+      "claim": "high_or_rich",
+      "conditions": {
+        "general": "≥ 20% RDA per 100 g OR ≥ 10% RDA per 100 ml OR ≥ 10% RDA per 100 kcal OR ≥ 20% RDA per serving"
+      }
+    },
+    {
+      "nutrient": "vitamins_or_minerals",
+      "claim": "source",
+      "conditions": {
+        "general": "≥ 15% RDA per 100 g OR ≥ 7.5% RDA per 100 ml OR ≥ 5% RDA per 100 kcal OR ≥ 15% RDA per serving"
+      }
+    },
+    {
+      "nutrient": "vitamins_or_minerals",
+      "claim": "high",
+      "conditions": {
+        "general": "≥ 30% RDA per 100 g OR ≥ 15% RDA per 100 ml OR ≥ 10% RDA per 100 kcal OR ≥ 30% RDA per serving"
+      }
+    },
+    {
+      "nutrient": "sodium",
+      "claim": "low",
+      "conditions": {
+        "general": "≤ 0.12 g per 100 g or 100 ml"
+      }
+    },
+    {
+      "nutrient": "sodium",
+      "claim": "very_low",
+      "conditions": {
+        "general": "≤ 0.04 g per 100 g or 100 ml"
+      }
+    },
+    {
+      "nutrient": "sodium",
+      "claim": "free",
+      "conditions": {
+        "general": "≤ 0.005 g per 100 g or 100 ml"
+      }
+    },
+    {
+      "nutrient": "dietary_fibre",
+      "claim": "source",
+      "conditions": {
+        "solids": "≥ 3 g per 100 g",
+        "liquids": "≥ 1.5 g per 100 ml",
+        "energy": "≥ 1.5 g per 100 kcal"
+      }
+    },
+    {
+      "nutrient": "dietary_fibre",
+      "claim": "high_or_rich",
+      "conditions": {
+        "solids": "≥ 6 g per 100 g",
+        "liquids": "≥ 3 g per 100 ml",
+        "energy": "≥ 3 g per 100 kcal"
+      }
+    },
+    {
+      "nutrient": "probiotics",
+      "claim": "source",
+      "conditions": {
+        "general": "≥ 10^8 CFU per day in recommended serving"
+      }
+    },
+    {
+      "nutrient": "glycemic_index",
+      "claim": "low_gi",
+      "conditions": {
+        "general": "GI < 55"
+      }
+    },
+    {
+      "nutrient": "dha",
+      "claim": "source",
+      "conditions": {
+        "general": "≥ 40 mg DHA per 100 g or per 100 kcal"
+      }
+    },
+    {
+      "nutrient": "lactose",
+      "claim": "free",
+      "conditions": {
+        "general": "≤ 0.1%"
+      }
+    },
+    {
+      "nutrient": "gluten",
+      "claim": "free",
+      "conditions": {
+        "general": "≤ 20 mg/kg"
+      }
+    }
+  ]
+}
