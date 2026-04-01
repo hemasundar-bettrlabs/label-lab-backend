@@ -1264,3 +1264,1308 @@ checks.0.status
 [2026-04-01 16:35:09] [Lab Tests] Generated 5 microbiological hazard-related tests
 [2026-04-01 16:35:09] [STEP 8/9] Generating lab test suggestions...
 [2026-04-01 16:35:09] [SUCCESS] Final Score: 70.0%
+[2026-04-01 23:24:10] [STEP 1/9] Validating image context...
+[2026-04-01 23:24:10] [Context] source=default_general, type=general, code=None
+[2026-04-01 23:24:12] [STEP 2/9] Extracting OCR data...
+[2026-04-01 23:24:12] [OCR] Initiating OCR Extraction Service
+[2026-04-01 23:24:12] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 23:24:29] [RAW OCR TEXT] "PANEL 1\n\nNET WEIGHT 150 g (5.3 oz) e\n\nsl\u00fcrrp\nfarm\u2122\n\nmade by\ntwo mothers\n\nMillet\nPancake mix\n\nBANANA CHOCO-CHIP\n\nNO MAIDA\nNO REFINED SUGAR\n\nZERO\nJUNK\nPROMISE\n\nOATS\nFOXTAIL\nMILLET\nAMARANTH\n\nPANEL 2\n\nOATS ARE A POWERHOUSE\nOF FIBRE.\nGREAT FOR EVERYONE!\n\nJOVAR\nOAT\nFOXTAIL\nMILLET\nNATURAL\nBANANA\n\nHello!\n\nWe are two mothers who realised\nthat there weren't enough tasty,\nhealthy, and convenient kids'\nfoods out there - so we decided\nto make our own.\n\nWe use wholegrain millets, lentils,\nand the traditional wisdom of\nour grandmothers. Which means\nzero junk.\n\nWe use the best ingredients in\nimaginative ways to make little\ntummies happy!\n\nHOW TO MAKE (1 packet makes 7-8 pancakes)\nSTEP 1: Mix 1/2 packet (75 gms) of pancake mix, 1 tsp (5 ml) of\noil and 1/2 cup (120 ml) of milk into a smooth batter. You can\nalso add 1 medium sized egg for extra protein.\nSTEP 2: Warm a flat pan to medium heat. Grease the pan with\noil or butter. Pour the batter onto the heated pan and cook well\non both sides. The goodness of supergrains means it doesn't\ncook as fast as pancakes with refined flour!\nSTEP 3: Serve the pancakes with a dollop of honey, fresh fruits\nor peanut butter.\n\nNo Refined\nSugar\n\nNo Maida\nor Wheat\n\nNo Artificial\nColours\n\nNo\nPreservatives\n\nMARKETED BY:\nWholsum Foods Pvt. Ltd.\nNS-15, LGF, Mianwali\nNagar, Paschim Vihar,\nNew Delhi-110087\nfssai Lic No: 10014011001614\n\nMANUFACTURED AND PACKED BY:\nFunctional & Innovative Foods Pvt. Ltd.\nNo. 1/374A, Andipalayam Village,\nAndipalayam Post, Tiruchengode Taluk,\nNamakkal, Tamil Nadu-637214\nfssai Lic No: 12420014000531\n\nNET WEIGHT 150 g\n\nMRP \u20b9\n(INCL. OF ALL TAXES)\nMFD:\nExpiry Date:\nBatch Number:\n\n8 908006 217083\nPRODUCT OF INDIA\n\nWE WOULD LOVE TO HEAR\nFROM YOU\nIn case of feedback or complaints:\nEmail: slur rpfarmcare@wholsumfoods.com\nCall or WhatsApp: +91 93183 18000\nAddress: Wholsum Foods Pvt. Ltd. NS-15, LGF,\nMianwali Nagar, Paschim Vihar, New Delhi 110087\nWebsite: www.slurrpfarm.com Be friends with us!\n@SlurrpFarm on FB or Instagram\n\nNutritional Information*\nServing Size: Approx 40 g (makes two 4\" pancakes). Servings Per Pack: 4\nPer 40 g % RDA per Serve**\nEnergy 160.1 kcal 8.0%\nProtein 2.8 g 5.5%\nCarbohydrate 31.2 g 10.4%\nTotal Sugar 11.7 g -\nAdded Sugar*** 9.6 g 19.3%\nDietary Fibre 2.4 g 9.4%\nSodium 105.6 mg 5.3%\nTotal Fat 2.7 g 4.0%\nSaturated Fat 0.8 g 3.7%\nTrans Fat 0.0 g 0.4%\nCholesterol 0.0 mg 0.0%\nContains seaweed for age over than 25. *Approx values. **Reference intake for an adult\nas per ICMR guidelines. ***Added sugar from jaggery.\n\nIngredients: Multigrain flour blend (oats, foxtail millet, amaranth,\njowar) (55%), jaggery (12.5%), raw unrefined sugar (12.5%),\nbanana fruit powder (8%), milk chocolate chips (5%), rolled oats,\nbarley malt, iodised salt, cinnamon powder, raising agents (baking\nsoda, baking powder), nature identical flavouring substances\nAllergen Note: Made in a facility that processes wheat and nuts. May\ncontain trace elements. Safety Advice: Always supervise when feeding\nchildren. Cut into bite sizes to minimise choking risk.\nHow to Store: Keep it in a cool, dry place."
+[2026-04-01 23:24:42] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 23:24:42] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 23:24:42] [Metadata] Extracting Brand Metadata
+[2026-04-01 23:24:48] [Metadata] Metadata LLM raw output: {
+    "brandName": "slürrp farm",
+    "productName": "Millet Pancake mix BANANA CHOCO-CHIP",
+    "fssaiCategory": "Ready to eat/cook",
+    "licenseNo": "10014011001514",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 23:24:48] [EXTRACTED METADATA] {
+  "brandName": "sl\u00fcrrp farm",
+  "productName": "Millet Pancake mix BANANA CHOCO-CHIP",
+  "fssaiCategory": "Ready to eat/cook",
+  "licenseNo": "10014011001514",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 23:24:48] [STEP 4/9] Running regulatory checks...
+[2026-04-01 23:24:48] [Core] Running Regulatory Analysis
+[2026-04-01 23:25:08] [STEP 5/9] Validating product category...
+[2026-04-01 23:25:08] [Claims] Running Claims Subsystem
+[2026-04-01 23:25:17] [Claims] Claims Validation Result: [{'claim_text': 'NO MAIDA', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains Multigrain flour blend (oats, foxtail millet, amaranth, jowar), banana fruit powder, and rolled oats. No refined wheat flour (maida) is listed.', 'reference': 'Ingredients List'}, {'claim_text': 'NO REFINED SUGAR', 'tag': 'Ingredient Claim', 'status': 'Fail', 'reasoning': "The ingredients list explicitly mentions 'raw unrefined sugar (12.5%)'. While 'unrefined', it is still a form of sugar, and the product contains 24g of Added Sugar per 100g. Furthermore, 'nature identical flavouring substances' and 'milk chocolate chips' often contain refined components.", 'reference': 'Ingredients List'}, {'claim_text': 'ZERO JUNK PROMISE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "'Junk' is not a defined regulatory term under FSSAI. However, the product contains 24g of Added Sugar per 100g and 264mg of Sodium, which may conflict with a 'healthy' or 'zero junk' perception. Lab verification of all additives is required.", 'reference': 'FSSAI Advertising and Claims Regulations'}, {'claim_text': 'OATS ARE A POWERHOUSE OF FIBRE', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The product contains 6.0g of Dietary Fibre per 100g, which meets the 'High Fibre' threshold for solids (≥ 6g/100g). It also meets the energy-based threshold (6g/400.25kcal = 1.49g/100kcal, which is borderline but complies on the per 100g solid basis).", 'reference': 'Nutritional Claims Thresholds (Dietary Fibre - High)'}, {'claim_text': 'No Artificial Colours', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No artificial colors are listed in the ingredients list; it only mentions nature identical flavouring substances and natural ingredients like cinnamon and banana powder.', 'reference': 'Ingredients List'}, {'claim_text': 'No Preservatives', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list does not contain any class I or class II preservatives. It only lists raising agents (baking soda, baking powder) which are functional additives, not preservatives.', 'reference': 'Ingredients List'}, {'claim_text': 'No Maida or Wheat', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The flour blend consists of oats, millet, amaranth, and jowar. No wheat or wheat-derived maida is present in the ingredients list.', 'reference': 'Ingredients List'}]
+[2026-04-01 23:25:17] [Claims] Claims Analysis Result: Analyzed 7 claim(s). 5 passed, 1 failed, 1 need review.
+[2026-04-01 23:25:17] [STEP 6/9] Substantiating claims...
+[2026-04-01 23:25:17] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 23:25:19] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a multigrain snack marketed as a healthy alternative to refined flour products. It is suitable for the general adult population, and as no specific demographic (like infants or pregnant women) is targeted, the general adult RDA applies.'}
+[2026-04-01 23:25:19] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 23:25:19] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 23:25:32] [Lab Tests] Generated 5 suggestions
+[2026-04-01 23:25:50] [Lab Tests] Generated 8 microbiological hazard-related tests
+[2026-04-01 23:25:50] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 23:25:50] [SUCCESS] Final Score: 85.0%
+[2026-04-01 23:35:07] [STEP 1/9] Validating image context...
+[2026-04-01 23:35:07] [Context] source=default_general, type=general, code=None
+[2026-04-01 23:35:08] [STEP 2/9] Extracting OCR data...
+[2026-04-01 23:35:08] [OCR] Initiating OCR Extraction Service
+[2026-04-01 23:35:08] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 23:35:17] [RAW OCR TEXT] "PANEL 1\n\nNET WEIGHT 150 g (5.3 oz) e\nsl\u00fcrrp\nfarm\u2122\nmade by\ntwo mothers\nMillet\nPancake mix\nBANANA CHOCO-CHIP\nNO MAIDA\nNO REFINED SUGAR\nZERO\nJUNK\nPROMISE\nOATS\nFOXTAIL\nMILLET\nAMARANTH\n\nPANEL 2\n\nOATS ARE A POWERHOUSE\nOF FIBRE.\nGREAT FOR EVERYONE!\nJOVAR\nOAT\nFOXTAIL\nMILLET\nNATURAL\nBANANA\nHello!\nWe are two mothers who realised\nthat there weren't enough tasty,\nhealthy, and convenient kids'\nfoods out there - so we decided\nto make our own.\nWe use wholegrain millets, lentils,\nand the traditional wisdom of\nour grandmothers. Which means\nzero junk.\nWe use the best ingredients in\nimaginative ways to make little\ntummies happy!\n\nHOW TO MAKE (1 packet makes 7-8 pancakes)\nSTEP 1: Mix 1/2 packet (75 gms) of pancake mix, 1 tsp (5 ml) of\noil and 1/2 cup (120 ml) of milk into a smooth batter. You can\nalso add 1 medium sized egg for extra protein.\nSTEP 2: Warm a flat pan to medium heat. Grease the pan with\noil or butter. Pour the batter onto the heated pan and cook well\non both sides. The goodness of supergrains means it doesn't\ncook as fast as pancakes with refined flour!\nSTEP 3: Serve the pancakes with a dollop of honey, fresh fruits\nor peanut butter.\n\nNo Refined\nSugar\nNo Maida\nor Wheat\nNo Artificial\nColours\nNo\nPreservatives\n\nMARKETED BY:\nWholsum Foods Pvt. Ltd.\nNS-15, LGF, Mianwali\nNagar, Paschim Vihar,\nNew Delhi-110087\nfssai Lic No: 10014011001614\n\nMANUFACTURED AND PACKED BY:\nFunctional & Innovative Foods Pvt. Ltd.\nNo. 1/374A, Andipalayam Village,\nAndipalayam Post, Tiruchengode Taluk,\nNamakkal, Tamil Nadu-637214\nfssai Lic No: 12420014000931\n\nNET WEIGHT 150 g\nMRP \u20b9\n(INCL. OF ALL TAXES)\nMFD:\nExpiry Date:\nBatch Number:\n8 908006 217083\nPRODUCT OF INDIA\n\nWE WOULD LOVE TO HEAR\nFROM YOU\nIn case of feedback or complaints:\nEmail: slur rpfarmcare@wholsumfoods.com\nCall or WhatsApp: +91 93183 18000\nAddress: Wholsum Foods Pvt. Ltd. NS-15, LGF,\nMianwali Nagar, Paschim Vihar, New Delhi 110087\nWebsite: www.slurrpfarm.com Be friends with us!\n@SlurrpFarm on FB or Instagram\n\nNutritional Information*\nServing Size: Approx 40 g (makes two 4\" pancakes). Servings Per Pack: 4\nPer 40 g % RDA per Serve**\nEnergy 160.1 kcal 8.0%\nProtein 2.8 g 5.5%\nCarbohydrate 31.2 g 10.4%\nTotal Sugar 11.7 g -\nAdded Sugar*** 9.6 g 19.3%\nDietary Fibre 2.4 g 9.4%\nSodium 105.6 mg 5.3%\nTotal Fat 2.7 g 4.0%\nSaturated Fat 0.8 g 3.7%\nTrans Fat 0.0 g 0.4%\nCholesterol 0.0 mg 0.0%\n*Contains seaweed for age over than 25. **Approx values. ***Reference intake for an adult\nas per ICMR guidelines. ***Added sugar from fruit powder.\n\nIngredients: Multigrain flour blend (oats, foxtail millet, amaranth,\njowar) (55%), jaggery (12.5%), raw unrefined sugar (12.5%),\nbanana fruit powder (8%), milk chocolate chips (5%), rolled oats,\nbarley malt, iodised salt, cinnamon powder, raising agents (baking\nsoda, baking powder), nature identical flavouring substances\nAllergen Note: Made in a facility that processes wheat and nuts. May\ncontain trace elements. Safety Advice: Always supervise when feeding\nchildren. Cut into bite sizes to minimise choking risk.\nHow to Store: Keep it in a cool, dry place."
+[2026-04-01 23:35:24] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 23:35:24] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 23:35:24] [Metadata] Extracting Brand Metadata
+[2026-04-01 23:35:28] [Metadata] Metadata LLM raw output: {
+    "brandName": "slürrp farm",
+    "productName": "Millet Pancake mix BANANA CHOCO-CHIP",
+    "fssaiCategory": "Ready to eat/cook",
+    "licenseNo": "10014011001514",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 23:35:28] [EXTRACTED METADATA] {
+  "brandName": "sl\u00fcrrp farm",
+  "productName": "Millet Pancake mix BANANA CHOCO-CHIP",
+  "fssaiCategory": "Ready to eat/cook",
+  "licenseNo": "10014011001514",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 23:35:28] [STEP 4/9] Running regulatory checks...
+[2026-04-01 23:35:28] [Core] Running Regulatory Analysis
+[2026-04-01 23:35:48] [STEP 5/9] Validating product category...
+[2026-04-01 23:35:48] [Claims] Running Claims Subsystem
+[2026-04-01 23:35:54] [Claims] Claims Validation Result: [{'claim_text': 'NO MAIDA', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "The ingredients list contains 'Multigrain flour blend (oats, foxtail millet, amaranth, jowar)' and does not list refined wheat flour (maida).", 'reference': 'Ingredients List'}, {'claim_text': 'NO REFINED SUGAR', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "The ingredients list explicitly mentions 'raw unrefined sugar (12.5%)'. While 'unrefined', it is still a form of added sugar, and the product contains 24g of Added Sugar per 100g, contradicting the 'No Sugar' implication often associated with such claims in a regulatory context if interpreted as 'Sugar Free'.", 'reference': 'Ingredients List, Nutrition Table'}, {'claim_text': 'ZERO JUNK PROMISE', 'tag': 'Ingredient Claim', 'status': 'Action', 'reasoning': "'Junk' is not a defined regulatory term under FSSAI. While ingredients appear whole-grain based, the high added sugar content (24g/100g) may conflict with consumer expectations of 'zero junk'. Requires internal brand definition of 'junk'.", 'reference': 'Ingredients List, Nutrition Table'}, {'claim_text': 'OATS ARE A POWERHOUSE OF FIBRE', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The product contains 6.0g of Dietary Fibre per 100g, which meets the FSSAI threshold for 'High/Rich in Fibre' (min 6g/100g for solids). It also meets the energy-based threshold of 1.5g/100kcal (Actual: 1.499g/100kcal, rounded to 1.5g).", 'reference': 'Nutrition Table, FSSAI Nutritional Claims Thresholds'}, {'claim_text': 'No Maida or Wheat', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list specifies a multigrain blend of oats, millet, amaranth, and jowar; no wheat or wheat derivatives are listed.', 'reference': 'Ingredients List'}, {'claim_text': 'No Artificial Colours', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "No synthetic or artificial colors are listed in the ingredients; only 'nature identical flavouring substances' are mentioned.", 'reference': 'Ingredients List'}, {'claim_text': 'No Preservatives', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list does not contain any chemical preservatives (Class II) or common preservative additives.', 'reference': 'Ingredients List'}]
+[2026-04-01 23:35:54] [Claims] Claims Analysis Result: Analyzed 7 claim(s). 5 passed, 1 failed, 1 need review.
+[2026-04-01 23:35:54] [STEP 6/9] Substantiating claims...
+[2026-04-01 23:35:54] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 23:35:56] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': "The product is a general-purpose multigrain snack marketed with health-conscious claims like 'no maida' and 'no refined sugar'. As it does not target a specific life stage or high-performance athletic demographic, it defaults to the general adult population RDA."}
+[2026-04-01 23:35:56] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 23:35:56] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 23:36:02] [Lab Tests] Generated 5 suggestions
+[2026-04-01 23:36:07] [Lab Tests] Generated 8 microbiological hazard-related tests
+[2026-04-01 23:36:07] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 23:36:07] [SUCCESS] Final Score: 85.0%
+[2026-04-01 23:43:41] [STEP 1/9] Validating image context...
+[2026-04-01 23:43:41] [Context] source=default_general, type=general, code=None
+[2026-04-01 23:43:42] [STEP 2/9] Extracting OCR data...
+[2026-04-01 23:43:42] [OCR] Initiating OCR Extraction Service
+[2026-04-01 23:43:42] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 23:43:51] [RAW OCR TEXT] "NET WEIGHT 150 g (5.3 oz) e\n\nsl\u00fcrrp\nfarm\u2122\n\nmade by\ntwo mothers\n\nMillet\nPancake mix\n\nCHOCOLATE\n\nNO MAIDA\nNO REFINED SUGAR\n\nZERO\nJUNK\nPROMISE\n\nJOWAR\nOATS\nFOXTAIL\nMILLET\nRAGI\n\nPANEL 1\n\nRAGI HAS 10X THE CALCIUM\nOF WHEAT AND RICE.\nGREAT FOR GROWING BONES!\n\nJOWAR\nFOXTAIL\nMILLET\nRAGI\nCOCOA\n\nHello!\n\nWe are two mothers who realised\nthat there weren't enough tasty,\nhealthy, and convenient kids'\nfoods out there - so we decided\nto make our own.\nWe \u2764\ufe0f wholegrain millets, lentils,\nand the traditional wisdom of\nour grandmothers. Which means\nzero junk.\nWe use the best ingredients in\nimaginative ways to make little\ntummies happy!\n\nHOW TO MAKE (1 packet makes 7-8 pancakes)\nSTEP 1: Mix 1/2 packet (75 gms) of pancake mix, 1 tsp (5 ml) of\noil and 1/2 cup (120 ml) of milk into a smooth batter. You can\nalso add 1 medium sized egg for extra protein.\nSTEP 2: Warm a flat pan to medium heat. Grease the pan with\noil or butter. Pour the batter onto the heated pan and cook well\non both sides. The goodness of supergrains means it doesn't\ncook as fast as pancakes with refined flour!\nSTEP 3: Serve the pancakes with a dollop of honey, fresh fruits\nor peanut butter.\n\nNo Refined\nSugar\n\nNo Artificial\nColours\n\nNo Maida\nor Wheat\n\nNo\nPreservatives\n\nMARKETED BY:\nWholsum Foods Pvt. Ltd.\nNS-15, LGF, Mianwali\nNagar, Paschim Vihar,\nNew Delhi-110087\nfssai Lic No: 10014011001614\n\nMANUFACTURED AND PACKED BY:\nFunctional & Innovative Foods Pvt. Ltd.\nNo. 1/374A, Andipalayam Village,\nAndipalayam Post, Tiruchengode Taluk,\nNamakkal, Tamil Nadu-637214\nfssai Lic No: 12420014000631\n\nNET WEIGHT 150 g\n\nMRP \u20b9\n(INCL. OF ALL TAXES):\nMFD:\nExpiry Date:\nBatch Number:\n\n8 908006 217090\n\nPRODUCT OF INDIA\n\nWE WOULD LOVE TO HEAR\nFROM YOU\nIn case of feedback or complaints:\nEmail: slur rpfarmcare@wholsumfoods.com\nCall or WhatsApp: +91 93183 18000\nAddress: Wholsum Foods Pvt. Ltd. NS-15, LGF,\nMianwali Nagar, Paschim Vihar, New Delhi 110087\nWebsite: www.slurrpfarm.com Be friends with us!\n@SlurrpFarm on FB or Instagram\n\nNutritional Information*\nServing Size: Approx 40 g (makes two 4\" pancakes), Servings Per Pack: 4\n| | Per 40 g | % RDA per Serve** |\n| :--- | :--- | :--- |\n| Energy | 153.3 kcal | 7.7% |\n| Protein | 3.2 g | 6.5% |\n| Carbohydrate | 31.9 g | 10.6% |\n| Total Sugar | 9.9 g | - |\n| Added Sugar*** | 9.6 g | 19.2% |\n| Dietary Fibre | 2.4 g | 9.6% |\n| Sodium | 119.0 mg | 5.9% |\n| Total Fat | 1.4 g | 2.1% |\n| Saturated Fat | 0.3 g | 1.5% |\n| Trans Fat | 0.0 g | 0.4% |\n| Cholesterol | 0.0 mg | 0.0% |\n*Contains saturated fat not more than 1%. **Approx values. **Reference intake for an adult\nas per ICMR guidelines. ***Unrefined sugar.\n\nIngredients: Multigrain flour blend (jowar, oat, foxtail millet, ragi)\n(66%), jaggery (14%), raw unrefined sugar (14%), cocoa powder,\nraising agents (baking soda, baking powder), nature identical\nflavouring substances, iodised salt, cinnamon powder\n\nAllergen Note: Made in a facility that processes wheat and nuts.\nMay contain trace elements. Safety Advice: Always supervise when\nfeeding children. Cut into bite sizes to minimise choking risk.\nHow To Store: Keep it in a cool, dry place.\n\nPANEL 2"
+[2026-04-01 23:44:00] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 23:44:00] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 23:44:00] [Metadata] Extracting Brand Metadata
+[2026-04-01 23:44:06] [Metadata] Metadata LLM raw output: {
+    "brandName": "slürrp farm",
+    "productName": "Millet Pancake mix CHOCOLATE",
+    "fssaiCategory": "Pancake mix",
+    "licenseNo": "10014011000114",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 23:44:06] [EXTRACTED METADATA] {
+  "brandName": "sl\u00fcrrp farm",
+  "productName": "Millet Pancake mix CHOCOLATE",
+  "fssaiCategory": "Pancake mix",
+  "licenseNo": "10014011000114",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 23:44:06] [STEP 4/9] Running regulatory checks...
+[2026-04-01 23:44:06] [Core] Running Regulatory Analysis
+[2026-04-01 23:44:26] [STEP 5/9] Validating product category...
+[2026-04-01 23:44:26] [Claims] Running Claims Subsystem
+[2026-04-01 23:44:44] [Claims] Claims Validation Result: [{'claim_text': 'NO MAIDA', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "The ingredients list contains 'Multigrain flour blend (jowar, oat, foxtail millet, ragi)' and does not list refined wheat flour (maida).", 'reference': 'Ingredients List'}, {'claim_text': 'NO REFINED SUGAR', 'tag': 'Ingredient Claim', 'status': 'Fail', 'reasoning': "The ingredients list explicitly mentions 'raw unrefined sugar (14%)'. While labeled 'unrefined', FSSAI generally considers added sucrose as refined sugar unless specifically qualified, and the product contains 24g of added sugar per 100g.", 'reference': 'Ingredients List'}, {'claim_text': 'ZERO JUNK PROMISE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "'Junk' is not a defined term under FSSAI. However, the product contains 24g of added sugar per 100g, which is high. Lab data or specific brand definitions for 'junk' are required to validate this marketing term.", 'reference': 'Nutrition Table'}, {'claim_text': 'RAGI HAS 10X THE CALCIUM OF WHEAT AND RICE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': 'While Ragi is an ingredient, the nutrition table does not provide the Calcium content per 100g for this specific product to verify the comparative claim.', 'reference': 'Nutrition Table'}, {'claim_text': 'GREAT FOR GROWING BONES!', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': "This is a non-specific health claim. Under FSSAI, such claims must be supported by a specific nutrient (like Calcium or Vitamin D) meeting 'Source' or 'High' thresholds, which are missing from the nutrition table.", 'reference': 'FSSAI Health Claims Regulation'}, {'claim_text': 'No Artificial Colours', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list does not show any synthetic colors; it only lists cocoa powder and nature identical flavoring substances.', 'reference': 'Ingredients List'}, {'claim_text': 'No Preservatives', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (Class II) are listed in the ingredients list.', 'reference': 'Ingredients List'}, {'claim_text': 'No Maida or Wheat', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The flour blend consists of jowar, oat, foxtail millet, and ragi. No wheat or maida is listed.', 'reference': 'Ingredients List'}]
+[2026-04-01 23:44:44] [Claims] Claims Analysis Result: Analyzed 8 claim(s). 4 passed, 1 failed, 3 need review.
+[2026-04-01 23:44:44] [STEP 6/9] Substantiating claims...
+[2026-04-01 23:44:44] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 23:44:46] [Nutrition] Predicted Target Audience: {'gender': 'girls', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': "The product explicitly highlights 'Great for growing bones!' and emphasizes the high calcium content of ragi, which is a key nutritional requirement for children during their developmental years."}
+[2026-04-01 23:44:46] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 23:44:46] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 23:44:52] [Lab Tests] Generated 5 suggestions
+[2026-04-01 23:44:52] [ERROR: Lab Tests] Microbiological Hazards Analysis Error: Invalid format specifier ' "<exact test name from the allowed list>",
+    "category": "Safety Test",
+    "price": <integer, realistic Indian lab price in INR>,
+    "price_low": <integer>,
+    "price_high": <integer>,
+    "priority": "Critical",
+    "description": "<one sentence: why this test matters for this specific product and subcategory>",
+    "relatedChecks": []
+  ' for object of type 'str'
+[2026-04-01 23:44:52] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 23:44:52] [SUCCESS] Final Score: 85.0%
+[2026-04-01 23:46:48] [STEP 1/9] Validating image context...
+[2026-04-01 23:46:48] [Context] source=default_general, type=general, code=None
+[2026-04-01 23:46:49] [STEP 2/9] Extracting OCR data...
+[2026-04-01 23:46:49] [OCR] Initiating OCR Extraction Service
+[2026-04-01 23:46:49] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 23:46:57] [RAW OCR TEXT] "NET WEIGHT 150 g (5.3 oz) e\n\nsl\u00fcrrp\nfarm\u2122\n\nmade by\ntwo mothers\n\nMillet\nPancake mix\n\nCHOCOLATE\n\nNO MAIDA\nNO REFINED SUGAR\n\nZERO\nJUNK\nPROMISE\n\nJOWAR\nOATS\nFOXTAIL\nMILLET\nRAGI\n\nPANEL 1\n\nRAGI HAS 10X THE CALCIUM\nOF WHEAT AND RICE.\nGREAT FOR GROWING BONES!\n\nJOWAR\nFOXTAIL\nMILLET\nRAGI\nCOCOA\n\nHello!\n\nWe are two mothers who realised\nthat there weren't enough tasty,\nhealthy, and convenient kids'\nfoods out there - so we decided\nto make our own.\nWe \u2764\ufe0f wholegrain millets, lentils,\nand the traditional wisdom of\nour grandmothers. Which means\nzero junk.\nWe use the best ingredients in\nimaginative ways to make little\ntummies happy!\n\nHOW TO MAKE (1 packet makes 7-8 pancakes)\nSTEP 1: Mix 1/2 packet (75 gms) of pancake mix, 1 tsp (5 ml) of\noil and 1/2 cup (120 ml) of milk into a smooth batter. You can\nalso add 1 medium sized egg for extra protein.\nSTEP 2: Warm a flat pan to medium heat. Grease the pan with\noil or butter. Pour the batter onto the heated pan and cook well\non both sides. The goodness of supergrains means it doesn't\ncook as fast as pancakes with refined flour!\nSTEP 3: Serve the pancakes with a dollop of honey, fresh fruits\nor peanut butter.\n\nNo Refined\nSugar\n\nNo Artificial\nColours\n\nNo Maida\nor Wheat\n\nNo\nPreservatives\n\nMARKETED BY:\nWholsum Foods Pvt. Ltd.\nNS-15, LGF, Mianwali\nNagar, Paschim Vihar,\nNew Delhi-110087\nfssai Lic No: 10014011001614\n\nMANUFACTURED AND PACKED BY:\nFunctional & Innovative Foods Pvt. Ltd.\nNo. 1/374A, Andipalayam Village,\nAndipalayam Post, Tiruchengode Taluk,\nNamakkal, Tamil Nadu-637214\nfssai Lic No: 12420014000631\n\nNET WEIGHT 150 g\n\nMRP \u20b9\n(INCL. OF ALL TAXES):\nMFD:\nExpiry Date:\nBatch Number:\n\n8 908006 217090\n\nPRODUCT OF INDIA\n\nWE WOULD LOVE TO HEAR\nFROM YOU\nIn case of feedback or complaints:\nEmail: slur rpfarmcare@wholsumfoods.com\nCall or WhatsApp: +91 93183 18000\nAddress: Wholsum Foods Pvt. Ltd. NS-15, LGF,\nMianwali Nagar, Paschim Vihar, New Delhi 110087\nWebsite: www.slurrpfarm.com Be friends with us!\n@SlurrpFarm on FB or Instagram\n\nNutritional Information*\nServing Size: Approx 40 g (makes two 4\" pancakes), Servings Per Pack: 4\n| | Per 40 g | % RDA per Serve** |\n| :--- | :--- | :--- |\n| Energy | 153.3 kcal | 7.7% |\n| Protein | 3.2 g | 6.5% |\n| Carbohydrate | 31.9 g | 10.6% |\n| Total Sugar | 9.9 g | - |\n| Added Sugar*** | 9.6 g | 19.2% |\n| Dietary Fibre | 2.4 g | 9.6% |\n| Sodium | 119.0 mg | 5.9% |\n| Total Fat | 1.4 g | 2.1% |\n| Saturated Fat | 0.3 g | 1.5% |\n| Trans Fat | 0.0 g | 0.4% |\n| Cholesterol | 0.0 mg | 0.0% |\n*Contains saturated fat not more than 1%. **Approx values. **Reference intake for an adult\nas per ICMR guidelines. ***Unrefined sugar.\n\nIngredients: Multigrain flour blend (jowar, oat, foxtail millet, ragi)\n(66%), jaggery (14%), raw unrefined sugar (14%), cocoa powder,\nraising agents (baking soda, baking powder), nature identical\nflavouring substances, iodised salt, cinnamon powder\n\nAllergen Note: Made in a facility that processes wheat and nuts.\nMay contain trace elements. Safety Advice: Always supervise when\nfeeding children. Cut into bite sizes to minimise choking risk.\nHow To Store: Keep it in a cool, dry place.\n\nPANEL 2"
+[2026-04-01 23:47:04] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 23:47:04] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 23:47:04] [Metadata] Extracting Brand Metadata
+[2026-04-01 23:47:21] [Metadata] Metadata LLM raw output: {
+    "brandName": "slürrp farm",
+    "productName": "Millet Pancake mix CHOCOLATE",
+    "fssaiCategory": "Pancake mix",
+    "licenseNo": "10014011000114",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 23:47:21] [EXTRACTED METADATA] {
+  "brandName": "sl\u00fcrrp farm",
+  "productName": "Millet Pancake mix CHOCOLATE",
+  "fssaiCategory": "Pancake mix",
+  "licenseNo": "10014011000114",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 23:47:21] [STEP 4/9] Running regulatory checks...
+[2026-04-01 23:47:21] [Core] Running Regulatory Analysis
+[2026-04-01 23:47:43] [STEP 5/9] Validating product category...
+[2026-04-01 23:47:43] [Claims] Running Claims Subsystem
+[2026-04-01 23:47:50] [Claims] Claims Validation Result: [{'claim_text': 'NO MAIDA', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains a multigrain flour blend (jowar, oat, foxtail millet, ragi) and does not list refined wheat flour (maida).', 'reference': 'Ingredients List'}, {'claim_text': 'NO REFINED SUGAR', 'tag': 'Ingredient Claim', 'status': 'Fail', 'reasoning': "The ingredients list explicitly mentions 'raw unrefined sugar' (14%) and 'jaggery' (14%). While jaggery is unrefined, 'raw unrefined sugar' is still a form of sugar, and the product contains 24g of added sugar per 100g.", 'reference': 'Ingredients List, Nutrition Table'}, {'claim_text': 'ZERO JUNK PROMISE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "'Junk' is not a defined term under FSSAI regulations. However, the product contains 24g of added sugar per 100g, which is high. Specific lab data or brand definition of 'junk' is required.", 'reference': 'FSSAI Advertising and Claims Regulations'}, {'claim_text': 'RAGI HAS 10X THE CALCIUM OF WHEAT AND RICE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': 'While Ragi is an ingredient, the nutrition table does not list Calcium content. Lab analysis is required to verify the calcium levels in the final product to support this comparative claim.', 'reference': 'Nutrition Table'}, {'claim_text': 'GREAT FOR GROWING BONES!', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'This is a health claim related to bone growth, typically associated with Calcium or Vitamin D. Since these nutrients are not quantified in the nutrition table, the claim cannot be validated.', 'reference': 'FSSAI Health Claims Schedule'}, {'claim_text': 'No Artificial Colours', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list does not mention any synthetic colors; it only lists nature-identical flavoring substances and cocoa powder.', 'reference': 'Ingredients List'}, {'claim_text': 'No Preservatives', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (e.g., Class II preservatives) are listed in the ingredients; only raising agents and salt are present.', 'reference': 'Ingredients List'}, {'claim_text': 'No Maida or Wheat', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The flour blend consists of jowar, oat, foxtail millet, and ragi. No wheat or refined wheat flour is listed.', 'reference': 'Ingredients List'}]
+[2026-04-01 23:47:50] [Claims] Claims Analysis Result: Analyzed 8 claim(s). 4 passed, 1 failed, 3 need review.
+[2026-04-01 23:47:50] [STEP 6/9] Substantiating claims...
+[2026-04-01 23:47:50] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 23:47:52] [Nutrition] Predicted Target Audience: {'gender': 'girls', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': "The product explicitly highlights 'Great for growing bones!' and emphasizes the high calcium content of ragi, which is a key nutritional requirement for children during their developmental years."}
+[2026-04-01 23:47:52] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 23:47:52] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 23:47:59] [Lab Tests] Generated 5 suggestions
+[2026-04-01 23:48:00] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 23:48:00] [SUCCESS] Final Score: 85.0%
+[2026-04-01 23:51:04] [STEP 1/9] Validating image context...
+[2026-04-01 23:51:04] [Context] source=default_general, type=general, code=None
+[2026-04-01 23:51:05] [STEP 2/9] Extracting OCR data...
+[2026-04-01 23:51:05] [OCR] Initiating OCR Extraction Service
+[2026-04-01 23:51:05] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 23:51:13] [RAW OCR TEXT] "shake and sip\npaper boat\u2122\ndrinks and memories\nchilli guava\nREADY-TO-SERVE FRUIT BEVERAGE\nPANEL 1\nHOLD HERE WHILE OPENING\nDO NOT PURCHASE IF SEAL\nIS BROKEN / PACK IS PUFFED.\nchilli guava\nNo bio-engineered\nGMOs** ingredients.\n**This food is by\nits nature gluten-free*\nNO ADDED PRESERVATIVES.\nNO ADDED COLOURS.\nJUST LAUGHTER AND SUNSHINE.\nNUTRITIONAL INFORMATION\n(Typical Values per 100 ml)\nEnergy 49.2 kcal\nCarbohydrate 11.8 g\n- Added Sugar 9.4 g\nProtein 0.5 g\nFat 0.0 g\nINGREDIENTS: WATER, GUAVA PUREE (23%), SUGAR, IODISED SALT, SPICES AND CONDIMENTS (AMCHUR POWDER, LAL MIRCHI POWDER, PEPPER BLACK POWDER), LEMON JUICE CONCENTRATE (0.4%), ACIDITY REGULATOR (CITRIC ACID), STABILIZERS (CARBOXY METHYL CELLULOSE, GUAR GUM AND PECTIN) AND ANTIOXIDANT (ASCORBIC ACID).\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE-IDENTICAL FLAVOURING SUBSTANCES).\nMay Contains Milk and Almonds.\nFOR MANUFACTURING DATE,\nMRP \u20b9 (INCL. OF ALL TAXES),\nUSE BY DATE AND BATCH NUMBER: SEE BELOW\n8 908001 170580\n\"BEST BEFORE EIGHT MONTHS FROM MANUFACTURE\" when stored\nin a cool and dry place and hygienic conditions, away from direct sunlight.\nREFRIGERATE AFTER OPENING AND CONSUME WITHIN 24 HOURS OF OPENING.\nMANUFACTURED BY: FOR MANUFACTURER AND MANUFACTURING UNIT\nADDRESS READ FIRST TWO CHARACTERS OF BATCH NUMBER AND READ BELOW:\n(AB) HECTOR BEVERAGES PVT. LTD., PLOT NO. 132, SECTOR - 3, IMT MANESAR, GURUGRAM-122050, HARYANA.\n(KR) HECTOR BEVERAGES PVT. LTD., PLOT NO. 11-P1 & 2, KADAKOLA INDUSTRIAL AREA, JAYAPURA, MYSORE - 571311,\nKARNATAKA. Lic. No. 10015043001132\nfssai\nLic. No. 10012064000017\nUNDER REGISTERED OFFICE ADDRESS: HECTOR BEVERAGES PVT. LTD. PLOT NO. 132, SECTOR - 3,\nIMT MANESAR, GURUGRAM-122050, HARYANA.\nCONSUMER HELPLINE: CRC AT REGISTERED OFFICE ADDRESS\nAND AT 1800-425-4425 OR WRITE TO US AT\npaperboat@hectorbeverages.com\nCONTAINS FRUIT AND\nCONDIMENTS SETTLE DO,\nSHAKE WELL, SERVE CHILLED\nNET QUANTITY:\n200ml\nPANEL 2"
+[2026-04-01 23:51:18] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 23:51:18] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 23:51:18] [Metadata] Extracting Brand Metadata
+[2026-04-01 23:51:21] [Metadata] Metadata LLM raw output: {
+    "brandName": "paper boat",
+    "productName": "chilli guava",
+    "fssaiCategory": "READY-TO-SERVE FRUIT BEVERAGE",
+    "licenseNo": "10012064000017",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 23:51:21] [EXTRACTED METADATA] {
+  "brandName": "paper boat",
+  "productName": "chilli guava",
+  "fssaiCategory": "READY-TO-SERVE FRUIT BEVERAGE",
+  "licenseNo": "10012064000017",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 23:51:21] [STEP 4/9] Running regulatory checks...
+[2026-04-01 23:51:21] [Core] Running Regulatory Analysis
+[2026-04-01 23:51:42] [STEP 5/9] Validating product category...
+[2026-04-01 23:51:42] [Claims] Running Claims Subsystem
+[2026-04-01 23:51:46] [Claims] Claims Validation Result: [{'claim_text': 'No bio-engineered GMOs ingredients.', 'tag': 'Ingredient Claim', 'status': 'Action', 'reasoning': 'The ingredients list (Guava puree, sugar, spices, etc.) does not specify the GMO status of the raw materials. Verification of non-GMO certification for sugar and guava sources is required.', 'reference': 'FSS (Genetically Modified or Engineered Foods) Regulations'}, {'claim_text': 'This food is by its nature gluten-free', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The ingredients (Water, Guava, Sugar, Spices, Lemon Juice) are naturally gluten-free. No gluten-containing grains (wheat, barley, rye) are present in the ingredients list.', 'reference': 'FSS (Advertising and Claims) Regulations, 2018'}, {'claim_text': 'NO ADDED PRESERVATIVES.', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list does not contain any Class II preservatives. Ascorbic acid is listed as an antioxidant and Citric acid as an acidity regulator, which are permitted in this context.', 'reference': 'FSS (Food Products Standards and Food Additives) Regulations, 2011'}, {'claim_text': 'NO ADDED COLOURS.', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "The ingredients list does not contain any natural or synthetic added colors. The product's color is derived from the guava puree and spices like Lal Mirchi powder.", 'reference': 'FSS (Food Products Standards and Food Additives) Regulations, 2011'}]
+[2026-04-01 23:51:46] [Claims] Claims Analysis Result: Analyzed 4 claim(s). 3 passed, 0 failed, 1 need review.
+[2026-04-01 23:51:46] [STEP 6/9] Substantiating claims...
+[2026-04-01 23:51:46] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 23:51:48] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose guava beverage with no specific health claims, age-restricted ingredients, or performance-enhancing additives, making it suitable for the general adult population.'}
+[2026-04-01 23:51:48] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 23:51:48] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 23:51:54] [Lab Tests] Generated 6 suggestions
+[2026-04-01 23:51:56] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 23:51:56] [SUCCESS] Final Score: 45.0%
+[2026-04-01 23:55:39] [STEP 1/9] Validating image context...
+[2026-04-01 23:55:39] [Context] source=default_general, type=general, code=None
+[2026-04-01 23:55:39] [STEP 2/9] Extracting OCR data...
+[2026-04-01 23:55:39] [OCR] Initiating OCR Extraction Service
+[2026-04-01 23:55:39] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 23:55:49] [RAW OCR TEXT] "shake and sip\npaper boat\u2122\ndrinks and memories\nchilli guava\nREADY-TO-SERVE FRUIT BEVERAGE\nPANEL 1\nHOLD HERE WHILE OPENING\nDO NOT PURCHASE IF SEAL\nIS BROKEN / PACK IS PUFFED.\nchilli guava\nNo bio-engineered\nGMOs** ingredients.\n**This food is by\nits nature gluten-free*\nNO ADDED PRESERVATIVES.\nNO ADDED COLOURS.\nJUST LAUGHTER AND SUNSHINE.\nNUTRITIONAL INFORMATION\n(Typical Values per 100 ml)\nEnergy 49.2 kcal\nCarbohydrate 11.8 g\n- Added Sugar 9.4 g\nProtein 0.5 g\nFat 0.0 g\nINGREDIENTS: WATER, GUAVA PUREE (23%), SUGAR, IODISED SALT, SPICES AND CONDIMENTS (AMCHUR POWDER, LAL MIRCHI POWDER, PEPPER BLACK POWDER), LEMON JUICE CONCENTRATE (0.4%), ACIDITY REGULATOR (CITRIC ACID), STABILIZERS (CARBOXY METHYL CELLULOSE, GUAR GUM AND PECTIN) AND ANTIOXIDANT (ASCORBIC ACID).\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE-IDENTICAL FLAVOURING SUBSTANCES).\nMay Contains Milk and Almonds.\nFOR MANUFACTURING DATE,\nMRP \u20b9 (INCL. OF ALL TAXES),\nUSE BY DATE AND BATCH NUMBER: SEE BELOW\n8 908001 170580\n\"BEST BEFORE EIGHT MONTHS FROM MANUFACTURE\" when stored\nin a cool and dry place and hygienic conditions, away from direct sunlight.\nREFRIGERATE AFTER OPENING AND CONSUME WITHIN 24 HOURS OF OPENING.\nMANUFACTURED BY: FOR MANUFACTURER AND MANUFACTURING UNIT\nADDRESS READ FIRST TWO CHARACTERS OF BATCH NUMBER AND READ BELOW:\n(AB) HECTOR BEVERAGES PVT. LTD., PLOT NO. 132, SECTOR - 3, IMT MANESAR, GURUGRAM-122050, HARYANA.\n(KR) HECTOR BEVERAGES PVT. LTD., PLOT NO. 11-P1 & 2, KADAKOLA INDUSTRIAL AREA, JAYAPURA, MYSORE - 571311,\nKARNATAKA. Lic. No. 10015043001132\nfssai\nLic. No. 10012064000017\nUNDER REGISTERED OFFICE ADDRESS: HECTOR BEVERAGES PVT. LTD. PLOT NO. 132, SECTOR - 3,\nIMT MANESAR, GURUGRAM-122050, HARYANA.\nCONSUMER HELPLINE: CRC AT REGISTERED OFFICE ADDRESS\nAND AT 1800-425-4425 OR WRITE TO US AT\npaperboat@hectorbeverages.com\nCONTAINS FRUIT AND\nCONDIMENTS SETTLE DO,\nSHAKE WELL, SERVE CHILLED\nNET QUANTITY:\n200ml\nPANEL 2"
+[2026-04-01 23:55:53] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 23:55:53] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 23:55:53] [Metadata] Extracting Brand Metadata
+[2026-04-01 23:55:56] [Metadata] Metadata LLM raw output: {
+    "brandName": "paper boat",
+    "productName": "chilli guava",
+    "fssaiCategory": "READY-TO-SERVE FRUIT BEVERAGE",
+    "licenseNo": "10012064000017",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 23:55:56] [EXTRACTED METADATA] {
+  "brandName": "paper boat",
+  "productName": "chilli guava",
+  "fssaiCategory": "READY-TO-SERVE FRUIT BEVERAGE",
+  "licenseNo": "10012064000017",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 23:55:56] [STEP 4/9] Running regulatory checks...
+[2026-04-01 23:55:56] [Core] Running Regulatory Analysis
+[2026-04-01 23:56:16] [STEP 5/9] Validating product category...
+[2026-04-01 23:56:16] [Claims] Running Claims Subsystem
+[2026-04-01 23:56:21] [Claims] Claims Validation Result: [{'claim_text': 'No bio-engineered GMOs ingredients.', 'tag': 'Ingredient Claim', 'status': 'Action', 'reasoning': 'The ingredients list (Water, Guava Puree, Sugar, etc.) does not explicitly state the GMO status of the raw materials. Verification of non-GMO certification for sugar and guava is required.', 'reference': 'FSSAI Labelling and Display Regulations'}, {'claim_text': 'This food is by its nature gluten-free', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains water, fruit puree, sugar, and stabilizers (CMC, Guar Gum, Pectin), none of which are gluten-containing grains (wheat, barley, rye). The threshold for gluten-free is < 20 mg/kg.', 'reference': 'FSSAI Nutritional Claims Thresholds - Gluten Free'}, {'claim_text': 'NO ADDED PRESERVATIVES.', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list does not contain any Class II preservatives (like Sodium Benzoate or Potassium Sorbate). Ascorbic acid is listed as an antioxidant and Citric Acid as an acidity regulator.', 'reference': 'FSSAI Food Categorization System'}, {'claim_text': 'NO ADDED COLOURS.', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "The ingredients list does not show any synthetic or natural added colors. The product's appearance is derived from the Guava Puree (23%).", 'reference': 'FSSAI Food Categorization System'}]
+[2026-04-01 23:56:21] [Claims] Claims Analysis Result: Analyzed 4 claim(s). 3 passed, 0 failed, 1 need review.
+[2026-04-01 23:56:21] [STEP 6/9] Substantiating claims...
+[2026-04-01 23:56:21] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 23:56:23] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose guava beverage with no specific health claims, age-restricted ingredients, or performance-enhancing additives, making it suitable for the general adult population.'}
+[2026-04-01 23:56:23] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 23:56:23] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 23:56:29] [Lab Tests] Generated 6 suggestions
+[2026-04-01 23:56:29] [Lab Tests] Starting contaminants analysis...
+[2026-04-01 23:56:36] [Lab Tests] Generated 4 contaminants-related tests
+[2026-04-01 23:56:36] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-01 23:56:39] [Lab Tests] No microbiological hazard-related tests generated.
+[2026-04-01 23:56:39] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 23:56:39] [SUCCESS] Final Score: 45.0%
+[2026-04-01 23:58:48] [STEP 1/9] Validating image context...
+[2026-04-01 23:58:48] [Context] source=default_general, type=general, code=None
+[2026-04-01 23:58:49] [STEP 2/9] Extracting OCR data...
+[2026-04-01 23:58:49] [OCR] Initiating OCR Extraction Service
+[2026-04-01 23:58:49] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 23:58:54] [RAW OCR TEXT] "```\nPANEL 1\nUSE BATTER\nDIRECTLY FROM\nTHIS PACK\nMILDLY SALTED\n\u062e\u0644\u064a\u0637 \u0627\u062f\u0644\u064a \u0648 \u062f\u0648\u0633\u0627 \u0627\u0644\u0637\u0628\u064a\u0639\u064a\niD\n100% AUTHENTIC\nIDLY &\nDOSA\nBATTER\nHello! This all-natural batter is made fresh with\ntraditional ingredients and fermented naturally. Your\nfavourite home-made feast is only minutes away!\nNO ADDED PRESERVATIVES\n\u0628\u062f\u0648\u0646 \u0623\u064a \u0645\u0648\u0627\u062f \u0625\u0636\u0627\u0641\u064a\u0629\nNO SODA\n\u0628\u062f\u0648\u0646 \u0635\u0648\u062f\u0627\nRO-PURIFIED WATER\n\u0645\u064a\u0627\u0647 \u0645\u0642\u0637\u0631\u0629\n\nPANEL 2\nNutrition Facts\n20 servings per container\nServing Size (50gm) per Idly/Dosa\nAmount per 100gm\nCalories 142\n%Daily Value*\nTotal Fat 0.3g 0.4%\nSaturated Fat 0g 0%\nTrans Fat 0g\nCholesterol 0mg 0%\nSodium 222mg 4%\nTotal Carbohydrate 30g 12%\nDietary Fiber 0g 0%\nTotal Sugars 0g\nincludes 0g Added Sugars 0%\nProtein 5g\nVitamin D 0mcg 0%\nCalcium 14mg 1%\nIron 2mg 9%\nPotassium 111mg 6%\n*The % Daily Value (DV) tells you how much a nutrient in a serving\nof food contributes to a daily diet. 2,000 calories a day is used for\ngeneral nutrition advice.\n\nPANEL 3\nINGREDIENTS\nRO-purified Water (50%), Rice (34%),\nUrad Dal, Fenugreek and Iodized Salt.\nNUTRITIONAL FACTS\nPER 100g (Approx)\nEnergy 141kcal \u2022 Protein 5.5g\nCarbohydrates 26.3g \u2022 Sugar 0g \u2022 Total\nFat 1.6g \u2022 Saturated Fatty Acid 0.68g\nSodium 92mg \u2022 MUFA 0.52g \u2022 PUFA 0.3g\nTrans Fatty Acid 0g \u2022 Cholesterol 0mg\nMADE THE WAY\nYOU WOULD\nNO ADDED\nFLAVOURS\nRO-PURIFIED\nWATER\nPREMIUM\nINGREDIENTS\n```"
+[2026-04-01 23:59:01] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 23:59:01] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 23:59:01] [Metadata] Extracting Brand Metadata
+[2026-04-01 23:59:05] [Metadata] Metadata LLM raw output: {
+    "brandName": "iD",
+    "productName": "IDLY & DOSA BATTER",
+    "fssaiCategory": "",
+    "licenseNo": "",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 23:59:05] [EXTRACTED METADATA] {
+  "brandName": "iD",
+  "productName": "IDLY & DOSA BATTER",
+  "fssaiCategory": "",
+  "licenseNo": "",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 23:59:05] [STEP 4/9] Running regulatory checks...
+[2026-04-01 23:59:05] [Category] Predicting Product Category
+[2026-04-01 23:59:05] [Category] Initializing Product Category Predictor (LLM-based)
+[2026-04-01 23:59:05] [Category] No category in OCR JSON or metadata. Predicting from ingredients...
+[2026-04-01 23:59:05] [ERROR: Category] Prediction failed: name 'ALLOWED_CATEGORIES' is not defined
+[2026-04-01 23:59:05] [STEP 5/9] Validating product category...
+[2026-04-01 23:59:05] [Core] Running Regulatory Analysis
+[2026-04-01 23:59:15] [STEP 6/9] Substantiating claims...
+[2026-04-01 23:59:15] [Claims] Running Claims Subsystem
+[2026-04-01 23:59:21] [Claims] Claims Validation Result: [{'claim_text': 'NO ADDED PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list (RO-purified Water, Rice, Urad Dal, Fenugreek, Iodized Salt) does not contain any chemical preservatives or additives.', 'reference': 'Ingredients List'}, {'claim_text': 'NO SODA', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'Sodium bicarbonate or other leavening agents (soda) are not listed in the ingredients list.', 'reference': 'Ingredients List'}, {'claim_text': 'RO-PURIFIED WATER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'RO-purified Water is explicitly listed as the primary ingredient (50%).', 'reference': 'Ingredients List'}, {'claim_text': 'NO ADDED FLAVOURS', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains only whole food items and salt; no natural or artificial flavors are declared.', 'reference': 'Ingredients List'}, {'claim_text': 'PREMIUM INGREDIENTS', 'tag': 'Ingredient Claim', 'status': 'Action', 'reasoning': "The term 'Premium' is subjective and not defined by FSSAI standards. While ingredients are listed, their 'premium' quality cannot be verified through a nutrition table or ingredient list alone.", 'reference': 'FSSAI Advertising and Claims Regulations'}, {'claim_text': '100% AUTHENTIC', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': 'Authenticity is a quality/origin claim rather than a nutritional one. It requires verification of traditional processing methods or geographical indicators not present in the data.', 'reference': 'FSSAI Advertising and Claims Regulations'}, {'claim_text': 'all-natural batter', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list consists entirely of minimally processed natural food items (Water, Rice, Dal, Fenugreek, Salt) with no synthetic additives.', 'reference': 'Ingredients List'}]
+[2026-04-01 23:59:21] [Claims] Claims Analysis Result: Analyzed 7 claim(s). 5 passed, 0 failed, 2 need review.
+[2026-04-01 23:59:21] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 23:59:21] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 23:59:24] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a basic food staple (dosa/idli batter) consisting of water, rice, and lentils. It contains no specific nutritional enhancements or targeted ingredients, making it suitable for the general adult population.'}
+[2026-04-01 23:59:24] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 23:59:24] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 23:59:29] [Lab Tests] Generated 5 suggestions
+[2026-04-01 23:59:29] [Lab Tests] Starting contaminants analysis...
+[2026-04-01 23:59:35] [Lab Tests] Generated 4 contaminants-related tests
+[2026-04-01 23:59:35] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-01 23:59:37] [Lab Tests] No microbiological hazard-related tests generated.
+[2026-04-01 23:59:37] [STEP 9/9] Finalizing report...
+[2026-04-01 23:59:37] [SUCCESS] Final Score: 65.0%
+[2026-04-02 00:10:40] [STEP 1/9] Validating image context...
+[2026-04-02 00:10:40] [Context] source=default_general, type=general, code=None
+[2026-04-02 00:10:41] [STEP 2/9] Extracting OCR data...
+[2026-04-02 00:10:41] [OCR] Initiating OCR Extraction Service
+[2026-04-02 00:10:41] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 00:10:51] [RAW OCR TEXT] "NET WEIGHT 150 g (5.3 oz) e\n\nsl\u00fcrrp\nfarm\u2122\n\nmade by\ntwo mothers\n\nMillet\nPancake mix\n\nCHOCOLATE\n\nNO MAIDA\nNO REFINED SUGAR\n\nZERO\nJUNK\nPROMISE\n\nJOWAR\nOATS\nFOXTAIL\nMILLET\nRAGI\n\nPANEL 1\n\nRAGI HAS 10X THE CALCIUM\nOF WHEAT AND RICE.\nGREAT FOR GROWING BONES!\n\nJOWAR\nFOXTAIL\nMILLET\nRAGI\nCOCOA\n\nHello!\n\nWe are two mothers who realised\nthat there weren't enough tasty,\nhealthy, and convenient kids'\nfoods out there - so we decided\nto make our own.\nWe \u2764\ufe0f wholegrain millets, lentils,\nand the traditional wisdom of\nour grandmothers. Which means\nzero junk.\nWe use the best ingredients in\nimaginative ways to make little\ntummies happy!\n\nHOW TO MAKE (1 packet makes 7-8 pancakes)\nSTEP 1: Mix 1/2 packet (75 gms) of pancake mix, 1 tsp (5 ml) of\noil and 1/2 cup (120 ml) of milk into a smooth batter. You can\nalso add 1 medium sized egg for extra protein.\nSTEP 2: Warm a flat pan to medium heat. Grease the pan with\noil or butter. Pour the batter onto the heated pan and cook well\non both sides. The goodness of supergrains means it doesn't\ncook as fast as pancakes with refined flour!\nSTEP 3: Serve the pancakes with a dollop of honey, fresh fruits\nor peanut butter.\n\nNo Refined\nSugar\n\nNo Artificial\nColours\n\nNo Maida\nor Wheat\n\nNo\nPreservatives\n\nMARKETED BY:\nWholsum Foods Pvt. Ltd.\nNS-15, LGF, Mianwali\nNagar, Paschim Vihar,\nNew Delhi-110087\nfssai Lic No: 10014011001614\n\nMANUFACTURED AND PACKED BY:\nFunctional & Innovative Foods Pvt. Ltd.\nNo. 1/374A, Andipalayam Village,\nAndipalayam Post, Tiruchengode Taluk,\nNamakkal, Tamil Nadu-637214\nfssai Lic No: 12420014000631\n\nNET WEIGHT 150 g\n\nMRP \u20b9\n(INCL. OF ALL TAXES):\nMFD:\nExpiry Date:\nBatch Number:\n\n8 908006 217090\n\nPRODUCT OF INDIA\n\nWE WOULD LOVE TO HEAR\nFROM YOU\nIn case of feedback or complaints:\nEmail: slur rpfarmcare@wholsumfoods.com\nCall or WhatsApp: +91 93183 18000\nAddress: Wholsum Foods Pvt. Ltd. NS-15, LGF,\nMianwali Nagar, Paschim Vihar, New Delhi 110087\nWebsite: www.slurrpfarm.com Be friends with us!\n@SlurrpFarm on FB or Instagram\n\nNutritional Information*\nServing Size: Approx 40 g (makes two 4\" pancakes), Servings Per Pack: 4\n| | Per 40 g | % RDA per Serve** |\n| :--- | :--- | :--- |\n| Energy | 153.3 kcal | 7.7% |\n| Protein | 3.2 g | 6.5% |\n| Carbohydrate | 31.9 g | 10.6% |\n| Total Sugar | 9.9 g | - |\n| Added Sugar*** | 9.6 g | 19.2% |\n| Dietary Fibre | 2.4 g | 9.6% |\n| Sodium | 119.0 mg | 5.9% |\n| Total Fat | 1.4 g | 2.1% |\n| Saturated Fat | 0.3 g | 1.5% |\n| Trans Fat | 0.0 g | 0.4% |\n| Cholesterol | 0.0 mg | 0.0% |\n*Contains saturated fat not more than 1%. **Approx values. **Reference intake for an adult\nas per ICMR guidelines. ***Unrefined sugar.\n\nIngredients: Multigrain flour blend (jowar, oat, foxtail millet, ragi)\n(66%), jaggery (14%), raw unrefined sugar (14%), cocoa powder,\nraising agents (baking soda, baking powder), nature identical\nflavouring substances, iodised salt, cinnamon powder\n\nAllergen Note: Made in a facility that processes wheat and nuts.\nMay contain trace elements. Safety Advice: Always supervise when\nfeeding children. Cut into bite sizes to minimise choking risk.\nHow To Store: Keep it in a cool, dry place.\n\nPANEL 2"
+[2026-04-02 00:11:00] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 00:11:00] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 00:11:00] [Metadata] Extracting Brand Metadata
+[2026-04-02 00:11:05] [Metadata] Metadata LLM raw output: {
+    "brandName": "slürrp farm",
+    "productName": "Millet Pancake mix CHOCOLATE",
+    "fssaiCategory": "Pancake mix",
+    "licenseNo": "10014011000114",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 00:11:05] [EXTRACTED METADATA] {
+  "brandName": "sl\u00fcrrp farm",
+  "productName": "Millet Pancake mix CHOCOLATE",
+  "fssaiCategory": "Pancake mix",
+  "licenseNo": "10014011000114",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 00:11:05] [STEP 4/9] Running regulatory checks...
+[2026-04-02 00:11:05] [Core] Running Regulatory Analysis
+[2026-04-02 00:11:31] [STEP 5/9] Validating product category...
+[2026-04-02 00:11:31] [Claims] Running Claims Subsystem
+[2026-04-02 00:11:37] [Claims] Claims Validation Result: [{'claim_text': 'NO MAIDA', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "The ingredients list contains 'Multigrain flour blend (jowar, oat, foxtail millet, ragi)' and does not list refined wheat flour (maida).", 'reference': 'Ingredients List'}, {'claim_text': 'NO REFINED SUGAR', 'tag': 'Ingredient Claim', 'status': 'Fail', 'reasoning': "The ingredients list explicitly mentions 'raw unrefined sugar (14%)'. While labeled 'unrefined', it is still a form of added sugar, and the product contains 24g of added sugar per 100g.", 'reference': 'Ingredients List'}, {'claim_text': 'ZERO JUNK PROMISE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "'Junk' is not a defined term under FSSAI. However, the product contains 24g of added sugar per 100g, which may contradict a 'healthy' or 'zero junk' positioning. Requires brand definition of 'junk'.", 'reference': 'Nutrition Table'}, {'claim_text': 'RAGI HAS 10X THE CALCIUM OF WHEAT AND RICE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "While Ragi is an ingredient, the specific calcium content of the final product is not provided in the nutrition table to verify if it qualifies as a 'Source' or 'High' calcium food.", 'reference': 'Nutrition Table'}, {'claim_text': 'GREAT FOR GROWING BONES!', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'This is a functional health claim related to bone health (typically linked to Calcium/Vitamin D). Since Calcium levels are not declared in the nutrition table, this claim cannot be validated.', 'reference': 'Nutrition Table'}, {'claim_text': 'No Artificial Colours', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list does not show any synthetic colors; it only lists cocoa powder and nature identical flavoring substances.', 'reference': 'Ingredients List'}, {'claim_text': 'No Preservatives', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (Class II) are listed in the ingredients list.', 'reference': 'Ingredients List'}, {'claim_text': 'No Maida or Wheat', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The flour blend consists of jowar, oat, foxtail millet, and ragi. No wheat or maida is listed.', 'reference': 'Ingredients List'}]
+[2026-04-02 00:11:37] [Claims] Claims Analysis Result: Analyzed 8 claim(s). 4 passed, 1 failed, 3 need review.
+[2026-04-02 00:11:37] [STEP 6/9] Substantiating claims...
+[2026-04-02 00:11:37] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 00:11:39] [Nutrition] Predicted Target Audience: {'gender': 'girls', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': "The product explicitly highlights 'Great for growing bones!' and emphasizes the high calcium content of ragi, which is a key nutritional requirement for children during their developmental years."}
+[2026-04-02 00:11:39] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 00:11:39] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 00:11:45] [Lab Tests] Generated 5 suggestions
+[2026-04-02 00:11:45] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 00:11:45] [ERROR: Lab Tests] Lab Test Pipeline Error: name 'metadata' is not defined
+[2026-04-02 00:11:45] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 00:11:45] [SUCCESS] Final Score: 85.0%
+[2026-04-02 00:15:11] [STEP 1/9] Validating image context...
+[2026-04-02 00:15:11] [Context] source=default_general, type=general, code=None
+[2026-04-02 00:15:12] [STEP 2/9] Extracting OCR data...
+[2026-04-02 00:15:12] [OCR] Initiating OCR Extraction Service
+[2026-04-02 00:15:12] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 00:15:21] [RAW OCR TEXT] "NET WEIGHT 150 g (5.3 oz) e\n\nsl\u00fcrrp\nfarm\u2122\n\nmade by\ntwo mothers\n\nMillet\nPancake mix\n\nCHOCOLATE\n\nNO MAIDA\nNO REFINED SUGAR\n\nZERO\nJUNK\nPROMISE\n\nJOWAR\nOATS\nFOXTAIL\nMILLET\nRAGI\n\nPANEL 1\n\nRAGI HAS 10X THE CALCIUM\nOF WHEAT AND RICE.\nGREAT FOR GROWING BONES!\n\nJOWAR\nFOXTAIL\nMILLET\nRAGI\nCOCOA\n\nHello!\n\nWe are two mothers who realised\nthat there weren't enough tasty,\nhealthy, and convenient kids'\nfoods out there - so we decided\nto make our own.\nWe \u2764\ufe0f wholegrain millets, lentils,\nand the traditional wisdom of\nour grandmothers. Which means\nzero junk.\nWe use the best ingredients in\nimaginative ways to make little\ntummies happy!\n\nHOW TO MAKE (1 packet makes 7-8 pancakes)\nSTEP 1: Mix 1/2 packet (75 gms) of pancake mix, 1 tsp (5 ml) of\noil and 1/2 cup (120 ml) of milk into a smooth batter. You can\nalso add 1 medium sized egg for extra protein.\nSTEP 2: Warm a flat pan to medium heat. Grease the pan with\noil or butter. Pour the batter onto the heated pan and cook well\non both sides. The goodness of supergrains means it doesn't\ncook as fast as pancakes with refined flour!\nSTEP 3: Serve the pancakes with a dollop of honey, fresh fruits\nor peanut butter.\n\nNo Refined\nSugar\n\nNo Artificial\nColours\n\nNo Maida\nor Wheat\n\nNo\nPreservatives\n\nMARKETED BY:\nWholsum Foods Pvt. Ltd.\nNS-15, LGF, Mianwali\nNagar, Paschim Vihar,\nNew Delhi-110087\nfssai Lic No: 10014011001614\n\nMANUFACTURED AND PACKED BY:\nFunctional & Innovative Foods Pvt. Ltd.\nNo. 1/374A, Andipalayam Village,\nAndipalayam Post, Tiruchengode Taluk,\nNamakkal, Tamil Nadu-637214\nfssai Lic No: 12420014000631\n\nNET WEIGHT 150 g\n\nMRP \u20b9\n(INCL. OF ALL TAXES):\nMFD:\nExpiry Date:\nBatch Number:\n\n8 908006 217090\n\nPRODUCT OF INDIA\n\nWE WOULD LOVE TO HEAR\nFROM YOU\nIn case of feedback or complaints:\nEmail: slur rpfarmcare@wholsumfoods.com\nCall or WhatsApp: +91 93183 18000\nAddress: Wholsum Foods Pvt. Ltd. NS-15, LGF,\nMianwali Nagar, Paschim Vihar, New Delhi 110087\nWebsite: www.slurrpfarm.com Be friends with us!\n@SlurrpFarm on FB or Instagram\n\nNutritional Information*\nServing Size: Approx 40 g (makes two 4\" pancakes), Servings Per Pack: 4\n| | Per 40 g | % RDA per Serve** |\n| :--- | :--- | :--- |\n| Energy | 153.3 kcal | 7.7% |\n| Protein | 3.2 g | 6.5% |\n| Carbohydrate | 31.9 g | 10.6% |\n| Total Sugar | 9.9 g | - |\n| Added Sugar*** | 9.6 g | 19.2% |\n| Dietary Fibre | 2.4 g | 9.6% |\n| Sodium | 119.0 mg | 5.9% |\n| Total Fat | 1.4 g | 2.1% |\n| Saturated Fat | 0.3 g | 1.5% |\n| Trans Fat | 0.0 g | 0.4% |\n| Cholesterol | 0.0 mg | 0.0% |\n*Contains saturated fat not more than 1%. **Approx values. **Reference intake for an adult\nas per ICMR guidelines. ***Unrefined sugar.\n\nIngredients: Multigrain flour blend (jowar, oat, foxtail millet, ragi)\n(66%), jaggery (14%), raw unrefined sugar (14%), cocoa powder,\nraising agents (baking soda, baking powder), nature identical\nflavouring substances, iodised salt, cinnamon powder\n\nAllergen Note: Made in a facility that processes wheat and nuts.\nMay contain trace elements. Safety Advice: Always supervise when\nfeeding children. Cut into bite sizes to minimise choking risk.\nHow To Store: Keep it in a cool, dry place.\n\nPANEL 2"
+[2026-04-02 00:15:30] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 00:15:30] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 00:15:30] [Metadata] Extracting Brand Metadata
+[2026-04-02 00:15:33] [Metadata] Metadata LLM raw output: {
+    "brandName": "slürrp farm",
+    "productName": "Millet Pancake mix CHOCOLATE",
+    "fssaiCategory": "Pancake mix",
+    "licenseNo": "10014011000114",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 00:15:33] [EXTRACTED METADATA] {
+  "brandName": "sl\u00fcrrp farm",
+  "productName": "Millet Pancake mix CHOCOLATE",
+  "fssaiCategory": "Pancake mix",
+  "licenseNo": "10014011000114",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 00:15:33] [STEP 4/9] Running regulatory checks...
+[2026-04-02 00:15:33] [Core] Running Regulatory Analysis
+[2026-04-02 00:16:03] [STEP 5/9] Validating product category...
+[2026-04-02 00:16:03] [Claims] Running Claims Subsystem
+[2026-04-02 00:16:10] [Claims] Claims Validation Result: [{'claim_text': 'NO MAIDA', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains Multigrain flour blend (jowar, oat, foxtail millet, ragi) and does not list refined wheat flour (Maida).', 'reference': 'Ingredients List'}, {'claim_text': 'NO REFINED SUGAR', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "The ingredients list explicitly mentions 'raw unrefined sugar' (14%) and 'jaggery' (14%). While unrefined, the nutrition table shows 24g of Added Sugar per 100g, and FSSAI typically treats added sugars as refined in the context of 'No Sugar' claims unless specifically qualified; however, the presence of 'raw unrefined sugar' directly contradicts a 'No Sugar' style claim if interpreted as sugar-free.", 'reference': 'Ingredients List, Nutrition Table'}, {'claim_text': 'ZERO JUNK PROMISE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "'Junk' is not a defined term under FSSAI regulations. This is a marketing puffery claim that requires internal brand standards or lab verification to define what 'junk' is being excluded.", 'reference': 'FSSAI Advertising and Claims Regulations'}, {'claim_text': 'RAGI HAS 10X THE CALCIUM OF WHEAT AND RICE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': 'While Ragi is an ingredient, the nutrition table does not provide the Calcium content per 100g to verify this comparative claim.', 'reference': 'Nutrition Table'}, {'claim_text': 'GREAT FOR GROWING BONES!', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': "This is a non-specific health claim. Under FSSAI, such claims must be linked to a specific nutrient (like Calcium or Vitamin D) that meets 'Source' or 'High' criteria, which are missing from the nutrition table.", 'reference': 'FSSAI Health Claims Regulation'}, {'claim_text': 'No Artificial Colours', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list does not contain any synthetic colors; it only lists cocoa powder and nature identical flavouring substances.', 'reference': 'Ingredients List'}, {'claim_text': 'No Preservatives', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (Class II) are listed in the ingredients list.', 'reference': 'Ingredients List'}, {'claim_text': 'No Maida or Wheat', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The flour blend consists of jowar, oat, foxtail millet, and ragi. No wheat or wheat derivatives are listed.', 'reference': 'Ingredients List'}]
+[2026-04-02 00:16:10] [Claims] Claims Analysis Result: Analyzed 8 claim(s). 4 passed, 1 failed, 3 need review.
+[2026-04-02 00:16:10] [STEP 6/9] Substantiating claims...
+[2026-04-02 00:16:10] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 00:16:12] [Nutrition] Predicted Target Audience: {'gender': 'girls', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': "The product explicitly highlights 'Great for growing bones!' and emphasizes the high calcium content of ragi, which is a key nutritional requirement for children during their developmental years."}
+[2026-04-02 00:16:12] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 00:16:12] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 00:16:18] [Lab Tests] Generated 5 suggestions
+[2026-04-02 00:16:18] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 00:16:23] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 00:16:23] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 00:16:27] [Lab Tests] Generated 2 microbiological hazard-related tests
+[2026-04-02 00:16:27] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 00:16:27] [SUCCESS] Final Score: 85.0%
+[2026-04-02 00:21:42] [STEP 1/9] Validating image context...
+[2026-04-02 00:21:42] [Context] source=default_general, type=general, code=None
+[2026-04-02 00:21:42] [STEP 2/9] Extracting OCR data...
+[2026-04-02 00:21:42] [OCR] Initiating OCR Extraction Service
+[2026-04-02 00:21:42] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 00:21:52] [RAW OCR TEXT] "NET WEIGHT 150 g (5.3 oz) e\n\nsl\u00fcrrp\nfarm\u2122\n\nmade by\ntwo mothers\n\nMillet\nPancake mix\n\nCHOCOLATE\n\nNO MAIDA\nNO REFINED SUGAR\n\nZERO\nJUNK\nPROMISE\n\nJOWAR\nOATS\nFOXTAIL\nMILLET\nRAGI\n\nPANEL 1\n\nRAGI HAS 10X THE CALCIUM\nOF WHEAT AND RICE.\nGREAT FOR GROWING BONES!\n\nJOWAR\nFOXTAIL\nMILLET\nRAGI\nCOCOA\n\nHello!\n\nWe are two mothers who realised\nthat there weren't enough tasty,\nhealthy, and convenient kids'\nfoods out there - so we decided\nto make our own.\nWe \u2764\ufe0f wholegrain millets, lentils,\nand the traditional wisdom of\nour grandmothers. Which means\nzero junk.\nWe use the best ingredients in\nimaginative ways to make little\ntummies happy!\n\nHOW TO MAKE (1 packet makes 7-8 pancakes)\nSTEP 1: Mix 1/2 packet (75 gms) of pancake mix, 1 tsp (5 ml) of\noil and 1/2 cup (120 ml) of milk into a smooth batter. You can\nalso add 1 medium sized egg for extra protein.\nSTEP 2: Warm a flat pan to medium heat. Grease the pan with\noil or butter. Pour the batter onto the heated pan and cook well\non both sides. The goodness of supergrains means it doesn't\ncook as fast as pancakes with refined flour!\nSTEP 3: Serve the pancakes with a dollop of honey, fresh fruits\nor peanut butter.\n\nNo Refined\nSugar\n\nNo Artificial\nColours\n\nNo Maida\nor Wheat\n\nNo\nPreservatives\n\nMARKETED BY:\nWholsum Foods Pvt. Ltd.\nNS-15, LGF, Mianwali\nNagar, Paschim Vihar,\nNew Delhi-110087\nfssai Lic No: 10014011001614\n\nMANUFACTURED AND PACKED BY:\nFunctional & Innovative Foods Pvt. Ltd.\nNo. 1/374A, Andipalayam Village,\nAndipalayam Post, Tiruchengode Taluk,\nNamakkal, Tamil Nadu-637214\nfssai Lic No: 12420014000631\n\nNET WEIGHT 150 g\n\nMRP \u20b9\n(INCL. OF ALL TAXES):\nMFD:\nExpiry Date:\nBatch Number:\n\n8 908006 217090\n\nPRODUCT OF INDIA\n\nWE WOULD LOVE TO HEAR\nFROM YOU\nIn case of feedback or complaints:\nEmail: slur rpfarmcare@wholsumfoods.com\nCall or WhatsApp: +91 93183 18000\nAddress: Wholsum Foods Pvt. Ltd. NS-15, LGF,\nMianwali Nagar, Paschim Vihar, New Delhi 110087\nWebsite: www.slurrpfarm.com Be friends with us!\n@SlurrpFarm on FB or Instagram\n\nNutritional Information*\nServing Size: Approx 40 g (makes two 4\" pancakes), Servings Per Pack: 4\n| | Per 40 g | % RDA per Serve** |\n| :--- | :--- | :--- |\n| Energy | 153.3 kcal | 7.7% |\n| Protein | 3.2 g | 6.5% |\n| Carbohydrate | 31.9 g | 10.6% |\n| Total Sugar | 9.9 g | - |\n| Added Sugar*** | 9.6 g | 19.2% |\n| Dietary Fibre | 2.4 g | 9.6% |\n| Sodium | 119.0 mg | 5.9% |\n| Total Fat | 1.4 g | 2.1% |\n| Saturated Fat | 0.3 g | 1.5% |\n| Trans Fat | 0.0 g | 0.4% |\n| Cholesterol | 0.0 mg | 0.0% |\n*Contains saturated fat not more than 1%. **Approx values. **Reference intake for an adult\nas per ICMR guidelines. ***Unrefined sugar.\n\nIngredients: Multigrain flour blend (jowar, oat, foxtail millet, ragi)\n(66%), jaggery (14%), raw unrefined sugar (14%), cocoa powder,\nraising agents (baking soda, baking powder), nature identical\nflavouring substances, iodised salt, cinnamon powder\n\nAllergen Note: Made in a facility that processes wheat and nuts.\nMay contain trace elements. Safety Advice: Always supervise when\nfeeding children. Cut into bite sizes to minimise choking risk.\nHow To Store: Keep it in a cool, dry place.\n\nPANEL 2"
+[2026-04-02 00:22:00] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 00:22:00] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 00:22:00] [Metadata] Extracting Brand Metadata
+[2026-04-02 00:22:06] [Metadata] Metadata LLM raw output: {
+    "brandName": "slürrp farm",
+    "productName": "Millet Pancake mix CHOCOLATE",
+    "fssaiCategory": "Pancake mix",
+    "licenseNo": "10014011000114",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 00:22:06] [EXTRACTED METADATA] {
+  "brandName": "sl\u00fcrrp farm",
+  "productName": "Millet Pancake mix CHOCOLATE",
+  "fssaiCategory": "Pancake mix",
+  "licenseNo": "10014011000114",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 00:22:06] [STEP 4/9] Running regulatory checks...
+[2026-04-02 00:22:06] [Core] Running Regulatory Analysis
+[2026-04-02 00:22:28] [STEP 5/9] Validating product category...
+[2026-04-02 00:22:28] [Claims] Running Claims Subsystem
+[2026-04-02 00:22:34] [Claims] Claims Validation Result: [{'claim_text': 'NO MAIDA', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains a multigrain flour blend (jowar, oat, foxtail millet, ragi) and does not list refined wheat flour (maida).', 'reference': 'Ingredients List'}, {'claim_text': 'NO REFINED SUGAR', 'tag': 'Ingredient Claim', 'status': 'Fail', 'reasoning': "The ingredients list explicitly mentions 'raw unrefined sugar' (14%) and 'jaggery' (14%). While jaggery is unrefined, 'raw unrefined sugar' is still a form of sugar, and the product contains 24g of added sugar per 100g.", 'reference': 'Ingredients List, Nutrition Table'}, {'claim_text': 'ZERO JUNK PROMISE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "'Junk' is not a defined term under FSSAI regulations. However, the product contains 24g of added sugar per 100g, which is high. Specific lab data or brand definition of 'junk' is required.", 'reference': 'FSSAI Advertising and Claims Regulations'}, {'claim_text': 'RAGI HAS 10X THE CALCIUM OF WHEAT AND RICE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': 'While Ragi is an ingredient, the nutrition table does not list Calcium content. Lab analysis is required to verify the calcium levels in the final product to support this comparative claim.', 'reference': 'Nutrition Table'}, {'claim_text': 'GREAT FOR GROWING BONES!', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'This is a health claim related to bone growth, typically associated with Calcium or Vitamin D. Since these nutrients are not quantified in the nutrition table, the claim cannot be validated.', 'reference': 'FSSAI Health Claims Schedule'}, {'claim_text': 'No Artificial Colours', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list does not mention any synthetic colors; it only lists nature-identical flavoring substances and cocoa powder.', 'reference': 'Ingredients List'}, {'claim_text': 'No Preservatives', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (e.g., Class II preservatives) are listed in the ingredients; only raising agents and salt are present.', 'reference': 'Ingredients List'}, {'claim_text': 'No Maida or Wheat', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The flour blend consists of jowar, oat, foxtail millet, and ragi. No wheat or refined wheat flour is listed.', 'reference': 'Ingredients List'}]
+[2026-04-02 00:22:34] [Claims] Claims Analysis Result: Analyzed 8 claim(s). 4 passed, 1 failed, 3 need review.
+[2026-04-02 00:22:34] [STEP 6/9] Substantiating claims...
+[2026-04-02 00:22:34] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 00:22:36] [Nutrition] Predicted Target Audience: {'gender': 'girls', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': "The product explicitly highlights 'Great for growing bones!' and emphasizes the high calcium content of ragi, which is a key nutritional requirement for children during their developmental years."}
+[2026-04-02 00:22:36] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 00:22:36] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 00:22:42] [Lab Tests] Generated 5 suggestions
+[2026-04-02 00:22:42] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 00:22:42] [ERROR: Lab Tests] Contaminants Analysis Error: Invalid format specifier ' "Heavy Metals Analysis (Lead, Arsenic, Cadmium, Mercury)",
+    "category": "Contaminants",
+    "price": 2500,
+    "price_low": 2000,
+    "price_high": 3500,
+    "priority": "Critical",
+    "description": "Testing for regulated heavy metals under FSSAI Contaminants Regulations for General Food Product.",
+    "relatedChecks": []
+  ' for object of type 'str'
+[2026-04-02 00:22:42] [Lab Tests] No contaminants-related tests generated.
+[2026-04-02 00:22:42] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 00:22:45] [Lab Tests] Generated 2 microbiological hazard-related tests
+[2026-04-02 00:22:45] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 00:22:45] [SUCCESS] Final Score: 85.0%
+[2026-04-02 00:26:39] [STEP 1/9] Validating image context...
+[2026-04-02 00:26:39] [Context] source=default_general, type=general, code=None
+[2026-04-02 00:26:40] [STEP 2/9] Extracting OCR data...
+[2026-04-02 00:26:40] [OCR] Initiating OCR Extraction Service
+[2026-04-02 00:26:40] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 00:26:49] [RAW OCR TEXT] "NET WEIGHT 150 g (5.3 oz) e\n\nsl\u00fcrrp\nfarm\u2122\n\nmade by\ntwo mothers\n\nMillet\nPancake mix\n\nCHOCOLATE\n\nNO MAIDA\nNO REFINED SUGAR\n\nZERO\nJUNK\nPROMISE\n\nJOWAR\nOATS\nFOXTAIL\nMILLET\nRAGI\n\nPANEL 1\n\nRAGI HAS 10X THE CALCIUM\nOF WHEAT AND RICE.\nGREAT FOR GROWING BONES!\n\nJOWAR\nFOXTAIL\nMILLET\nRAGI\nCOCOA\n\nHello!\n\nWe are two mothers who realised\nthat there weren't enough tasty,\nhealthy, and convenient kids'\nfoods out there - so we decided\nto make our own.\nWe \u2764\ufe0f wholegrain millets, lentils,\nand the traditional wisdom of\nour grandmothers. Which means\nzero junk.\nWe use the best ingredients in\nimaginative ways to make little\ntummies happy!\n\nHOW TO MAKE (1 packet makes 7-8 pancakes)\nSTEP 1: Mix 1/2 packet (75 gms) of pancake mix, 1 tsp (5 ml) of\noil and 1/2 cup (120 ml) of milk into a smooth batter. You can\nalso add 1 medium sized egg for extra protein.\nSTEP 2: Warm a flat pan to medium heat. Grease the pan with\noil or butter. Pour the batter onto the heated pan and cook well\non both sides. The goodness of supergrains means it doesn't\ncook as fast as pancakes with refined flour!\nSTEP 3: Serve the pancakes with a dollop of honey, fresh fruits\nor peanut butter.\n\nNo Refined\nSugar\n\nNo Artificial\nColours\n\nNo Maida\nor Wheat\n\nNo\nPreservatives\n\nMARKETED BY:\nWholsum Foods Pvt. Ltd.\nNS-15, LGF, Mianwali\nNagar, Paschim Vihar,\nNew Delhi-110087\nfssai Lic No: 10014011001614\n\nMANUFACTURED AND PACKED BY:\nFunctional & Innovative Foods Pvt. Ltd.\nNo. 1/374A, Andipalayam Village,\nAndipalayam Post, Tiruchengode Taluk,\nNamakkal, Tamil Nadu-637214\nfssai Lic No: 12420014000631\n\nNET WEIGHT 150 g\n\nMRP \u20b9\n(INCL. OF ALL TAXES):\nMFD:\nExpiry Date:\nBatch Number:\n\n8 908006 217090\n\nPRODUCT OF INDIA\n\nWE WOULD LOVE TO HEAR\nFROM YOU\nIn case of feedback or complaints:\nEmail: slur rpfarmcare@wholsumfoods.com\nCall or WhatsApp: +91 93183 18000\nAddress: Wholsum Foods Pvt. Ltd. NS-15, LGF,\nMianwali Nagar, Paschim Vihar, New Delhi 110087\nWebsite: www.slurrpfarm.com Be friends with us!\n@SlurrpFarm on FB or Instagram\n\nNutritional Information*\nServing Size: Approx 40 g (makes two 4\" pancakes), Servings Per Pack: 4\n| | Per 40 g | % RDA per Serve** |\n| :--- | :--- | :--- |\n| Energy | 153.3 kcal | 7.7% |\n| Protein | 3.2 g | 6.5% |\n| Carbohydrate | 31.9 g | 10.6% |\n| Total Sugar | 9.9 g | - |\n| Added Sugar*** | 9.6 g | 19.2% |\n| Dietary Fibre | 2.4 g | 9.6% |\n| Sodium | 119.0 mg | 5.9% |\n| Total Fat | 1.4 g | 2.1% |\n| Saturated Fat | 0.3 g | 1.5% |\n| Trans Fat | 0.0 g | 0.4% |\n| Cholesterol | 0.0 mg | 0.0% |\n*Contains saturated fat not more than 1%. **Approx values. **Reference intake for an adult\nas per ICMR guidelines. ***Unrefined sugar.\n\nIngredients: Multigrain flour blend (jowar, oat, foxtail millet, ragi)\n(66%), jaggery (14%), raw unrefined sugar (14%), cocoa powder,\nraising agents (baking soda, baking powder), nature identical\nflavouring substances, iodised salt, cinnamon powder\n\nAllergen Note: Made in a facility that processes wheat and nuts.\nMay contain trace elements. Safety Advice: Always supervise when\nfeeding children. Cut into bite sizes to minimise choking risk.\nHow To Store: Keep it in a cool, dry place.\n\nPANEL 2"
+[2026-04-02 00:26:56] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 00:26:56] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 00:26:56] [Metadata] Extracting Brand Metadata
+[2026-04-02 00:27:03] [Metadata] Metadata LLM raw output: {
+    "brandName": "slürrp farm",
+    "productName": "Millet Pancake mix CHOCOLATE",
+    "fssaiCategory": "Pancake mix",
+    "licenseNo": "10014011000114",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 00:27:03] [EXTRACTED METADATA] {
+  "brandName": "sl\u00fcrrp farm",
+  "productName": "Millet Pancake mix CHOCOLATE",
+  "fssaiCategory": "Pancake mix",
+  "licenseNo": "10014011000114",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 00:27:03] [STEP 4/9] Running regulatory checks...
+[2026-04-02 00:27:03] [Core] Running Regulatory Analysis
+[2026-04-02 00:27:21] [STEP 5/9] Validating product category...
+[2026-04-02 00:27:21] [Claims] Running Claims Subsystem
+[2026-04-02 00:27:28] [Claims] Claims Validation Result: [{'claim_text': 'NO MAIDA', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains a multigrain flour blend (jowar, oat, foxtail millet, ragi) and does not list refined wheat flour (maida).', 'reference': 'Ingredients List'}, {'claim_text': 'NO REFINED SUGAR', 'tag': 'Ingredient Claim', 'status': 'Fail', 'reasoning': "The ingredients list explicitly mentions 'raw unrefined sugar' (14%) and 'jaggery' (14%). While jaggery is unrefined, 'raw unrefined sugar' is still a form of sugar, and the product contains 24g of added sugar per 100g.", 'reference': 'Ingredients List, Nutrition Table'}, {'claim_text': 'ZERO JUNK PROMISE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "'Junk' is not a defined term under FSSAI regulations. However, the product contains 24g of added sugar per 100g, which is high. Specific lab data or brand definition of 'junk' is required.", 'reference': 'FSSAI Advertising and Claims Regulations'}, {'claim_text': 'RAGI HAS 10X THE CALCIUM OF WHEAT AND RICE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': 'While Ragi is an ingredient, the nutrition table does not list Calcium content. Lab analysis is required to verify the calcium levels in the final product to support this comparative claim.', 'reference': 'Nutrition Table'}, {'claim_text': 'GREAT FOR GROWING BONES!', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'This is a health claim related to bone growth, typically associated with Calcium or Vitamin D. Since these nutrients are not quantified in the nutrition table, the claim cannot be validated.', 'reference': 'FSSAI Health Claims Schedule'}, {'claim_text': 'No Artificial Colours', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list does not mention any synthetic colors; it only lists nature-identical flavoring substances and cocoa powder.', 'reference': 'Ingredients List'}, {'claim_text': 'No Preservatives', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (e.g., Class II preservatives) are listed in the ingredients; only raising agents and salt are present.', 'reference': 'Ingredients List'}, {'claim_text': 'No Maida or Wheat', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The flour blend consists of jowar, oat, foxtail millet, and ragi. No wheat or refined wheat flour is listed.', 'reference': 'Ingredients List'}]
+[2026-04-02 00:27:28] [Claims] Claims Analysis Result: Analyzed 8 claim(s). 4 passed, 1 failed, 3 need review.
+[2026-04-02 00:27:28] [STEP 6/9] Substantiating claims...
+[2026-04-02 00:27:28] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 00:27:30] [Nutrition] Predicted Target Audience: {'gender': 'girls', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': "The product explicitly highlights 'Great for growing bones!' and emphasizes the high calcium content of ragi, which is a key nutritional requirement for children during their developmental years."}
+[2026-04-02 00:27:30] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 00:27:30] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 00:27:36] [Lab Tests] Generated 5 suggestions
+[2026-04-02 00:27:36] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 00:27:42] [Lab Tests] Generated 4 contaminants-related tests
+[2026-04-02 00:27:42] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 00:27:46] [Lab Tests] Generated 2 microbiological hazard-related tests
+[2026-04-02 00:27:46] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 00:27:46] [SUCCESS] Final Score: 85.0%
+[2026-04-02 00:32:13] [STEP 1/9] Validating image context...
+[2026-04-02 00:32:13] [Context] source=default_general, type=general, code=None
+[2026-04-02 00:32:14] [STEP 2/9] Extracting OCR data...
+[2026-04-02 00:32:14] [OCR] Initiating OCR Extraction Service
+[2026-04-02 00:32:14] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 00:32:24] [RAW OCR TEXT] "NET WEIGHT 150 g (5.3 oz) e\n\nsl\u00fcrrp\nfarm\u2122\n\nmade by\ntwo mothers\n\nMillet\nPancake mix\n\nCHOCOLATE\n\nNO MAIDA\nNO REFINED SUGAR\n\nZERO\nJUNK\nPROMISE\n\nJOWAR\nOATS\nFOXTAIL\nMILLET\nRAGI\n\nPANEL 1\n\nRAGI HAS 10X THE CALCIUM\nOF WHEAT AND RICE.\nGREAT FOR GROWING BONES!\n\nJOWAR\nFOXTAIL\nMILLET\nRAGI\nCOCOA\n\nHello!\n\nWe are two mothers who realised\nthat there weren't enough tasty,\nhealthy, and convenient kids'\nfoods out there - so we decided\nto make our own.\nWe \u2764\ufe0f wholegrain millets, lentils,\nand the traditional wisdom of\nour grandmothers. Which means\nzero junk.\nWe use the best ingredients in\nimaginative ways to make little\ntummies happy!\n\nHOW TO MAKE (1 packet makes 7-8 pancakes)\nSTEP 1: Mix 1/2 packet (75 gms) of pancake mix, 1 tsp (5 ml) of\noil and 1/2 cup (120 ml) of milk into a smooth batter. You can\nalso add 1 medium sized egg for extra protein.\nSTEP 2: Warm a flat pan to medium heat. Grease the pan with\noil or butter. Pour the batter onto the heated pan and cook well\non both sides. The goodness of supergrains means it doesn't\ncook as fast as pancakes with refined flour!\nSTEP 3: Serve the pancakes with a dollop of honey, fresh fruits\nor peanut butter.\n\nNo Refined\nSugar\n\nNo Artificial\nColours\n\nNo Maida\nor Wheat\n\nNo\nPreservatives\n\nMARKETED BY:\nWholsum Foods Pvt. Ltd.\nNS-15, LGF, Mianwali\nNagar, Paschim Vihar,\nNew Delhi-110087\nfssai Lic No: 10014011001614\n\nMANUFACTURED AND PACKED BY:\nFunctional & Innovative Foods Pvt. Ltd.\nNo. 1/374A, Andipalayam Village,\nAndipalayam Post, Tiruchengode Taluk,\nNamakkal, Tamil Nadu-637214\nfssai Lic No: 12420014000631\n\nNET WEIGHT 150 g\n\nMRP \u20b9\n(INCL. OF ALL TAXES):\nMFD:\nExpiry Date:\nBatch Number:\n\n8 908006 217090\n\nPRODUCT OF INDIA\n\nWE WOULD LOVE TO HEAR\nFROM YOU\nIn case of feedback or complaints:\nEmail: slur rpfarmcare@wholsumfoods.com\nCall or WhatsApp: +91 93183 18000\nAddress: Wholsum Foods Pvt. Ltd. NS-15, LGF,\nMianwali Nagar, Paschim Vihar, New Delhi 110087\nWebsite: www.slurrpfarm.com Be friends with us!\n@SlurrpFarm on FB or Instagram\n\nNutritional Information*\nServing Size: Approx 40 g (makes two 4\" pancakes), Servings Per Pack: 4\n| | Per 40 g | % RDA per Serve** |\n| :--- | :--- | :--- |\n| Energy | 153.3 kcal | 7.7% |\n| Protein | 3.2 g | 6.5% |\n| Carbohydrate | 31.9 g | 10.6% |\n| Total Sugar | 9.9 g | - |\n| Added Sugar*** | 9.6 g | 19.2% |\n| Dietary Fibre | 2.4 g | 9.6% |\n| Sodium | 119.0 mg | 5.9% |\n| Total Fat | 1.4 g | 2.1% |\n| Saturated Fat | 0.3 g | 1.5% |\n| Trans Fat | 0.0 g | 0.4% |\n| Cholesterol | 0.0 mg | 0.0% |\n*Contains saturated fat not more than 1%. **Approx values. **Reference intake for an adult\nas per ICMR guidelines. ***Unrefined sugar.\n\nIngredients: Multigrain flour blend (jowar, oat, foxtail millet, ragi)\n(66%), jaggery (14%), raw unrefined sugar (14%), cocoa powder,\nraising agents (baking soda, baking powder), nature identical\nflavouring substances, iodised salt, cinnamon powder\n\nAllergen Note: Made in a facility that processes wheat and nuts.\nMay contain trace elements. Safety Advice: Always supervise when\nfeeding children. Cut into bite sizes to minimise choking risk.\nHow To Store: Keep it in a cool, dry place.\n\nPANEL 2"
+[2026-04-02 00:32:32] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 00:32:32] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 00:32:32] [Metadata] Extracting Brand Metadata
+[2026-04-02 00:32:37] [Metadata] Metadata LLM raw output: {
+    "brandName": "slürrp farm",
+    "productName": "Millet Pancake mix CHOCOLATE",
+    "fssaiCategory": "Pancake mix",
+    "licenseNo": "10014011000114",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 00:32:37] [EXTRACTED METADATA] {
+  "brandName": "sl\u00fcrrp farm",
+  "productName": "Millet Pancake mix CHOCOLATE",
+  "fssaiCategory": "Pancake mix",
+  "licenseNo": "10014011000114",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 00:32:37] [STEP 4/9] Running regulatory checks...
+[2026-04-02 00:32:37] [Core] Running Regulatory Analysis
+[2026-04-02 00:33:00] [STEP 5/9] Validating product category...
+[2026-04-02 00:33:00] [Claims] Running Claims Subsystem
+[2026-04-02 00:33:00] [Claims (RDA)] RDA Percentages: {}
+[2026-04-02 00:33:08] [Claims] Claims Validation Result: [{'claim_text': 'NO MAIDA', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains Multigrain flour blend (jowar, oat, foxtail millet, ragi) and does not list refined wheat flour (Maida).', 'reference': 'Ingredients List'}, {'claim_text': 'NO REFINED SUGAR', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "The ingredients list explicitly mentions 'raw unrefined sugar' (14%) and 'jaggery' (14%). While unrefined, the nutrition table shows 24g of Added Sugar per 100g, and FSSAI typically treats added sugars as refined in the context of 'No Sugar' claims unless specifically qualified; however, the presence of 'raw unrefined sugar' directly contradicts a 'No Sugar' style claim if interpreted as sugar-free.", 'reference': 'Ingredients List, Nutrition Table'}, {'claim_text': 'ZERO JUNK PROMISE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "'Junk' is not a defined term under FSSAI regulations. This is a marketing puffery claim that requires internal brand standards or lab verification to define what 'junk' is being excluded.", 'reference': 'FSSAI Advertising and Claims Regulations'}, {'claim_text': 'RAGI HAS 10X THE CALCIUM OF WHEAT AND RICE', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': 'While Ragi is an ingredient, the nutrition table does not provide the Calcium content per 100g to verify this comparative claim.', 'reference': 'Nutrition Table'}, {'claim_text': 'GREAT FOR GROWING BONES!', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': "This is a non-specific health claim. Under FSSAI, such claims must be linked to a specific nutrient (like Calcium or Vitamin D) that meets 'Source' or 'High' criteria, which are missing from the nutrition table.", 'reference': 'FSSAI Health Claims Regulation'}, {'claim_text': 'No Artificial Colours', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list does not contain any synthetic colors; it only lists cocoa powder and nature identical flavouring substances.', 'reference': 'Ingredients List'}, {'claim_text': 'No Preservatives', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (Class II) are listed in the ingredients list.', 'reference': 'Ingredients List'}, {'claim_text': 'No Maida or Wheat', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The flour blend consists of jowar, oat, foxtail millet, and ragi. No wheat or wheat derivatives are listed.', 'reference': 'Ingredients List'}]
+[2026-04-02 00:33:08] [Claims] Claims Analysis Result: Analyzed 8 claim(s). 4 passed, 1 failed, 3 need review.
+[2026-04-02 00:33:08] [STEP 6/9] Substantiating claims...
+[2026-04-02 00:33:08] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 00:33:10] [Nutrition] Predicted Target Audience: {'gender': 'girls', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': "The product explicitly highlights 'Great for growing bones!' and emphasizes the high calcium content of ragi, which is a key nutritional requirement for children during their developmental years."}
+[2026-04-02 00:33:10] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 00:33:10] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 00:33:17] [Lab Tests] Generated 5 suggestions
+[2026-04-02 00:33:17] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 00:33:22] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 00:33:22] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 00:33:26] [Lab Tests] Generated 2 microbiological hazard-related tests
+[2026-04-02 00:33:26] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 00:33:26] [SUCCESS] Final Score: 85.0%
+[2026-04-02 00:38:09] [STEP 1/9] Validating image context...
+[2026-04-02 00:38:09] [Context] source=default_general, type=general, code=None
+[2026-04-02 00:38:10] [STEP 2/9] Extracting OCR data...
+[2026-04-02 00:38:10] [OCR] Initiating OCR Extraction Service
+[2026-04-02 00:38:10] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 00:38:18] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-02 00:38:30] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 00:38:30] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 00:38:30] [Metadata] Extracting Brand Metadata
+[2026-04-02 00:38:35] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 00:38:35] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 00:38:35] [STEP 4/9] Running regulatory checks...
+[2026-04-02 00:38:35] [Core] Running Regulatory Analysis
+[2026-04-02 00:38:48] [STEP 5/9] Validating product category...
+[2026-04-02 00:38:48] [Claims] Running Claims Subsystem
+[2026-04-02 00:38:48] [Claims (RDA)] RDA Percentages: {}
+[2026-04-02 00:38:48] [ERROR: Claims] Claims Validation Error: 2 validation errors for Schema
+items.properties.rda_percentage.type
+  Input should be 'TYPE_UNSPECIFIED', 'STRING', 'NUMBER', 'INTEGER', 'BOOLEAN', 'ARRAY', 'OBJECT' or 'NULL' [type=enum, input_value=['number', 'null'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.12/v/enum
+items.properties.nutrient_involved.type
+  Input should be 'TYPE_UNSPECIFIED', 'STRING', 'NUMBER', 'INTEGER', 'BOOLEAN', 'ARRAY', 'OBJECT' or 'NULL' [type=enum, input_value=['string', 'null'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.12/v/enum
+[2026-04-02 00:38:48] [ERROR: Claims] Claims Pipeline Error: Failed to validate claims: 2 validation errors for Schema
+items.properties.rda_percentage.type
+  Input should be 'TYPE_UNSPECIFIED', 'STRING', 'NUMBER', 'INTEGER', 'BOOLEAN', 'ARRAY', 'OBJECT' or 'NULL' [type=enum, input_value=['number', 'null'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.12/v/enum
+items.properties.nutrient_involved.type
+  Input should be 'TYPE_UNSPECIFIED', 'STRING', 'NUMBER', 'INTEGER', 'BOOLEAN', 'ARRAY', 'OBJECT' or 'NULL' [type=enum, input_value=['string', 'null'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.12/v/enum
+[2026-04-02 00:38:48] [STEP 6/9] Substantiating claims...
+[2026-04-02 00:38:48] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 00:38:50] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and sustained energy claims, which targets active adults. As it is a general adult-oriented supplement, it defaults to the general adult population (men) with a moderate activity level to account for the fitness-focused positioning."}
+[2026-04-02 00:38:50] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 00:38:50] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 00:38:55] [Lab Tests] Generated 6 suggestions
+[2026-04-02 00:38:55] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 00:39:01] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 00:39:01] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 00:39:05] [Lab Tests] Generated 3 microbiological hazard-related tests
+[2026-04-02 00:39:05] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 00:39:05] [SUCCESS] Final Score: 65.0%
+[2026-04-02 00:41:27] [STEP 1/9] Validating image context...
+[2026-04-02 00:41:27] [Context] source=default_general, type=general, code=None
+[2026-04-02 00:41:28] [STEP 2/9] Extracting OCR data...
+[2026-04-02 00:41:28] [OCR] Initiating OCR Extraction Service
+[2026-04-02 00:41:28] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 00:41:37] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-02 00:41:47] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 00:41:47] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 00:41:47] [Metadata] Extracting Brand Metadata
+[2026-04-02 00:41:52] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 00:41:52] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 00:41:52] [STEP 4/9] Running regulatory checks...
+[2026-04-02 00:41:52] [Core] Running Regulatory Analysis
+[2026-04-02 00:42:09] [STEP 5/9] Validating product category...
+[2026-04-02 00:42:09] [Claims] Running Claims Subsystem
+[2026-04-02 00:42:09] [Claims] Nutrition table entries: 37
+[2026-04-02 00:42:09] [Claims] Processing nutrient: Energy, per_100g: 417.33, unit: Kcal
+[2026-04-02 00:42:09] [ERROR: Claims] Claims Validation Error: 'PipelineLogger' object has no attribute 'warning'
+[2026-04-02 00:42:09] [ERROR: Claims] Claims Pipeline Error: Failed to validate claims: 'PipelineLogger' object has no attribute 'warning'
+[2026-04-02 00:42:09] [STEP 6/9] Substantiating claims...
+[2026-04-02 00:42:09] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 00:42:12] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with '4 hours sustained energy', which targets individuals engaged in regular physical activity or sports. As a general adult-oriented protein supplement, it falls under the moderate activity level category for the general adult population."}
+[2026-04-02 00:42:12] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 00:42:12] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 00:42:19] [Lab Tests] Generated 6 suggestions
+[2026-04-02 00:42:19] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 00:42:24] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 00:42:24] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 00:42:29] [Lab Tests] Generated 3 microbiological hazard-related tests
+[2026-04-02 00:42:29] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 00:42:29] [SUCCESS] Final Score: 65.0%
+[2026-04-02 00:45:24] [STEP 1/9] Validating image context...
+[2026-04-02 00:45:24] [Context] source=default_general, type=general, code=None
+[2026-04-02 00:45:25] [STEP 2/9] Extracting OCR data...
+[2026-04-02 00:45:25] [OCR] Initiating OCR Extraction Service
+[2026-04-02 00:45:25] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 00:45:34] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-02 00:45:43] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 00:45:43] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 00:45:43] [Metadata] Extracting Brand Metadata
+[2026-04-02 00:45:46] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 00:45:46] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 00:45:46] [STEP 4/9] Running regulatory checks...
+[2026-04-02 00:45:46] [Core] Running Regulatory Analysis
+[2026-04-02 00:46:04] [STEP 5/9] Validating product category...
+[2026-04-02 00:46:04] [Claims] Running Claims Subsystem
+[2026-04-02 00:46:04] [Claims] Nutrition table entries: 37
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Energy, per_100g: 417.33, unit: Kcal
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Energy
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Protein, per_100g: 26.67, unit: g
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Protein
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Total Carbohydrate, per_100g: 45.20, unit: g
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Total Carbohydrate
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Dietary Fiber, per_100g: 6.67, unit: g
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Dietary Fiber
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Sugar, per_100g: 14.27, unit: g
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Sugar
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Net Carb*, per_100g: 38.53, unit: g
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Net Carb*
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Total Fat, per_100g: 16.67, unit: g
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Total Fat
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Saturated Fat, per_100g: 6.13, unit: g
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Saturated Fat
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Trans Fat, per_100g: 0, unit: g
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Trans Fat
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Cholesterol, per_100g: 0, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Cholesterol
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Vitamin A, per_100g: 200, unit: mcg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Vitamin A
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Vitamin E, per_100g: 3.33, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Vitamin E
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Vitamin C, per_100g: 13.33, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Vitamin C
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Vitamin D2, per_100g: 3.33, unit: mcg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Vitamin D2
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Vitamin K, per_100g: 18.33, unit: mcg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Vitamin K
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Vitamin B1, per_100g: 0.28, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Vitamin B1
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Vitamin B2, per_100g: 0.32, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Vitamin B2
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Vitamin B3, per_100g: 3.60, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Vitamin B3
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Vitamin B5, per_100g: 1.00, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Vitamin B5
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Vitamin B6, per_100g: 0.40, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Vitamin B6
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Vitamin B9, per_100g: 40, unit: mcg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Vitamin B9
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Vitamin B12, per_100g: 0.20, unit: mcg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Vitamin B12
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Biotin, per_100g: 10, unit: mcg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Biotin
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Calcium, per_100g: 200, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Calcium
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Zinc, per_100g: 4, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Zinc
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Chromium, per_100g: 16.67, unit: mcg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Chromium
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Selenium, per_100g: 13.33, unit: mcg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Selenium
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Phosphorus, per_100g: 120, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Phosphorus
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Magnesium, per_100g: 68, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Magnesium
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Sodium, per_100g: 140, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Sodium
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Potassium, per_100g: 250, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Potassium
+[2026-04-02 00:46:04] [Claims] Processing nutrient: Omega -3, per_100g: 93.33, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for Omega -3
+[2026-04-02 00:46:04] [Claims] Processing nutrient: BCAA, per_100g: 3.73, unit: g
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for BCAA
+[2026-04-02 00:46:04] [Claims] Processing nutrient: L - Glutamine, per_100g: 3.87, unit: g
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for L - Glutamine
+[2026-04-02 00:46:04] [Claims] Processing nutrient: L - Leucine, per_100g: 1.73, unit: g
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for L - Leucine
+[2026-04-02 00:46:04] [Claims] Processing nutrient: L - Valine, per_100g: 1013.33, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for L - Valine
+[2026-04-02 00:46:04] [Claims] Processing nutrient: L - Isoleucine, per_100g: 1040, unit: mg
+[2026-04-02 00:46:04] [ERROR: Claims] No numeric per_100g value for L - Isoleucine
+[2026-04-02 00:46:04] [Claims (RDA)] RDA Percentages: {}
+[2026-04-02 00:46:04] [Claims (RDA)] RDA Percentages Count: 0
+[2026-04-02 00:46:12] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 20.0g of protein per serving (75g). This also meets the 'High Protein' threshold as 26.67g/100g is significantly above the 20% RDA requirement for solids.", 'reference': 'Nutrition Table: Protein 20.0g per serve', 'rda_percentage': 40, 'nutrient_involved': 'Protein'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 5.0g of dietary fiber per serving. Additionally, at 6.67g/100g, it meets the 'High Fiber' threshold of 6g/100g for solids.", 'reference': 'Nutrition Table: Dietary Fiber 5.0g per serve', 'rda_percentage': 16.67, 'nutrient_involved': 'Fiber'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The nutrition table lists 21 distinct vitamins and minerals: Vit A, E, C, D2, K, B1, B2, B3, B5, B6, B9, B12, Biotin, Calcium, Zinc, Chromium, Selenium, Phosphorus, Magnesium, Sodium, and Potassium.', 'reference': 'Nutrition Table: Vitamins and Minerals section', 'rda_percentage': 15, 'nutrient_involved': 'vitamins_or_minerals'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The product contains 93.33mg Omega-3 per 100g. This meets the 'Source' threshold for EPA+DHA (40mg/100g) or per 100kcal (22.36mg/100kcal vs 40mg required), but specifically complies via the 100g threshold for EPA+DHA equivalents.", 'reference': 'Nutrition Table: Omega-3 93.33mg per 100g', 'rda_percentage': 5.8, 'nutrient_involved': 'omega3_fatty_acids'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives are listed in the ingredients. Citric acid and Tocopherols/Antioxidants are present but are classified as acidity regulators/antioxidants rather than class II preservatives.', 'reference': 'Ingredients List', 'rda_percentage': 0, 'nutrient_involved': 'Preservatives'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product uses Brown Rice Syrup, Sugar, Fructose, and Glycerine. No high-intensity artificial sweeteners like Aspartame or Sucralose are listed.', 'reference': 'Ingredients List', 'rda_percentage': 0, 'nutrient_involved': 'Sweeteners'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': "Sustained energy claims require clinical validation or low Glycemic Index (GI) data. While the product contains fiber and protein which slow digestion, the specific '4 hours' duration requires lab-verified GI testing.", 'reference': 'FSSAI Health Claim Regulations', 'rda_percentage': 0, 'nutrient_involved': 'Energy'}, {'claim_text': 'ACTIVE PROTEIN BOOST', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': "The product is 'High Protein' (26.67g/100g) and contains added BCAA, Glutamine, and Amino Acids which support the functional claim of a protein boost.", 'reference': 'Nutrition Table: Protein and Amino Acids', 'rda_percentage': 40, 'nutrient_involved': 'Protein'}]
+[2026-04-02 00:46:12] [Claims (RDA)] Protein: 40% RDA captured in verdict
+[2026-04-02 00:46:12] [Claims (RDA)] Fiber: 16.67% RDA captured in verdict
+[2026-04-02 00:46:12] [Claims (RDA)] vitamins_or_minerals: 15% RDA captured in verdict
+[2026-04-02 00:46:12] [Claims (RDA)] omega3_fatty_acids: 5.8% RDA captured in verdict
+[2026-04-02 00:46:12] [Claims (RDA)] Preservatives: 0% RDA captured in verdict
+[2026-04-02 00:46:12] [Claims (RDA)] Sweeteners: 0% RDA captured in verdict
+[2026-04-02 00:46:12] [Claims (RDA)] Energy: 0% RDA captured in verdict
+[2026-04-02 00:46:12] [Claims (RDA)] Protein: 40% RDA captured in verdict
+[2026-04-02 00:46:12] [Claims] Claims Analysis Result: Analyzed 8 claim(s). 7 passed, 0 failed, 1 need review.
+[2026-04-02 00:46:12] [STEP 6/9] Substantiating claims...
+[2026-04-02 00:46:12] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 00:46:15] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with '4 hours sustained energy', which targets individuals engaged in regular physical activity or sports. As a general adult-oriented protein supplement, it falls under the moderate activity level category for the general adult population."}
+[2026-04-02 00:46:15] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 00:46:15] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 00:46:21] [Lab Tests] Generated 7 suggestions
+[2026-04-02 00:46:21] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 00:46:27] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 00:46:27] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 00:46:31] [Lab Tests] Generated 3 microbiological hazard-related tests
+[2026-04-02 00:46:31] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 00:46:31] [SUCCESS] Final Score: 65.0%
+[2026-04-02 00:59:37] [STEP 1/9] Validating image context...
+[2026-04-02 00:59:37] [Context] source=default_general, type=general, code=None
+[2026-04-02 00:59:38] [STEP 2/9] Extracting OCR data...
+[2026-04-02 00:59:38] [OCR] Initiating OCR Extraction Service
+[2026-04-02 00:59:38] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 00:59:49] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-02 00:59:58] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 00:59:58] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 00:59:58] [Metadata] Extracting Brand Metadata
+[2026-04-02 01:00:07] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 01:00:07] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 01:00:07] [STEP 4/9] Running regulatory checks...
+[2026-04-02 01:00:07] [Core] Running Regulatory Analysis
+[2026-04-02 01:00:18] [STEP 5/9] Validating product category...
+[2026-04-02 01:00:18] [Claims] Running Claims Subsystem
+[2026-04-02 01:00:18] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None}
+[2026-04-02 01:00:18] [Claims] RDA calculations complete: 37 nutrients processed
+[2026-04-02 01:00:18] [Claims] Energy: 20.9% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Protein: 49.4% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Total Carbohydrate: 15.1% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Dietary Fiber: 22.2% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Total Fat: 24.9% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Saturated Fat: 27.9% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Vitamin A: 20.0% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Vitamin E: 33.3% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Vitamin C: 16.7% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Vitamin K: 33.3% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Biotin: 25.0% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Calcium: 20.0% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Zinc: 23.5% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Chromium: 33.3% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Selenium: 33.3% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Magnesium: 15.5% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Sodium: 7.0% RDA per 100g
+[2026-04-02 01:00:18] [Claims] Potassium: 7.1% RDA per 100g
+[2026-04-02 01:00:18] [Claims (RDA)] RDA Percentages: {
+  "energy": 20.9,
+  "protein": 49.4,
+  "total carbohydrate": 15.1,
+  "dietary fiber": 22.2,
+  "total fat": 24.9,
+  "saturated fat": 27.9,
+  "vitamin a": 20.0,
+  "vitamin e": 33.3,
+  "vitamin c": 16.7,
+  "vitamin k": 33.3,
+  "biotin": 25.0,
+  "calcium": 20.0,
+  "zinc": 23.5,
+  "chromium": 33.3,
+  "selenium": 33.3,
+  "magnesium": 15.5,
+  "sodium": 7.0,
+  "potassium": 7.1
+}
+[2026-04-02 01:00:18] [Claims (RDA)] RDA Percentages Count: 18
+[2026-04-02 01:00:27] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 20.0g protein per serving (75g). This also meets the 'High Protein' threshold as 49.4% RDA per 100g exceeds the 20% requirement.", 'reference': 'FSSAI Nutritional Claims - Protein High/Rich', 'rda_percentage': 49.4, 'nutrient_involved': 'Protein'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 5.0g dietary fiber per serving. Per 100g, it contains 6.67g, which meets the 'High Fiber' threshold of 6g/100g for solids.", 'reference': 'FSSAI Nutritional Claims - Dietary Fibre High/Rich', 'rda_percentage': 22.2, 'nutrient_involved': 'Dietary Fiber'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The nutrition table lists 21 distinct vitamins and minerals (A, E, C, D2, K, B1, B2, B3, B5, B6, B9, B12, Biotin, Calcium, Zinc, Chromium, Selenium, Phosphorus, Magnesium, Sodium, Potassium).', 'reference': 'Nutrition Table Data', 'rda_percentage': 20.0, 'nutrient_involved': 'Vitamins and Minerals'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "The product contains 93.33mg Omega-3 per 100g. FSSAI 'Source' claim requires 300mg (0.3g) ALA or 40mg EPA+DHA. While it meets the EPA+DHA threshold if applicable, the generic Omega-3 claim usually defaults to ALA for plant-based sources like flaxseeds, where 0.093g is less than the 0.3g required.", 'reference': 'FSSAI Nutritional Claims - Omega-3 Fatty Acids', 'rda_percentage': 0, 'nutrient_involved': 'Omega-3'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'This is a functional health claim regarding the duration of energy release. It requires clinical validation or specific low-GI data (GI < 55) which is not provided in the current dataset.', 'reference': 'FSSAI Health Claims Regulations', 'rda_percentage': 20.9, 'nutrient_involved': 'Energy'}, {'claim_text': 'ACTIVE PROTEIN BOOST', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': "The product is 'High Protein' (49.4% RDA per 100g) and contains added Amino Acids (Glutamine, BCAA) as per the ingredients list, supporting the 'Boost' descriptor.", 'reference': 'FSSAI Nutritional Claims - Protein', 'rda_percentage': 49.4, 'nutrient_involved': 'Protein'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (Class II) are listed in the ingredients. It uses natural antioxidants like Vitamin C and Citric Acid.', 'reference': 'Ingredients List', 'rda_percentage': 16.7, 'nutrient_involved': 'Preservatives'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product uses Brown Rice Syrup, Sugar, Fructose, and Glycerine. No high-intensity artificial sweeteners (like Aspartame or Sucralose) are listed.', 'reference': 'Ingredients List', 'rda_percentage': 15.1, 'nutrient_involved': 'Sugar'}, {'claim_text': '100% VEG', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'All ingredients listed (Soy, Whey, Milk Solids, Nuts, Grains) are vegetarian-friendly. No meat, egg, or gelatin-based ingredients are present.', 'reference': 'Ingredients List', 'rda_percentage': 0, 'nutrient_involved': 'Vegetarian Status'}]
+[2026-04-02 01:00:27] [Claims (RDA)] Protein: 49.4% RDA captured in verdict
+[2026-04-02 01:00:27] [Claims (RDA)] Dietary Fiber: 22.2% RDA captured in verdict
+[2026-04-02 01:00:27] [Claims (RDA)] Vitamins and Minerals: 20.0% RDA captured in verdict
+[2026-04-02 01:00:27] [Claims (RDA)] Omega-3: 0% RDA captured in verdict
+[2026-04-02 01:00:27] [Claims (RDA)] Energy: 20.9% RDA captured in verdict
+[2026-04-02 01:00:27] [Claims (RDA)] Protein: 49.4% RDA captured in verdict
+[2026-04-02 01:00:27] [Claims (RDA)] Preservatives: 16.7% RDA captured in verdict
+[2026-04-02 01:00:27] [Claims (RDA)] Sugar: 15.1% RDA captured in verdict
+[2026-04-02 01:00:27] [Claims (RDA)] Vegetarian Status: 0% RDA captured in verdict
+[2026-04-02 01:00:27] [Claims] Claims Analysis Result: Analyzed 9 claim(s). 7 passed, 1 failed, 1 need review.
+[2026-04-02 01:00:27] [STEP 6/9] Substantiating claims...
+[2026-04-02 01:00:27] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 01:00:30] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-02 01:00:30] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-02 01:00:30] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 01:00:30] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 01:00:37] [Lab Tests] Generated 8 suggestions
+[2026-04-02 01:00:37] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 01:00:42] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 01:00:42] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 01:00:46] [Lab Tests] Generated 3 microbiological hazard-related tests
+[2026-04-02 01:00:46] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 01:00:46] [SUCCESS] Final Score: 65.0%
+[2026-04-02 01:10:49] [STEP 1/9] Validating image context...
+[2026-04-02 01:10:49] [Context] source=default_general, type=general, code=None
+[2026-04-02 01:10:50] [STEP 2/9] Extracting OCR data...
+[2026-04-02 01:10:50] [OCR] Initiating OCR Extraction Service
+[2026-04-02 01:10:50] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 01:10:59] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-02 01:11:07] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 01:11:07] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 01:11:07] [Metadata] Extracting Brand Metadata
+[2026-04-02 01:11:13] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 01:11:13] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 01:11:13] [STEP 4/9] Running regulatory checks...
+[2026-04-02 01:11:13] [Core] Running Regulatory Analysis
+[2026-04-02 01:11:25] [STEP 5/9] Validating product category...
+[2026-04-02 01:11:25] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 01:11:27] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-02 01:11:27] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-02 01:11:27] [STEP 6/9] Substantiating claims...
+[2026-04-02 01:11:27] [Claims] Running Claims Subsystem
+[2026-04-02 01:11:27] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-02 01:11:27] [Claims] RDA calculations complete: 13 nutrients processed
+[2026-04-02 01:11:27] [Claims] Energy: 20.9% RDA per 100g
+[2026-04-02 01:11:27] [Claims] Protein: 49.4% RDA per 100g
+[2026-04-02 01:11:27] [Claims] Total Carbohydrate: 15.1% RDA per 100g
+[2026-04-02 01:11:27] [Claims] Dietary Fiber: 16.7% RDA per 100g
+[2026-04-02 01:11:27] [Claims] Total Fat: 24.9% RDA per 100g
+[2026-04-02 01:11:27] [Claims] Saturated Fat: 27.9% RDA per 100g
+[2026-04-02 01:11:27] [Claims] Sodium: 7.0% RDA per 100g
+[2026-04-02 01:11:27] [Claims] Potassium: 7.1% RDA per 100g
+[2026-04-02 01:11:27] [Claims (RDA)] RDA Percentages: {
+  "energy": 20.9,
+  "protein": 49.4,
+  "total carbohydrate": 15.1,
+  "dietary fiber": 16.7,
+  "total fat": 24.9,
+  "saturated fat": 27.9,
+  "sodium": 7.0,
+  "potassium": 7.1
+}
+[2026-04-02 01:11:27] [Claims (RDA)] RDA Percentages Count: 8
+[2026-04-02 01:11:36] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The product contains 20.0g protein per serving as stated. This meets the 'High/Rich' threshold as it provides 49.4% RDA per 100g (threshold is >= 20%) and 37% RDA per serving (threshold is >= 20%).", 'reference': 'FSSAI Nutritional Claims - Protein High/Rich', 'rda_percentage': 49.4, 'nutrient_involved': 'Protein'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The product contains 5.0g fiber per serving. Per 100g, it contains 6.67g, which exceeds the 6g/100g threshold for 'High/Rich' fiber claims in solids.", 'reference': 'FSSAI Nutritional Claims - Dietary Fibre High/Rich', 'rda_percentage': 16.7, 'nutrient_involved': 'Dietary Fiber'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "While 'Vitamins' and 'Minerals' are listed in the ingredients, the nutrition table only explicitly lists Sodium and Potassium. There is no breakdown of the 21 specific vitamins and minerals or their RDA percentages to verify the 'Source' (15%) or 'High' (30%) thresholds.", 'reference': 'FSSAI Nutritional Claims - Vitamins or Minerals', 'rda_percentage': 7.1, 'nutrient_involved': 'Vitamins and Minerals'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "The product contains 93.33mg Omega-3 per 100g. FSSAI requires a minimum of 300mg (0.3g) ALA or 40mg EPA+DHA per 100g/100kcal for a 'Source' claim. 93.33mg is significantly below the 300mg ALA threshold.", 'reference': 'FSSAI Nutritional Claims - Omega-3 Fatty Acids Source', 'rda_percentage': 0, 'nutrient_involved': 'Omega-3'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'Claims regarding sustained energy release or specific duration (4 hours) require clinical data or Glycemic Index (GI) testing results which are not provided in the current data.', 'reference': 'FSSAI Health Claims - Functional Claims', 'rda_percentage': 20.9, 'nutrient_involved': 'Energy'}, {'claim_text': 'ACTIVE PROTEIN BOOST', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': 'Supported by the high protein content (26.67g/100g) which constitutes 49.4% of the RDA, qualifying it as a high-protein food.', 'reference': 'FSSAI Nutritional Claims - Protein High', 'rda_percentage': 49.4, 'nutrient_involved': 'Protein'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives are listed in the ingredients. Citric acid and Vitamin C are present but often function as acidulants or antioxidants.', 'reference': 'FSSAI Ingredient Claims', 'rda_percentage': 0, 'nutrient_involved': 'Preservatives'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product uses Brown Rice Syrup, Sugar, Fructose, and Glycerine. No high-intensity artificial sweeteners (like Aspartame or Sucralose) are listed.', 'reference': 'FSSAI Ingredient Claims', 'rda_percentage': 0, 'nutrient_involved': 'Sweeteners'}, {'claim_text': '100% VEG', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'All ingredients listed (Soy, Whey, Milk Solids, Nuts, Grains) are vegetarian-friendly.', 'reference': 'FSSAI Labeling Regulations', 'rda_percentage': 0, 'nutrient_involved': 'Vegetarian Status'}]
+[2026-04-02 01:11:36] [Claims (RDA)] Protein: 49.4% RDA captured in verdict
+[2026-04-02 01:11:36] [Claims (RDA)] Dietary Fiber: 16.7% RDA captured in verdict
+[2026-04-02 01:11:36] [Claims (RDA)] Vitamins and Minerals: 7.1% RDA captured in verdict
+[2026-04-02 01:11:36] [Claims (RDA)] Omega-3: 0% RDA captured in verdict
+[2026-04-02 01:11:36] [Claims (RDA)] Energy: 20.9% RDA captured in verdict
+[2026-04-02 01:11:36] [Claims (RDA)] Protein: 49.4% RDA captured in verdict
+[2026-04-02 01:11:36] [Claims (RDA)] Preservatives: 0% RDA captured in verdict
+[2026-04-02 01:11:36] [Claims (RDA)] Sweeteners: 0% RDA captured in verdict
+[2026-04-02 01:11:36] [Claims (RDA)] Vegetarian Status: 0% RDA captured in verdict
+[2026-04-02 01:11:36] [Claims] Claims Analysis Result: Analyzed 9 claim(s). 6 passed, 1 failed, 2 need review.
+[2026-04-02 01:11:36] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 01:11:36] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 01:11:42] [Lab Tests] Generated 7 suggestions
+[2026-04-02 01:11:42] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 01:11:48] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 01:11:48] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 01:11:52] [Lab Tests] Generated 3 microbiological hazard-related tests
+[2026-04-02 01:11:52] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 01:11:52] [SUCCESS] Final Score: 65.0%
+[2026-04-02 01:24:22] [STEP 1/9] Validating image context...
+[2026-04-02 01:24:22] [Context] source=default_general, type=general, code=None
+[2026-04-02 01:24:23] [STEP 2/9] Extracting OCR data...
+[2026-04-02 01:24:23] [OCR] Initiating OCR Extraction Service
+[2026-04-02 01:24:23] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 01:24:32] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-02 01:24:41] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 01:24:41] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 01:24:41] [Metadata] Extracting Brand Metadata
+[2026-04-02 01:24:45] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 01:24:45] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 01:24:45] [STEP 4/9] Running regulatory checks...
+[2026-04-02 01:24:45] [Core] Running Regulatory Analysis
+[2026-04-02 01:24:56] [STEP 5/9] Validating product category...
+[2026-04-02 01:24:56] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 01:24:58] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and sustained energy claims, which targets active adults. As it is a general adult-oriented supplement, it defaults to the general adult population (men) with a moderate activity level to account for the fitness-focused positioning."}
+[2026-04-02 01:24:58] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and sustained energy claims, which targets active adults. As it is a general adult-oriented supplement, it defaults to the general adult population (men) with a moderate activity level to account for the fitness-focused positioning."}
+[2026-04-02 01:24:58] [STEP 6/9] Substantiating claims...
+[2026-04-02 01:24:58] [Claims] Running Claims Subsystem
+[2026-04-02 01:24:58] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and sustained energy claims, which targets active adults. As it is a general adult-oriented supplement, it defaults to the general adult population (men) with a moderate activity level to account for the fitness-focused positioning."}
+[2026-04-02 01:24:58] [Claims] RDA calculations complete: 37 nutrients processed
+[2026-04-02 01:24:58] [Claims] Energy: 20.9% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Protein: 49.4% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Total Carbohydrate: 15.1% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Dietary Fiber: 16.7% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Total Fat: 24.9% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Saturated Fat: 27.9% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Vitamin A: 20.0% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Vitamin E: 33.3% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Vitamin C: 16.7% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Vitamin K: 33.3% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Biotin: 25.0% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Calcium: 20.0% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Zinc: 23.5% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Chromium: 33.3% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Selenium: 33.3% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Magnesium: 15.5% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Sodium: 7.0% RDA per 100g
+[2026-04-02 01:24:58] [Claims] Potassium: 7.1% RDA per 100g
+[2026-04-02 01:24:58] [Claims (RDA)] RDA Percentages: {
+  "energy": 20.9,
+  "protein": 49.4,
+  "total carbohydrate": 15.1,
+  "dietary fiber": 16.7,
+  "total fat": 24.9,
+  "saturated fat": 27.9,
+  "vitamin a": 20.0,
+  "vitamin e": 33.3,
+  "vitamin c": 16.7,
+  "vitamin k": 33.3,
+  "biotin": 25.0,
+  "calcium": 20.0,
+  "zinc": 23.5,
+  "chromium": 33.3,
+  "selenium": 33.3,
+  "magnesium": 15.5,
+  "sodium": 7.0,
+  "potassium": 7.1
+}
+[2026-04-02 01:24:58] [Claims (RDA)] RDA Percentages Count: 18
+[2026-04-02 01:25:06] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 20.0g protein per serving (75g). This also meets the 'High Protein' threshold as 26.67g per 100g provides 49.4% RDA, which is well above the 20% RDA requirement.", 'reference': 'Nutrition Table; FSSAI Protein High/Rich threshold (>= 20% RDA per 100g)', 'rda_percentage': 49.4, 'nutrient_involved': 'Protein'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 5.0g dietary fiber per serving. At 6.67g per 100g, it also meets the 'High Fiber' threshold of >= 6g per 100g for solids.", 'reference': 'Nutrition Table; FSSAI Dietary Fibre High/Rich threshold (>= 6g per 100g)', 'rda_percentage': 16.7, 'nutrient_involved': 'Dietary Fiber'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "The nutrition table lists 19 specific vitamins and minerals (A, E, C, D2, K, B1, B2, B3, B5, B6, B9, B12, Biotin, Calcium, Zinc, Chromium, Selenium, Phosphorus, Magnesium). This is short of the claimed 21. Additionally, several B-vitamins lack RDA % data to confirm they meet the 15% 'source' threshold.", 'reference': 'Nutrition Table; FSSAI Vitamins/Minerals Source threshold (>= 15% RDA per 100g)', 'rda_percentage': 33.3, 'nutrient_involved': 'Vitamins and Minerals'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "The product contains 93.33mg Omega-3 per 100g. FSSAI requires a minimum of 300mg ALA or 40mg EPA+DHA per 100g/100kcal to claim as a 'source'. 93.33mg is significantly below the 300mg threshold for general Omega-3 (ALA) claims.", 'reference': 'Nutrition Table; FSSAI Omega-3 Fatty Acids Source threshold (>= 0.3g ALA per 100g)', 'rda_percentage': 0, 'nutrient_involved': 'Omega-3'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'Claims regarding specific duration of energy (4 hours) or sustained release require clinical Glycemic Index (GI) testing or clinical trial data, which is not provided in the label data.', 'reference': 'FSSAI Health Claims; Clinical Data Requirement', 'rda_percentage': 0, 'nutrient_involved': 'Energy'}, {'claim_text': 'ACTIVE PROTEIN BOOST', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': 'The product is high in protein (26.67g/100g, 49.4% RDA), which supports the functional claim of a protein boost.', 'reference': 'Nutrition Table; FSSAI Protein High/Rich threshold', 'rda_percentage': 49.4, 'nutrient_involved': 'Protein'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (e.g., Class II preservatives like Sorbates or Benzoates) are listed in the ingredients. Citric acid is used but often functions as an acidity regulator.', 'reference': 'Ingredients List', 'rda_percentage': 0, 'nutrient_involved': 'Preservatives'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product uses Brown Rice Syrup, Sugar, Fructose, and Glycerine. No high-intensity artificial sweeteners like Aspartame or Sucralose are listed.', 'reference': 'Ingredients List', 'rda_percentage': 0, 'nutrient_involved': 'Sweeteners'}, {'claim_text': '100% VEG', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'All ingredients listed (Whey, Soy, Milk solids, Nuts, Grains) are vegetarian-compliant.', 'reference': 'Ingredients List', 'rda_percentage': 0, 'nutrient_involved': 'Vegetarian Status'}, {'claim_text': 'Made with Whole Grain Rolled Oats', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'Whole Grain Rolled Oats (4.4%) are explicitly listed in the ingredients list.', 'reference': 'Ingredients List', 'rda_percentage': 0, 'nutrient_involved': 'Oats'}]
+[2026-04-02 01:25:06] [Claims (RDA)] Protein: 49.4% RDA captured in verdict
+[2026-04-02 01:25:06] [Claims (RDA)] Dietary Fiber: 16.7% RDA captured in verdict
+[2026-04-02 01:25:06] [Claims (RDA)] Vitamins and Minerals: 33.3% RDA captured in verdict
+[2026-04-02 01:25:06] [Claims (RDA)] Omega-3: 0% RDA captured in verdict
+[2026-04-02 01:25:06] [Claims (RDA)] Energy: 0% RDA captured in verdict
+[2026-04-02 01:25:06] [Claims (RDA)] Protein: 49.4% RDA captured in verdict
+[2026-04-02 01:25:06] [Claims (RDA)] Preservatives: 0% RDA captured in verdict
+[2026-04-02 01:25:06] [Claims (RDA)] Sweeteners: 0% RDA captured in verdict
+[2026-04-02 01:25:06] [Claims (RDA)] Vegetarian Status: 0% RDA captured in verdict
+[2026-04-02 01:25:06] [Claims (RDA)] Oats: 0% RDA captured in verdict
+[2026-04-02 01:25:06] [Claims] Claims Analysis Result: Analyzed 10 claim(s). 7 passed, 1 failed, 2 need review.
+[2026-04-02 01:25:06] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 01:25:06] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 01:25:14] [Lab Tests] Generated 7 suggestions
+[2026-04-02 01:25:14] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 01:25:19] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 01:25:19] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 01:25:23] [Lab Tests] Generated 3 microbiological hazard-related tests
+[2026-04-02 01:25:23] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 01:25:23] [SUCCESS] Final Score: 65.0%
+[2026-04-02 01:32:46] [STEP 1/9] Validating image context...
+[2026-04-02 01:32:46] [Context] source=default_general, type=general, code=None
+[2026-04-02 01:32:47] [STEP 2/9] Extracting OCR data...
+[2026-04-02 01:32:47] [OCR] Initiating OCR Extraction Service
+[2026-04-02 01:32:47] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 01:32:58] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-02 01:33:08] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 01:33:08] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 01:33:08] [Metadata] Extracting Brand Metadata
+[2026-04-02 01:33:11] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 01:33:11] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 01:33:11] [STEP 4/9] Running regulatory checks...
+[2026-04-02 01:33:11] [Core] Running Regulatory Analysis
+[2026-04-02 01:33:29] [STEP 5/9] Validating product category...
+[2026-04-02 01:33:29] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 01:33:32] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a high-protein, nutrient-dense snack bar marketed for sustained energy. It does not target a specific gender or life stage, so it defaults to the general adult population (men) with a sedentary activity level as the baseline for RDA calculations.'}
+[2026-04-02 01:33:32] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a high-protein, nutrient-dense snack bar marketed for sustained energy. It does not target a specific gender or life stage, so it defaults to the general adult population (men) with a sedentary activity level as the baseline for RDA calculations.'}
+[2026-04-02 01:33:32] [STEP 6/9] Substantiating claims...
+[2026-04-02 01:33:32] [Claims] Running Claims Subsystem
+[2026-04-02 01:33:32] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a high-protein, nutrient-dense snack bar marketed for sustained energy. It does not target a specific gender or life stage, so it defaults to the general adult population (men) with a sedentary activity level as the baseline for RDA calculations.'}
+[2026-04-02 01:33:32] [Claims] RDA calculations complete: 37 nutrients processed
+[2026-04-02 01:33:32] [Claims] Energy: 20.9% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Protein: 49.4% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Total Carbohydrate: 15.1% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Dietary Fiber: 22.2% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Total Fat: 24.9% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Saturated Fat: 27.9% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Vitamin A: 20.0% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Vitamin E: 33.3% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Vitamin C: 16.7% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Vitamin K: 33.3% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Biotin: 25.0% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Calcium: 20.0% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Zinc: 23.5% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Chromium: 33.3% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Selenium: 33.3% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Magnesium: 15.5% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Sodium: 7.0% RDA per 100g
+[2026-04-02 01:33:32] [Claims] Potassium: 7.1% RDA per 100g
+[2026-04-02 01:33:32] [Claims (RDA)] RDA Percentages: {
+  "energy": 20.9,
+  "protein": 49.4,
+  "total carbohydrate": 15.1,
+  "dietary fiber": 22.2,
+  "total fat": 24.9,
+  "saturated fat": 27.9,
+  "vitamin a": 20.0,
+  "vitamin e": 33.3,
+  "vitamin c": 16.7,
+  "vitamin k": 33.3,
+  "biotin": 25.0,
+  "calcium": 20.0,
+  "zinc": 23.5,
+  "chromium": 33.3,
+  "selenium": 33.3,
+  "magnesium": 15.5,
+  "sodium": 7.0,
+  "potassium": 7.1
+}
+[2026-04-02 01:33:32] [Claims (RDA)] RDA Percentages Count: 18
+[2026-04-02 01:33:40] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 20.0g protein per serving (75g). This also meets the 'High Protein' threshold as 26.67g/100g provides 49.4% RDA, exceeding the 20% RDA requirement.", 'reference': 'Nutrition Table: Protein 20.0g per serve', 'nutrient_involved': 'Protein'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 5.0g dietary fiber per serving. At 6.67g per 100g, it also meets the 'High Fiber' threshold of >= 6g/100g.", 'reference': 'Nutrition Table: Dietary Fiber 5.0g per serve', 'nutrient_involved': 'Fiber'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "Claim non-compliant due to missing RDA % data for Vitamin D2, B1, B2, B3, B5, B6, B9, B12, and Phosphorus. Additionally, the count of vitamins and minerals listed in the nutrition table is 21, but compliance cannot be verified without complete RDA data for all items to meet the 'Source' threshold (15% RDA).", 'reference': 'Nutrition Table / Calculated RDA Percentages', 'nutrient_involved': 'Vitamins and Minerals'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "FSSAI requires >= 0.3g (300mg) ALA or >= 40mg EPA+DHA per 100g for a 'Source' claim. The product contains only 93.33mg Omega-3 per 100g, which is below the 300mg ALA threshold.", 'reference': 'Nutrition Table: Omega-3 93.33mg per 100g', 'nutrient_involved': 'Omega-3'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'Claims regarding specific duration of energy release (4 hours) require clinical Glycemic Index (GI) testing or clinical trial data to validate the sustained glucose response. This data is not provided.', 'reference': 'FSSAI Health Claims Requirement', 'nutrient_involved': 'Energy'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No synthetic preservatives are listed in the ingredients. The product uses natural antioxidants like Vitamin C and Citric Acid.', 'reference': 'Ingredients List', 'nutrient_involved': 'Preservatives'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains natural sweeteners (Sugar, Brown Rice Syrup, Fructose) and no high-intensity artificial sweeteners like Aspartame or Sucralose.', 'reference': 'Ingredients List', 'nutrient_involved': 'Sweeteners'}, {'claim_text': '100% VEG', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'All ingredients listed (Whey, Soy, Milk Solids, Nuts, Grains) are vegetarian-sourced.', 'reference': 'Ingredients List', 'nutrient_involved': 'Vegetarian Status'}]
+[2026-04-02 01:33:40] [Claims] Claims Analysis Result: Analyzed 8 claim(s). 5 passed, 2 failed, 1 need review.
+[2026-04-02 01:33:40] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 01:33:40] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 01:33:45] [Lab Tests] Generated 7 suggestions
+[2026-04-02 01:33:45] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 01:33:51] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 01:33:51] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 01:33:55] [Lab Tests] Generated 3 microbiological hazard-related tests
+[2026-04-02 01:33:55] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 01:33:55] [ERROR: System] Analysis failed: 1 validation error for AnalysisResult
+checks.28.status
+  Input should be 'Complies', 'Fail' or 'Action' [type=enum, input_value='Non-Compliant', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/enum
+[2026-04-02 01:35:32] [STEP 1/9] Validating image context...
+[2026-04-02 01:35:32] [Context] source=default_general, type=general, code=None
+[2026-04-02 01:35:33] [STEP 2/9] Extracting OCR data...
+[2026-04-02 01:35:33] [OCR] Initiating OCR Extraction Service
+[2026-04-02 01:35:33] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 01:35:41] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-02 01:35:52] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 01:35:52] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 01:35:52] [Metadata] Extracting Brand Metadata
+[2026-04-02 01:35:57] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 01:35:57] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 01:35:57] [STEP 4/9] Running regulatory checks...
+[2026-04-02 01:35:57] [Core] Running Regulatory Analysis
+[2026-04-02 01:36:09] [STEP 5/9] Validating product category...
+[2026-04-02 01:36:09] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 01:36:12] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a high-protein, nutrient-dense snack bar marketed for sustained energy. It does not target a specific gender or life stage, so it defaults to the general adult population (men) with a sedentary activity level as the baseline for RDA calculations.'}
+[2026-04-02 01:36:12] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a high-protein, nutrient-dense snack bar marketed for sustained energy. It does not target a specific gender or life stage, so it defaults to the general adult population (men) with a sedentary activity level as the baseline for RDA calculations.'}
+[2026-04-02 01:36:12] [STEP 6/9] Substantiating claims...
+[2026-04-02 01:36:12] [Claims] Running Claims Subsystem
+[2026-04-02 01:36:12] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a high-protein, nutrient-dense snack bar marketed for sustained energy. It does not target a specific gender or life stage, so it defaults to the general adult population (men) with a sedentary activity level as the baseline for RDA calculations.'}
+[2026-04-02 01:36:12] [Claims] RDA calculations complete: 37 nutrients processed
+[2026-04-02 01:36:12] [Claims] Energy: 20.9% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Protein: 49.4% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Total Carbohydrate: 15.1% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Dietary Fiber: 22.2% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Total Fat: 24.9% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Saturated Fat: 27.9% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Vitamin A: 20.0% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Vitamin E: 33.3% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Vitamin C: 16.7% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Vitamin K: 33.3% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Biotin: 25.0% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Calcium: 20.0% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Zinc: 23.5% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Chromium: 33.3% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Selenium: 33.3% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Magnesium: 15.5% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Sodium: 7.0% RDA per 100g
+[2026-04-02 01:36:12] [Claims] Potassium: 7.1% RDA per 100g
+[2026-04-02 01:36:12] [Claims (RDA)] RDA Percentages: {
+  "energy": 20.9,
+  "protein": 49.4,
+  "total carbohydrate": 15.1,
+  "dietary fiber": 22.2,
+  "total fat": 24.9,
+  "saturated fat": 27.9,
+  "vitamin a": 20.0,
+  "vitamin e": 33.3,
+  "vitamin c": 16.7,
+  "vitamin k": 33.3,
+  "biotin": 25.0,
+  "calcium": 20.0,
+  "zinc": 23.5,
+  "chromium": 33.3,
+  "selenium": 33.3,
+  "magnesium": 15.5,
+  "sodium": 7.0,
+  "potassium": 7.1
+}
+[2026-04-02 01:36:12] [Claims (RDA)] RDA Percentages Count: 18
+[2026-04-02 01:36:20] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 20.0g protein per serving (75g). This also meets the 'High Protein' threshold as 26.67g/100g provides 49.4% RDA, exceeding the 20% RDA requirement.", 'reference': 'Nutrition Table: Protein 20.0g per serve', 'nutrient_involved': 'Protein'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 5.0g dietary fiber per serving. At 6.67g per 100g, it also meets the 'High Fiber' threshold of >= 6g/100g.", 'reference': 'Nutrition Table: Dietary Fiber 5.0g per serve', 'nutrient_involved': 'Fiber'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "Claim non-compliant due to missing RDA % data for Vitamin D2, B1, B2, B3, B5, B6, B9, B12, and Phosphorus. Additionally, the count of vitamins and minerals listed in the nutrition table is 21, but compliance cannot be verified without complete RDA data for all items to meet the 'Source' threshold (15% RDA).", 'reference': 'Nutrition Table / Calculated RDA Percentages', 'nutrient_involved': 'Vitamins and Minerals'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "FSSAI requires >= 0.3g (300mg) ALA or >= 40mg EPA+DHA per 100g for a 'Source' claim. The product contains only 93.33mg Omega-3 per 100g, which is below the 300mg ALA threshold.", 'reference': 'Nutrition Table: Omega-3 93.33mg per 100g', 'nutrient_involved': 'Omega-3'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'Claims regarding specific duration of energy release (4 hours) require clinical Glycemic Index (GI) testing or clinical trial data to validate the sustained glucose response. This data is not provided.', 'reference': 'FSSAI Health Claims Requirement', 'nutrient_involved': 'Energy'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No synthetic preservatives are listed in the ingredients. The product uses natural antioxidants like Vitamin C and Citric Acid.', 'reference': 'Ingredients List', 'nutrient_involved': 'Preservatives'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains natural sweeteners (Sugar, Brown Rice Syrup, Fructose) and no high-intensity artificial sweeteners like Aspartame or Sucralose.', 'reference': 'Ingredients List', 'nutrient_involved': 'Sweeteners'}, {'claim_text': '100% VEG', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'All ingredients listed (Whey, Soy, Milk Solids, Nuts, Grains) are vegetarian-sourced.', 'reference': 'Ingredients List', 'nutrient_involved': 'Vegetarian Status'}]
+[2026-04-02 01:36:20] [Claims] Claims Analysis Result: Analyzed 8 claim(s). 5 passed, 2 failed, 1 need review.
+[2026-04-02 01:36:20] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 01:36:20] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 01:36:26] [Lab Tests] Generated 6 suggestions
+[2026-04-02 01:36:26] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 01:36:32] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 01:36:32] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 01:36:36] [Lab Tests] Generated 3 microbiological hazard-related tests
+[2026-04-02 01:36:36] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 01:36:36] [SUCCESS] Final Score: 65.0%

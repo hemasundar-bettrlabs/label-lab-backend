@@ -48,8 +48,8 @@ def load_contaminants_document() -> str:
         return ""
     
 def load_microbiological_hazards_document() -> str:
-    """Load the MicrobiologicalHazards.md regulatory document."""
-    microbiological_hazards_path = os.path.join(os.path.dirname(__file__), '..', 'prompts', 'MicrobiologicalHazards.md')
+    """Load the MicrobiologicalHazards.json regulatory document."""
+    microbiological_hazards_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'microbiological_hazards.json')
     try:
         with open(microbiological_hazards_path, 'r', encoding='utf-8') as f:
             return f.read()
@@ -61,7 +61,8 @@ async def run_lab_test_pipeline(
     checks: List[Dict], 
     claims_result: Any, 
     nutrition_checks: List[Dict], 
-    extraction: ClaimsExtractionResult
+    extraction: ClaimsExtractionResult,
+    metadata: Dict[str, Any] = None
 ) -> List[LabTestSuggestion]:
     """Generates lab test suggestions based on the aggregated audit results."""
     try:
@@ -91,6 +92,10 @@ async def run_lab_test_pipeline(
         ingredients_str = "None"
         if extraction and hasattr(extraction, 'ingredients') and extraction.ingredients:
             ingredients_str = ", ".join(extraction.ingredients)
+
+        # 5. Extract Metadata (from parameter or empty dict)
+        if metadata is None:
+            metadata = extraction.metadata if extraction and hasattr(extraction, 'metadata') else {}
 
         # Build prompt
         prompt = validation_template.replace("{compliance_checks}", compliance_str)
@@ -134,15 +139,30 @@ async def run_lab_test_pipeline(
         # Convert to Pydantic models
         suggestions = [LabTestSuggestion(**item) for item in result_json]
         pipeline_logger.info("Lab Tests", f"Generated {len(suggestions)} suggestions")
+
+        pipeline_logger.info("Lab Tests", "Starting contaminants analysis...")
+        contaminants_tests = await run_contaminants_lab_test_analysis(
+            extraction=extraction,
+            all_checks=checks
+        )
+        if contaminants_tests:
+            pipeline_logger.info("Lab Tests", f"Generated {len(contaminants_tests)} contaminants-related tests")
+            suggestions.extend(contaminants_tests)
+        else:
+            pipeline_logger.info("Lab Tests", "No contaminants-related tests generated.")
         
         # Append microbiological hazards analysis if it identifies relevant tests
+        pipeline_logger.info("Lab Tests", "Starting microbiological hazards analysis...")
         microbiological_tests = await run_microbiological_hazard_lab_test_analysis(
             extraction=extraction,
+            metadata=metadata,
             all_checks=checks
         )
         if microbiological_tests:
             pipeline_logger.info("Lab Tests", f"Generated {len(microbiological_tests)} microbiological hazard-related tests")
             suggestions.extend(microbiological_tests)
+        else:
+            pipeline_logger.info("Lab Tests", "No microbiological hazard-related tests generated.")
         
         return suggestions
 
@@ -165,12 +185,7 @@ async def run_contaminants_lab_test_analysis(
     try:
         contaminants_doc = load_contaminants_document()
         if not contaminants_doc:
-            return []
-        
-        # Format product info
-        ingredients_str = "None"
-        if extraction and hasattr(extraction, 'ingredients') and extraction.ingredients:
-            ingredients_str = ", ".join(extraction.ingredients)
+            return [] 
         
         # Format category
         category_str = "General Food Product"
@@ -178,78 +193,89 @@ async def run_contaminants_lab_test_analysis(
             category_str = extraction.product_category
         
         # Build contaminants analysis prompt
-        contaminants_prompt = f"""## CONTAMINANTS ANALYSIS REQUEST
+        contaminants_prompt = f"""## 
+        CONTAMINANTS ANALYSIS REQUEST
 
 You are an expert in FSSAI Food Safety and Standards (Contaminants, Toxins and Residues) Regulations, 2011.
 
-Based on the regulatory document provided below, analyze whether the following food product requires contaminants testing.
+Analyze whether the food product below requires contaminants testing, based strictly on the regulatory document provided.
 
-### PRODUCT INFORMATION:
+---
+
+### PRODUCT INFORMATION
 - **Category**: {category_str}
 
-### REGULATORY DOCUMENT (FSSAI Contaminants Standards):
+---
+
+### REGULATORY DOCUMENT
 {contaminants_doc}
 
-### IMPROTANT NOTE:
-1) Only recommend text based on fine product category given as grounded data. Do not make assumptions beyond the provided category and ingredients. If the category is vague, default to general food product guidelines. Always refer to the regulatory document for limits and testing requirements.
-The system should detect based on product not ingredient.
-Example: If a product is labeled as chocolate and contains cocoa powder, 
-the system should not classify it based on the ingredient (cocoa powder). 
-Instead, it should consider the final product category as chocolate. 
-If the chocolate category is not available in the system, the product should be classified under “Food Not Specified, all foods, other foods”.
-If it does not fall under any defined category, it should be treated as ignored, without applying category-specific validations or suggesting specific tests.
+---
 
-2) For contaminants such as heavy metals, toxins, and residues, each should be handled based on their respective defined lists. 
-If a specific parameter (e.g., lead) is applicable and available for the product category, 
-it should be identified and flagged. However, 
-if a parameter (e.g., copper) is not defined for that category but if food not specified,
-all foods, other foods present can take that, else, the system should not suggest or enforce testing for it. 
+### CLASSIFICATION RULES
 
-### ANALYSIS TASK:
-1. Identify which contaminant categories are relevant for this product category based on the regulatory limits table.
-2. Based on the product's composition, determine if testing for the following contaminant categories is needed:
-   - Heavy metals (Lead, Copper, Arsenic, Tin, Cadmium, Mercury)
-   - Crop contaminants and mycotoxins (Aflatoxins, Ochratoxin A, Patulin, Deoxynivalenol)
-   - Naturally occurring toxic substances
-   - Pesticide residues
-   - Microbiological safety
+1. **Classify by final product, not ingredients.**
+   - Match the product to its category in the regulatory document.
+   - If no exact match exists, fall back to "Food Not Specified / All Foods / Other Foods."
+   - If the product does not fit any defined category or fallback, return an empty array.
 
-3. Return a JSON array of lab test suggestions ONLY for contaminant types that are relevant to this product.
+2. **Apply only defined limits.**
+   - Only recommend tests for contaminants explicitly listed for the matched category.
+   - If a parameter (e.g., copper) is not listed for the product category, do not suggest it — unless it appears under the "Food Not Specified / All Foods / Other Foods" fallback.
 
-4. Ensure a clear distinction between Heavy Metal Tests, Toxin Tests, and Residue Tests, and organize all relevant analyses under these three explicitly defined categories.
+---
 
-5. Keep everything as critical by default.
+### ANALYSIS TASK
 
-6. Keep the category as Contaminants for all tests generated in this section, to allow for clear grouping and filtering of contaminant-related tests in the final output.
+Using the matched category and regulatory limits, determine which of the following require testing:
 
-### OUTPUT FORMAT:
-Return a JSON array with this structure (empty array if no contaminants testing is needed):
+| Group | Parameters |
+|---|---|
+| Heavy Metals | Lead, Copper, Arsenic, Tin, Cadmium, Mercury |
+| Mycotoxins & Crop Contaminants | Aflatoxins, Ochratoxin A, Patulin, Deoxynivalenol |
+| Naturally Occurring Toxic Substances | As applicable per category |
+| Pesticide Residues | As applicable per category |
+| Microbiological Safety | As applicable per category |
+
+Only include test groups where at least one parameter is explicitly regulated for this product.
+
+---
+
+### OUTPUT RULES
+
+- Return a JSON array only. No explanation or preamble.
+- If no tests are applicable, return: `[]`
+- All entries must have `"category": "Safety Test"` and `"priority": "Critical"`.
+- Group related parameters into a single test entry per contaminant type (e.g., one entry for all heavy metals).
+
+---
+
+### OUTPUT FORMAT
 ```json
 [
   {{
     "testName": "Heavy Metals Analysis (Lead, Arsenic, Cadmium, Mercury)",
-    "category": "Contaminants",
+    "category": "Safety Test",
     "price": 2500,
     "price_low": 2000,
     "price_high": 3500,
     "priority": "Critical",
-    "description": "Comprehensive testing for toxic heavy metals as per FSSAI limits. Relevant for this {category_str} product.",
+    "description": "Testing for regulated heavy metals under FSSAI Contaminants Regulations for {category_str}.",
     "relatedChecks": []
   }},
   {{
     "testName": "Mycotoxin Analysis (Aflatoxins, Ochratoxin A, Patulin)",
-    "category": "Contaminants",
+    "category": "Safety Test",
     "price": 3000,
     "price_low": 2500,
     "price_high": 4000,
     "priority": "Critical",
-    "description": "Testing for crop contaminants and mycotoxins as per FSSAI regulations. Essential for products containing susceptible ingredients.",
+    "description": "Testing for mycotoxins and crop contaminants under FSSAI regulations for {category_str}.",
     "relatedChecks": []
   }}
 ]
 ```
-
-Only include tests that are truly relevant to this product category and ingredient composition."""
+"""
 
         # Call LLM for contaminants analysis
         response = await llm_service.generate_content_async(
@@ -291,6 +317,7 @@ Only include tests that are truly relevant to this product category and ingredie
 
 async def run_microbiological_hazard_lab_test_analysis(
     extraction: ClaimsExtractionResult,
+    metadata: Dict[str, Any],
     all_checks: List[Dict]
 ) -> List[LabTestSuggestion]:
     """
@@ -308,76 +335,161 @@ async def run_microbiological_hazard_lab_test_analysis(
         category_str = "General Food Product"
         if extraction and hasattr(extraction, 'product_category') and extraction.product_category:
             category_str = extraction.product_category
+
+        # Format ingredients_str
+        ingredients_str = "None"
+        if extraction and hasattr(extraction, 'ingredients') and extraction.ingredients:
+            ingredients_str = ", ".join(extraction.ingredients)
         
         # Build microbiological hazards analysis prompt
-        microbiological_hazard_prompt = f"""## MICROBIOLOGICAL HAZARDS ANALYSIS REQUEST
-
+        microbiological_hazard_prompt = f"""
+MICROBIOLOGICAL HAZARDS ANALYSIS REQUEST
 You are an expert in FSSAI Food Safety and Standards (Microbiological Hazards) Regulations, 2011.
-
 Based on the regulatory document provided below, analyze whether the following food product requires microbiological hazard testing.
+PRODUCT INFORMATION:
 
-### PRODUCT INFORMATION:
-- **Category**: {category_str}
+Category: {category_str}
+Metadata: {json.dumps(metadata)}
+Ingredient List: {ingredients_str}
 
-### REGULATORY DOCUMENT (FSSAI Microbiological Hazards Standards):
-{microbiological_hazards_doc}
 
-### IMPORTANT NOTE:
-1) Only recommend tests based on fine product category given as grounded data. Do not make assumptions beyond the provided category. If the category is vague, default to general food product guidelines. Always refer to the regulatory document for limits and testing requirements.
-The system should detect based on product not ingredient.
-Example: If a product is labeled as chocolate, the system should not classify it based on the ingredients. Instead, it should consider the final product category as chocolate. 
-If the chocolate category is not available in the system, the product should be classified under "Food Not Specified, all foods, other foods".
-If it does not fall under any defined category, it should be treated as ignored, without applying category-specific validations or suggesting specific tests.
+STEP 1 — CLASSIFY THE PRODUCT INTO AN EXACT SUBCATEGORY
+You must map the product to one and only one subcategory from the table below. If no match is found, output an empty array [] and stop.
+Do not invent subcategories. Do not blend subcategories.
+Group A — Fruits and Vegetables and their Products
+Subcategory KeyDefinitionCut or minimally processed and packed, including juices (Nonthermally processed)Washed, sanitized, peeled, cut, or juiced fruits/vegetables — packed without thermal treatmentFermented or pickled or acidified or with preservativesPreserved using fermentation (yeast, bacteria, mold, enzyme), brine, lactic acid, vinegar, salt, or sugarPasteurized JuicesFruit/vegetable juices subjected to pasteurizationCarbonated Fruit BeveragesBeverage made from fruit juice + water or carbonated water, with sugar/glucose, may contain peel oil or fruit essencesFrozenFruits/vegetables or their products frozen and maintained at −18°CDehydrated or driedFruits/vegetables preserved by removing water content through a dehydration processThermally processed (other than pasteurization at less than 100°C)Heat-processed in a sealed container before or after sealing, to prevent spoilage (not retort)Retort processedCanned or flexible-packaged, processed by retorting
+Group B — Food Grain Products
+Subcategory KeyDefinitionBatters and Doughs (Ready to Cook)Raw, uncooked grain-based products the consumer must cook. Includes: pancake mix, idli/dosa batter, cake premixes, raw pizza dough. A powder or dry mix that is intended to be mixed with liquid and cooked (e.g., dosa batter powder, pancake mix) falls here — not in the RTE category.Fermented products other than batters and doughs (ready to cook) including bread, cakes, doughnuts, other ready to eat grain products, malted milk food, instant noodles* and pasta products*Products that have already undergone a kill-step (baking, steaming, frying) during manufacturing. Includes: sliced bread, cupcakes, roasted snacks, instant noodles (pre-steamed/fried).
 
-2) For microbiological hazards such as pathogens, each should be handled based on their respective defined lists. 
-If a specific parameter (e.g., E. coli) is applicable and available for the product category, it should be identified and flagged. However, 
-if a parameter is not defined for that category but general food or "not specified" category is available, then it can be recommended, else, the system should not suggest or enforce testing for it.
+STEP 2 — RETRIEVE ALLOWED TESTS FOR THAT SUBCATEGORY
+Once you identify the exact subcategory, use only the tests listed for it in the table below. Do not add any test that is not listed for the matched subcategory.
+Fruits and Vegetables and their Products:
 
-### ANALYSIS TASK:
-1. Identify which microbiological hazard categories are relevant for this product category based on the regulatory limits table.
-2. Based on the product's composition, determine if testing for the following microbiological hazard categories is needed:
-   - Bacterial pathogens (E. coli, Salmonella, Listeria, Staphylococcus aureus)
-   - Viral pathogens (Hepatitis A, Norovirus)
-   - Fungal contaminants
-   - Mycotoxin producers
-   - Spore-forming bacteria
+  Cut or minimally processed and packed, including juices (Nonthermally processed):
+    - Aerobic Plate Count
+    - Yeast and Mold Count
+    - Enterobacteriaceae
+    - Staphylococcus aureus
+    - Salmonella
+    - Listeria monocytogenes
+    - E. Coli O157 and Vero or Shiga toxin producing E. coli
+    - Vibrio cholerae
 
-3. Return a JSON array of lab test suggestions ONLY for microbiological hazard types that are relevant to this product.
+  Fermented or pickled or acidified or with preservatives:
+    - Yeast and Mold Count
+    - Enterobacteriaceae
+    - Staphylococcus aureus
+    - Salmonella
+    - Listeria monocytogenes
+    - E. Coli O157 and Vero or Shiga toxin producing E. coli
+    - Vibrio cholerae
 
-4. Ensure a clear distinction between Pathogenic Bacteria Tests, Viral Tests, and Fungal Contamination Tests.
+  Pasteurized Juices:
+    - Aerobic Plate Count
+    - Yeast and Mold Count
+    - Enterobacteriaceae
+    - Staphylococcus aureus
+    - Salmonella
+    - Listeria monocytogenes
+    - E. Coli O157 and Vero or Shiga toxin producing E. coli
+    - Vibrio cholerae
 
-5. Keep everything as critical by default.
+  Carbonated Fruit Beverages:
+    - Aerobic Plate Count
+    - Yeast and Mold Count
+    - Enterobacteriaceae
+    - Staphylococcus aureus
+    - Salmonella
+    - Listeria monocytogenes
+    - E. Coli O157 and Vero or Shiga toxin producing E. coli
+    - Vibrio cholerae
 
-6. Keep the category as Microbiological Hazards for all tests generated in this section, to allow for clear grouping and filtering of microbiological hazard-related tests in the final output.
+  Frozen:
+    - Aerobic Plate Count
+    - Yeast and Mold Count
+    - Enterobacteriaceae
+    - Staphylococcus aureus
+    - Salmonella
+    - Listeria monocytogenes
+    - E. Coli O157 and Vero or Shiga toxin producing E. coli
+    - Vibrio cholerae
 
-### OUTPUT FORMAT:
-Return a JSON array with this structure (empty array if no microbiological hazard testing is needed):
-```json
+  Dehydrated or dried:
+    - Aerobic Plate Count
+    - Yeast and Mold Count
+    - Enterobacteriaceae
+    - Staphylococcus aureus
+    - Salmonella
+    - Listeria monocytogenes
+    - E. Coli O157 and Vero or Shiga toxin producing E. coli
+    - Vibrio cholerae
+
+  Thermally processed (other than pasteurization at less than 100°C):
+    - Aerobic Plate Count
+    - Yeast and Mold Count
+    - Enterobacteriaceae
+    - Staphylococcus aureus
+    - Salmonella
+    - Listeria monocytogenes
+    - E. Coli O157 and Vero or Shiga toxin producing E. coli
+    - Vibrio cholerae
+
+  Retort processed:
+    - Aerobic Plate Count
+    - Enterobacteriaceae
+    - Staphylococcus aureus
+    - Salmonella
+    - Listeria monocytogenes
+    - E. Coli O157 and Vero or Shiga toxin producing E. coli
+    - Vibrio cholerae
+
+Food Grain Products:
+
+  Batters and Doughs (Ready to Cook):
+    - Enterobacteriaceae count
+    - Staphylococcus aureus count
+
+  Fermented products other than batters and doughs (ready to cook) including bread, cakes, doughnuts,
+  other ready to eat grain products, malted milk food, instant noodles and pasta products:
+    - Enterobacteriaceae count
+    - Salmonella
+    - Listeria monocytogenes
+
+STEP 3 — CLASSIFICATION RULES (apply before matching)
+
+Dry powder/mix that requires adding liquid + cooking → classify as Batters and Doughs (Ready to Cook), even if sold as a powder. Example: dosa batter mix, pancake powder, cake premix.
+Product that has already been baked, steamed, or fried → classify as the RTE Food Grain subcategory.
+Fresh whole fruit/vegetable not further processed → falls under "Fresh" which has no microbiological tests defined in scope → return [].
+Product does not match any subcategory in Group A or Group B → return [].
+Never combine tests from two subcategories, even if the product seems to straddle both.
+
+
+STEP 4 — OUTPUT
+Return only a JSON array. One object per test. No additional text, no explanation outside the array.
+If no subcategory matched → return [].
 [
   {{
-    "testName": "Pathogenic Bacteria Testing (E. coli, Salmonella, Listeria)",
-    "category": "Microbiological Hazards",
-    "price": 3500,
-    "price_low": 3000,
-    "price_high": 4500,
+    "testName": "<exact test name from the allowed list>",
+    "category": "Safety Test",
+    "price": <integer, realistic Indian lab price in INR>,
+    "price_low": <integer>,
+    "price_high": <integer>,
     "priority": "Critical",
-    "description": "Comprehensive testing for pathogenic bacteria as per FSSAI microbiological hazards limits. Essential for this {category_str} product.",
-    "relatedChecks": []
-  }},
-  {{
-    "testName": "Viral Pathogens Testing (Hepatitis A, Norovirus)",
-    "category": "Microbiological Hazards",
-    "price": 4000,
-    "price_low": 3500,
-    "price_high": 5000,
-    "priority": "Critical",
-    "description": "Testing for viral pathogens as per FSSAI regulations. Critical for ready-to-eat and high-risk products.",
+    "description": "<one sentence: why this test matters for this specific product and subcategory>",
     "relatedChecks": []
   }}
 ]
-```
+Pricing reference (INR):
 
-Only include tests that are truly relevant to this product category and ingredient composition."""
+Aerobic Plate Count: 3000-4500
+Yeast and Mold Count: 3500-5000
+Enterobacteriaceae: 3500-5000
+Staphylococcus aureus: 3500-5000
+Salmonella: 4000-6000
+Listeria monocytogenes: 4500-6500
+E. Coli O157 / Shiga toxin: 4500-7000
+Vibrio cholerae: 4000-6000
+"""
 
         # Call LLM for microbiological hazards analysis
         response = await llm_service.generate_content_async(

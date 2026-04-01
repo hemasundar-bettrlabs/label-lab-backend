@@ -246,52 +246,99 @@ class RDACalculator:
     def calculate_all_from_entries(self, entries: List[NutritionTableEntry]) -> Dict[str, Dict[str, Any]]:
         logger.info(f"[RDA] calculate_all_from_entries: Processing {len(entries)} nutrition entries")
         
+        # Enhanced nutrient key normalization map
+        normalization_map = {
+            "carbohydrate": "total_carbohydrate",
+            "sugar": "total_sugars",
+            "fiber": "dietary_fiber",
+            "dietary_fibre": "dietary_fiber",
+            "fat": "total_fat",
+            "saturated_fat": "saturated_fat",
+            "saturated_fatty_acids": "saturated_fat",
+            "trans_fat": "trans_fat",
+            "trans_fatty_acids": "trans_fat",
+            "omega_3": "omega_3",
+            "omega-3": "omega_3",
+            "bcaa": "bcaa",
+            "l_glutamine": "l_glutamine",
+            "l_leucine": "l_leucine",
+            "l_valine": "l_valine",
+            "l_isoleucine": "l_isoleucine",
+            "vitamin_b1": "thiamine",
+            "vitamin_b2": "riboflavin",
+            "vitamin_b3": "niacin",
+            "vitamin_b5": "pantothenic_acid",
+            "vitamin_b6": "pyridoxine",
+            "vitamin_b7": "biotin",
+            "vitamin_b9": "folate",
+            "vitamin_b12": "cobalamin",
+            "vitamin_d2": "vitamin_d",
+            "vitamin_d3": "vitamin_d",
+            "phosphorus": "phosphorous",
+        }
+        
         results = {}
         for idx, entry in enumerate(entries):
             key = entry.nutrient.lower().replace(" ", "_")
             original_key = key
             
-            # Normalize nutrient key names
-            if key in ["carbohydrate"]: key = "total_carbohydrate"
-            elif key in ["sugar"]: key = "total_sugars"
-            elif key in ["fiber"]: key = "dietary_fiber"
-            elif key in ["fat"]: key = "total_fat"
-            elif key in ["vitamin_b1"]: key = "thiamine"
-            elif key in ["vitamin_b2"]: key = "riboflavin"
-            elif key in ["vitamin_b3"]: key = "niacin"
-            elif key in ["vitamin_b5"]: key = "pantothenic_acid"
-            elif key in ["vitamin_b7"]: key = "biotin"
-            elif key in ["vitamin_b9"]: key = "folate"
-            elif key in ["phosphorus"]: key = "phosphorous"
+            # Apply normalization map
+            key = normalization_map.get(key, key)
             
             if key != original_key:
                 logger.debug(f"[RDA] Entry {idx}: Nutrient key normalized '{original_key}' -> '{key}'")
             
+            # Parse per_100g - now handles Union[float, str]
+            amount = 0.0
             try:
-                # V4 specific parsing: per_100g is a string
-                amount_str = entry.per_100g.replace(",", "").strip()
-                # Remove any non-numeric chars except decimal
-                amount_cleaned = "".join(c for c in amount_str if c.isdigit() or c == '.')
-                amount = float(amount_cleaned) if amount_cleaned else 0.0
-                logger.debug(f"[RDA] Entry {idx} ({entry.nutrient}): Parsed amount | Raw: '{entry.per_100g}' -> Cleaned: '{amount_cleaned}' -> Float: {amount}")
+                if entry.per_100g is not None:
+                    if isinstance(entry.per_100g, (int, float)):
+                        amount = float(entry.per_100g)
+                    elif isinstance(entry.per_100g, str):
+                        amount_str = entry.per_100g.replace(",", "").strip()
+                        amount_cleaned = "".join(c for c in amount_str if c.isdigit() or c == '.')
+                        amount = float(amount_cleaned) if amount_cleaned else 0.0
+                    logger.debug(f"[RDA] Entry {idx} ({entry.nutrient}): Parsed amount | Raw: '{entry.per_100g}' -> Float: {amount}")
             except Exception as e:
                 amount = 0.0
                 logger.warning(f"[RDA] Entry {idx} ({entry.nutrient}): Failed to parse amount '{entry.per_100g}': {e}")
-                
-            rda_percentage = self.calculate_rda_percentage(key, amount, entry.unit)
+            
+            # Calculate RDA percentage per 100g
+            rda_percentage = self.calculate_rda_percentage(key, amount, entry.unit) if amount > 0 else None
             rda = self.get_rda_value(key)
+            
+            # Handle per_serve if available
+            rda_percentage_per_serve = None
+            if entry.per_serve is not None:
+                serve_amount = 0.0
+                try:
+                    if isinstance(entry.per_serve, (int, float)):
+                        serve_amount = float(entry.per_serve)
+                    elif isinstance(entry.per_serve, str):
+                        serve_str = entry.per_serve.replace(",", "").strip()
+                        serve_cleaned = "".join(c for c in serve_str if c.isdigit() or c == '.')
+                        serve_amount = float(serve_cleaned) if serve_cleaned else 0.0
+                    
+                    if serve_amount > 0:
+                        rda_percentage_per_serve = self.calculate_rda_percentage(key, serve_amount, entry.unit)
+                except Exception as e:
+                    logger.warning(f"[RDA] Entry {idx} ({entry.nutrient}): Failed to parse per_serve '{entry.per_serve}': {e}")
             
             result_entry = {
                 "rda_percentage": rda_percentage,
+                "rda_percentage_per_serve": rda_percentage_per_serve,
+                "label_rda_percentage": entry.pct_rda,
                 "rda": rda.rda_constant if rda else None,
                 "rda_unit": rda.unit if rda else None,
                 "amount": amount,
-                "unit": entry.unit,
+                "amount_per_serve": entry.per_serve,
+                "unit": entry.unit or "",
                 "original_name": entry.nutrient
             }
             results[key] = result_entry
             
-            logger.info(f"[RDA] Entry {idx}: {entry.nutrient} (key:{key}) | Amount: {amount}{entry.unit} | RDA%: {rda_percentage}% | RDA: {rda.rda_constant if rda else 'N/A'}{rda.unit if rda else ''}")
+            label_rda_str = f" | Label RDA: {entry.pct_rda}" if entry.pct_rda else ""
+            logger.info(f"[RDA] Entry {idx}: {entry.nutrient} (key:{key}) | Amount: {amount}{entry.unit or ''} | RDA%: {rda_percentage}% | RDA: {rda.rda_constant if rda else 'N/A'}{rda.unit if rda else ''}{label_rda_str}")
         
         logger.info(f"[RDA] calculate_all_from_entries completed: {len(results)} nutrients processed")
         return results

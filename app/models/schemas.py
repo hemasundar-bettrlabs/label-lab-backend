@@ -1,4 +1,4 @@
-from typing import List, Optional, Literal, Dict
+from typing import List, Optional, Literal, Dict, Union
 from enum import Enum
 
 from pydantic import BaseModel
@@ -186,9 +186,10 @@ class LabelValidationResult(BaseModel):
 
 class NutritionTableEntry(BaseModel):
     nutrient: str
-    per_100g: str
-    per_serve: Optional[str] = None
-    unit: str
+    per_100g: Optional[Union[float, str]] = None
+    per_serve: Optional[Union[float, str]] = None
+    unit: Optional[str] = ""
+    pct_rda: Optional[str] = None
 
 class ServingsInfo(BaseModel):
     serving_size: Optional[str] = None
@@ -212,6 +213,8 @@ class ClaimVerdict(BaseModel):
     status: Literal['Complies', 'Fail', 'Action']
     reasoning: str
     reference: str
+    rda_percentage: Optional[float] = None  # RDA percentage if applicable
+    nutrient_involved: Optional[str] = None  # Nutrient involved in the claim
 
 class ClaimsAnalysisResult(BaseModel):
     extraction: ClaimsExtractionResult

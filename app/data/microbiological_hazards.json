@@ -1,0 +1,93 @@
+{
+    "Fruits and Vegetables and their Products" : {
+        "Cut or minimally processed and packed, including juices (Nonthermally processed) ": [
+            "Aerobic Plate Count",
+            "Yeast and Mold Count",
+            "Enterobacteriaceae",
+            "Staphylococcus aureus",
+            "Salmonella",
+            "Listeria monocytogenes",
+            "E. Coli 0157 and Vero or Shiga toxin producing E. coli",
+            "Vibrio cholerae"
+        ],
+        "Fermented or pickled or acidified  or with preservatives ": [
+            "Yeast and Mold Count",
+            "Enterobacteriaceae",
+            "Staphylococcus aureus",
+            "Salmonella",
+            "Listeria monocytogenes",
+            "E. Coli 0157 and Vero or Shiga toxin producing E. coli",
+            "Vibrio cholerae"
+        ],
+        "Pasteurized Juices": [
+            "Aerobic Plate Count",
+            "Yeast and Mold Count",
+            "Enterobacteriaceae",
+            "Staphylococcus aureus",
+            "Salmonella",
+            "Listeria monocytogenes",
+            "E. Coli 0157 and Vero or Shiga toxin producing E. coli",
+            "Vibrio cholerae"
+        ],
+        "Carbonated Fruit Beverages": [
+            "Aerobic Plate Count",
+            "Yeast and Mold Count",
+            "Enterobacteriaceae",
+            "Staphylococcus aureus",
+            "Salmonella",
+            "Listeria monocytogenes",
+            "E. Coli 0157 and Vero or Shiga toxin producing E. coli",
+            "Vibrio cholerae"
+        ],
+        "Frozen": [
+            "Aerobic Plate Count",
+            "Yeast and Mold Count",
+            "Enterobacteriaceae",
+            "Staphylococcus aureus",
+            "Salmonella",
+            "Listeria monocytogenes",
+            "E. Coli 0157 and Vero or Shiga toxin producing E. coli",
+            "Vibrio cholerae"
+        ],
+        "Dehydrated or dried": [
+            "Aerobic Plate Count",
+            "Yeast and Mold Count",
+            "Enterobacteriaceae",
+            "Staphylococcus aureus",
+            "Salmonella",
+            "Listeria monocytogenes",
+            "E. Coli 0157 and Vero or Shiga toxin producing E. coli",
+            "Vibrio cholerae"
+        ],
+        "Thermally processed (other than pasteurization at less than 100°C)": [
+            "Aerobic Plate Count",
+            "Yeast and Mold Count",
+            "Enterobacteriaceae",
+            "Staphylococcus aureus",
+            "Salmonella",
+            "Listeria monocytogenes",
+            "E. Coli 0157 and Vero or Shiga toxin producing E. coli",
+            "Vibrio cholerae"
+        ],
+        "Retort processed": [
+            "Aerobic Plate Count",
+            "Enterobacteriaceae",
+            "Staphylococcus aureus",
+            "Salmonella",
+            "Listeria monocytogenes",
+            "E. Coli 0157 and Vero or Shiga toxin producing E. coli",
+            "Vibrio cholerae"
+        ]   
+    },
+    "Food Grain Products": {
+        "Batters and Doughs (Ready to Cook)": [
+            "Enterobacteriaceae count",
+            "Staphylococcus aureus count"
+        ],
+        "Fermented products other than batters and doughs (ready to cook) including bread, cakes, doughnuts, other ready to eat grain products, malted milk food, instant noodles* and pasta products* ": [
+            "Enterobacteriaceae count",
+            "Salmonella",
+            "Listeria monocytogenes"
+        ]
+    }
+}

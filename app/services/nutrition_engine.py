@@ -93,7 +93,7 @@ async def predict_target_audience(extraction: ClaimsExtractionResult) -> Dict[st
         pipeline_logger.error("Nutrition", f"Error predicting audience: {e}")
         return fallback
 
-async def run_nutrition_pipeline(extraction: ClaimsExtractionResult) -> list[dict]:
+async def run_nutrition_pipeline(extraction: ClaimsExtractionResult) -> tuple[list[dict], Dict[str, Any]]:
     """Validates nutrients against RDA and returns compliance check objects."""
     checks = []
     
@@ -105,20 +105,18 @@ async def run_nutrition_pipeline(extraction: ClaimsExtractionResult) -> list[dic
         audience = await predict_target_audience(extraction)
         
         # 2. Calculate RDA
-        pipeline_logger.info("Nutrition", f"[RDA] Initializing RDA Calculator for: gender={audience.get('gender')}, activity={audience.get('activity_level')}, period={audience.get('specific_period')}")
         calc = RDACalculator(
             gender=audience.get("gender"),
             activity_level=audience.get("activity_level"),
             specific_period=audience.get("specific_period")
         )
         
-        pipeline_logger.info("Nutrition", f"[RDA] Processing {len(extraction.nutrition_table)} nutrition entries")
         rda_results = calc.calculate_all_from_entries(extraction.nutrition_table)
-        pipeline_logger.info("Nutrition", f"[RDA] Calculation complete: {len(rda_results)} nutrients analyzed")
         
         # 3. Build Check Objects
         violations = []
         warnings = []
+        below_adequacy = []
         compliant_nutrients = []
         
         for key, res in rda_results.items():
@@ -130,23 +128,31 @@ async def run_nutrition_pipeline(extraction: ClaimsExtractionResult) -> list[dic
             amount_display = f"{res['amount']} {res['unit']}"
             rda_display = f"{res['rda']} {res['rda_unit']}"
             
-            pipeline_logger.info("Nutrition", f"[RDA] {nutrient_display}: {amount_display} = {pct}% of RDA ({rda_display})")
+            # Define adequacy thresholds for different nutrient types
+            critical_nutrients = ["energy", "protein", "calcium", "dietary_fiber"]
+            vitamin_minerals = ["vitamin_a", "vitamin_c", "vitamin_d", "vitamin_e", "vitamin_k", "calcium", "zinc", "iron", "magnesium", "potassium", "phosphorus", "chromium", "selenium", "biotin", "vitamin_b1", "vitamin_b2", "vitamin_b3", "vitamin_b5", "vitamin_b6", "vitamin_b9", "vitamin_b12"]
             
             if pct > 100:
                 violations.append({
                     "name": nutrient_display,
                     "feedback": f"{nutrient_display} ({amount_display}) is {pct:.1f}% of RDA ({rda_display}) - Exceeds daily recommended allowance for {audience['gender']} ({audience['activity_level']})."
                 })
-            elif pct < 5 and res["amount"] > 0 and key in ["energy", "protein", "calcium"]:
-                warnings.append({
+            # Check critical nutrients for minimum adequacy (should be >= 10% RDA per 100g)
+            elif key in critical_nutrients and pct < 10 and res["amount"] > 0:
+                below_adequacy.append({
                     "name": nutrient_display,
-                    "feedback": f"{nutrient_display} is unusually low ({pct:.1f}% of RDA), ensure declaration is correct."
+                    "pct": pct,
+                    "feedback": f"Critical nutrient {nutrient_display} ({amount_display}) is BELOW ADEQUACY: {pct:.1f}% of RDA (requires ≥10% for {audience['gender']} {audience['activity_level']})."
+                })
+            # For vitamins/minerals, flag if BELOW 15% RDA (inadequate for source claims)
+            elif key in vitamin_minerals and pct < 15 and res["amount"] > 0:
+                below_adequacy.append({
+                    "name": nutrient_display,
+                    "pct": pct,
+                    "feedback": f"Vitamin/Mineral {nutrient_display} ({amount_display}) is BELOW ADEQUACY: {pct:.1f}% of RDA (requires ≥15% to claim as 'source' for {audience['gender']} {audience['activity_level']})."
                 })
             else:
                 compliant_nutrients.append(nutrient_display)
-        
-        # Log RDA Summary
-        pipeline_logger.info("Nutrition", f"[RDA] Summary | Compliant: {len(compliant_nutrients)}, Violations: {len(violations)}, Warnings: {len(warnings)}")
         
         # Merge results into standard checks
         # Add violations as individual FAIL checks
@@ -162,35 +168,50 @@ async def run_nutrition_pipeline(extraction: ClaimsExtractionResult) -> list[dic
                 "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100}
             })
             
-        # Add warnings as individual ACTION checks
-        for i, w in enumerate(warnings):
+        # Add below-adequacy nutrients as individual NON-COMPLIANT checks
+        for i, b in enumerate(below_adequacy):
             checks.append({
-                "id": f"NUT-WARN-{i+1:03d}",
+                "id": f"NUT-INADEQUATE-{i+1:03d}",
                 "category": "Nutrition",
-                "name": f"Nutrition Warning: {w['name']}",
-                "description": f"RDA Adequacy Review for {w['name']}",
-                "status": "Action",
-                "feedback": w["feedback"],
+                "name": f"Nutrition Below Adequacy: {b['name']}",
+                "description": f"RDA Adequacy for {b['name']}",
+                "status": "Fail",
+                "feedback": b["feedback"],
                 "location": {"x": 50, "y": 50},
                 "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100}
             })
             
-        # Total Summary result if any
-        summary_msg = f"Nutrition validation complete for {audience['gender']}/{audience['activity_level']} demographic."
-        if not violations and not warnings:
+        # Overall RDA Compliance Summary
+        total_nutrients = len(rda_results)
+        
+        if violations or below_adequacy:
+            # FAIL: If there are any violations or nutrients below adequacy
+            num_inadequate = len(violations) + len(below_adequacy)
             checks.append({
-                "id": "NUT-PASS-001",
+                "id": "NUT-COMPLIANCE-001",
+                "category": "Nutrition",
+                "name": "Nutrition RDA Compliance",
+                "description": "Validation of declared nutritional values against standard RDA constants.",
+                "status": "Fail",
+                "feedback": f"RDA Compliance Failed: {num_inadequate} out of {total_nutrients} nutrients fail RDA adequacy standards. {len(violations)} nutrient(s) exceed RDA limits. {len(below_adequacy)} nutrient(s) are below minimum adequacy thresholds for {audience['gender']} ({audience['activity_level']}).",
+                "location": {"x": 50, "y": 50},
+                "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100}
+            })
+        else:
+            # COMPLIES: Only if ALL nutrients meet RDA adequacy standards
+            checks.append({
+                "id": "NUT-COMPLIANCE-001",
                 "category": "Nutrition",
                 "name": "Nutrition RDA Compliance",
                 "description": "Validation of declared nutritional values against standard RDA constants.",
                 "status": "Complies",
-                "feedback": f"All declared nutrients comply with the Recommended Daily Allowance (RDA) for {audience['gender']} patients/consumers. Tested {len(compliant_nutrients)} parameters.",
+                "feedback": f"All declared nutrients comply with RDA adequacy standards for {audience['gender']} ({audience['activity_level']}) patients/consumers. All {total_nutrients} parameters tested are within acceptable RDA ranges.",
                 "location": {"x": 50, "y": 50},
                 "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100}
             })
 
     except Exception as e:
-        pipeline_logger.error("Nutrition", f"[RDA] Nutrition Pipeline Error: {e}")
+        pipeline_logger.error("Nutrition", f"Nutrition Pipeline Error: {e}")
         checks.append({
             "id": "NUT-ERR-001",
             "category": "Nutrition",
@@ -202,5 +223,5 @@ async def run_nutrition_pipeline(extraction: ClaimsExtractionResult) -> list[dic
             "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100}
         })
         
-    pipeline_logger.info("Nutrition", f"[RDA] Nutrition Pipeline completed: Generated {len(checks)} check(s)")
-    return checks
+    pipeline_logger.info("Nutrition", f"Nutrition validation complete with audience: {audience}")
+    return checks, audience

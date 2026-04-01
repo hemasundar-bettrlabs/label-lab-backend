@@ -292,17 +292,26 @@ async def run_analysis_job(job_id: str):
             response = await asyncio.to_thread(run_main_analysis)
             result_json = json.loads(clean_json_response(response.text))
 
-        claims_result = None
-        if 'Claims' in categories and extraction:
-            await advance_step("claims")
-            pipeline_logger.info("Claims", "Running Claims Subsystem")
-            claims_result = await run_claims_pipeline(extraction)
+        # Initialize default nutrition audience
+        nutrition_audience = {
+            "gender": "men",
+            "activity_level": "sedentary",
+            "specific_period": None
+        }
 
+        # Run Nutrition FIRST to predict audience demographic
         nutrition_checks = []
         if 'Nutrition' in categories and extraction:
             await advance_step("nutrition")
             pipeline_logger.info("Nutrition", "Running Nutrition Subsystem")
-            nutrition_checks = await run_nutrition_pipeline(extraction)
+            nutrition_checks, nutrition_audience = await run_nutrition_pipeline(extraction)
+
+        # Run Claims AFTER nutrition with correct demographic
+        claims_result = None
+        if 'Claims' in categories and extraction:
+            await advance_step("claims")
+            pipeline_logger.info("Claims", "Running Claims Subsystem")
+            claims_result = await run_claims_pipeline(extraction, nutrition_audience)
 
         await advance_step("labTests")
         pipeline_logger.info("Lab Tests", "Running Lab Test Pipeline")
@@ -311,6 +320,7 @@ async def run_analysis_job(job_id: str):
             claims_result=claims_result,
             nutrition_checks=nutrition_checks,
             extraction=extraction,
+            metadata=extracted_metadata.model_dump() if extracted_metadata else {},
         )
 
         await advance_step("finalize")
