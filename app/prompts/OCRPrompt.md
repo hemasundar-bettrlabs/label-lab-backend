@@ -66,7 +66,22 @@ Extract all serving size references as printed, including any alternate formats 
 
 ---
 
-### 5. NUTRITIONAL CLAIMS
+### 5. GENERAL CLAIMS
+Descriptive, subjective statements about the product's sensory attributes including flavor, taste, texture, aroma, and overall product characteristics.
+
+✅ **Include Flavor Claims:** `"Rich Chocolate Flavor"`, `"Natural Strawberry Taste"`, `"Vanilla Flavored"`, `"Creamy Vanilla"`, `"Sweet Mango Flavor"`, `"Tangy Lemon"`
+
+✅ **Include Texture Claims:** `"Crispy"`, `"Crunchy"`, `"Soft & Chewy"`, `"Smooth"`, `"Creamy"`, `"Light & Fluffy"`, `"Velvety"`, `"Tender"`, `"Silky"`
+
+✅ **Include Sensory Combinations:** `"Smooth & Creamy"`, `"Rich & Moist"`, `"Crispy on the Outside, Soft Inside"`, `"Aromatic & Flavorful"`
+
+✅ **Include Product Descriptors:** `"Premium Quality"`, `"Delicious"`, `"Authentic"`, `"Traditional"`, `"Fresh"`, `"Wholesome"`
+
+❌ **Exclude:** Nutritional attributes (those go in Section 6), health-related claims (Section 7), ingredient-specific claims (Section 8), unsubstantiated origin claims
+
+---
+
+### 6. NUTRITIONAL CLAIMS
 Short, scientifically verifiable statements about the level, presence, or absence of a nutrient or dietary attribute.
 
 ✅ **Include:** `"High Protein"`, `"Zero Added Sugar"`, `"Low Trans Fat"`, `"Gluten Free"`, `"Cholesterol Free"`, `"Rich in Vitamin C"`, `"Source of Dietary Fiber"`
@@ -74,7 +89,7 @@ Short, scientifically verifiable statements about the level, presence, or absenc
 
 ---
 
-### 6. HEALTH CLAIMS
+### 7. HEALTH CLAIMS
 Short statements that explicitly link the product or a specific ingredient to a physiological function, health outcome, or disease risk reduction.
 
 ✅ **Include:** `"Boosts Immunity"`, `"Supports Heart Health"`, `"Aids in Digestion"`, `"Builds Strong Bones"`, `"Helps Lower Cholesterol"`
@@ -82,7 +97,7 @@ Short statements that explicitly link the product or a specific ingredient to a 
 
 ---
 
-### 7. INGREDIENT CLAIMS
+### 8. INGREDIENT CLAIMS
 Short, objective statements about the presence, absence, or specific nature of an ingredient.
 
 ✅ **Include:** `"Made with Real Fruit"`, `"100% Whole Grain"`, `"No Artificial Colors or Flavors"`, `"Non-GMO"`, `"Contains Real Butter"`
@@ -90,7 +105,7 @@ Short, objective statements about the presence, absence, or specific nature of a
 
 ---
 
-## GLOBAL RULES FOR CLAIMS (Fields 5, 6, 7)
+## GLOBAL RULES FOR CLAIMS (Fields 5, 6, 7, 8)
 
 - **Source only:** Extract claims explicitly stated on the label. Do not infer.
 - **Deduplicate:** If multiple phrases convey the same meaning, consolidate into one concise, verifiable claim.
@@ -99,4 +114,4 @@ Short, objective statements about the presence, absence, or specific nature of a
 
 ---
 
-Output strictly as a valid JSON object matching the provided schema, with `nutritional_claims`, `health_claims`, and `ingredient_claims` as three distinct arrays.
+Output strictly as a valid JSON object matching the provided schema, with `general_claims`, `nutritional_claims`, `health_claims`, and `ingredient_claims` as three distinct arrays.

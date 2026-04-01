@@ -2,6 +2,7 @@ from PIL import Image, ImageDraw
 import io
 import base64
 import math
+from app.utils.logger import pipeline_logger
 
 def decode_image_from_base64(base64_string: str) -> Image.Image:
     if "," in base64_string:
@@ -66,5 +67,5 @@ def add_grid_overlay(base64_image: str) -> str:
         return encode_image_to_base64(img)
         
     except Exception as e:
-        print(f"Error adding grid overlay: {e}")
+        pipeline_logger.error("ImageProcessor", f"Error adding grid overlay: {str(e)}")
         return base64_image # Return original if failure

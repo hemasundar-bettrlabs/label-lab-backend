@@ -1,0 +1,5759 @@
+{
+  "data": {
+    "American ginseng": {
+      "allowed_size": "90-400 mg",
+      "aliases": [
+        "Ginseng extract (American)",
+        "Panax quinquefolius"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Root (implied)",
+      "botanical_name": "Panax quinquefolius L.",
+      "serial_number": "1",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Purity: American ginseng extract (containing NLT 10% of total ginsenosides on dried basis).",
+      "requires_review": false
+    },
+    "Ginseng extract (American)": {
+      "ref": "American ginseng",
+      "allowed_size": "90-400 mg",
+      "aliases": [
+        "American ginseng"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Astaxanthin": {
+      "allowed_size": "2-12 mg",
+      "aliases": [],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Powder or oleoresin",
+      "botanical_name": "Haematococcus pluvialis",
+      "serial_number": "2",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Beta Alanine": {
+      "allowed_size": "4-6 g",
+      "aliases": [],
+      "unit": "g",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Beta Alanine",
+      "serial_number": "3",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Duration limit: Not more than 4 weeks at a stretch.",
+      "requires_review": false
+    },
+    "Betaine": {
+      "allowed_size": "600-650 mg",
+      "aliases": [
+        "N,N,N-trimethylglycine"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Betaine",
+      "serial_number": "4",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Boswellia serrata": {
+      "allowed_size": "250-1500 mg",
+      "aliases": [
+        "Salai guggul",
+        "Kundru"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Gum resin extract",
+      "botanical_name": "Boswellia serrata",
+      "serial_number": "5",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Purity: Total boswelic acids or 11-keto-beta boswelic acids content.",
+      "requires_review": false
+    },
+    "Salai guggul": {
+      "ref": "Boswellia serrata",
+      "allowed_size": "250-1500 mg",
+      "aliases": [
+        "Boswellia serrata",
+        "Kundru"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Kundru": {
+      "ref": "Boswellia serrata",
+      "allowed_size": "250-1500 mg",
+      "aliases": [
+        "Boswellia serrata",
+        "Salai guggul"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Caffeine": {
+      "allowed_size": "300 mg",
+      "aliases": [],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Caffeine",
+      "serial_number": "6",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "3 mg/kg b/w per day. Max 200 mg in a single dose. Only for adults and not recommended for pregnant and lactating women.",
+      "requires_review": false
+    },
+    "Calcium hydroxyl methyl butyrate": {
+      "allowed_size": "3-6 g",
+      "aliases": [
+        "CaHMB"
+      ],
+      "unit": "g",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Calcium hydroxyl methyl butyrate",
+      "serial_number": "7",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Not recommended for use by pregnant women and lactating mothers.",
+      "requires_review": false
+    },
+    "CaHMB": {
+      "ref": "Calcium hydroxyl methyl butyrate",
+      "allowed_size": "3-6 g",
+      "aliases": [
+        "Calcium hydroxyl methyl butyrate"
+      ],
+      "unit": "g",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Chlorella vulgaris": {
+      "allowed_size": "1-4 g",
+      "aliases": [
+        "Green algae",
+        "Shaiwal"
+      ],
+      "unit": "g",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Dried powder",
+      "botanical_name": "Chlorella vulgaris",
+      "serial_number": "8",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Green algae": {
+      "ref": "Chlorella vulgaris",
+      "allowed_size": "1-4 g",
+      "aliases": [
+        "Chlorella vulgaris",
+        "Shaiwal"
+      ],
+      "unit": "g",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Shaiwal": {
+      "ref": "Chlorella vulgaris",
+      "allowed_size": "1-4 g",
+      "aliases": [
+        "Chlorella vulgaris",
+        "Green algae"
+      ],
+      "unit": "g",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Chromium picolinate/nicotinate": {
+      "allowed_size": "200-400 mcg",
+      "aliases": [],
+      "unit": "mcg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Chromium picolinate/nicotinate",
+      "serial_number": "9",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Cimicifuga racemosa": {
+      "allowed_size": "40-200 mg",
+      "aliases": [
+        "Black cohosh",
+        "Actaea racemosa"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Rhizomes and roots",
+      "botanical_name": "Cimicifuga racemosa",
+      "serial_number": "10",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Purity: Total triterpene glycosides (minimum 0.4%)",
+      "requires_review": false
+    },
+    "Black cohosh": {
+      "ref": "Cimicifuga racemosa",
+      "allowed_size": "40-200 mg",
+      "aliases": [
+        "Cimicifuga racemosa",
+        "Actaea racemosa"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Citrus bioflavonoids": {
+      "allowed_size": "150-600 mg",
+      "aliases": [
+        "Citrus",
+        "Jambir"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Citrus paradisi, C. reticulata, C. maxima, C. sinensis, Citrus limon",
+      "botanical_name": "Citrus bioflavonoids",
+      "serial_number": "11",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Citrus": {
+      "ref": "Citrus bioflavonoids",
+      "allowed_size": "150-600 mg",
+      "aliases": [
+        "Citrus bioflavonoids",
+        "Jambir"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Jambir": {
+      "ref": "Citrus bioflavonoids",
+      "allowed_size": "150-600 mg",
+      "aliases": [
+        "Citrus bioflavonoids",
+        "Citrus"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Coenzyme Q10": {
+      "allowed_size": "60-300 mg",
+      "aliases": [
+        "Co enzyme Q10",
+        "Ubiquinol acetate"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate from non GM source",
+      "botanical_name": "CoQ10",
+      "serial_number": "12",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Co enzyme Q10": {
+      "ref": "Coenzyme Q10",
+      "allowed_size": "60-300 mg",
+      "aliases": [
+        "Coenzyme Q10",
+        "Ubiquinol acetate"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Colostrum": {
+      "allowed_size": "3-15 g",
+      "aliases": [],
+      "unit": "g",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Bovine colostrum spray dried powder",
+      "botanical_name": "Colostrum",
+      "serial_number": "13",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "15 g per day (containing 3 g of IgG) or 3 g per day (containing 0.3 g IgG) without any efficacy claims.",
+      "requires_review": false
+    },
+    "Creatine": {
+      "allowed_size": "3 g",
+      "aliases": [
+        "Creatine monohydrate",
+        "Creatine hydrochloride",
+        "Creatine nitrate"
+      ],
+      "unit": "g",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Creatine",
+      "serial_number": "14",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "For adults only.",
+      "requires_review": false
+    },
+    "Cryptoxanthin": {
+      "allowed_size": "3 mg",
+      "aliases": [
+        "Mesoxanthin"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Cryptoxanthin",
+      "serial_number": "15",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Mesoxanthin": {
+      "ref": "Cryptoxanthin",
+      "allowed_size": "3 mg",
+      "aliases": [
+        "Cryptoxanthin"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Echinacea": {
+      "allowed_size": "900 mg",
+      "aliases": [
+        "Echinacea angustifolia",
+        "Echinacea purpurea",
+        "Echinacea pallida"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Liquid/powder extract",
+      "botanical_name": "Echinacea",
+      "serial_number": "16",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Alkamides (0.25 mg/ml) and cichoric acid (2.5 mg/ml) if liquid.",
+      "requires_review": false
+    },
+    "Ginkgo biloba": {
+      "allowed_size": "120-240 mg",
+      "aliases": [
+        "Ginkgo biloba extract"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Dried leaves",
+      "botanical_name": "Ginkgo biloba L.",
+      "serial_number": "17",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Purity: Ginkgo flavone glycosides and Ginkgolides (diterpene lactones).",
+      "requires_review": false
+    },
+    "Ginkgo biloba extract": {
+      "ref": "Ginkgo biloba",
+      "allowed_size": "120-240 mg",
+      "aliases": [
+        "Ginkgo biloba"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Glucosamine hydrochloride": {
+      "allowed_size": "1500-3000 mg",
+      "aliases": [
+        "Glucosamine"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Glucosamine hydrochloride",
+      "serial_number": "18",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Glucosamine": {
+      "ref": "Glucosamine hydrochloride",
+      "allowed_size": "1500-3000 mg",
+      "aliases": [
+        "Glucosamine hydrochloride",
+        "Glucosamine sulphate"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Common name shared by HCl and Sulphate forms. Defaults to HCl."
+    },
+    "Glucosamine sulphate": {
+      "allowed_size": "2500-5000 mg",
+      "aliases": [
+        "Glucosamine"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Glucosamine sulphate",
+      "serial_number": "19",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Duplicate common name 'Glucosamine' processed.",
+      "requires_review": false
+    },
+    "Glutathione": {
+      "allowed_size": "50-600 mg",
+      "aliases": [
+        "S-acetyl glutathione"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Glutathione",
+      "serial_number": "20",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Gymnema sylvestre": {
+      "allowed_size": "500-1500 mg",
+      "aliases": [
+        "Madhunashini",
+        "Gudmar"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Extract powder",
+      "botanical_name": "Gymnema sylvestre",
+      "serial_number": "21",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Purity: Gymnemic acid content.",
+      "requires_review": false
+    },
+    "Madhunashini": {
+      "ref": "Gymnema sylvestre",
+      "allowed_size": "500-1500 mg",
+      "aliases": [
+        "Gymnema sylvestre",
+        "Gudmar"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Gudmar": {
+      "ref": "Gymnema sylvestre",
+      "allowed_size": "500-1500 mg",
+      "aliases": [
+        "Gymnema sylvestre",
+        "Madhunashini"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "L-carnosine": {
+      "allowed_size": "130-600 mg",
+      "aliases": [],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "L-carnosine",
+      "serial_number": "23",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "L-theanine": {
+      "allowed_size": "50-200 mg",
+      "aliases": [
+        "Chai suksham satva"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "L-theanine",
+      "serial_number": "24",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Chai suksham satva": {
+      "ref": "L-theanine",
+      "allowed_size": "50-200 mg",
+      "aliases": [
+        "L-theanine"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Melatonin": {
+      "allowed_size": "2-10 mg",
+      "aliases": [],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Melatonin",
+      "serial_number": "25",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Methyl sulfonyl methane": {
+      "allowed_size": "1000-3000 mg",
+      "aliases": [],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Methyl sulfonyl methane",
+      "serial_number": "26",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Not recommended for use by pregnant women and lactating mothers.",
+      "requires_review": false
+    },
+    "Panax ginseng": {
+      "allowed_size": "90-400 mg",
+      "aliases": [
+        "Korean Ginseng",
+        "Ginseng extract"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Root",
+      "botanical_name": "Panax ginseng C.A. Meyer",
+      "serial_number": "27",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Purity: Ginsenoside content ranging from 3 - 10 % and adjusted to potency basis 3% total ginsenoside content.",
+      "requires_review": false
+    },
+    "Ginseng extract": {
+      "ref": "Panax ginseng",
+      "allowed_size": "90-400 mg",
+      "aliases": [
+        "Korean Ginseng",
+        "Panax ginseng"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Phycocyanin": {
+      "allowed_size": "50-250 mg",
+      "aliases": [
+        "Spirulina"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Dried powder",
+      "botanical_name": "Spirulina platensis",
+      "serial_number": "28",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Spirulina": {
+      "ref": "Phycocyanin",
+      "allowed_size": "50-250 mg",
+      "aliases": [
+        "Phycocyanin"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Piper nigrum/Piper longum": {
+      "allowed_size": "15 mg",
+      "aliases": [
+        "Pippali",
+        "Pepper"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Extract",
+      "botanical_name": "Piper nigrum/Piper longum",
+      "serial_number": "29",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "15 mg/day of piperine. Duration of use: maximum 30 days.",
+      "requires_review": false
+    },
+    "Pippali": {
+      "ref": "Piper nigrum/Piper longum",
+      "allowed_size": "15 mg",
+      "aliases": [
+        "Piper nigrum/Piper longum",
+        "Pepper"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Pepper": {
+      "ref": "Piper nigrum/Piper longum",
+      "allowed_size": "15 mg",
+      "aliases": [
+        "Piper nigrum/Piper longum",
+        "Pippali"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "notes": "Alternate name entry."
+    },
+    "Quercetin": {
+      "allowed_size": "100 mg",
+      "aliases": [],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Extract from citrus fruits/vegetables",
+      "botanical_name": "Quercetin",
+      "serial_number": "30",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Schizandra berry extract": {
+      "allowed_size": "1-3",
+      "aliases": [
+        "Five-flavor berry",
+        "Schisandra chinensis"
+      ],
+      "unit": "g",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Berry",
+      "botanical_name": "Schisandra chinensis",
+      "serial_number": "31",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Five-flavor berry": {
+      "ref": "Schizandra berry extract",
+      "allowed_size": "1-3",
+      "aliases": [
+        "Schizandra berry extract"
+      ],
+      "unit": "g",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Berry",
+      "botanical_name": "Schisandra chinensis",
+      "serial_number": "31",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Scutellaria baicalensis": {
+      "allowed_size": "250-1000",
+      "aliases": [
+        "Patwar topi",
+        "Skullcap"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Whole plant",
+      "botanical_name": "Scutellaria baicalensis",
+      "serial_number": "32",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Original OCR text: 'Scutellariabicalensis' corrected to 'Scutellaria baicalensis'.",
+      "requires_review": true
+    },
+    "Patwar topi": {
+      "ref": "Scutellaria baicalensis",
+      "allowed_size": "250-1000",
+      "aliases": [
+        "Scutellaria baicalensis",
+        "Skullcap"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Whole plant",
+      "botanical_name": "Scutellaria baicalensis",
+      "serial_number": "32",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Skullcap": {
+      "ref": "Scutellaria baicalensis",
+      "allowed_size": "250-1000",
+      "aliases": [
+        "Scutellaria baicalensis",
+        "Patwar topi"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Whole plant",
+      "botanical_name": "Scutellaria baicalensis",
+      "serial_number": "32",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Selenium Yeast": {
+      "allowed_size": "2",
+      "aliases": [],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Yeast",
+      "botanical_name": "Saccharomyces cerevisiae",
+      "serial_number": "33",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Dosage refers to Selenium content.",
+      "requires_review": false
+    },
+    "Siberian ginseng": {
+      "allowed_size": "100-450",
+      "aliases": [
+        "Ginseng extract",
+        "Acanthopanax senticosus",
+        "Eleuthero"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Root",
+      "botanical_name": "Acanthopanax senticosus",
+      "serial_number": "34",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Obtained from 0.6 to 2.0 g of Ginseng root.",
+      "requires_review": false
+    },
+    "Silybum marianum extract": {
+      "allowed_size": "250-1000",
+      "aliases": [
+        "Silymarin extract",
+        "Milk Thistle"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Seed/Fruit",
+      "botanical_name": "Silybum marianum",
+      "serial_number": "35",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Standardized to silymarin content. Original OCR 'Silybummarianum' corrected.",
+      "requires_review": true
+    },
+    "Silymarin extract": {
+      "ref": "Silybum marianum extract",
+      "allowed_size": "250-1000",
+      "aliases": [
+        "Silybum marianum extract"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Seed/Fruit",
+      "botanical_name": "Silybum marianum",
+      "serial_number": "35",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Undenatured type I collagen": {
+      "allowed_size": "40",
+      "aliases": [],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Connective tissue",
+      "botanical_name": "Animal source (typically)",
+      "serial_number": "37",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Specific purity criteria not listed in source row.",
+      "requires_review": false
+    },
+    "Vaccinium myrtillus extract": {
+      "allowed_size": "50-600",
+      "aliases": [
+        "Bilberry extract"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Fruit",
+      "botanical_name": "Vaccinium myrtillus",
+      "serial_number": "38",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "OCR typo 'myrstillus' corrected to 'myrtillus'.",
+      "requires_review": true
+    },
+    "Bilberry extract": {
+      "ref": "Vaccinium myrtillus extract",
+      "allowed_size": "50-600",
+      "aliases": [
+        "Vaccinium myrtillus extract"
+      ],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Fruit",
+      "botanical_name": "Vaccinium myrtillus",
+      "serial_number": "38",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Zeaxanthin": {
+      "allowed_size": "4",
+      "aliases": [],
+      "unit": "mg",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Flower (Marigold) / Algae",
+      "botanical_name": "Tagetes erecta",
+      "serial_number": "39",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Source organism not explicitly specified in row.",
+      "requires_review": false
+    },
+    "Camellia sinensis extract": {
+      "allowed_size": "0.5-2",
+      "aliases": [
+        "Chai & tea extract",
+        "Black tea extract",
+        "Green tea extract"
+      ],
+      "unit": "g",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Leaf",
+      "botanical_name": "Camellia sinensis",
+      "serial_number": "40",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Black / green tea extract, standardized powder.",
+      "requires_review": false
+    },
+    "Chai & tea extract": {
+      "ref": "Camellia sinensis extract",
+      "allowed_size": "0.5-2",
+      "aliases": [
+        "Camellia sinensis extract"
+      ],
+      "unit": "g",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Leaf",
+      "botanical_name": "Camellia sinensis",
+      "serial_number": "40",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Tea catechins": {
+      "allowed_size": "0.7",
+      "aliases": [
+        "Chai satva",
+        "Epigallo catechin gallate",
+        "Epicatechin"
+      ],
+      "unit": "g",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Leaf",
+      "botanical_name": "Camellia sinensis",
+      "serial_number": "41",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Derived from Camellia sinensis.",
+      "requires_review": false
+    },
+    "Chai satva": {
+      "ref": "Tea catechins",
+      "allowed_size": "0.7",
+      "aliases": [
+        "Tea catechins"
+      ],
+      "unit": "g",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Leaf",
+      "botanical_name": "Camellia sinensis",
+      "serial_number": "41",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - PART A",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "(+) Hydroxycitric acid": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "(+) Hydroxycitric acid",
+      "serial_number": "1",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Albizia lebbeck": {
+      "allowed_size": null,
+      "aliases": [
+        "Shireesh"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Albizia lebbeck",
+      "serial_number": "2",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Shireesh": {
+      "ref": "Albizia lebbeck",
+      "allowed_size": null,
+      "aliases": [
+        "Albizia lebbeck"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Albizia lebbeck",
+      "serial_number": "2",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Allium sativum": {
+      "allowed_size": null,
+      "aliases": [
+        "Rason",
+        "Lashun",
+        "Garlic"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "bulbs dried standardized powder / extract",
+      "botanical_name": "Allium sativum",
+      "serial_number": "3",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Rason": {
+      "ref": "Allium sativum",
+      "allowed_size": null,
+      "aliases": [
+        "Allium sativum",
+        "Lashun",
+        "Garlic"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Lashun": {
+      "ref": "Allium sativum",
+      "allowed_size": null,
+      "aliases": [
+        "Allium sativum",
+        "Rason",
+        "Garlic"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Garlic": {
+      "ref": "Allium sativum",
+      "allowed_size": null,
+      "aliases": [
+        "Allium sativum",
+        "Rason",
+        "Lashun"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Aloe vera": {
+      "allowed_size": null,
+      "aliases": [
+        "Ghrit Kumari",
+        "Indian aloe"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "juice/concentrate/powder of sap/gel",
+      "botanical_name": "Aloe vera",
+      "serial_number": "4",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Ghrit Kumari": {
+      "ref": "Aloe vera",
+      "allowed_size": null,
+      "aliases": [
+        "Aloe vera",
+        "Indian aloe"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Indian aloe": {
+      "ref": "Aloe vera",
+      "allowed_size": null,
+      "aliases": [
+        "Aloe vera",
+        "Ghrit Kumari"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Alpha mangostin": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Alpha mangostin",
+      "serial_number": "6",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Alpha-lipoic acid": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Alpha-lipoic acid",
+      "serial_number": "8",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Amaranthus tricolor": {
+      "allowed_size": null,
+      "aliases": [
+        "Marisha-Rakt Extract"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf powder/extract",
+      "botanical_name": "Amaranthus tricolor",
+      "serial_number": "9",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Marisha-Rakt Extract": {
+      "ref": "Amaranthus tricolor",
+      "allowed_size": null,
+      "aliases": [
+        "Amaranthus tricolor"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Anethum graveolens L.": {
+      "allowed_size": null,
+      "aliases": [
+        "Shatahva",
+        "Sowa",
+        "Soa",
+        "Dill"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "seeds and oil",
+      "botanical_name": "Anethum graveolens L.",
+      "serial_number": "12",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Shatahva": {
+      "ref": "Anethum graveolens L.",
+      "allowed_size": null,
+      "aliases": [
+        "Anethum graveolens L.",
+        "Sowa",
+        "Soa",
+        "Dill"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Dill": {
+      "ref": "Anethum graveolens L.",
+      "allowed_size": null,
+      "aliases": [
+        "Anethum graveolens L.",
+        "Shatahva",
+        "Sowa",
+        "Soa"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Anthocyanin": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Anthocyanin",
+      "serial_number": "13",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Arabinogalactan": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Arabinogalactan",
+      "serial_number": "14",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Arachidonic acid": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Arachidonic acid",
+      "serial_number": "15",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Asparagus densiflorus": {
+      "allowed_size": null,
+      "aliases": [
+        "Asparagus",
+        "Shatavari"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Asparagus densiflorus",
+      "serial_number": "16",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Shatavari": {
+      "ref": "Asparagus densiflorus",
+      "allowed_size": null,
+      "aliases": [
+        "Asparagus densiflorus",
+        "Asparagus"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Bacopa monnieri": {
+      "allowed_size": null,
+      "aliases": [
+        "Brahmi"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf extract",
+      "botanical_name": "Bacopa monnieri",
+      "serial_number": "17",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Brahmi": {
+      "ref": "Bacopa monnieri",
+      "allowed_size": null,
+      "aliases": [
+        "Bacopa monnieri"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Barley seed powder": {
+      "allowed_size": null,
+      "aliases": [
+        "Yava",
+        "Barley"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "seed powder",
+      "botanical_name": "Barley",
+      "serial_number": "18",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Yava": {
+      "ref": "Barley seed powder",
+      "allowed_size": null,
+      "aliases": [
+        "Barley seed powder",
+        "Barley"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Bauhinia variegata": {
+      "allowed_size": null,
+      "aliases": [
+        "Kachnar"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Bauhinia variegata",
+      "serial_number": "19",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Kachnar": {
+      "ref": "Bauhinia variegata",
+      "allowed_size": null,
+      "aliases": [
+        "Bauhinia variegata"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Berberis vulgaris / B. aristata / B. asiatica": {
+      "allowed_size": null,
+      "aliases": [
+        "Berberry",
+        "Daru haridra"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "stem/root extract",
+      "botanical_name": "Berberis vulgaris / B. aristata / B. asiatica",
+      "serial_number": "20",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Berberry": {
+      "ref": "Berberis vulgaris / B. aristata / B. asiatica",
+      "allowed_size": null,
+      "aliases": [
+        "Berberis vulgaris / B. aristata / B. asiatica",
+        "Daru haridra"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Daru haridra": {
+      "ref": "Berberis vulgaris / B. aristata / B. asiatica",
+      "allowed_size": null,
+      "aliases": [
+        "Berberis vulgaris / B. aristata / B. asiatica",
+        "Berberry"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Beta carotene": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "standardized soft concentrate / emulsified concentrate/powder",
+      "botanical_name": "Beta carotene",
+      "serial_number": "21",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Beta ecdysterone": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Beta ecdysterone",
+      "serial_number": "22",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Beta-glucans": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Beta-glucans",
+      "serial_number": "23",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Beta vulgaris": {
+      "allowed_size": null,
+      "aliases": [
+        "Palanki",
+        "Beet"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "root extract",
+      "botanical_name": "Beta vulgaris",
+      "serial_number": "24",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Beet": {
+      "ref": "Beta vulgaris",
+      "allowed_size": null,
+      "aliases": [
+        "Beta vulgaris",
+        "Palanki"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Beta-sitosterol": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Beta-sitosterol",
+      "serial_number": "25",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Betula platyphylla / B. utilis": {
+      "allowed_size": null,
+      "aliases": [
+        "Bhojapatra",
+        "Birch"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "bark extract",
+      "botanical_name": "Betula platyphylla / B. utilis",
+      "serial_number": "26",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Birch": {
+      "ref": "Betula platyphylla / B. utilis",
+      "allowed_size": null,
+      "aliases": [
+        "Betula platyphylla / B. utilis",
+        "Bhojapatra"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Biota orientalis": {
+      "allowed_size": null,
+      "aliases": [
+        "Biota"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "seed powder",
+      "botanical_name": "Biota orientalis",
+      "serial_number": "27",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Biota": {
+      "ref": "Biota orientalis",
+      "allowed_size": null,
+      "aliases": [
+        "Biota orientalis"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Borago officinalis": {
+      "allowed_size": null,
+      "aliases": [
+        "Borage"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "oil",
+      "botanical_name": "Borago officinalis",
+      "serial_number": "28",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Borage": {
+      "ref": "Borago officinalis",
+      "allowed_size": null,
+      "aliases": [
+        "Borago officinalis"
+      ],
+      "unit": null,
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Campestanol": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Campestanol",
+      "serial_number": "29",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Campesterol": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Campesterol",
+      "serial_number": "30",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Capsicum annum": {
+      "allowed_size": null,
+      "aliases": [
+        "Lanka",
+        "Cayenne pepper",
+        "Lal mirchi"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract / standardized to capsicin content",
+      "botanical_name": "Capsicum annum",
+      "serial_number": "31",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Lanka": {
+      "ref": "Capsicum annum",
+      "allowed_size": null,
+      "aliases": [
+        "Capsicum annum",
+        "Cayenne pepper",
+        "Lal mirchi"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract / standardized to capsicin content",
+      "botanical_name": "Capsicum annum",
+      "serial_number": "31",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Cayenne pepper": {
+      "ref": "Capsicum annum",
+      "allowed_size": null,
+      "aliases": [
+        "Capsicum annum",
+        "Lanka",
+        "Lal mirchi"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract / standardized to capsicin content",
+      "botanical_name": "Capsicum annum",
+      "serial_number": "31",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Lal mirchi": {
+      "ref": "Capsicum annum",
+      "allowed_size": null,
+      "aliases": [
+        "Capsicum annum",
+        "Lanka",
+        "Cayenne pepper"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract / standardized to capsicin content",
+      "botanical_name": "Capsicum annum",
+      "serial_number": "31",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Caricus papaya": {
+      "allowed_size": null,
+      "aliases": [
+        "Papaya",
+        "Papeeta",
+        "Erand-karkati"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf extract",
+      "botanical_name": "Caricus papaya",
+      "serial_number": "32",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Papaya": {
+      "ref": "Caricus papaya",
+      "allowed_size": null,
+      "aliases": [
+        "Caricus papaya",
+        "Papeeta",
+        "Erand-karkati"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf extract",
+      "botanical_name": "Caricus papaya",
+      "serial_number": "32",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Papeeta": {
+      "ref": "Caricus papaya",
+      "allowed_size": null,
+      "aliases": [
+        "Caricus papaya",
+        "Papaya",
+        "Erand-karkati"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf extract",
+      "botanical_name": "Caricus papaya",
+      "serial_number": "32",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Erand-karkati": {
+      "ref": "Caricus papaya",
+      "allowed_size": null,
+      "aliases": [
+        "Caricus papaya",
+        "Papaya",
+        "Papeeta"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf extract",
+      "botanical_name": "Caricus papaya",
+      "serial_number": "32",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Carotenoids": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "natural mixed, including from algal sources",
+      "botanical_name": "Carotenoids",
+      "serial_number": "33",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Casein and caseinates": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate/Extract",
+      "botanical_name": "Casein and caseinates",
+      "serial_number": "34",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Caulophyllum thalictroides": {
+      "allowed_size": null,
+      "aliases": [
+        "Blue cohosh"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "root extract",
+      "botanical_name": "Caulophyllum thalictroides",
+      "serial_number": "35",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Blue cohosh": {
+      "ref": "Caulophyllum thalictroides",
+      "allowed_size": null,
+      "aliases": [
+        "Caulophyllum thalictroides"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "root extract",
+      "botanical_name": "Caulophyllum thalictroides",
+      "serial_number": "35",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Centella asiatica": {
+      "allowed_size": null,
+      "aliases": [
+        "Mandukparni",
+        "Gotu Kola"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf/aerial parts standardized extract",
+      "botanical_name": "Centella asiatica",
+      "serial_number": "37",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Mandukparni": {
+      "ref": "Centella asiatica",
+      "allowed_size": null,
+      "aliases": [
+        "Centella asiatica",
+        "Gotu Kola"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf/aerial parts standardized extract",
+      "botanical_name": "Centella asiatica",
+      "serial_number": "37",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Gotu Kola": {
+      "ref": "Centella asiatica",
+      "allowed_size": null,
+      "aliases": [
+        "Centella asiatica",
+        "Mandukparni"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf/aerial parts standardized extract",
+      "botanical_name": "Centella asiatica",
+      "serial_number": "37",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Matricaria chamomilla": {
+      "allowed_size": null,
+      "aliases": [
+        "Matricaria recutita"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "aerial parts extract",
+      "botanical_name": "Matricaria chamomilla",
+      "serial_number": "38",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Matricaria recutita": {
+      "ref": "Matricaria chamomilla",
+      "allowed_size": null,
+      "aliases": [
+        "Matricaria chamomilla"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "aerial parts extract",
+      "botanical_name": "Matricaria chamomilla",
+      "serial_number": "38",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Malpighia emarginata": {
+      "allowed_size": null,
+      "aliases": [
+        "Acerola",
+        "Cherry acerola"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Fruit/Extract",
+      "botanical_name": "Malpighia emarginata",
+      "serial_number": "39",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Acerola": {
+      "ref": "Malpighia emarginata",
+      "allowed_size": null,
+      "aliases": [
+        "Malpighia emarginata",
+        "Cherry acerola"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Fruit/Extract",
+      "botanical_name": "Malpighia emarginata",
+      "serial_number": "39",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Cherry acerola": {
+      "ref": "Malpighia emarginata",
+      "allowed_size": null,
+      "aliases": [
+        "Malpighia emarginata",
+        "Acerola"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Fruit/Extract",
+      "botanical_name": "Malpighia emarginata",
+      "serial_number": "39",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Chlorogenic acids": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Acid/Extract",
+      "botanical_name": "Chlorogenic acids",
+      "serial_number": "40",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Caffeic acid": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Acid/Extract",
+      "botanical_name": "Caffeic acid",
+      "serial_number": "41",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Chondroitin sulphate": {
+      "allowed_size": null,
+      "aliases": [
+        "Chondroitin"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Chondroitin sulphate",
+      "serial_number": "42",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Chondroitin": {
+      "ref": "Chondroitin sulphate",
+      "allowed_size": null,
+      "aliases": [
+        "Chondroitin sulphate"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Chondroitin sulphate",
+      "serial_number": "42",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Cichorium intybus": {
+      "allowed_size": null,
+      "aliases": [
+        "Kasani",
+        "Chicory"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "roasted root powder",
+      "botanical_name": "Cichorium intybus",
+      "serial_number": "43",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Kasani": {
+      "ref": "Cichorium intybus",
+      "allowed_size": null,
+      "aliases": [
+        "Cichorium intybus",
+        "Chicory"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "roasted root powder",
+      "botanical_name": "Cichorium intybus",
+      "serial_number": "43",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Chicory": {
+      "ref": "Cichorium intybus",
+      "allowed_size": null,
+      "aliases": [
+        "Cichorium intybus",
+        "Kasani"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "roasted root powder",
+      "botanical_name": "Cichorium intybus",
+      "serial_number": "43",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Cinnamomum verum": {
+      "allowed_size": null,
+      "aliases": [
+        "Tvak bhed",
+        "Cinnamon"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "bark powder/extract",
+      "botanical_name": "Cinnamomum verum",
+      "serial_number": "44",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Tvak bhed": {
+      "ref": "Cinnamomum verum",
+      "allowed_size": null,
+      "aliases": [
+        "Cinnamomum verum",
+        "Cinnamon"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "bark powder/extract",
+      "botanical_name": "Cinnamomum verum",
+      "serial_number": "44",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Cinnamon": {
+      "ref": "Cinnamomum verum",
+      "allowed_size": null,
+      "aliases": [
+        "Cinnamomum verum",
+        "Tvak bhed"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "bark powder/extract",
+      "botanical_name": "Cinnamomum verum",
+      "serial_number": "44",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Citrulline": {
+      "allowed_size": null,
+      "aliases": [
+        "L-citrulline DL-malate"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Citrulline",
+      "serial_number": "45",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "L-citrulline DL-malate": {
+      "ref": "Citrulline",
+      "allowed_size": null,
+      "aliases": [
+        "Citrulline"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Citrulline",
+      "serial_number": "45",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Citrus aurantium": {
+      "allowed_size": null,
+      "aliases": [
+        "Bitter orange"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "peel extract /bioflavonoids standardized",
+      "botanical_name": "Citrus aurantium",
+      "serial_number": "46",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Bitter orange": {
+      "ref": "Citrus aurantium",
+      "allowed_size": null,
+      "aliases": [
+        "Citrus aurantium"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "peel extract /bioflavonoids standardized",
+      "botanical_name": "Citrus aurantium",
+      "serial_number": "46",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Citrus naringenin": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Citrus naringenin",
+      "serial_number": "47",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "D-Mannose": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "D-Mannose",
+      "serial_number": "48",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Syzygum aromaticum": {
+      "allowed_size": null,
+      "aliases": [
+        "Lavang tail"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Clove powder & oil",
+      "botanical_name": "Syzygum aromaticum",
+      "serial_number": "49",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Lavang tail": {
+      "ref": "Syzygum aromaticum",
+      "allowed_size": null,
+      "aliases": [
+        "Syzygum aromaticum"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Clove powder & oil",
+      "botanical_name": "Syzygum aromaticum",
+      "serial_number": "49",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Cnicus benedictus": {
+      "allowed_size": null,
+      "aliases": [
+        "Blessed thistle"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "aerial parts extract / root extract",
+      "botanical_name": "Cnicus benedictus",
+      "serial_number": "50",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Blessed thistle": {
+      "ref": "Cnicus benedictus",
+      "allowed_size": null,
+      "aliases": [
+        "Cnicus benedictus"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "aerial parts extract / root extract",
+      "botanical_name": "Cnicus benedictus",
+      "serial_number": "50",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Theobroma cacao": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Cocoa (chocolate) bean - extract",
+      "botanical_name": "Theobroma cacao",
+      "serial_number": "51",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Coccinia grandis (L.) Voigt": {
+      "allowed_size": null,
+      "aliases": [
+        "Bimbi",
+        "Kunduru",
+        "Ivy gourd"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Coccinia grandis (L.) Voigt",
+      "serial_number": "52",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Bimbi": {
+      "ref": "Coccinia grandis (L.) Voigt",
+      "allowed_size": null,
+      "aliases": [
+        "Coccinia grandis (L.) Voigt",
+        "Kunduru",
+        "Ivy gourd"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Coccinia grandis (L.) Voigt",
+      "serial_number": "52",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Kunduru": {
+      "ref": "Coccinia grandis (L.) Voigt",
+      "allowed_size": null,
+      "aliases": [
+        "Coccinia grandis (L.) Voigt",
+        "Bimbi",
+        "Ivy gourd"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Coccinia grandis (L.) Voigt",
+      "serial_number": "52",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Ivy gourd": {
+      "ref": "Coccinia grandis (L.) Voigt",
+      "allowed_size": null,
+      "aliases": [
+        "Coccinia grandis (L.) Voigt",
+        "Bimbi",
+        "Kunduru"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Coccinia grandis (L.) Voigt",
+      "serial_number": "52",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Collagen and its hydrolysed peptides and chelates": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Isolate",
+      "botanical_name": "Collagen and its hydrolysed peptides and chelates",
+      "serial_number": "53",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Conjugated linoleic acid concentrate": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Concentrate",
+      "botanical_name": "Conjugated linoleic acid concentrate",
+      "serial_number": "54",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Crataeva nurvala": {
+      "allowed_size": null,
+      "aliases": [
+        "Varun"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Crataeva nurvala",
+      "serial_number": "55",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Varun": {
+      "ref": "Crataeva nurvala",
+      "allowed_size": null,
+      "aliases": [
+        "Crataeva nurvala"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Crataeva nurvala",
+      "serial_number": "55",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Crustacean shells": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Shells",
+      "botanical_name": "Crustacean shells",
+      "serial_number": "56",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Cuminum cyminum": {
+      "allowed_size": null,
+      "aliases": [
+        "Jeerak",
+        "Safed Jeera",
+        "Cumin"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "oil/extract",
+      "botanical_name": "Cuminum cyminum",
+      "serial_number": "57",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Jeerak": {
+      "ref": "Cuminum cyminum",
+      "allowed_size": null,
+      "aliases": [
+        "Cuminum cyminum",
+        "Safed Jeera",
+        "Cumin"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "oil/extract",
+      "botanical_name": "Cuminum cyminum",
+      "serial_number": "57",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Safed Jeera": {
+      "ref": "Cuminum cyminum",
+      "allowed_size": null,
+      "aliases": [
+        "Cuminum cyminum",
+        "Jeerak",
+        "Cumin"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "oil/extract",
+      "botanical_name": "Cuminum cyminum",
+      "serial_number": "57",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Cumin": {
+      "ref": "Cuminum cyminum",
+      "allowed_size": null,
+      "aliases": [
+        "Cuminum cyminum",
+        "Jeerak",
+        "Safed Jeera"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "oil/extract",
+      "botanical_name": "Cuminum cyminum",
+      "serial_number": "57",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Curcuma longa": {
+      "allowed_size": null,
+      "aliases": [
+        "Haridra",
+        "Haldi",
+        "Turmeric"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "rhizome powder / extract standardized",
+      "botanical_name": "Curcuma longa",
+      "serial_number": "58",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Haridra": {
+      "ref": "Curcuma longa",
+      "allowed_size": null,
+      "aliases": [
+        "Curcuma longa",
+        "Haldi",
+        "Turmeric"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "rhizome powder / extract standardized",
+      "botanical_name": "Curcuma longa",
+      "serial_number": "58",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Haldi": {
+      "ref": "Curcuma longa",
+      "allowed_size": null,
+      "aliases": [
+        "Curcuma longa",
+        "Haridra",
+        "Turmeric"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "rhizome powder / extract standardized",
+      "botanical_name": "Curcuma longa",
+      "serial_number": "58",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Turmeric": {
+      "ref": "Curcuma longa",
+      "allowed_size": null,
+      "aliases": [
+        "Curcuma longa",
+        "Haridra",
+        "Haldi"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "rhizome powder / extract standardized",
+      "botanical_name": "Curcuma longa",
+      "serial_number": "58",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Curcuminoids": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "soft extract / powder and curcumin complex",
+      "botanical_name": "Curcuminoids",
+      "serial_number": "59",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Cyperus rotundus": {
+      "allowed_size": null,
+      "aliases": [
+        "Mustak",
+        "Nagar motha"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Cyperus rotundus",
+      "serial_number": "60",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Mustak": {
+      "ref": "Cyperus rotundus",
+      "allowed_size": null,
+      "aliases": [
+        "Cyperus rotundus",
+        "Nagar motha"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Cyperus rotundus",
+      "serial_number": "60",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Nagar motha": {
+      "ref": "Cyperus rotundus",
+      "allowed_size": null,
+      "aliases": [
+        "Cyperus rotundus",
+        "Mustak"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Cyperus rotundus",
+      "serial_number": "60",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "D-Pinitol": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "D-Pinitol",
+      "serial_number": "62",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Dioscorea bulbifera": {
+      "allowed_size": null,
+      "aliases": [
+        "Varahi kand"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Dioscorea bulbifera",
+      "serial_number": "63",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Varahi kand": {
+      "ref": "Dioscorea bulbifera",
+      "allowed_size": null,
+      "aliases": [
+        "Dioscorea bulbifera"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Dioscorea bulbifera",
+      "serial_number": "63",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Protein isolates/concentrates/hydrolysates": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Protein isolates/concentrates/hydrolysates",
+      "serial_number": "64",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Broad category entry.",
+      "requires_review": false
+    },
+    "Ellagic acid": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Ellagic acid",
+      "serial_number": "65",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Emblica officinalis": {
+      "allowed_size": null,
+      "aliases": [
+        "Indian gooseberry",
+        "Amlaki"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "dried fruit extract / spray dried pulp powder",
+      "botanical_name": "Emblica officinalis",
+      "serial_number": "66",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Indian gooseberry": {
+      "ref": "Emblica officinalis",
+      "allowed_size": null,
+      "aliases": [
+        "Emblica officinalis",
+        "Amlaki"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "dried fruit extract / spray dried pulp powder",
+      "botanical_name": "Emblica officinalis",
+      "serial_number": "66",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Amlaki": {
+      "ref": "Emblica officinalis",
+      "allowed_size": null,
+      "aliases": [
+        "Emblica officinalis",
+        "Indian gooseberry"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "dried fruit extract / spray dried pulp powder",
+      "botanical_name": "Emblica officinalis",
+      "serial_number": "66",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Eriocitrin": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "from citrus fruit",
+      "botanical_name": "Eriocitrin",
+      "serial_number": "67",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Oenothera biennis": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Evening primrose oil",
+      "botanical_name": "Oenothera biennis",
+      "serial_number": "68",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Fagopyrum esculentum": {
+      "allowed_size": null,
+      "aliases": [
+        "Buckwheat"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "seed",
+      "botanical_name": "Fagopyrum esculentum",
+      "serial_number": "69",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Buckwheat": {
+      "ref": "Fagopyrum esculentum",
+      "allowed_size": null,
+      "aliases": [
+        "Fagopyrum esculentum"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "seed",
+      "botanical_name": "Fagopyrum esculentum",
+      "serial_number": "69",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Fish oil": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Fish oil",
+      "serial_number": "70",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Animal source but included in table.",
+      "requires_review": false
+    },
+    "Foeniculum vulgare": {
+      "allowed_size": null,
+      "aliases": [
+        "Fennel",
+        "Saunf"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit-oil/extract",
+      "botanical_name": "Foeniculum vulgare",
+      "serial_number": "71",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "OCR Cleaned: Foeniculumvulgare -> Foeniculum vulgare.",
+      "requires_review": false
+    },
+    "Fennel": {
+      "ref": "Foeniculum vulgare",
+      "allowed_size": null,
+      "aliases": [
+        "Foeniculum vulgare",
+        "Saunf"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit-oil/extract",
+      "botanical_name": "Foeniculum vulgare",
+      "serial_number": "71",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Saunf": {
+      "ref": "Foeniculum vulgare",
+      "allowed_size": null,
+      "aliases": [
+        "Foeniculum vulgare",
+        "Fennel"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit-oil/extract",
+      "botanical_name": "Foeniculum vulgare",
+      "serial_number": "71",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Freeze-dried banana powder": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Freeze-dried banana powder",
+      "serial_number": "72",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "OCR Cleaned: Freeze-driedbanana -> Freeze-dried banana.",
+      "requires_review": false
+    },
+    "Galactomannan": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Galactomannan",
+      "serial_number": "73",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Gallic acid": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Gallic acid",
+      "serial_number": "74",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Gamma-linoleic acid": {
+      "allowed_size": null,
+      "aliases": [
+        "GLA"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Gamma-linoleic acid",
+      "serial_number": "75",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "GLA": {
+      "ref": "Gamma-linoleic acid",
+      "allowed_size": null,
+      "aliases": [
+        "Gamma-linoleic acid"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Gamma-linoleic acid",
+      "serial_number": "75",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Gamma-oryzanol": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Gamma-oryzanol",
+      "serial_number": "76",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Garcinia gummi-gutta": {
+      "allowed_size": null,
+      "aliases": [
+        "Garcinia cambogia",
+        "Garcinia indica",
+        "Kokum",
+        "Vrikshamalak",
+        "Malabar tamarind"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit rind extract standardized to hydroxyl citric acid, powder",
+      "botanical_name": "Garcinia gummi-gutta",
+      "serial_number": "77",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "OCR Cleaned: Garciniagummi-gutta -> Garcinia gummi-gutta. Includes Garcinia cambogia and G.indica in definition.",
+      "requires_review": false
+    },
+    "Kokum": {
+      "ref": "Garcinia gummi-gutta",
+      "allowed_size": null,
+      "aliases": [
+        "Garcinia gummi-gutta",
+        "Vrikshamalak",
+        "Malabar tamarind"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit rind extract",
+      "botanical_name": "Garcinia gummi-gutta",
+      "serial_number": "77",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Malabar tamarind": {
+      "ref": "Garcinia gummi-gutta",
+      "allowed_size": null,
+      "aliases": [
+        "Garcinia gummi-gutta",
+        "Kokum",
+        "Vrikshamalak"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit rind extract",
+      "botanical_name": "Garcinia gummi-gutta",
+      "serial_number": "77",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Garcinia mangostana": {
+      "allowed_size": null,
+      "aliases": [
+        "Mangosteen"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "seed extract standardized",
+      "botanical_name": "Garcinia mangostana",
+      "serial_number": "78",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Mangosteen": {
+      "ref": "Garcinia mangostana",
+      "allowed_size": null,
+      "aliases": [
+        "Garcinia mangostana"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "seed extract standardized",
+      "botanical_name": "Garcinia mangostana",
+      "serial_number": "78",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Glucomannan": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Glucomannan",
+      "serial_number": "80",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Glycyrrhiza glabra": {
+      "allowed_size": null,
+      "aliases": [
+        "Madhuyashti",
+        "Licorice",
+        "Mulethi"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Glycyrrhiza glabra",
+      "serial_number": "81",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Licorice": {
+      "ref": "Glycyrrhiza glabra",
+      "allowed_size": null,
+      "aliases": [
+        "Glycyrrhiza glabra",
+        "Madhuyashti",
+        "Mulethi"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Glycyrrhiza glabra",
+      "serial_number": "81",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Mulethi": {
+      "ref": "Glycyrrhiza glabra",
+      "allowed_size": null,
+      "aliases": [
+        "Glycyrrhiza glabra",
+        "Madhuyashti",
+        "Licorice"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Glycyrrhiza glabra",
+      "serial_number": "81",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Grape seed extract": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Grape seed extract",
+      "serial_number": "82",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Coffea arabica": {
+      "allowed_size": null,
+      "aliases": [
+        "Coffea robusta",
+        "Kaphi",
+        "Green coffee seed extract"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Green coffee seed extract standardized, including decaffeinated coffee bean powder/extract",
+      "botanical_name": "Coffea arabica",
+      "serial_number": "83",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Includes Coffea robusta.",
+      "requires_review": false
+    },
+    "Kaphi": {
+      "ref": "Coffea arabica",
+      "allowed_size": null,
+      "aliases": [
+        "Coffea arabica"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Green coffee seed extract",
+      "botanical_name": "Coffea arabica",
+      "serial_number": "83",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Grifola frondosa": {
+      "allowed_size": null,
+      "aliases": [
+        "Maitake mushroom"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "standardized extract",
+      "botanical_name": "Grifola frondosa",
+      "serial_number": "84",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "OCR Cleaned: Grifolafrondosa -> Grifola frondosa.",
+      "requires_review": false
+    },
+    "Maitake mushroom": {
+      "ref": "Grifola frondosa",
+      "allowed_size": null,
+      "aliases": [
+        "Grifola frondosa"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "standardized extract",
+      "botanical_name": "Grifola frondosa",
+      "serial_number": "84",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Guar gum and gum arabic and its derivatives": {
+      "allowed_size": null,
+      "aliases": [
+        "Maltodextrin",
+        "Resistant maltodextrin",
+        "Chia seed fiber"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "as a source of fibers",
+      "botanical_name": "Guar gum and gum arabic and its derivatives",
+      "serial_number": "85",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Combined entry for various fibers including Maltodextrin, Limit Dextrin, Chia seed fiber.",
+      "requires_review": true
+    },
+    "Hesperidin": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Hesperidin",
+      "serial_number": "87",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "High oleic sunflower oil": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "oil",
+      "botanical_name": "High oleic sunflower oil",
+      "serial_number": "88",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Includes other vegetable oils with high oleic content.",
+      "requires_review": false
+    },
+    "Hippophae rhamnoides": {
+      "allowed_size": null,
+      "aliases": [
+        "Amalvetas",
+        "Seabuckthorn"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf/fruit dried powder/extract/juice",
+      "botanical_name": "Hippophae rhamnoides",
+      "serial_number": "89",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "OCR Cleaned: Hippophaerhamnoides -> Hippophae rhamnoides.",
+      "requires_review": false
+    },
+    "Seabuckthorn": {
+      "ref": "Hippophae rhamnoides",
+      "allowed_size": null,
+      "aliases": [
+        "Hippophae rhamnoides",
+        "Amalvetas"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf/fruit dried powder/extract/juice",
+      "botanical_name": "Hippophae rhamnoides",
+      "serial_number": "89",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Humulus lupulus": {
+      "allowed_size": null,
+      "aliases": [
+        "Phaph",
+        "Hops"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "powder / extract",
+      "botanical_name": "Humulus lupulus",
+      "serial_number": "90",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings found in source fragment.",
+      "requires_review": false
+    },
+    "Hops": {
+      "ref": "Humulus lupulus",
+      "allowed_size": null,
+      "aliases": [
+        "Humulus lupulus",
+        "Phaph"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "powder / extract",
+      "botanical_name": "Humulus lupulus",
+      "serial_number": "90",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Hyaluronic acid and its salts": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Hyaluronic acid and its salts",
+      "serial_number": "91",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Hydrolysed whey peptide": {
+      "allowed_size": null,
+      "aliases": [
+        "Whey"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Hydrolysed whey peptide",
+      "serial_number": "92",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Whey": {
+      "ref": "Hydrolysed whey peptide",
+      "allowed_size": null,
+      "aliases": [
+        "Hydrolysed whey peptide"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Whey",
+      "serial_number": "92",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Hypericum perforatum": {
+      "allowed_size": null,
+      "aliases": [
+        "Basant",
+        "St. Johns Wort"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "aerial parts",
+      "botanical_name": "Hypericum perforatum",
+      "serial_number": "93",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Standardized extract",
+      "requires_review": false
+    },
+    "Basant": {
+      "ref": "Hypericum perforatum",
+      "allowed_size": null,
+      "aliases": [
+        "Hypericum perforatum",
+        "St. Johns Wort"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "aerial parts",
+      "botanical_name": "Basant",
+      "serial_number": "93",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "St. Johns Wort": {
+      "ref": "Hypericum perforatum",
+      "allowed_size": null,
+      "aliases": [
+        "Hypericum perforatum",
+        "Basant"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "aerial parts",
+      "botanical_name": "St. Johns Wort",
+      "serial_number": "93",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Inula racemosa": {
+      "allowed_size": null,
+      "aliases": [
+        "Pushkarmoola extract"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "root",
+      "botanical_name": "Inula racemosa",
+      "serial_number": "94",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Pushkarmoola extract": {
+      "ref": "Inula racemosa",
+      "allowed_size": null,
+      "aliases": [
+        "Inula racemosa"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "root",
+      "botanical_name": "Pushkarmoola extract",
+      "serial_number": "94",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Isoflavones (genistein, daidzein)": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Isoflavones (genistein, daidzein)",
+      "serial_number": "96",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Kelp (brown algae)": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Kelp (brown algae)",
+      "serial_number": "97",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Krill oil": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Krill oil",
+      "serial_number": "98",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Standardized for DHA / EPA",
+      "requires_review": false
+    },
+    "Lactalbumin": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Lactalbumin",
+      "serial_number": "99",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Lactoferrin": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Lactoferrin",
+      "serial_number": "100",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Lagerstroemia speciosa L": {
+      "allowed_size": null,
+      "aliases": [
+        "Jarul",
+        "Banaba"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf",
+      "botanical_name": "Lagerstroemia speciosa L",
+      "serial_number": "102",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Jarul": {
+      "ref": "Lagerstroemia speciosa L",
+      "allowed_size": null,
+      "aliases": [
+        "Lagerstroemia speciosa L",
+        "Banaba"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf",
+      "botanical_name": "Jarul",
+      "serial_number": "102",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Banaba": {
+      "ref": "Lagerstroemia speciosa L",
+      "allowed_size": null,
+      "aliases": [
+        "Lagerstroemia speciosa L",
+        "Jarul"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf",
+      "botanical_name": "Banaba",
+      "serial_number": "102",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Lecithins": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Lecithins",
+      "serial_number": "103",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Lignans": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Lignans",
+      "serial_number": "104",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Linum usitatissimum": {
+      "allowed_size": null,
+      "aliases": [
+        "Atasi",
+        "Alasi",
+        "Flaxseed"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "seed powder and oil",
+      "botanical_name": "Linum usitatissimum",
+      "serial_number": "105",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Flaxseed": {
+      "ref": "Linum usitatissimum",
+      "allowed_size": null,
+      "aliases": [
+        "Linum usitatissimum",
+        "Atasi",
+        "Alasi"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "seed powder and oil",
+      "botanical_name": "Flaxseed",
+      "serial_number": "105",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Lutein": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Lutein",
+      "serial_number": "107",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Lutein/zeaxanthin complex": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Lutein/zeaxanthin complex",
+      "serial_number": "108",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Lycopene": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Lycopene",
+      "serial_number": "109",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Lycium barbarum / Lycium europaeum / Lycium ruthenicum": {
+      "allowed_size": null,
+      "aliases": [
+        "Goji berry",
+        "wolfberry"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit",
+      "botanical_name": "Lycium barbarum / Lycium europaeum / Lycium ruthenicum",
+      "serial_number": "110",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "dried powder/concentrate standardized",
+      "requires_review": true
+    },
+    "Goji berry": {
+      "ref": "Lycium barbarum / Lycium europaeum / Lycium ruthenicum",
+      "allowed_size": null,
+      "aliases": [
+        "Lycium barbarum / Lycium europaeum / Lycium ruthenicum",
+        "wolfberry"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit",
+      "botanical_name": "Goji berry",
+      "serial_number": "110",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Mangifera indica": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf",
+      "botanical_name": "Mangifera indica",
+      "serial_number": "112",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "mangiferine",
+      "requires_review": false
+    },
+    "Medicago sativa": {
+      "allowed_size": null,
+      "aliases": [
+        "Ashar-bala",
+        "Alfalfa"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Medicago sativa",
+      "serial_number": "113",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Alfalfa": {
+      "ref": "Medicago sativa",
+      "allowed_size": null,
+      "aliases": [
+        "Medicago sativa",
+        "Ashar-bala"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Alfalfa",
+      "serial_number": "113",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Medium chain triglycerides": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Medium chain triglycerides",
+      "serial_number": "114",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Menyanthes trifoliata": {
+      "allowed_size": null,
+      "aliases": [
+        "Buckbean",
+        "bogbean"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Leaf",
+      "botanical_name": "Menyanthes trifoliata",
+      "serial_number": "115",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Buckbean": {
+      "ref": "Menyanthes trifoliata",
+      "allowed_size": null,
+      "aliases": [
+        "Menyanthes trifoliata",
+        "bogbean"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Leaf",
+      "botanical_name": "Buckbean",
+      "serial_number": "115",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Millets and their powder": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Millets and their powder",
+      "serial_number": "116",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Momordica charantia": {
+      "allowed_size": null,
+      "aliases": [
+        "Karvalli",
+        "Kodon",
+        "bitter gourd",
+        "Karela"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit/seed",
+      "botanical_name": "Momordica charantia",
+      "serial_number": "117",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Karela": {
+      "ref": "Momordica charantia",
+      "allowed_size": null,
+      "aliases": [
+        "Momordica charantia",
+        "Karvalli",
+        "Kodon",
+        "bitter gourd"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit/seed",
+      "botanical_name": "Karela",
+      "serial_number": "117",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Monodora myristica (Gaertn.) Dunal": {
+      "allowed_size": null,
+      "aliases": [
+        "Nutmeg"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "oil / extract",
+      "botanical_name": "Monodora myristica (Gaertn.) Dunal",
+      "serial_number": "118",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Nutmeg": {
+      "ref": "Monodora myristica (Gaertn.) Dunal",
+      "allowed_size": null,
+      "aliases": [
+        "Monodora myristica (Gaertn.) Dunal"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "oil / extract",
+      "botanical_name": "Nutmeg",
+      "serial_number": "118",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Morinda citrifolia": {
+      "allowed_size": null,
+      "aliases": [
+        "Akshiki",
+        "Noni"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Morinda citrifolia",
+      "serial_number": "119",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Noni": {
+      "ref": "Morinda citrifolia",
+      "allowed_size": null,
+      "aliases": [
+        "Morinda citrifolia",
+        "Akshiki"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Noni",
+      "serial_number": "119",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Moringa oleifera": {
+      "allowed_size": null,
+      "aliases": [
+        "Shigru",
+        "Moringa",
+        "drum stick"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf/ pods / seed",
+      "botanical_name": "Moringa oleifera",
+      "serial_number": "120",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Moringa": {
+      "ref": "Moringa oleifera",
+      "allowed_size": null,
+      "aliases": [
+        "Moringa oleifera",
+        "Shigru",
+        "drum stick"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf/ pods / seed",
+      "botanical_name": "Moringa",
+      "serial_number": "120",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Morus alba": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Toot",
+        "Mulberry",
+        "Mulberry tea"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Leaf / fruit extract",
+      "botanical_name": "Morus alba",
+      "serial_number": "121",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Toot": {
+      "ref": "Morus alba",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Mulberry": {
+      "ref": "Morus alba",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Myrica cerifera": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Myrica nagi",
+        "Katphala",
+        "Bayberry"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Bark extract",
+      "botanical_name": "Myrica cerifera",
+      "serial_number": "122",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Myrica nagi": {
+      "ref": "Myrica cerifera",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Katphala": {
+      "ref": "Myrica cerifera",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Bayberry": {
+      "ref": "Myrica cerifera",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Myristica fragrans": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Jatipatri",
+        "Mace",
+        "Javitri"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Not specified",
+      "botanical_name": "Myristica fragrans",
+      "serial_number": "123",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Jatipatri": {
+      "ref": "Myristica fragrans",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Mace": {
+      "ref": "Myristica fragrans",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Javitri": {
+      "ref": "Myristica fragrans",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "N-Acetyl d-glucosamine": {
+      "allowed_size": "Not specified",
+      "aliases": [],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Not specified",
+      "botanical_name": "N-Acetyl d-glucosamine",
+      "serial_number": "124",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Nardostachys jatamansi": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Jatamansi"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Extract",
+      "botanical_name": "Nardostachys jatamansi",
+      "serial_number": "125",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Jatamansi": {
+      "ref": "Nardostachys jatamansi",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Nasturtium officinale": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Chhu nail",
+        "Watercress"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Extract",
+      "botanical_name": "Nasturtium officinale",
+      "serial_number": "126",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Chhu nail": {
+      "ref": "Nasturtium officinale",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Watercress": {
+      "ref": "Nasturtium officinale",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Nattokinase enzyme": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Soy bean Fibrinase"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Not specified",
+      "botanical_name": "Nattokinase enzyme",
+      "serial_number": "127",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Source listed as Soy bean Fibrinase",
+      "requires_review": false
+    },
+    "Soy bean Fibrinase": {
+      "ref": "Nattokinase enzyme",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Ocimum tenuiflorum": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Ocimum sanctum",
+        "Surasa",
+        "Basil",
+        "Tulasi"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Aerial parts / seed extract",
+      "botanical_name": "Ocimum tenuiflorum",
+      "serial_number": "128",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Cleaned from OCR artifact 'Ocimumtenuiflorum'",
+      "requires_review": false
+    },
+    "Ocimum sanctum": {
+      "ref": "Ocimum tenuiflorum",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Basil": {
+      "ref": "Ocimum tenuiflorum",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Tulasi": {
+      "ref": "Ocimum tenuiflorum",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Omega-3 fatty acids": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "DHA",
+        "EPA",
+        "ALA"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Not specified",
+      "botanical_name": "Omega-3 fatty acids",
+      "serial_number": "129",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Includes docosahexaenoic acid, eicosapentaenoic acid, alpha - linolenic acid",
+      "requires_review": false
+    },
+    "Omega-6 fatty acids": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "CLA",
+        "Linoleic acid"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Not specified",
+      "botanical_name": "Omega-6 fatty acids",
+      "serial_number": "130",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Includes linoleic acid, arachidonic acid and conjugated linoleic acid",
+      "requires_review": false
+    },
+    "Oyster shell powder": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Shukti",
+        "Seep"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Shell",
+      "botanical_name": "Oyster shell powder",
+      "serial_number": "131",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Shukti": {
+      "ref": "Oyster shell powder",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Passiflora foetida": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Passion flower"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Extract",
+      "botanical_name": "Passiflora foetida",
+      "serial_number": "135",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Cleaned from OCR artifact 'Passiflorafoetida'",
+      "requires_review": false
+    },
+    "Passion flower": {
+      "ref": "Passiflora foetida",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Arachis hypogaea": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Mandapi",
+        "Pea nut",
+        "Munghphali"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "(Roasted) powder",
+      "botanical_name": "Arachis hypogaea",
+      "serial_number": "136",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Pea nut": {
+      "ref": "Arachis hypogaea",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Pectin": {
+      "allowed_size": "Not specified",
+      "aliases": [],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Not specified",
+      "botanical_name": "Pectin",
+      "serial_number": "137",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Perna canaliculus": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Green lipped mussel",
+        "Mussel Oil"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Oil/Extract",
+      "botanical_name": "Perna canaliculus",
+      "serial_number": "139",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Green lipped mussel": {
+      "ref": "Perna canaliculus",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Phellodendron amurense": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Phellodendron"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Leaf oil",
+      "botanical_name": "Phellodendron amurense",
+      "serial_number": "140",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Cleaned from OCR artifact 'Phellodendronamurenseleaf oil'",
+      "requires_review": false
+    },
+    "Phellodendron": {
+      "ref": "Phellodendron amurense",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Phosphatides": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Phospholipids"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Not specified",
+      "botanical_name": "Phosphatides",
+      "serial_number": "141",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Phospholipids": {
+      "ref": "Phosphatides",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Phyllanthus amarus": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Tamalaki",
+        "Bhuiamalaki"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Extract",
+      "botanical_name": "Phyllanthus amarus",
+      "serial_number": "142",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Tamalaki": {
+      "ref": "Phyllanthus amarus",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Bhuiamalaki": {
+      "ref": "Phyllanthus amarus",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Picrorhiza kurroa": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Picrorhiza",
+        "Katuka",
+        "Kutaki"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Extract",
+      "botanical_name": "Picrorhiza kurroa",
+      "serial_number": "144",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Picrorhiza": {
+      "ref": "Picrorhiza kurroa",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Katuka": {
+      "ref": "Picrorhiza kurroa",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Kutaki": {
+      "ref": "Picrorhiza kurroa",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Pimento officinalis": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Allspice"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Extract / powder",
+      "botanical_name": "Pimento officinalis",
+      "serial_number": "145",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Cleaned from OCR artifact 'PimentoofficinalisL.'",
+      "requires_review": false
+    },
+    "Allspice": {
+      "ref": "Pimento officinalis",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Pinus gerardiana": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Nikochak",
+        "Pine nut"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Bark extract",
+      "botanical_name": "Pinus gerardiana",
+      "serial_number": "146",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Nikochak": {
+      "ref": "Pinus gerardiana",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Pine nut": {
+      "ref": "Pinus gerardiana",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Piper longum": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Pippali",
+        "Magha",
+        "Long pepper"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Extract",
+      "botanical_name": "Piper longum",
+      "serial_number": "147",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Long pepper": {
+      "ref": "Piper longum",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Piper nigrum (Green extract)": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Green pepper",
+        "Krishan Marich"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Green extract",
+      "botanical_name": "Piper nigrum",
+      "serial_number": "148",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Source spelled as Piper nigram. Normalized.",
+      "requires_review": false
+    },
+    "Green pepper": {
+      "ref": "Piper nigrum (Green extract)",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Piper nigrum": {
+      "allowed_size": "Not specified",
+      "aliases": [
+        "Krishan Marich",
+        "Marich",
+        "Black pepper"
+      ],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Powder / standardized extract",
+      "botanical_name": "Piper nigrum",
+      "serial_number": "149",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Black pepper": {
+      "ref": "Piper nigrum",
+      "allowed_size": "Not specified",
+      "unit": "Not specified",
+      "notes": "Duplicate entry — same ingredient listed under alternate name."
+    },
+    "Policosanol": {
+      "allowed_size": "Not specified",
+      "aliases": [],
+      "unit": "Not specified",
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Not specified",
+      "botanical_name": "Policosanol",
+      "serial_number": "150",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Prunus serotina": {
+      "allowed_size": null,
+      "aliases": [
+        "Black cherry"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Prunus serotina",
+      "serial_number": "152",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Black cherry": {
+      "ref": "Prunus serotina",
+      "allowed_size": null,
+      "aliases": [
+        "Prunus serotina"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Prunus serotina",
+      "serial_number": "152",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Plantago ovata": {
+      "allowed_size": null,
+      "aliases": [
+        "Psyllium",
+        "Isaphula",
+        "Isaphgul",
+        "Ashabgol"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "seed husk",
+      "botanical_name": "Plantago ovata",
+      "serial_number": "153",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Psyllium": {
+      "ref": "Plantago ovata",
+      "allowed_size": null,
+      "aliases": [
+        "Plantago ovata",
+        "Isaphula",
+        "Isaphgul",
+        "Ashabgol"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "seed husk",
+      "botanical_name": "Plantago ovata",
+      "serial_number": "153",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Isaphgul": {
+      "ref": "Plantago ovata",
+      "allowed_size": null,
+      "aliases": [
+        "Plantago ovata",
+        "Psyllium",
+        "Ashabgol"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "seed husk",
+      "botanical_name": "Plantago ovata",
+      "serial_number": "153",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Cucurbita pepo": {
+      "allowed_size": null,
+      "aliases": [
+        "Cucurbita maxima",
+        "Kaddu beej tail"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Pumpkin seed oil /meal",
+      "botanical_name": "Cucurbita pepo",
+      "serial_number": "154",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Includes C. maxima",
+      "requires_review": false
+    },
+    "Kaddu beej tail": {
+      "ref": "Cucurbita pepo",
+      "allowed_size": null,
+      "aliases": [
+        "Cucurbita pepo",
+        "Cucurbita maxima"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Pumpkin seed oil /meal",
+      "botanical_name": "Cucurbita pepo",
+      "serial_number": "154",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Punica granatum": {
+      "allowed_size": null,
+      "aliases": [
+        "Dadima",
+        "Pomegranate"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit/seed/skin extract/leaf /powder",
+      "botanical_name": "Punica granatum",
+      "serial_number": "155",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "OCR Correction: Punicagranatum -> Punica granatum",
+      "requires_review": true
+    },
+    "Pomegranate": {
+      "ref": "Punica granatum",
+      "allowed_size": null,
+      "aliases": [
+        "Punica granatum",
+        "Dadima"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit/seed/skin extract/leaf /powder",
+      "botanical_name": "Punica granatum",
+      "serial_number": "155",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Raphanus sativus var. niger": {
+      "allowed_size": null,
+      "aliases": [
+        "Mulika",
+        "Muli",
+        "Black radish"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "root powder/extract",
+      "botanical_name": "Raphanus sativus var. niger",
+      "serial_number": "156",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Black radish": {
+      "ref": "Raphanus sativus var. niger",
+      "allowed_size": null,
+      "aliases": [
+        "Raphanus sativus var. niger",
+        "Mulika",
+        "Muli"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "root powder/extract",
+      "botanical_name": "Raphanus sativus var. niger",
+      "serial_number": "156",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Red wine": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract /concentrate",
+      "botanical_name": "Red wine",
+      "serial_number": "157",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Red yeast rice": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Red yeast rice",
+      "serial_number": "158",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Resveratrol": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Resveratrol",
+      "serial_number": "159",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Rhododendron arboreum": {
+      "allowed_size": null,
+      "aliases": [
+        "Rhododendron campanulata",
+        "Buras",
+        "Rhododendron"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "juice/extract",
+      "botanical_name": "Rhododendron arboreum",
+      "serial_number": "160",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "OCR Correction: Rhododendronarboreum -> Rhododendron arboreum. Includes R. campanulata",
+      "requires_review": true
+    },
+    "Rice bran": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Rice bran",
+      "serial_number": "161",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Rice bran arabinoxylan compound": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Rice bran arabinoxylan compound",
+      "serial_number": "162",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Rose hips": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Rose hips",
+      "serial_number": "163",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Rosmarinus officinalis": {
+      "allowed_size": null,
+      "aliases": [
+        "Rosemary"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaves/needles extract/oil",
+      "botanical_name": "Rosmarinus officinalis",
+      "serial_number": "164",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Rosemary": {
+      "ref": "Rosmarinus officinalis",
+      "allowed_size": null,
+      "aliases": [
+        "Rosmarinus officinalis"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaves/needles extract/oil",
+      "botanical_name": "Rosmarinus officinalis",
+      "serial_number": "164",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Royal Jelly": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Royal Jelly",
+      "serial_number": "165",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Rutin": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "from fruit peels",
+      "botanical_name": "Rutin",
+      "serial_number": "166",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Salvia officinalis": {
+      "allowed_size": null,
+      "aliases": [
+        "Renuka Leaf Extract",
+        "Sage"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf extract",
+      "botanical_name": "Salvia officinalis",
+      "serial_number": "167",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "OCR Correction: Salviaofficinalis -> Salvia officinalis",
+      "requires_review": true
+    },
+    "Sage": {
+      "ref": "Salvia officinalis",
+      "allowed_size": null,
+      "aliases": [
+        "Salvia officinalis",
+        "Renuka Leaf Extract"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf extract",
+      "botanical_name": "Salvia officinalis",
+      "serial_number": "167",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Sambucus nigra": {
+      "allowed_size": null,
+      "aliases": [
+        "Khaman Kabir",
+        "Elderberry",
+        "Black elderberry"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Sambucus nigra",
+      "serial_number": "168",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Elderberry": {
+      "ref": "Sambucus nigra",
+      "allowed_size": null,
+      "aliases": [
+        "Sambucus nigra",
+        "Khaman Kabir",
+        "Black elderberry"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Sambucus nigra",
+      "serial_number": "168",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Shark cartilage": {
+      "allowed_size": null,
+      "aliases": [
+        "squalene oil"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Shark cartilage",
+      "serial_number": "169",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Includes squalene oil (listed in same row)",
+      "requires_review": false
+    },
+    "Shiitake mushroom": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "extract",
+      "botanical_name": "Shiitake mushroom",
+      "serial_number": "170",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Solanum lycopersicum": {
+      "allowed_size": null,
+      "aliases": [
+        "Solanum esculentum",
+        "Tamatar",
+        "Tomato"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit powder/ extract",
+      "botanical_name": "Solanum lycopersicum",
+      "serial_number": "171",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "OCR Correction: Solanumlycopersicum -> Solanum lycopersicum. Includes S. esculentum",
+      "requires_review": true
+    },
+    "Tomato": {
+      "ref": "Solanum lycopersicum",
+      "allowed_size": null,
+      "aliases": [
+        "Solanum lycopersicum",
+        "Tamatar"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit powder/ extract",
+      "botanical_name": "Solanum lycopersicum",
+      "serial_number": "171",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Soy sprouts": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "dried powder",
+      "botanical_name": "Soy sprouts",
+      "serial_number": "172",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Soya protein isolate": {
+      "allowed_size": null,
+      "aliases": [
+        "edible legume seed protein isolate"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Soya protein isolate",
+      "serial_number": "173",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Spearmint": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "leaf and distillate",
+      "botanical_name": "Spearmint",
+      "serial_number": "174",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Sterols": {
+      "allowed_size": null,
+      "aliases": [
+        "Stanols"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "including their esters",
+      "botanical_name": "Sterols",
+      "serial_number": "175",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Tagetes sp.": {
+      "allowed_size": null,
+      "aliases": [
+        "Marigold"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "petals oleo resin / extract",
+      "botanical_name": "Tagetes sp.",
+      "serial_number": "176",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Marigold": {
+      "ref": "Tagetes sp.",
+      "allowed_size": null,
+      "aliases": [
+        "Tagetes sp."
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "petals oleo resin / extract",
+      "botanical_name": "Tagetes sp.",
+      "serial_number": "176",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Terminalia arjuna": {
+      "allowed_size": null,
+      "aliases": [
+        "Arjuna extract"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "bark/leaf extract (standardized extract)",
+      "botanical_name": "Terminalia arjuna",
+      "serial_number": "177",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Arjuna extract": {
+      "ref": "Terminalia arjuna",
+      "allowed_size": null,
+      "aliases": [
+        "Terminalia arjuna"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "bark/leaf extract (standardized extract)",
+      "botanical_name": "Terminalia arjuna",
+      "serial_number": "177",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Terminalia bellerica": {
+      "allowed_size": null,
+      "aliases": [
+        "Bibhitak",
+        "Baheda",
+        "Myrobalan"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit extract",
+      "botanical_name": "Terminalia bellerica",
+      "serial_number": "178",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "OCR Correction: Terminaliabellerica -> Terminalia bellerica",
+      "requires_review": true
+    },
+    "Baheda": {
+      "ref": "Terminalia bellerica",
+      "allowed_size": null,
+      "aliases": [
+        "Terminalia bellerica",
+        "Bibhitak",
+        "Myrobalan"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit extract",
+      "botanical_name": "Terminalia bellerica",
+      "serial_number": "178",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Terminalia chebula": {
+      "allowed_size": null,
+      "aliases": [
+        "Haritaki",
+        "Harad",
+        "Myrobalan"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit extract",
+      "botanical_name": "Terminalia chebula",
+      "serial_number": "179",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "OCR Correction: Terminaliachebulia -> Terminalia chebula",
+      "requires_review": true
+    },
+    "Haritaki": {
+      "ref": "Terminalia chebula",
+      "allowed_size": null,
+      "aliases": [
+        "Terminalia chebula",
+        "Harad",
+        "Myrobalan"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "fruit extract",
+      "botanical_name": "Terminalia chebula",
+      "serial_number": "179",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name.",
+      "requires_review": false
+    },
+    "Theaflavin": {
+      "allowed_size": null,
+      "aliases": [
+        "Chai sukshara satva"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Theaflavin",
+      "serial_number": "180",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Theobromine": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Theobromine",
+      "serial_number": "181",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Tocopherols": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Tocopherols",
+      "serial_number": "182",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Trigonella foenum-graecum": {
+      "allowed_size": null,
+      "aliases": [
+        "Methika",
+        "Methi",
+        "Fenugreek"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Seeds extract",
+      "botanical_name": "Trigonella foenum-graecum",
+      "serial_number": "183",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Methika": {
+      "ref": "Trigonella foenum-graecum",
+      "allowed_size": null,
+      "aliases": [
+        "Trigonella foenum-graecum",
+        "Methi",
+        "Fenugreek"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Seeds extract",
+      "botanical_name": "Trigonella foenum-graecum",
+      "serial_number": "183",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Methi": {
+      "ref": "Trigonella foenum-graecum",
+      "allowed_size": null,
+      "aliases": [
+        "Trigonella foenum-graecum",
+        "Methika",
+        "Fenugreek"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Seeds extract",
+      "botanical_name": "Trigonella foenum-graecum",
+      "serial_number": "183",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Fenugreek": {
+      "ref": "Trigonella foenum-graecum",
+      "allowed_size": null,
+      "aliases": [
+        "Trigonella foenum-graecum",
+        "Methika",
+        "Methi"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Seeds extract",
+      "botanical_name": "Trigonella foenum-graecum",
+      "serial_number": "183",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Triticum sativum": {
+      "allowed_size": null,
+      "aliases": [
+        "Godhum",
+        "Wheat",
+        "Gehu"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Bran",
+      "botanical_name": "Triticum sativum",
+      "serial_number": "184",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Godhum": {
+      "ref": "Triticum sativum",
+      "allowed_size": null,
+      "aliases": [
+        "Triticum sativum",
+        "Wheat",
+        "Gehu"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Bran",
+      "botanical_name": "Triticum sativum",
+      "serial_number": "184",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Wheat": {
+      "ref": "Triticum sativum",
+      "allowed_size": null,
+      "aliases": [
+        "Triticum sativum",
+        "Godhum",
+        "Gehu"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Bran",
+      "botanical_name": "Triticum sativum",
+      "serial_number": "184",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Gehu": {
+      "ref": "Triticum sativum",
+      "allowed_size": null,
+      "aliases": [
+        "Triticum sativum",
+        "Godhum",
+        "Wheat"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Bran",
+      "botanical_name": "Triticum sativum",
+      "serial_number": "184",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Vaccinium corymbosum": {
+      "allowed_size": null,
+      "aliases": [
+        "Blueberry"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Fruit - dried powder / concentrate standardized",
+      "botanical_name": "Vaccinium corymbosum",
+      "serial_number": "186",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Blueberry": {
+      "ref": "Vaccinium corymbosum",
+      "allowed_size": null,
+      "aliases": [
+        "Vaccinium corymbosum"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Fruit - dried powder / concentrate standardized",
+      "botanical_name": "Vaccinium corymbosum",
+      "serial_number": "186",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Vaccinium oxycoccos / Vaccinium macrocarpon": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Fruit - dried powder / concentrate standardized",
+      "botanical_name": "Vaccinium oxycoccos / Vaccinium macrocarpon",
+      "serial_number": "187",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Name normalized from fused text 'Vacciniumoxycoccos/Vacciniummacrocarpon'. No special warnings",
+      "requires_review": true
+    },
+    "Valeriana wallichii": {
+      "allowed_size": null,
+      "aliases": [
+        "Tagar"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Extract",
+      "botanical_name": "Valeriana wallichii",
+      "serial_number": "188",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Name normalized from 'Valerianawallichii'. No special warnings",
+      "requires_review": false
+    },
+    "Tagar": {
+      "ref": "Valeriana wallichii",
+      "allowed_size": null,
+      "aliases": [
+        "Valeriana wallichii"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Extract",
+      "botanical_name": "Valeriana wallichii",
+      "serial_number": "188",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Vitis alba and Vitis vinifera": {
+      "allowed_size": null,
+      "aliases": [
+        "Draksha",
+        "Munakka",
+        "Blue grapes"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Fruit - dried powder / concentrate standardized",
+      "botanical_name": "Vitis alba and Vitis vinifera",
+      "serial_number": "189",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Name normalized from 'Vitisvinifera'. No special warnings",
+      "requires_review": false
+    },
+    "Draksha": {
+      "ref": "Vitis alba and Vitis vinifera",
+      "allowed_size": null,
+      "aliases": [
+        "Vitis alba and Vitis vinifera",
+        "Munakka",
+        "Blue grapes"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Fruit - dried powder / concentrate standardized",
+      "botanical_name": "Vitis alba and Vitis vinifera",
+      "serial_number": "189",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Munakka": {
+      "ref": "Vitis alba and Vitis vinifera",
+      "allowed_size": null,
+      "aliases": [
+        "Vitis alba and Vitis vinifera",
+        "Draksha",
+        "Blue grapes"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Fruit - dried powder / concentrate standardized",
+      "botanical_name": "Vitis alba and Vitis vinifera",
+      "serial_number": "189",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Blue grapes": {
+      "ref": "Vitis alba and Vitis vinifera",
+      "allowed_size": null,
+      "aliases": [
+        "Vitis alba and Vitis vinifera",
+        "Draksha",
+        "Munakka"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Fruit - dried powder / concentrate standardized",
+      "botanical_name": "Vitis alba and Vitis vinifera",
+      "serial_number": "189",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Wheat germ": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Germ",
+      "botanical_name": "Wheat germ",
+      "serial_number": "190",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    },
+    "Zingiber officinale": {
+      "allowed_size": null,
+      "aliases": [
+        "Shunti",
+        "Ginger"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Rhizome standardized extracts",
+      "botanical_name": "Zingiber officinale",
+      "serial_number": "191",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Name normalized from 'Zingiberofficinale'. No special warnings",
+      "requires_review": false
+    },
+    "Shunti": {
+      "ref": "Zingiber officinale",
+      "allowed_size": null,
+      "aliases": [
+        "Zingiber officinale",
+        "Ginger"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Rhizome standardized extracts",
+      "botanical_name": "Zingiber officinale",
+      "serial_number": "191",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Ginger": {
+      "ref": "Zingiber officinale",
+      "allowed_size": null,
+      "aliases": [
+        "Zingiber officinale",
+        "Shunti"
+      ],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": "Rhizome standardized extracts",
+      "botanical_name": "Zingiber officinale",
+      "serial_number": "191",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "Duplicate entry — same ingredient listed under alternate name. No special warnings",
+      "requires_review": false
+    },
+    "Mucopolysaccharides": {
+      "allowed_size": null,
+      "aliases": [],
+      "unit": null,
+      "category": "botanical",
+      "source": "natural",
+      "regulatory_status": "GRAS",
+      "part_used": null,
+      "botanical_name": "Mucopolysaccharides",
+      "serial_number": "192",
+      "source_table": "Schedule -III Molecules/isolates/extracts other than Schedule II - Part B",
+      "notes": "No special warnings",
+      "requires_review": false
+    }
+  }
+}

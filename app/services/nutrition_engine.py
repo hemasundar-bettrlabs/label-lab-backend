@@ -105,13 +105,16 @@ async def run_nutrition_pipeline(extraction: ClaimsExtractionResult) -> list[dic
         audience = await predict_target_audience(extraction)
         
         # 2. Calculate RDA
+        pipeline_logger.info("Nutrition", f"[RDA] Initializing RDA Calculator for: gender={audience.get('gender')}, activity={audience.get('activity_level')}, period={audience.get('specific_period')}")
         calc = RDACalculator(
             gender=audience.get("gender"),
             activity_level=audience.get("activity_level"),
             specific_period=audience.get("specific_period")
         )
         
+        pipeline_logger.info("Nutrition", f"[RDA] Processing {len(extraction.nutrition_table)} nutrition entries")
         rda_results = calc.calculate_all_from_entries(extraction.nutrition_table)
+        pipeline_logger.info("Nutrition", f"[RDA] Calculation complete: {len(rda_results)} nutrients analyzed")
         
         # 3. Build Check Objects
         violations = []
@@ -127,6 +130,8 @@ async def run_nutrition_pipeline(extraction: ClaimsExtractionResult) -> list[dic
             amount_display = f"{res['amount']} {res['unit']}"
             rda_display = f"{res['rda']} {res['rda_unit']}"
             
+            pipeline_logger.info("Nutrition", f"[RDA] {nutrient_display}: {amount_display} = {pct}% of RDA ({rda_display})")
+            
             if pct > 100:
                 violations.append({
                     "name": nutrient_display,
@@ -139,6 +144,9 @@ async def run_nutrition_pipeline(extraction: ClaimsExtractionResult) -> list[dic
                 })
             else:
                 compliant_nutrients.append(nutrient_display)
+        
+        # Log RDA Summary
+        pipeline_logger.info("Nutrition", f"[RDA] Summary | Compliant: {len(compliant_nutrients)}, Violations: {len(violations)}, Warnings: {len(warnings)}")
         
         # Merge results into standard checks
         # Add violations as individual FAIL checks
@@ -182,7 +190,7 @@ async def run_nutrition_pipeline(extraction: ClaimsExtractionResult) -> list[dic
             })
 
     except Exception as e:
-        pipeline_logger.error("Nutrition", f"Nutrition Pipeline Error: {e}")
+        pipeline_logger.error("Nutrition", f"[RDA] Nutrition Pipeline Error: {e}")
         checks.append({
             "id": "NUT-ERR-001",
             "category": "Nutrition",
@@ -194,4 +202,5 @@ async def run_nutrition_pipeline(extraction: ClaimsExtractionResult) -> list[dic
             "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100}
         })
         
+    pipeline_logger.info("Nutrition", f"[RDA] Nutrition Pipeline completed: Generated {len(checks)} check(s)")
     return checks

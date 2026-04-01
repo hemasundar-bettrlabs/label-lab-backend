@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 from app.models.schemas import ClaimsExtractionResult
 from app.services.image_processor import decode_image_from_base64
 from app.services.llm_service import llm_service
+from app.utils.logger import pipeline_logger
 
 load_dotenv()
 
@@ -26,7 +27,7 @@ def load_extraction_schema() -> dict:
         with open(schema_path, 'r', encoding='utf-8') as f:
             return json.load(f)
     except FileNotFoundError:
-        print(f"ERROR: Schema not found at {schema_path}")
+        pipeline_logger.error("OCR", f"Schema not found at {schema_path}")
         return {}
 
 def clean_json_response(text: str) -> str:

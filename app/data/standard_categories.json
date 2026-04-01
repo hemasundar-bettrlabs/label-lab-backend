@@ -1,0 +1,5043 @@
+{
+  "2.1": {
+    "category_name": "DAIRY PRODUCTS AND ANALOGUES",
+    "description": "General standards for milk and milk products, including definitions, usage of dairy terms, and specific product standards.",
+    "ingredients": [],
+    "subcategory": {
+      "2.1.1": {
+        "category_name": "General Standards for Milk and Milk Products",
+        "description": "Over-arching definitions for milk and milk products and guidance on the use of dairy terms.",
+        "ingredients": []
+      },
+      "2.1.2": {
+        "category_name": "Standard for Milk",
+        "description": "Standards applying to species identified milk, mixed milk, and standardized milk variants like full cream or toned milk.",
+        "ingredients": [
+          "Cow milk",
+          "Buffalo milk",
+          "Goat milk",
+          "Sheep milk",
+          "Camel milk",
+          "Dried milks",
+          "Concentrated milks",
+          "Milk fat",
+          "Potable water"
+        ]
+      },
+      "2.1.3": {
+        "category_name": "Standard for Flavoured Milk",
+        "description": "Product prepared from milk or milk derivatives and edible flavourings with or without sweeteners and other non-dairy ingredients.",
+        "ingredients": [
+          "Milk",
+          "Concentrated milk",
+          "Dried milk",
+          "Milk fat",
+          "Cream",
+          "Butter",
+          "Butter oil",
+          "Potable water",
+          "Sugar",
+          "Nutritive sweeteners",
+          "Nuts",
+          "Cocoa solids",
+          "Chocolate",
+          "Coffee",
+          "Fruits",
+          "Vegetables",
+          "Juices",
+          "Purees",
+          "Pulps",
+          "Cereals",
+          "Cereal based extracts",
+          "Honey",
+          "Spices",
+          "Condiments",
+          "Salt",
+          "Natural flavouring foods",
+          "Flavours"
+        ]
+      },
+      "2.1.4": {
+        "category_name": "Standard for Evaporated or Concentrated Milk",
+        "description": "Product obtained by partial removal of water from milk by heat or other processes to achieve specific composition.",
+        "ingredients": [
+          "Milk",
+          "Milk powders",
+          "Cream",
+          "Cream powders",
+          "Milk fat products",
+          "Milk retentate",
+          "Potable water",
+          "Sodium chloride"
+        ]
+      },
+      "2.1.5": {
+        "category_name": "Standard for Sweetened Condensed Milk",
+        "description": "Product obtained by partial removal of water from milk with the addition of sugar.",
+        "ingredients": [
+          "Milk",
+          "Milk powders",
+          "Cream",
+          "Cream powders",
+          "Milk fat products",
+          "Lactose",
+          "Milk retentate",
+          "Potable water",
+          "Sugar",
+          "Sucrose",
+          "Sodium chloride"
+        ]
+      },
+      "2.1.6": {
+        "category_name": "Standard for Khoa",
+        "description": "Product obtained by partial removal of water from any variant of milk with or without added milk solids by heating.",
+        "ingredients": [
+          "Milk",
+          "Milk powders",
+          "Cream",
+          "Cream powder",
+          "Milk fat products"
+        ]
+      },
+      "2.1.7": {
+        "category_name": "Standard for Cream and Malai",
+        "description": "Fluid product comparatively rich in fat obtained from milk or by reconstitution or recombination of milk products.",
+        "ingredients": [
+          "Milk",
+          "Butter",
+          "Milk fat products",
+          "Milk powders",
+          "Cream powders",
+          "Potable water",
+          "Buttermilk",
+          "Casein",
+          "Whey protein",
+          "Starter cultures",
+          "Non-animal rennet",
+          "Coagulating enzymes",
+          "Sodium chloride"
+        ]
+      },
+      "2.1.8": {
+        "category_name": "Standard for Milk Fat Products",
+        "description": "Fatty products derived exclusively from milk including ghee, butter oil, and anhydrous milk fat.",
+        "ingredients": [
+          "Milk",
+          "Products obtained from milk"
+        ]
+      },
+      "2.1.9": {
+        "category_name": "Standard for Butter",
+        "description": "Fatty product principally in the form of a water-in-oil emulsion derived exclusively from milk or milk products.",
+        "ingredients": [
+          "Milk",
+          "Milk fat based products",
+          "Sodium chloride",
+          "Food grade salt",
+          "Starter cultures",
+          "Potable water"
+        ]
+      },
+      "2.1.10": {
+        "category_name": "Standard for Milk Powders and Cream Powder",
+        "description": "Milk products obtained by partial removal of water from milk or cream.",
+        "ingredients": [
+          "Milk",
+          "Cream",
+          "Milk retentate"
+        ]
+      },
+      "2.1.11": {
+        "category_name": "Standard for Dairy Whitener",
+        "description": "Product prepared from milk containing added carbohydrates such as sucrose, dextrose, and maltodextrin.",
+        "ingredients": [
+          "Cow milk",
+          "Buffalo milk",
+          "Sucrose",
+          "Dextrose",
+          "Maltodextrin"
+        ]
+      },
+      "2.1.12": {
+        "category_name": "Standard for Whey Powder",
+        "description": "Milk products obtained by drying Whey or Acid Whey.",
+        "ingredients": [
+          "Whey",
+          "Acid whey",
+          "Seed lactose"
+        ]
+      },
+      "2.1.13": {
+        "category_name": "Standard for Fermented Milk Products",
+        "description": "Products obtained by fermentation of milk resulting in lowering of pH with or without coagulation, including Dahi and Yoghurt.",
+        "ingredients": [
+          "Milk",
+          "Concentrated milk",
+          "Dried milk",
+          "Cream",
+          "Butter",
+          "Butter oil",
+          "Anhydrous milk fat",
+          "Potable water",
+          "Starter cultures",
+          "Harmless microorganisms",
+          "Salt",
+          "Sugar",
+          "Nutritive sweeteners",
+          "Fruits",
+          "Vegetables",
+          "Juices",
+          "Purees",
+          "Pulps",
+          "Preserves",
+          "Cereals",
+          "Cereal products",
+          "Coconut",
+          "Honey",
+          "Chocolate",
+          "Nuts",
+          "Coffee",
+          "Spices",
+          "Condiments",
+          "Culinary herbs",
+          "Natural flavouring foods",
+          "Milk products",
+          "Prebiotics",
+          "Probiotics",
+          "Starch"
+        ]
+      },
+      "2.1.14": {
+        "category_name": "Standard for Ice Cream, Kulfi, Chocolate Ice Cream, Softy Ice-Cream, Milk Ice, Milk Lolly and Dried Ice Cream Mix",
+        "description": "Frozen milk products obtained by freezing a pasteurized mix prepared from milk or milk products and permitted ingredients.",
+        "ingredients": [
+          "Milk",
+          "Milk products",
+          "Sugar",
+          "Nutritive sweeteners",
+          "Jaggery",
+          "Dextrose",
+          "Fructose",
+          "Liquid glucose",
+          "High maltose corn syrup",
+          "Honey",
+          "Potable water",
+          "Starch",
+          "Fruit",
+          "Fruit products",
+          "Eggs",
+          "Egg products",
+          "Coffee",
+          "Cocoa",
+          "Chocolate",
+          "Confectionary",
+          "Condiments",
+          "Spices",
+          "Ginger",
+          "Nuts",
+          "Bakery products",
+          "Cake",
+          "Cookies"
+        ]
+      },
+      "2.1.15": {
+        "category_name": "Standard for Frozen Desserts or Confections with Added Vegetable Oil/ Fat or Vegetable Protein",
+        "description": "Product obtained by freezing a pasteurised mix prepared with edible vegetable oils, fats, or vegetable protein.",
+        "ingredients": [
+          "Milk",
+          "Milk products",
+          "Vegetable oils",
+          "Vegetable fats",
+          "Vegetable protein products",
+          "Sugar",
+          "Nutritive sweeteners",
+          "Jaggery",
+          "Dextrose",
+          "Fructose",
+          "Liquid glucose",
+          "High maltose corn syrup",
+          "Honey",
+          "Potable water",
+          "Starch",
+          "Fruit",
+          "Fruit products",
+          "Eggs",
+          "Egg products",
+          "Coffee",
+          "Cocoa",
+          "Chocolate",
+          "Confectionary",
+          "Condiments",
+          "Spices",
+          "Ginger",
+          "Nuts",
+          "Bakery products",
+          "Cake",
+          "Cookies"
+        ]
+      },
+      "2.1.16": {
+        "category_name": "Standard for Chhana and Paneer",
+        "description": "Product obtained from any variant of milk by precipitation with permitted acidulants and heating.",
+        "ingredients": [
+          "Milk",
+          "Milk solids",
+          "Lactic acid",
+          "Citric acid",
+          "Malic acid",
+          "Vinegar",
+          "Glucono delta lactone",
+          "Sour whey",
+          "Spices",
+          "Condiments",
+          "Salt"
+        ]
+      },
+      "2.1.17": {
+        "category_name": "Standard for Cheese and Cheese Products",
+        "description": "Ripened or unripened product obtained by coagulating the protein of milk or milk products.",
+        "ingredients": [
+          "Milk",
+          "Products obtained from milk",
+          "Starter cultures",
+          "Enzymes (non-animal origin)",
+          "Sodium chloride",
+          "Potable water",
+          "Vinegar",
+          "Acetic acid",
+          "Spices",
+          "Condiments",
+          "Vegetable seasoning",
+          "Sucrose",
+          "Dextrose",
+          "Corn syrup",
+          "Corn syrup solids",
+          "Honey",
+          "Maltose",
+          "Malt syrup",
+          "Hydrolysed lactose"
+        ]
+      },
+      "2.1.18": {
+        "category_name": "Standard for Edible Casein Products",
+        "description": "Products obtained by separating, washing and drying the coagulum of skimmed milk.",
+        "ingredients": [
+          "Skimmed milk",
+          "Products obtained from milk",
+          "Edible acids",
+          "Starter cultures",
+          "Non-animal rennet",
+          "Coagulating enzymes",
+          "Potable water",
+          "Neutralizing agents"
+        ]
+      },
+      "2.1.20": {
+        "category_name": "Standards for Edible Lactose",
+        "description": "White to light yellow crystalline, slightly sweet disaccharide sugar found in milk.",
+        "ingredients": [
+          "Whey"
+        ]
+      },
+      "2.1.21": {
+        "category_name": "Milk Protein Concentrate",
+        "description": "Complex milk proteins containing casein and whey protein in their native form manufactured by removing lactose and minerals.",
+        "ingredients": [
+          "Milk",
+          "Skimmed milk",
+          "Cream",
+          "Water"
+        ]
+      },
+      "2.1.22": {
+        "category_name": "Whey Protein Concentrate",
+        "description": "Product obtained by removing nonprotein constituents from whey followed by drying.",
+        "ingredients": [
+          "Whey",
+          "Acid whey"
+        ]
+      },
+      "2.1.23": {
+        "category_name": "Standard for Cow or Buffalo Colostrum and Colostrum products",
+        "description": "Lacteal secretion from the mammary glands of cow or buffalo obtained upto three to five days of parturition.",
+        "ingredients": [
+          "Cow Colostrum",
+          "Buffalo Colostrum"
+        ]
+      },
+      "2.1.24": {
+        "category_name": "Standards for Dairy Permeate Powders",
+        "description": "Dried milk product characterized by a high content of lactose manufactured from permeates.",
+        "ingredients": [
+          "Milk permeate",
+          "Whey permeate",
+          "Cream permeate",
+          "Sweet buttermilk permeate",
+          "Lactose-containing milk products",
+          "Seed lactose"
+        ]
+      }
+    }
+  },
+  "2.2": {
+    "category_name": "FATS, OILS AND FAT EMULSIONS",
+    "description": "Standards for various categories of fats, oils, and fat emulsions including refined oils, hydrogenated fats, and spreads.",
+    "ingredients": [],
+    "subcategory": {
+      "2.2.1": {
+        "category_name": "OILS",
+        "description": "Standardized edible oils extracted from various vegetable sources.",
+        "ingredients": [],
+        "subcategory": {
+          "2.2.1.1": {
+            "category_name": "Coconut oil",
+            "description": "Oil expressed from copra obtained from the kernel of Cocos mucifera nuts.",
+            "ingredients": [],
+            "subcategory": {
+              "2.2.1.1.1": {
+                "category_name": "Virgin Coconut Oil",
+                "description": "Oil expressed from the kernel of Cocos nucifera nuts by mechanical or natural means without heat alteration.",
+                "ingredients": []
+              }
+            }
+          },
+          "2.2.1.3": {
+            "category_name": "Cotton seed oil",
+            "description": "Oil extracted from clean, sound delinted and decorticated cotton seeds.",
+            "ingredients": []
+          },
+          "2.2.1.4": {
+            "category_name": "Groundnut oil",
+            "description": "Oil expressed from clean and sound groundnuts.",
+            "ingredients": []
+          },
+          "2.2.1.5": {
+            "category_name": "Flaxseed or Linseed oil",
+            "description": "Oil obtained by process of expressing clean and sound Flaxseed or Linseed.",
+            "ingredients": []
+          },
+          "2.2.1.5a": {
+            "category_name": "Mahua oil",
+            "description": "Oil expressed from clean and sound seeds or nuts of Madhuca.",
+            "ingredients": []
+          },
+          "2.2.1.6": {
+            "category_name": "Rapeseed oil or mustard oil",
+            "description": "Oil obtained from juncea or napus varieties of Brassica.",
+            "ingredients": []
+          },
+          "2.2.1.7": {
+            "category_name": "Rapeseed or mustard oil-low erucic acid",
+            "description": "Oil obtained from low erucic acid bearing seeds of rapeseed belonging to Brassica varieties.",
+            "ingredients": []
+          },
+          "2.2.1.8": {
+            "category_name": "Olive oil",
+            "description": "Oil obtained solely from the fruit of the olive tree (Olea europaea L.).",
+            "ingredients": [
+              "alpha-tocopherols"
+            ]
+          },
+          "2.2.1.9": {
+            "category_name": "Poppy seed oil",
+            "description": "Oil expressed from poppy seeds (papaver somniferum).",
+            "ingredients": []
+          },
+          "2.2.1.10": {
+            "category_name": "Safflower seed oil",
+            "description": "Oil expressed from the seeds of Carthamus tinctorius.",
+            "ingredients": [],
+            "subcategory": {
+              "2.2.1.10.1": {
+                "category_name": "Imported Safflower seed oil and High Oleic Safflower seed oil",
+                "description": "Oil expressed from Safflower seeds containing not less than 70% oleic acid.",
+                "ingredients": []
+              }
+            }
+          },
+          "2.2.1.11": {
+            "category_name": "Taramira oil",
+            "description": "Oil expressed from clean and sound seeds of Taramira (Eruca sativa).",
+            "ingredients": []
+          },
+          "2.2.1.12": {
+            "category_name": "Til oil (Gingelly or sesame oil)",
+            "description": "Oil expressed from clean and sound seeds of Til (Sesamum indicum).",
+            "ingredients": []
+          },
+          "2.2.1.13": {
+            "category_name": "Niger seed oil",
+            "description": "Edible oil obtained by process of expressing clean and sound seeds of Guizotia abyssinica.",
+            "ingredients": []
+          },
+          "2.2.1.14": {
+            "category_name": "Soyabean oil",
+            "description": "Oil expressed from clean and sound soyabeans.",
+            "ingredients": []
+          },
+          "2.2.1.15": {
+            "category_name": "Maize (corn) oil",
+            "description": "Oil extracted from the germ of clean and sound seeds of zea mays linn.",
+            "ingredients": []
+          },
+          "2.2.1.16": {
+            "category_name": "Refined vegetable oil",
+            "description": "Vegetable oil obtained by expression or solvent extraction that has been deacidified, bleached, and deodorised.",
+            "ingredients": []
+          },
+          "2.2.1.17": {
+            "category_name": "Almond oil",
+            "description": "Oil expressed from the seeds of sweet or bitter almond without heat.",
+            "ingredients": []
+          },
+          "2.2.1.18": {
+            "category_name": "Water-melon seed oil",
+            "description": "Oil extracted from the clean, sound seeds of the fruit of water-melon.",
+            "ingredients": []
+          },
+          "2.2.1.19": {
+            "category_name": "Palm oil",
+            "description": "Oil obtained from fleshy mesocarp of fruits of the oil palm.",
+            "ingredients": []
+          },
+          "2.2.1.20.1": {
+            "category_name": "Palmolein",
+            "description": "Liquid fraction obtained by fractionation of palm oil.",
+            "ingredients": []
+          },
+          "2.2.1.21": {
+            "category_name": "Palm kernel oil",
+            "description": "Oil obtained from sound kernel of the fruits of oil palm.",
+            "ingredients": []
+          },
+          "2.2.1.22": {
+            "category_name": "Sunflower seed oil",
+            "description": "Oil obtained from clean and sound sunflower seeds or cake.",
+            "ingredients": []
+          },
+          "2.2.1.22.01": {
+            "category_name": "Sunflower seed Oil-High Oleic acid",
+            "description": "Oil obtained from high oleic acid bearing sunflower seeds containing not less than 75% oleic acid.",
+            "ingredients": []
+          },
+          "2.2.1.23": {
+            "category_name": "Rice bran oil",
+            "description": "Oil obtained from the layer around the endosperm of rice.",
+            "ingredients": []
+          },
+          "2.2.1.24": {
+            "category_name": "Multi-Source Edible Oil",
+            "description": "Admixture of any two edible vegetable oils.",
+            "ingredients": [
+              "edible vegetable oils",
+              "Chia oil",
+              "Flaxseed oil",
+              "Linseed Oil"
+            ]
+          },
+          "2.2.1.25": {
+            "category_name": "Avocado oil",
+            "description": "Oil obtained from the avocado fruit.",
+            "ingredients": []
+          },
+          "2.2.1.26": {
+            "category_name": "Palm Stearin",
+            "description": "High melting fraction obtained by fractionation of palm oil.",
+            "ingredients": []
+          },
+          "2.2.1.27": {
+            "category_name": "Palm Kernel Stearin",
+            "description": "Solid fraction obtained by fractionation of palm kernel oil.",
+            "ingredients": []
+          },
+          "2.2.1.28": {
+            "category_name": "Palm Kernel Olein",
+            "description": "Liquid fraction obtained by fractionation of Palm Kernel oil.",
+            "ingredients": []
+          },
+          "2.2.1.29": {
+            "category_name": "Palm Superolein",
+            "description": "Liquid fraction obtained by fractionation of Palm oil.",
+            "ingredients": []
+          },
+          "2.2.1.30": {
+            "category_name": "Chia oil",
+            "description": "Oil expressed from the clean and sound seeds of chia.",
+            "ingredients": []
+          },
+          "2.2.1.31": {
+            "category_name": "Grapeseed oil",
+            "description": "Oil expressed from the clean and sound Grape seeds.",
+            "ingredients": []
+          },
+          "2.2.1.32": {
+            "category_name": "Moringa oil",
+            "description": "Oil obtained by the process of expressing clean and sound Moringa Seed.",
+            "ingredients": []
+          }
+        }
+      },
+      "2.2.2": {
+        "category_name": "Interesterified vegetable fat/Oil",
+        "description": "Edible fatty material treated to rearrange fatty acid positions within the glyceride entities.",
+        "ingredients": [
+          "sesame oil",
+          "Vitamin A",
+          "nitrogen",
+          "inert gas"
+        ]
+      },
+      "2.2.3": {
+        "category_name": "PARTIALLY HYDROGENATED SOYABEAN OIL",
+        "description": "Soyabean oil subjected to partial hydrogenation and optional winterization.",
+        "ingredients": [],
+        "subcategory": {
+          "2.2.3.1": {
+            "category_name": "Partially hydrogenated and winterised soyabean oil",
+            "description": "Deodourised product obtained by light hydrogenation and winterization of soyabean oil.",
+            "ingredients": []
+          },
+          "2.2.3.2": {
+            "category_name": "Partially hydrogenated soyabean oil",
+            "description": "Deodourised product obtained by light hydrogenation of soyabean oil.",
+            "ingredients": []
+          }
+        }
+      },
+      "2.2.4": {
+        "category_name": "EDIBLE FATS",
+        "description": "Various animal and vegetable fats and butters.",
+        "ingredients": [],
+        "subcategory": {
+          "2.2.4.1": {
+            "category_name": "Beef fat or suet",
+            "description": "Fat obtained from a beef carcass.",
+            "ingredients": []
+          },
+          "2.2.4.2": {
+            "category_name": "Mutton fat",
+            "description": "Fat obtained from the carcass of sheep.",
+            "ingredients": []
+          },
+          "2.2.4.3": {
+            "category_name": "Goat fat",
+            "description": "Rendered fat from goat.",
+            "ingredients": []
+          },
+          "2.2.4.4": {
+            "category_name": "Lard",
+            "description": "Rendered fat from hogs.",
+            "ingredients": []
+          },
+          "2.2.4.5": {
+            "category_name": "Cocoa butter",
+            "description": "Fat produced by extraction or expression from cocoa beans.",
+            "ingredients": []
+          },
+          "2.2.4.6": {
+            "category_name": "Refined salseed fat",
+            "description": "Fat obtained from seed kernels of sal trees.",
+            "ingredients": []
+          },
+          "2.2.4.7": {
+            "category_name": "Kokum Fat",
+            "description": "Fat obtained from clean and sound kernels of Kokum.",
+            "ingredients": []
+          },
+          "2.2.4.8": {
+            "category_name": "Mango Kernel Fat",
+            "description": "Fat obtained from clean and sound kernels of Mango.",
+            "ingredients": []
+          },
+          "2.2.4.9": {
+            "category_name": "Dhupa Fat",
+            "description": "Fat obtained from clean and sound seed kernels of Dhupa.",
+            "ingredients": []
+          },
+          "2.2.4.10": {
+            "category_name": "Phulwara Fat",
+            "description": "Fat obtained from clean and sound seed kernels of Phulwara.",
+            "ingredients": []
+          },
+          "2.2.4.11": {
+            "category_name": "Peanut Butter",
+            "description": "Cohesive, comminuted food product prepared from clean, sound, shelled peanuts or groundnuts.",
+            "ingredients": [
+              "peanuts",
+              "groundnuts",
+              "Sugar",
+              "salt",
+              "liquid glucose",
+              "jaggery",
+              "honey",
+              "edible oils",
+              "fats"
+            ]
+          },
+          "2.2.4.12": {
+            "category_name": "Shea butter",
+            "description": "Product obtained by pressing and extraction from shea kernels derived from Shea tree.",
+            "ingredients": []
+          },
+          "2.2.4.13": {
+            "category_name": "Borneo tallow/ Illipe butter",
+            "description": "Fat obtained by pressing and extraction from Illipe seeds.",
+            "ingredients": []
+          }
+        }
+      },
+      "2.2.5": {
+        "category_name": "MARGARINE AND FAT SPREADS",
+        "description": "Emulsions of edible oils and fats with water.",
+        "ingredients": [],
+        "subcategory": {
+          "2.2.5.1": {
+            "category_name": "Table margarine",
+            "description": "Emulsion of edible oils and fats with water.",
+            "ingredients": [
+              "edible oils",
+              "fats",
+              "water",
+              "common salt",
+              "skimmed milk powder",
+              "Vitamin A",
+              "sesame oil",
+              "starch"
+            ]
+          },
+          "2.2.5.2": {
+            "category_name": "Bakery and Industrial Margarine",
+            "description": "Emulsion of vegetable oil product with water meant for bakery/industrial use.",
+            "ingredients": [
+              "vegetable oil",
+              "water",
+              "common salt",
+              "Vitamin A",
+              "sesame oil",
+              "Rice bran oil"
+            ]
+          },
+          "2.2.5.3": {
+            "category_name": "Fat spread",
+            "description": "Product in the form of water in oil emulsion containing milk fat or vegetable fat.",
+            "ingredients": [
+              "Milk fat",
+              "vegetable oils",
+              "common salt",
+              "milk solid not fat",
+              "Sesame oil",
+              "vitamin A",
+              "Starch"
+            ]
+          }
+        }
+      },
+      "2.2.6": {
+        "category_name": "HYDROGENATED VEGETABLE OILS",
+        "description": "Vegetable oils subjected to hydrogenation.",
+        "ingredients": [],
+        "subcategory": {
+          "2.2.6.1": {
+            "category_name": "Vanaspati",
+            "description": "Refined edible vegetable oil subjected to hydrogenation.",
+            "ingredients": [
+              "refined edible vegetable oil",
+              "groundnut oil",
+              "cottonseed oil",
+              "sesame oil",
+              "Refined sal seed fat",
+              "Vitamin A",
+              "nitrogen"
+            ]
+          },
+          "2.2.6.2": {
+            "category_name": "Bakery shortening",
+            "description": "Vanaspati meant for use as a shortening or leavening agent.",
+            "ingredients": [
+              "vanaspati",
+              "nitrogen",
+              "inert gas",
+              "mono-glycerides",
+              "diglycerides"
+            ]
+          }
+        }
+      },
+      "2.2.9": {
+        "category_name": "Solvent Extracted Crude Vegetable Oils",
+        "description": "Oils obtained by solvent extraction using food grade hexane, not for direct human consumption.",
+        "ingredients": []
+      }
+    }
+  },
+  "2.3": {
+    "category_name": "FRUIT & VEGETABLE PRODUCTS",
+    "description": "General category for processed and preserved fruit and vegetable products.",
+    "ingredients": [],
+    "subcategory": {
+      "2.3.1": {
+        "category_name": "Thermally Processed Fruits",
+        "description": "Products obtained from sound, matured, dehydrated, fresh or frozen fruits packed with any suitable packing medium and processed by heat.",
+        "ingredients": [
+          "fruits",
+          "packing medium",
+          "water",
+          "fruit juice",
+          "dry or liquid nutritive sweeteners",
+          "spices",
+          "condiments",
+          "food additives"
+        ]
+      },
+      "2.3.2": {
+        "category_name": "Thermally Processed Fruit Salad/Cocktail/Mix",
+        "description": "Product prepared from a mixture of fruits, packed with water or other suitable liquid packing medium and processed by heat.",
+        "ingredients": [
+          "mixture of fruits",
+          "water",
+          "liquid packing medium",
+          "nutritive sweeteners",
+          "sucrose",
+          "invert sugar syrup",
+          "dextrose",
+          "dried glucose syrup",
+          "glucose syrup",
+          "fructose",
+          "fructose syrup",
+          "fruit juice"
+        ]
+      },
+      "2.3.3": {
+        "category_name": "Thermally Processed Vegetables",
+        "description": "Product obtained from fresh, dehydrated or frozen vegetables either singly or in combination, packed with suitable packing medium and processed by heat.",
+        "ingredients": [
+          "vegetables",
+          "water",
+          "common salt",
+          "nutritive sweeteners",
+          "spices",
+          "condiments",
+          "packing medium",
+          "food additives"
+        ]
+      },
+      "2.3.3A": {
+        "category_name": "CANNED TOMATOES",
+        "description": "Prepared from selected, fresh, washed, cleaned, firm and ripe tomatoes of variety Lycopersicum esculentum Mill.",
+        "ingredients": [
+          "tomatoes",
+          "natural spices",
+          "condiments",
+          "spice oils",
+          "aromatic herbs",
+          "extracts",
+          "natural aromas",
+          "seasoning",
+          "salt",
+          "sodium chloride",
+          "acidifying agents",
+          "sugars",
+          "calcium chloride",
+          "tomato juice",
+          "tomato puree",
+          "water"
+        ]
+      },
+      "2.3.4": {
+        "category_name": "Thermally Processed Curried Vegetables / Ready to Eat Vegetables",
+        "description": "Product prepared from fresh, dehydrated or frozen or previously processed vegetables, legumes, cereals or pulses, cooked with spices.",
+        "ingredients": [
+          "vegetables",
+          "legumes",
+          "cereals",
+          "pulses",
+          "salt",
+          "nutritive sweeteners",
+          "spices",
+          "condiments",
+          "edible vegetable oils",
+          "fats",
+          "milk fat",
+          "food additives"
+        ]
+      },
+      "2.3.5": {
+        "category_name": "Thermally Processed Vegetable soups",
+        "description": "Prepared from juice/pulp/puree of sound, mature vegetables, blended with ingredients and cooked to a suitable consistency.",
+        "ingredients": [
+          "vegetables",
+          "vegetable juice",
+          "vegetable pulp",
+          "vegetable puree",
+          "salt",
+          "nutritive sweeteners",
+          "spices",
+          "condiments",
+          "food additives"
+        ]
+      },
+      "2.3.6": {
+        "category_name": "FRUIT JUICES",
+        "description": "Unfermented but fermentable product, pulpy, turbid or clear, obtained from sound, ripe fruit and processed by heat or mechanical means.",
+        "ingredients": [
+          "fruit",
+          "water",
+          "salt",
+          "spices",
+          "herbs",
+          "condiments",
+          "nutrients",
+          "vitamins",
+          "minerals",
+          "nutritive sweeteners",
+          "food additives"
+        ]
+      },
+      "2.3.7": {
+        "category_name": "VEGETABLE JUICES",
+        "description": "Unfermented but fermentable product intended for direct consumption obtained from the edible part of vegetables.",
+        "ingredients": [
+          "vegetables",
+          "edible salt",
+          "spices",
+          "condiments",
+          "vinegar",
+          "nutritive sweeteners",
+          "nutrients",
+          "vitamins",
+          "minerals",
+          "whey",
+          "lactoserum"
+        ]
+      },
+      "2.3.8": {
+        "category_name": "THERMALLY PROCESSED TOMATO JUICE",
+        "description": "Unfermented juice obtained from tomatoes processed by heat, free from extraneous plant material.",
+        "ingredients": [
+          "tomato juice",
+          "water",
+          "common salt",
+          "sugar",
+          "dextrose",
+          "spices",
+          "aromatic herbs",
+          "natural aromas"
+        ]
+      },
+      "2.3.9": {
+        "category_name": "Thermally Processed Fruit Nectars",
+        "description": "Unfermented but fermentable pulpy or non-pulpy product made from fruit juice/pulp/puree with water and sweeteners.",
+        "ingredients": [
+          "fruit juice",
+          "fruit pulp",
+          "fruit puree",
+          "concentrated fruit juice",
+          "water",
+          "nutritive sweeteners",
+          "lemon juice",
+          "lime juice",
+          "food additives"
+        ]
+      },
+      "2.3.10": {
+        "category_name": "Thermally Processed Fruit Beverages / Fruit Drink/ Ready to Serve Fruit Beverages",
+        "description": "Unfermented but fermentable product prepared from juice or pulp/puree or concentrated juice or pulp of sound mature fruit.",
+        "ingredients": [
+          "fruit juice",
+          "fruit pulp",
+          "fruit puree",
+          "water",
+          "peel oil",
+          "fruit essences",
+          "flavours",
+          "salt",
+          "sugar",
+          "invert sugar",
+          "liquid glucose",
+          "milk",
+          "food additives"
+        ]
+      },
+      "2.3.11": {
+        "category_name": "Thermally Processed Mango Pulp / Puree and Sweetened Mango Pulp / Puree",
+        "description": "Unfermented but fermentable product obtained from edible portion of sound, ripe mangoes.",
+        "ingredients": [
+          "mangoes",
+          "nutritive sweeteners",
+          "food additives"
+        ]
+      },
+      "2.3.12": {
+        "category_name": "Thermally Processed Fruit Pulp / Puree And Sweetened Fruit Pulp / Puree other than Mango",
+        "description": "Unfermented but fermentable product obtained from edible portion of sound, ripe fruit other than mango.",
+        "ingredients": [
+          "fruit",
+          "nutritive sweeteners",
+          "food additives"
+        ]
+      },
+      "2.3.13": {
+        "category_name": "Thermally Processed Concentrated Fruit / Vegetable Juice Pulp/ Puree",
+        "description": "Unfermented product obtained from juice/pulp/puree of fruit/vegetable from which water has been removed.",
+        "ingredients": [
+          "fruit juice",
+          "vegetable juice",
+          "fruit pulp",
+          "vegetable pulp",
+          "fruit puree",
+          "vegetable puree",
+          "natural volatile components"
+        ]
+      },
+      "2.3.14": {
+        "category_name": "Thermally Processed Tomato Puree and Paste",
+        "description": "Unfermented product capable of fermentation, obtained by concentrating the juice of sound ripe tomatoes.",
+        "ingredients": [
+          "tomatoes",
+          "salt",
+          "food additives"
+        ]
+      },
+      "2.3.15": {
+        "category_name": "Soup Powders",
+        "description": "Products obtained by mechanical dehydration of fresh vegetables/fruits juice/pulp/puree blended with ingredients.",
+        "ingredients": [
+          "vegetables",
+          "fruits",
+          "fruit juice",
+          "vegetable juice",
+          "fruit pulp",
+          "vegetable pulp",
+          "fruit puree",
+          "vegetable puree",
+          "salt",
+          "nutritive sweeteners",
+          "spices",
+          "condiments",
+          "food additives"
+        ]
+      },
+      "2.3.16": {
+        "category_name": "Fruit/Vegetable Juice / Pulp/ Puree with Preservatives for Industrial Use only",
+        "description": "Unfermented but fermentable product obtained by mechanical process from sound ripe fruits/vegetables.",
+        "ingredients": [
+          "fruits",
+          "vegetables",
+          "food additives",
+          "preservatives"
+        ]
+      },
+      "2.3.17": {
+        "category_name": "Concentrated Fruit Vegetable Juice /Pulp / Puree with Preservatives for Industrial Use Only",
+        "description": "Unfermented product obtained from juice/pulp/puree of fruit/vegetable from which water has been removed.",
+        "ingredients": [
+          "fruit juice",
+          "vegetable juice",
+          "fruit pulp",
+          "vegetable pulp",
+          "fruit puree",
+          "vegetable puree",
+          "food additives",
+          "preservatives"
+        ]
+      },
+      "2.3.18": {
+        "category_name": "Tamarind Pulp/Puree and Concentrate",
+        "description": "Unfermented product obtained from fresh or dried tamarind by boiling with water and sieving.",
+        "ingredients": [
+          "fresh tamarind",
+          "dried tamarind",
+          "water",
+          "preservatives",
+          "food additives"
+        ]
+      },
+      "2.3.19": {
+        "category_name": "Fruit Bar/ Toffee",
+        "description": "Product prepared by blending fruit pulp/puree with sweeteners and fat, dehydrated to form a sheet.",
+        "ingredients": [
+          "fruit pulp",
+          "fruit puree",
+          "nutritive sweeteners",
+          "butter",
+          "edible vegetable fat",
+          "milk solids",
+          "food additives"
+        ]
+      },
+      "2.3.20": {
+        "category_name": "Fruit/Vegetable, Cereal Flakes",
+        "description": "Product prepared by blending fruit/vegetable pulp/puree with starch, cereals and sweeteners, dehydrated into flakes.",
+        "ingredients": [
+          "fruit pulp",
+          "vegetable pulp",
+          "fruit puree",
+          "vegetable puree",
+          "starch",
+          "cereals",
+          "nutritive sweeteners",
+          "salt",
+          "food additives"
+        ]
+      },
+      "2.3.21": {
+        "category_name": "Squashes, Crushes, Fruit Syrups/Fruit Sharbats and Barley Water",
+        "description": "Product prepared from fruit juice/puree/concentrate blended with nutritive sweeteners and water.",
+        "ingredients": [
+          "fruit juice",
+          "fruit puree",
+          "fruit concentrate",
+          "nutritive sweeteners",
+          "water",
+          "salt",
+          "aromatic herbs",
+          "peel oil",
+          "barley starch",
+          "dry fruits",
+          "food additives"
+        ]
+      },
+      "2.3.22": {
+        "category_name": "Ginger Cocktail",
+        "description": "Product prepared by blending ginger juice or its oleoresin or essence with water and nutritive sweeteners.",
+        "ingredients": [
+          "ginger juice",
+          "ginger oleoresin",
+          "ginger essence",
+          "water",
+          "nutritive sweeteners",
+          "food additives"
+        ]
+      },
+      "2.3.23": {
+        "category_name": "Synthetic Syrup for use in Dispensers for carbonated water",
+        "description": "Carbonated water obtained by blending nutritive sweeteners with water and other ingredients.",
+        "ingredients": [
+          "nutritive sweeteners",
+          "water",
+          "food additives"
+        ]
+      },
+      "2.3.24": {
+        "category_name": "SYNTHETIC SYRUP or SHARBAT",
+        "description": "Syrup obtained by blending syrup made from sugar, dextrose or liquid glucose.",
+        "ingredients": [
+          "sugar",
+          "dextrose",
+          "liquid glucose",
+          "fruit juice",
+          "citric acid",
+          "permitted colours",
+          "permitted preservatives",
+          "permitted flavouring agents"
+        ]
+      },
+      "2.3.25": {
+        "category_name": "Murabba",
+        "description": "Product prepared from fruits, rhizome or vegetables impregnated with nutritive sweeteners to preserve it.",
+        "ingredients": [
+          "fruits",
+          "vegetables",
+          "rhizome",
+          "nutritive sweeteners",
+          "food additives"
+        ]
+      },
+      "2.3.26": {
+        "category_name": "Candied, Crystallised and Glazed Fruit / Vegetable / Rhizome / Fruit Peel",
+        "description": "Product prepared from fruits, vegetables, rhizomes or peel impregnated with nutritive sweeteners, optionally coated with sugar or syrup.",
+        "ingredients": [
+          "fruits",
+          "vegetables",
+          "rhizomes",
+          "fruit peel",
+          "nutritive sweeteners",
+          "sugar",
+          "syrup",
+          "pectin",
+          "food additives"
+        ]
+      },
+      "2.3.27": {
+        "category_name": "Tomato Ketchup and Tomato Sauce",
+        "description": "Product prepared by blending tomato juice/puree/paste with nutritive sweeteners, salt, vinegar, spices and condiments.",
+        "ingredients": [
+          "tomato juice",
+          "tomato puree",
+          "tomato paste",
+          "nutritive sweeteners",
+          "salt",
+          "vinegar",
+          "spices",
+          "condiments",
+          "water",
+          "food additives"
+        ]
+      },
+      "2.3.28": {
+        "category_name": "Culinary Pastes / Fruits and Vegetable Sauces Other Than Tomato Sauce and Soya Sauce",
+        "description": "Culinary preparation prepared from edible portion of fruit/vegetable blended with nutritive sweeteners, salt, spices and condiments.",
+        "ingredients": [
+          "fruit",
+          "vegetable",
+          "roots",
+          "tubers",
+          "rhizomes",
+          "fruit pulp",
+          "fruit puree",
+          "dried fruits",
+          "nutritive sweeteners",
+          "salt",
+          "spices",
+          "condiments",
+          "food additives"
+        ]
+      },
+      "2.3.29": {
+        "category_name": "SOYBEAN SAUCE",
+        "description": "Product obtained from wholesome soybeans by fermenting the soybean paste and blending with salt and nutritive sweeteners.",
+        "ingredients": [
+          "soybeans",
+          "salt",
+          "nutritive sweeteners",
+          "spices",
+          "condiments",
+          "preservatives",
+          "food additives"
+        ]
+      },
+      "2.3.30": {
+        "category_name": "Carbonated Fruit Beverages or Fruit Drinks",
+        "description": "Beverage prepared from fruit juice and water or carbonated water containing sugar, dextrose, invert sugar or liquid glucose.",
+        "ingredients": [
+          "fruit juice",
+          "water",
+          "carbonated water",
+          "sugar",
+          "dextrose",
+          "invert sugar",
+          "liquid glucose",
+          "peel oil",
+          "fruit essences",
+          "food additives"
+        ]
+      },
+      "2.3.31": {
+        "category_name": "JAMS, FRUIT JELLIES AND MARMALADES",
+        "description": "Product prepared from fruit ingredients mixed with nutritive sweetener and processed to a suitable consistency.",
+        "ingredients": [
+          "fruit",
+          "fruit juice",
+          "concentrated fruit juice",
+          "dehydrated fruit",
+          "nutritive sweetener",
+          "water",
+          "cane sugar",
+          "sucrose",
+          "dextrose",
+          "invert sugar",
+          "liquid glucose",
+          "honey",
+          "salt",
+          "herbs",
+          "spices",
+          "condiments",
+          "pectin"
+        ]
+      },
+      "2.3.33": {
+        "category_name": "Fruit Cheese",
+        "description": "Product prepared from pulp/puree of sound, ripe fruit(s) by cooking with salt and nutritive sweeteners to attain a thick consistency.",
+        "ingredients": [
+          "fruit pulp",
+          "fruit puree",
+          "fresh fruit",
+          "frozen fruit",
+          "preserved fruit",
+          "dry fruits",
+          "salt",
+          "nutritive sweeteners",
+          "food additives"
+        ]
+      },
+      "2.3.35": {
+        "category_name": "Dehydrated Fruits",
+        "description": "Product prepared from edible part of suitable variety of sound fruit from which moisture has been removed.",
+        "ingredients": [
+          "fruit",
+          "food additives"
+        ]
+      },
+      "2.3.36": {
+        "category_name": "Dehydrated Vegetables",
+        "description": "Product prepared from edible portions of suitable variety of sound vegetable from which moisture has been removed.",
+        "ingredients": [
+          "vegetables",
+          "food additives"
+        ]
+      },
+      "2.3.37": {
+        "category_name": "Frozen Fruits/Fruit Products",
+        "description": "Product frozen in blocks or individually quick frozen prepared from fresh, clean, sound, whole fruits.",
+        "ingredients": [
+          "fruits",
+          "salt",
+          "nutritive sweeteners",
+          "milk solids",
+          "spices",
+          "condiments",
+          "food additives"
+        ]
+      },
+      "2.3.38": {
+        "category_name": "Frozen Vegetables",
+        "description": "Product frozen in blocks or individually quick frozen prepared from sound, clean vegetables.",
+        "ingredients": [
+          "vegetables",
+          "salt",
+          "nutritive sweeteners",
+          "milk solids",
+          "spices",
+          "condiments"
+        ],
+        "subcategory": {
+          "2.3.38.A": {
+            "category_name": "FROZEN BEANS",
+            "description": "Prepared from fresh, clean, sound, succulent pods of Phaseolus vulgaris L. or Phaseolus coccineus L.",
+            "ingredients": [
+              "beans",
+              "sugars",
+              "sucrose",
+              "invert sugar",
+              "dextrose",
+              "fructose",
+              "glucose syrup",
+              "dried glucose syrup",
+              "salt",
+              "spices",
+              "herbs",
+              "edible fats",
+              "oils",
+              "sauces",
+              "milk solids"
+            ]
+          },
+          "2.3.38.B": {
+            "category_name": "FROZEN CAULIFLOWER",
+            "description": "Prepared from fresh, clean, sound heads of the cauliflower plant Brassica oleracea L. var. botrytis L.",
+            "ingredients": [
+              "cauliflower",
+              "salt",
+              "spices",
+              "herbs",
+              "sugars",
+              "edible fats",
+              "oils",
+              "sauces",
+              "milk solids"
+            ]
+          },
+          "2.3.38.C": {
+            "category_name": "FROZEN PEAS",
+            "description": "Prepared from fresh, clean, sound, whole, immature seeds of peas plant Pisum sativum L.",
+            "ingredients": [
+              "peas",
+              "sugars",
+              "sucrose",
+              "invert sugar",
+              "dextrose",
+              "fructose",
+              "glucose syrup",
+              "dried glucose syrup",
+              "salt",
+              "spices",
+              "herbs",
+              "edible fats",
+              "oils",
+              "sauces",
+              "milk solids"
+            ]
+          },
+          "2.3.38.D": {
+            "category_name": "FROZEN SPINACH",
+            "description": "Prepared from fresh, clean, sound edible parts of the spinach plant Spinacia oleracea L.",
+            "ingredients": [
+              "spinach",
+              "salt",
+              "spices",
+              "herbs",
+              "sugars",
+              "edible fats",
+              "oils",
+              "sauces",
+              "milk solids"
+            ]
+          }
+        }
+      },
+      "2.3.39": {
+        "category_name": "Frozen Curried Vegetables/Ready-to-Eat Vegetables",
+        "description": "Product prepared from vegetables, legumes, cereals or pulses, cooked with spices and frozen.",
+        "ingredients": [
+          "vegetables",
+          "legumes",
+          "cereals",
+          "pulses",
+          "salt",
+          "nutritive sweeteners",
+          "spices",
+          "condiments",
+          "edible vegetable oils",
+          "fats",
+          "milk fat"
+        ]
+      },
+      "2.3.40": {
+        "category_name": "Fruit Based Beverage Mix/Powdered Fruit Based Beverage",
+        "description": "Product in powder form intended for use after dilution, obtained by blending fruit solids with nutritive sweeteners.",
+        "ingredients": [
+          "fruit solids",
+          "nutritive sweeteners",
+          "vitamins",
+          "minerals",
+          "food additives"
+        ]
+      },
+      "2.3.41": {
+        "category_name": "Fruits and Vegetable Chutney",
+        "description": "Product prepared from fruits and/or vegetables cooked with nutritive sweetener.",
+        "ingredients": [
+          "fruits",
+          "vegetables",
+          "nutritive sweetener",
+          "salt",
+          "spices",
+          "condiments",
+          "food additives"
+        ]
+      },
+      "2.3.42": {
+        "category_name": "Mango Chutney",
+        "description": "Product prepared from washed clean sound mangoes cooked with nutritive sweeteners.",
+        "ingredients": [
+          "mangoes",
+          "nutritive sweeteners",
+          "salt",
+          "spices",
+          "condiments",
+          "food additives"
+        ]
+      },
+      "2.3.43": {
+        "category_name": "Pickles",
+        "description": "Preparation made from fruits or vegetables preserved in salt, acid, sugar or any combination.",
+        "ingredients": [
+          "fruits",
+          "vegetables",
+          "edible plant material",
+          "mushrooms",
+          "salt",
+          "acid",
+          "sugar",
+          "onion",
+          "garlic",
+          "ginger",
+          "jaggery",
+          "edible vegetable oil",
+          "green chillies",
+          "red chillies",
+          "spices",
+          "spice extracts",
+          "spice oil",
+          "lime juice",
+          "vinegar",
+          "acetic acid",
+          "citric acid",
+          "dry fruits",
+          "nuts",
+          "food additives"
+        ]
+      },
+      "2.3.44": {
+        "category_name": "TABLE OLIVES",
+        "description": "Product prepared from sound fresh fruits of varieties of the cultivated olive tree (Olea europaea L.).",
+        "ingredients": [
+          "olives",
+          "water",
+          "edible salts",
+          "vinegar",
+          "olive oil",
+          "edible vegetable oils",
+          "honey",
+          "nutritive sugars",
+          "stuffing",
+          "spices",
+          "aromatic herbs",
+          "natural extracts",
+          "food additives"
+        ]
+      },
+      "2.3.45": {
+        "category_name": "Desiccated Coconut",
+        "description": "Product prepared by peeling, milling, grating and drying the sound white kernel obtained from the whole nut of coconut.",
+        "ingredients": [
+          "coconut kernel"
+        ]
+      },
+      "2.3.46": {
+        "category_name": "VINEGAR",
+        "description": "Brewed or synthetic product containing acetic acid prepared from suitable medium.",
+        "ingredients": [
+          "fruits",
+          "malt",
+          "molasses",
+          "jaggary",
+          "sugar cane juice",
+          "caramel",
+          "spices",
+          "acetic acid",
+          "food additives"
+        ]
+      },
+      "2.3.47": {
+        "category_name": "NUTS AND RAISINS",
+        "description": "Category comprising groundnuts, raisins, pistachio nuts, dates, dry fruits, almond kernels, cashew kernels, and walnut kernels.",
+        "ingredients": [
+          "groundnuts",
+          "raisins",
+          "sulphur dioxide",
+          "food additives",
+          "pistachio nuts",
+          "salt",
+          "lime juice",
+          "dates",
+          "sugar",
+          "glucose syrup",
+          "flour",
+          "vegetable oil",
+          "dry fruits",
+          "nuts",
+          "almond kernels",
+          "cashew kernels",
+          "walnut kernels"
+        ]
+      },
+      "2.3.48": {
+        "category_name": "BEAN",
+        "description": "Dry kidney shaped or flattened seeds of the leguminous varieties used as food.",
+        "ingredients": [
+          "beans"
+        ]
+      },
+      "2.3.49": {
+        "category_name": "SEEDLESS TAMARIND",
+        "description": "Obtained from Tamarindus indica L. after removal of outer covering and seeds.",
+        "ingredients": [
+          "tamarind",
+          "food additives"
+        ]
+      },
+      "2.3.50": {
+        "category_name": "VANILLA",
+        "description": "Vanilla in the form of pods, cut or powder obtained from species of Vanilla fragrans.",
+        "ingredients": [
+          "vanilla pods",
+          "cut vanilla",
+          "vanilla powder",
+          "food additives"
+        ]
+      },
+      "2.3.51": {
+        "category_name": "COCONUT MILK (NON-DAIRY)",
+        "description": "Product prepared from coconut kernel, coconut cream powder, or dehydrated coconut endosperm.",
+        "ingredients": [
+          "coconut kernel",
+          "coconut cream powder",
+          "potable water",
+          "dehydrated coconut endosperm",
+          "coconut water",
+          "maltodextrin",
+          "sodium caseinate",
+          "food additives"
+        ]
+      },
+      "2.3.52": {
+        "category_name": "COCONUT CREAM (NON-DAIRY)",
+        "description": "Product prepared from coconut kernel, coconut cream powder, or dehydrated coconut endosperm.",
+        "ingredients": [
+          "coconut kernel",
+          "coconut cream powder",
+          "potable water",
+          "dehydrated coconut endosperm",
+          "coconut water",
+          "maltodextrin",
+          "sodium caseinate",
+          "food additives"
+        ]
+      },
+      "2.3.53": {
+        "category_name": "DRIED APRICOTS",
+        "description": "Product prepared from sound ripe fruit of varieties of Armeniaca vulgaria Lam. processed by drying.",
+        "ingredients": [
+          "apricots",
+          "preservatives",
+          "food additives"
+        ]
+      },
+      "2.3.54": {
+        "category_name": "COCOA BEANS",
+        "description": "Properly fermented and dried whole seeds of tree Theobroma cacao Linnaeus.",
+        "ingredients": [
+          "cocoa beans",
+          "food additives"
+        ]
+      },
+      "2.3.55": {
+        "category_name": "ARECANUTS OR BETELNUTS OR SUPARI",
+        "description": "Products obtained from Areca Palm (Areca catechu L.).",
+        "ingredients": [
+          "arecanuts",
+          "betelnuts",
+          "supari",
+          "food additives"
+        ]
+      },
+      "2.3.56": {
+        "category_name": "Date Paste",
+        "description": "Product prepared from fruits of the date palm that are sound, consistent in colour and texture.",
+        "ingredients": [
+          "dates"
+        ]
+      },
+      "2.3.57": {
+        "category_name": "Fermented Soybean Paste",
+        "description": "Fermented food whose essential ingredient is soybean from which trypsin inhibitor has been inactivated.",
+        "ingredients": [
+          "soybean",
+          "salt",
+          "water",
+          "microorganisms",
+          "grains",
+          "flour",
+          "yeast",
+          "yeast extracts",
+          "lactobacillus",
+          "lactococcus",
+          "distilled ethyl alcohol",
+          "nutritive sugars",
+          "honey",
+          "starch syrup",
+          "natural flavouring materials"
+        ]
+      },
+      "2.3.58": {
+        "category_name": "Harrisa (Red Hot Pepper Paste)",
+        "description": "Preserved pulp of fresh red hot pepper of the Capsicum annuum variety.",
+        "ingredients": [
+          "red hot peppers",
+          "garlic",
+          "coriander",
+          "caraway",
+          "salt"
+        ]
+      },
+      "2.3.59": {
+        "category_name": "Vegetable Protein Products",
+        "description": "Food products produced by the reduction or removal of non-protein constituents from vegetable materials.",
+        "ingredients": [
+          "vegetable materials",
+          "carbohydrates",
+          "sugars",
+          "edible fats",
+          "oils",
+          "vitamins",
+          "minerals",
+          "salt",
+          "herbs",
+          "spices"
+        ]
+      },
+      "2.3.60": {
+        "category_name": "Quick Frozen Fried Potatoes",
+        "description": "Product prepared from clean, sound tubers of the potato plant or sweet potato rhizomes, fried or precooked.",
+        "ingredients": [
+          "potatoes",
+          "sweet potatoes",
+          "edible oil",
+          "fat",
+          "sugars",
+          "sucrose",
+          "invert sugar",
+          "dextrose",
+          "fructose",
+          "glucose syrup",
+          "dried glucose syrup",
+          "salt",
+          "spices",
+          "herbs",
+          "condiments",
+          "batters"
+        ]
+      },
+      "2.3.61": {
+        "category_name": "Canned Chestnuts and Canned Chestnut Puree",
+        "description": "Product prepared from fresh, sound, mature chestnuts processed by heat.",
+        "ingredients": [
+          "chestnuts",
+          "seasonings",
+          "salt",
+          "sugars",
+          "water",
+          "nutritive sweeteners",
+          "sucrose",
+          "invert sugar syrup",
+          "dextrose",
+          "dried glucose syrup",
+          "glucose syrup",
+          "fructose",
+          "fructose syrup"
+        ]
+      },
+      "2.3.62": {
+        "category_name": "EDIBLE FUNGI PRODUCTS",
+        "description": "Products prepared from fresh edible fungi, including dried, pickled, salted, or fermented varieties.",
+        "ingredients": [
+          "edible fungi",
+          "salt",
+          "vinegar",
+          "spices",
+          "herbs",
+          "sugars",
+          "refined edible vegetable oil",
+          "refined edible animal fat",
+          "butter",
+          "milk",
+          "milk powder",
+          "cream",
+          "water"
+        ]
+      },
+      "2.3.63": {
+        "category_name": "COCONUT MILK POWDER",
+        "description": "Dehydrated or spray dried product obtained by removal of water from coconut milk.",
+        "ingredients": [
+          "coconut milk",
+          "maltodextrin",
+          "sodium caseinate"
+        ]
+      },
+      "2.3.64": {
+        "category_name": "WATER CHESTNUT FLOUR (SINGHARE KA ATTA)",
+        "description": "Product obtained by grinding clean, sound and dried nuts of Trapa bispinosa or Trapa quadrispinosa.",
+        "ingredients": [
+          "water chestnut nuts",
+          "food additives"
+        ]
+      },
+      "2.3.65": {
+        "category_name": "Colouring Foods",
+        "description": "Product obtained from fruits, vegetables, spices and herbs with aqueous extraction used for colouring.",
+        "ingredients": [
+          "fruits",
+          "vegetables",
+          "spices",
+          "herbs",
+          "nutritive sugars",
+          "maltodextrin"
+        ]
+      }
+    }
+  },
+  "2.4": {
+    "category_name": "CEREALS AND CEREAL PRODUCTS",
+    "description": "Standards for cereals, cereal products, and related food grains.",
+    "ingredients": [],
+    "subcategory": {
+      "2.4.1": {
+        "category_name": "ATTA",
+        "description": "Wheat flour standards including resultant atta and protein rich variations.",
+        "ingredients": [],
+        "subcategory": {
+          "2.4.1.1": {
+            "category_name": "Wheat Flour (Atta) and Resultant Wheat Flour",
+            "description": "Product obtained by grinding clean wheat, free from abnormal flavours and impurities.",
+            "ingredients": [
+              "clean wheat"
+            ]
+          },
+          "2.4.1.3": {
+            "category_name": "Protein rich wheat flour (Protein prachur atta)",
+            "description": "Wheat flour mixed with protein sources like groundnut or soya flour.",
+            "ingredients": [
+              "wheat flour",
+              "Solvent extracted groundnut flour",
+              "Solvent extracted Soya flour",
+              "Whey Protein powder",
+              "standardised flour"
+            ]
+          }
+        }
+      },
+      "2.4.2": {
+        "category_name": "MAIDA",
+        "description": "Refined wheat flour standards including protein rich and durum variations.",
+        "ingredients": [],
+        "subcategory": {
+          "2.4.2.1": {
+            "category_name": "Maida (Refined Wheat flour)",
+            "description": "Product from wheat grinding with bran and germ essentially removed.",
+            "ingredients": [
+              "clean grains of wheat"
+            ]
+          },
+          "2.4.2.3": {
+            "category_name": "Protein rich refined wheat flour (Protein prachur maida)",
+            "description": "Maida mixed with protein sources like groundnut, soya, or whey.",
+            "ingredients": [
+              "maida (refined wheat flour)",
+              "solvent extracted groundnut flour",
+              "solvent extracted soya flour",
+              "Whey Protein flour",
+              "Whey Protein powder"
+            ]
+          },
+          "2.4.2.4": {
+            "category_name": "Durum wheat maida",
+            "description": "Product prepared from grains of durum wheat with bran and germ removed.",
+            "ingredients": [
+              "grains of durum wheat (Triticum durum Desf.)"
+            ]
+          }
+        }
+      },
+      "2.4.3": {
+        "category_name": "Semolina (Suji or Rawa)",
+        "description": "Product obtained from wheat by grinding with bran and germ wholly or partially removed.",
+        "ingredients": [
+          "clean grains of wheat"
+        ]
+      },
+      "2.4.4": {
+        "category_name": "BESAN",
+        "description": "Product obtained by grinding dehusked Bengal gram.",
+        "ingredients": [
+          "dehusked Bengal gram (Cicerarietinum)"
+        ]
+      },
+      "2.4.5": {
+        "category_name": "Pearl Barley (Jau)",
+        "description": "Product obtained from sound and clean barley, whitish in colour.",
+        "ingredients": [
+          "barley (Horbeum vulgare or hordeum distichon)"
+        ],
+        "subcategory": {
+          "2.4.5.1": {
+            "category_name": "Barley powder",
+            "description": "Product obtained by grinding clean and sound dehusked barley grains.",
+            "ingredients": [
+              "dehusked barley"
+            ]
+          },
+          "2.4.5.2": {
+            "category_name": "Wholemeal barley powder",
+            "description": "Product obtained by grinding clean and sound dehusked barley grains free from rodent hair.",
+            "ingredients": [
+              "dehusked barley"
+            ]
+          }
+        }
+      },
+      "2.4.6": {
+        "category_name": "Food grains",
+        "description": "Whole or broken kernels of cereals, millets, and pulses for human consumption.",
+        "ingredients": [
+          "cereals",
+          "millets",
+          "pulses"
+        ],
+        "subcategory": {
+          "2.4.6.2": {
+            "category_name": "Wheat",
+            "description": "Dried mature grains of Triticum species.",
+            "ingredients": [
+              "Triticum aestivum Linn.",
+              "Triticum vulgare vill",
+              "triticum drum Desf.",
+              "triticum sphaerococcum perc.",
+              "Triticum dicoccum schubl.",
+              "Triticum Compactum Host"
+            ]
+          },
+          "2.4.6.3": {
+            "category_name": "Maize",
+            "description": "Dried mature grains of Zea mays Linn.",
+            "ingredients": [
+              "Zea mays Linn."
+            ]
+          },
+          "2.4.6.15": {
+            "category_name": "Any other food grains",
+            "description": "General standard for food grains not specified elsewhere.",
+            "ingredients": []
+          },
+          "2.4.6.16": {
+            "category_name": "UNPROCESSED WHOLE RAW PULSES",
+            "description": "Pulses not meant for direct human consumption with specific impurity limits.",
+            "ingredients": [
+              "raw pulses"
+            ]
+          },
+          "2.4.6.17": {
+            "category_name": "OATS",
+            "description": "Dried mature grains of Avena sativa or Avena byzantina.",
+            "ingredients": [
+              "Avena sativa",
+              "Avena byzantina"
+            ]
+          },
+          "2.4.6.18": {
+            "category_name": "Quinoa",
+            "description": "Dried matured grain of Chenopodium quinoa with saponin removed.",
+            "ingredients": [
+              "Chenopodium quinoa"
+            ]
+          },
+          "2.4.6.19": {
+            "category_name": "Durum Wheat",
+            "description": "Dried mature grains obtained from varieties of Triticum durum Desf.",
+            "ingredients": [
+              "Triticum durum Desf."
+            ]
+          },
+          "2.4.6.22": {
+            "category_name": "Pulses",
+            "description": "Whole, shelled, or split pulses free from toxic seeds.",
+            "ingredients": [
+              "Lentil (Masur)",
+              "Black gram (Urd)",
+              "Green gram (Moong)",
+              "Bengal gram (Chana)",
+              "Red gram (Arhar)",
+              "Horse gram (Kulthi)",
+              "Field bean",
+              "Peas dry (Matra)",
+              "Soybean",
+              "Rajmah",
+              "Lobia",
+              "Moth bean (matki)"
+            ]
+          },
+          "2.4.6.23": {
+            "category_name": "Millets",
+            "description": "Whole or dehulled millets free from poisonous or noxious seeds.",
+            "ingredients": [
+              "Amaranthus",
+              "Barnyard Millet",
+              "Brown top",
+              "Buckwheat",
+              "Crab finger",
+              "Finger Millet",
+              "Fonio",
+              "Foxtail Millet",
+              "Job's tears",
+              "Kodo Millet",
+              "Little Millet",
+              "Pearl Millet",
+              "Proso Millet",
+              "Sorghum",
+              "Teff"
+            ]
+          },
+          "2.4.6.24": {
+            "category_name": "Rice",
+            "description": "Whole and broken kernels obtained from the species Oryza sativa L.",
+            "ingredients": [
+              "Oryza sativa L"
+            ]
+          },
+          "2.4.6.24A": {
+            "category_name": "Rice flour for preparation of Fortified Rice Kernel (FRK)",
+            "description": "White to off-white free-flowing powder for FRK preparation.",
+            "ingredients": [
+              "rice flour"
+            ]
+          },
+          "2.4.6.24B": {
+            "category_name": "Vitamin-Mineral Premix for FRK",
+            "description": "Combination of micronutrients ready for use as fortificant.",
+            "ingredients": [
+              "Micronized ferric pyrophosphate",
+              "Sodium iron (III) ethylenediaminetetraacetatetrihydrate",
+              "Folic acid",
+              "Cyanocobalamine",
+              "hydroxycobalamine",
+              "Zinc oxide",
+              "Retinyl palmitate",
+              "Thiamine hydrochloride",
+              "Riboflavin",
+              "Nicotinamide",
+              "Pyridoxine hydrochloride"
+            ]
+          },
+          "2.4.6.24C": {
+            "category_name": "Fortified Rice Kernel",
+            "description": "Rice shaped kernels containing vitamins and minerals produced through extrusion.",
+            "ingredients": [
+              "Rice flour",
+              "Vitamin and Mineral Premix"
+            ]
+          },
+          "2.4.6.25": {
+            "category_name": "Chia Seeds",
+            "description": "Seeds obtained from the plant of mint family Salvia hispanica L.",
+            "ingredients": [
+              "Salvia hispanica L"
+            ]
+          },
+          "2.4.6.26": {
+            "category_name": "Basmati Rice",
+            "description": "Mature kernels of Oryza sativa L varieties notified as Basmati.",
+            "ingredients": [
+              "Oryza sativa L"
+            ],
+            "subcategory": {
+              "2.4.6.26.1": {
+                "category_name": "Blended Rice",
+                "description": "Mixture of basmati and/or non-basmati rice.",
+                "ingredients": [
+                  "basmati rice",
+                  "non-basmati rice"
+                ]
+              }
+            }
+          },
+          "2.4.6.28": {
+            "category_name": "Triticale",
+            "description": "Hybrid of wheat and Rye, dried mature grains of xTriticosecale.",
+            "ingredients": [
+              "xTriticosecale"
+            ]
+          }
+        }
+      },
+      "2.4.7": {
+        "category_name": "MAIZE STARCH",
+        "description": "Starch obtained from maize (Zea mays L.).",
+        "ingredients": [
+          "maize (Zea mays L.)"
+        ]
+      },
+      "2.4.8": {
+        "category_name": "CORN FLAKES",
+        "description": "Product from dehulled, degermed and cooked corn by flaking and toasting.",
+        "ingredients": [
+          "corn (Zea mays L.)"
+        ]
+      },
+      "2.4.9": {
+        "category_name": "CUSTARD POWDER",
+        "description": "Product obtained from maize or sago/tapioca with edible starches.",
+        "ingredients": [
+          "maize (Zea mays L.)",
+          "sago",
+          "tapioca",
+          "arrowroot",
+          "potato",
+          "jawar",
+          "edible common salt",
+          "milk",
+          "albuminous matter"
+        ]
+      },
+      "2.4.10": {
+        "category_name": "MACARONI PRODUCTS",
+        "description": "Pasta and noodle products derived from cereal flours.",
+        "ingredients": [],
+        "subcategory": {
+          "2.4.10.1": {
+            "category_name": "PASTA PRODUCTS",
+            "description": "Product obtained from suji, maida, rice flour etc by kneading dough.",
+            "ingredients": [
+              "suji",
+              "maida",
+              "rice flour",
+              "groundnut flour",
+              "tapioca flour",
+              "edible soy flour",
+              "milk powder",
+              "fruit",
+              "vegetables",
+              "nutritive sweeteners",
+              "meat",
+              "fish",
+              "eggs",
+              "spices",
+              "condiments",
+              "herbs",
+              "vitamins",
+              "minerals",
+              "edible fats and oils",
+              "yeast extract",
+              "hydrolysed plant protein",
+              "soy sauce powder"
+            ]
+          },
+          "2.4.10.2": {
+            "category_name": "Instant noodle",
+            "description": "Fried or non-fried noodles characterized by pregelatinization.",
+            "ingredients": [
+              "wheat flour",
+              "rice flour",
+              "flour of other cereals/millets/legumes",
+              "flour from tubers",
+              "water",
+              "herbs",
+              "condiments",
+              "seasoning",
+              "spices",
+              "iodised salt",
+              "sugar",
+              "wheat gluten",
+              "starches",
+              "dried fruits",
+              "vegetables",
+              "nuts",
+              "edible protein",
+              "egg powder",
+              "meat",
+              "poultry",
+              "marine products"
+            ]
+          }
+        }
+      },
+      "2.4.11": {
+        "category_name": "MALTED AND MALT BASED FOODS",
+        "description": "Foods based on malted grains, milk, and supplements.",
+        "ingredients": [],
+        "subcategory": {
+          "2.4.11.1": {
+            "category_name": "MALTED MILK FOOD",
+            "description": "Product obtained by mixing milk with wort from malted barley/cereal.",
+            "ingredients": [
+              "whole milk",
+              "partly skimmed milk",
+              "milk powder",
+              "barley malt",
+              "malted cereal grain",
+              "wheat flour",
+              "cereal flour",
+              "malt extract",
+              "flavouring agents",
+              "spices",
+              "emulsifying agents",
+              "eggs",
+              "protein isolates",
+              "edible common salt",
+              "sodium bicarbonate",
+              "potassium bicarbonate",
+              "minerals",
+              "vitamins",
+              "cocoa powder",
+              "sugar"
+            ]
+          },
+          "2.4.11.2": {
+            "category_name": "MALT BASED FOODS (MALT FOOD)",
+            "description": "Product obtained by mixing malt with cereal and legume flour.",
+            "ingredients": [
+              "malt",
+              "cereal flour",
+              "legume flour",
+              "whole milk",
+              "milk powder",
+              "flavouring agents",
+              "spices",
+              "emulsifying agents",
+              "eggs",
+              "egg powder",
+              "protein isolates",
+              "protein hydrolysates",
+              "edible common salt",
+              "liquid glucose",
+              "sodium bicarbonate",
+              "potassium bicarbonate",
+              "minerals",
+              "amino acids",
+              "vitamins",
+              "sugar",
+              "cocoa powder"
+            ]
+          },
+          "2.4.11.3": {
+            "category_name": "MALT EXTRACT",
+            "description": "Viscous product prepared by digesting sound malted grains with water.",
+            "ingredients": [
+              "malted grains of cereals (barley, wheat, millets)",
+              "water",
+              "enzymes",
+              "wheat gluten",
+              "soya protein"
+            ]
+          },
+          "2.4.11.4": {
+            "category_name": "Formulated supplements for children",
+            "description": "Supplements for children 24-36 months to complement family foods.",
+            "ingredients": [
+              "Cereals",
+              "Legumes",
+              "pulses",
+              "Oil seed flours",
+              "Soyabeans",
+              "Ground nut",
+              "Sesame seeds",
+              "Sunflower seed",
+              "Low erucic acid rape seed",
+              "Animal source foods",
+              "meat",
+              "fish",
+              "poultry",
+              "eggs",
+              "Fats and oils",
+              "Fruits and vegetables",
+              "Milk and milk products",
+              "digestible carbohydrates",
+              "Protein isolates",
+              "Probiotic ingredient",
+              "prebiotc ingredient",
+              "Algal and fungal oil",
+              "sucrose",
+              "dextrose",
+              "dextrins",
+              "maltodextrin",
+              "maltose",
+              "lactose",
+              "Vitamins",
+              "minerals"
+            ]
+          }
+        }
+      },
+      "2.4.12": {
+        "category_name": "OAT PRODUCTS",
+        "description": "Products made from oats including rolled oats and composite products.",
+        "ingredients": [],
+        "subcategory": {
+          "2.4.12.1": {
+            "category_name": "Rolled Oats",
+            "description": "Product made from sound hulled oats.",
+            "ingredients": [
+              "sound hulled oats (AvenaSativa)"
+            ]
+          },
+          "2.4.12.2": {
+            "category_name": "Products containing oats",
+            "description": "Product containing oats as the major ingredient mixed with others.",
+            "ingredients": [
+              "oats",
+              "oat bran",
+              "oat flour",
+              "oat meal",
+              "oat-trim",
+              "kilned dehulled oats",
+              "Steel cut Oats",
+              "Oat flakes",
+              "edible common salt",
+              "Dairy products",
+              "sweeteners",
+              "sugar",
+              "honey",
+              "invert sugar",
+              "jaggery",
+              "dextrose",
+              "edible molasses",
+              "liquid glucose",
+              "fruits",
+              "vegetables",
+              "cocoa",
+              "Coconut",
+              "egg",
+              "gluten",
+              "nut",
+              "cereal",
+              "legumes",
+              "malt",
+              "edible starches",
+              "edible flours",
+              "spices",
+              "condiments",
+              "herbs",
+              "seasonings",
+              "vinegar",
+              "edible seeds",
+              "protein concentrates"
+            ]
+          }
+        }
+      },
+      "2.4.13": {
+        "category_name": "SOLVENT EXTRACTED FLOURS",
+        "description": "Flours obtained by solvent extraction from various oil seeds.",
+        "ingredients": [],
+        "subcategory": {
+          "2.4.13.1": {
+            "category_name": "SOLVENT EXTRACT SOYA FLOUR",
+            "description": "Product obtained from soyabeans by solvent extraction.",
+            "ingredients": [
+              "soyabeans",
+              "food grade hexane"
+            ]
+          },
+          "2.4.13.2": {
+            "category_name": "SOLVENT EXTRACTED GROUNDNUT FLOUR",
+            "description": "Product obtained from groundnut kernels by solvent extraction.",
+            "ingredients": [
+              "groundnut kernels",
+              "food grade hexane"
+            ]
+          },
+          "2.4.13.3": {
+            "category_name": "SOLVENT EXTRACTED SESAME FLOUR",
+            "description": "Product obtained from sesame seeds by solvent extraction.",
+            "ingredients": [
+              "sesame seeds",
+              "food grade hexane"
+            ]
+          },
+          "2.4.13.4": {
+            "category_name": "SOLVENT EXTRACTED COCONUT FLOUR",
+            "description": "Product obtained from coconut kernels or copra by solvent extraction.",
+            "ingredients": [
+              "fresh coconut Kernels",
+              "dried coconut copra",
+              "Food grade hexane"
+            ]
+          },
+          "2.4.13.5": {
+            "category_name": "SOLVENT EXTRACTED COTTON SEED FLOUR",
+            "description": "Product obtained from cotton seed by solvent extraction.",
+            "ingredients": [
+              "cotton seed",
+              "food grade hexane"
+            ]
+          }
+        }
+      },
+      "2.4.14": {
+        "category_name": "STARCHY FOODS",
+        "description": "Products including arrowroot and sago.",
+        "ingredients": [],
+        "subcategory": {
+          "2.4.14.1": {
+            "category_name": "ARROWROOT",
+            "description": "Separated and purified starch from rhizomes.",
+            "ingredients": [
+              "Maranta arundinacea",
+              "Curcuma augustifolia"
+            ]
+          },
+          "2.4.14.2": {
+            "category_name": "Tapioca Sago",
+            "description": "Product made from the starch obtained from roots of tapioca.",
+            "ingredients": [
+              "roots of tapioca (Manihot esculenta crantz)",
+              "Metroxylon sagu",
+              "M.rumphii"
+            ]
+          }
+        }
+      },
+      "2.4.15": {
+        "category_name": "BAKERY PRODUCTS",
+        "description": "Baked goods including biscuits and bread.",
+        "ingredients": [],
+        "subcategory": {
+          "2.4.15.1": {
+            "category_name": "Biscuit",
+            "description": "Baked product leavened or non-leavened, coated or uncoated.",
+            "ingredients": [
+              "cereal",
+              "millets",
+              "pulses",
+              "legumes",
+              "fats and oils",
+              "Baking powder",
+              "sugar",
+              "salt",
+              "dairy products",
+              "nutritive and non-nutritive sweeteners",
+              "honey",
+              "invert sugar",
+              "jaggery",
+              "dextrose",
+              "molasses",
+              "liquid glucose",
+              "fruits",
+              "vegetables",
+              "cocoa",
+              "tea",
+              "coffee",
+              "chicory",
+              "coconut",
+              "eggs",
+              "gluten",
+              "nut",
+              "malt",
+              "milk",
+              "oilseeds",
+              "starches",
+              "flours",
+              "spices",
+              "condiments",
+              "herbs",
+              "seasonings",
+              "vinegar",
+              "edible seeds",
+              "protein concentrates",
+              "Yeast",
+              "enzymes",
+              "vitamins",
+              "minerals",
+              "edible fibres",
+              "maltodextrin",
+              "oligofructose",
+              "trehalose"
+            ]
+          },
+          "2.4.15.2": {
+            "category_name": "Bread and Bread-Type Products",
+            "description": "Baked product prepared from atta or maida, water, salt, yeast.",
+            "ingredients": [
+              "atta (whole wheat flour)",
+              "maida (refined wheat flour)",
+              "water",
+              "salt",
+              "yeast",
+              "leavening medium",
+              "dairy products",
+              "gluten",
+              "sweetening agents",
+              "honey",
+              "sugar",
+              "jaggery",
+              "dextrose",
+              "molasses",
+              "liquid glucose",
+              "date syrup",
+              "malt products",
+              "edible starches",
+              "flour",
+              "edible cereals",
+              "grains",
+              "pulses",
+              "semolina",
+              "edible seeds",
+              "oilseeds",
+              "edible bran",
+              "trehalose",
+              "coconut",
+              "cocoa",
+              "prebiotic",
+              "probiotic",
+              "egg",
+              "tea",
+              "coffee",
+              "chicory",
+              "protein concentrates",
+              "minerals",
+              "vitamins",
+              "vanaspati",
+              "margarine",
+              "refined edible oil",
+              "Interesterified vegetable fat",
+              "butter",
+              "ghee",
+              "albumin",
+              "lime water",
+              "lysine",
+              "spices",
+              "condiments",
+              "herbs",
+              "seasonings",
+              "fruit",
+              "vegetable",
+              "dry fruits",
+              "nuts",
+              "maltodextrin",
+              "oligofructose",
+              "vinegar"
+            ]
+          }
+        }
+      },
+      "2.4.16": {
+        "category_name": "EXPELLER PRESSED FLOUR",
+        "description": "Expeller Pressed Edible Groundnut Flour obtained from fresh kernels.",
+        "ingredients": [
+          "groundnut kernels"
+        ]
+      },
+      "2.4.17": {
+        "category_name": "Bajra Flour (Pearl Millet Flour)",
+        "description": "Product obtained from pearl millet grains through milling.",
+        "ingredients": [
+          "pearl millet grains (Pennisetum americanum L., Pennisetum typhyoideum, Pennisetum glaucum)"
+        ]
+      },
+      "2.4.18": {
+        "category_name": "Jowar Flour (Sorghum Flour)",
+        "description": "Product obtained from grains of Sorghum bicolor through milling.",
+        "ingredients": [
+          "grains of Sorghum bicolor (L.) moench"
+        ]
+      },
+      "2.4.19": {
+        "category_name": "Soybean",
+        "description": "Mature, clean and dried seeds obtained from Glycine max.",
+        "ingredients": [
+          "plants of Glycine max (L.) Merr."
+        ]
+      },
+      "2.4.20": {
+        "category_name": "Soy Protein Products",
+        "description": "Products obtained by reduction or removal of non-protein constituents from soybeans.",
+        "ingredients": [
+          "soybeans",
+          "Carbohydrates",
+          "sugars",
+          "Edible fats and oils",
+          "Other protein products",
+          "Vitamins",
+          "minerals",
+          "Salt",
+          "Herbs",
+          "spices"
+        ]
+      },
+      "2.4.21": {
+        "category_name": "Whole Maize (Corn) Flour",
+        "description": "Prepared from fully mature, sound, ungerminated, whole kernels of maize.",
+        "ingredients": [
+          "whole kernels of maize (Zea mays L.)"
+        ]
+      },
+      "2.4.22": {
+        "category_name": "Wheat Protein Products including Wheat Gluten",
+        "description": "Produced from wheat by separation of non-protein constituents like starch.",
+        "ingredients": [
+          "wheat",
+          "wheat flour",
+          "Carbohydrates",
+          "sugars",
+          "edible fats and oils",
+          "Other protein products",
+          "amino acids",
+          "vitamins",
+          "minerals",
+          "salt",
+          "herbs",
+          "spices",
+          "enzymes"
+        ]
+      },
+      "2.4.23": {
+        "category_name": "Durum Wheat Semolina and Whole durum wheat semolina",
+        "description": "Product prepared from grain of durum wheat by grinding processes.",
+        "ingredients": [
+          "grain of durum wheat (Triticum durum Desf.)"
+        ]
+      },
+      "2.4.24": {
+        "category_name": "Degermed Maize (Corn) Meal and Maize (Corn) Grits",
+        "description": "Prepared from degermed kernels of maize by grinding.",
+        "ingredients": [
+          "kernels of maize (corn) (Zea mays L.)"
+        ]
+      },
+      "2.4.25": {
+        "category_name": "Couscous",
+        "description": "Obtained from durum wheat semolina bound by adding potable water.",
+        "ingredients": [
+          "durum wheat semolina (Triticum durum)",
+          "potable water"
+        ]
+      },
+      "2.4.26": {
+        "category_name": "Tempe",
+        "description": "Compact, white, cake-form product prepared from dehulled boiled soybeans.",
+        "ingredients": [
+          "Soybean",
+          "Mould of Rhizopus Spp.",
+          "Cooked rice powder",
+          "rice bran powder",
+          "wheat bran powder"
+        ]
+      },
+      "2.4.27": {
+        "category_name": "Textured Soy Protein",
+        "description": "Obtained by extrusion of defatted soy flour or grits.",
+        "ingredients": [
+          "defatted soy flour",
+          "grits"
+        ]
+      },
+      "2.4.28": {
+        "category_name": "Sago flour",
+        "description": "Product prepared from the pith of sago palm tree or Sago of Tapioca.",
+        "ingredients": [
+          "pith or soft core of sago palm tree (Metroxylon sp.)",
+          "Sago of Tapioca (Manihot utilissima)"
+        ]
+      },
+      "2.4.29": {
+        "category_name": "Wheat bran",
+        "description": "Outer layer of the wheat grain consisting of pericarp and aleurone.",
+        "ingredients": [
+          "wheat kernel"
+        ]
+      },
+      "2.4.30": {
+        "category_name": "Non-fermented soybean products",
+        "description": "Products made from soybean or derivatives without fermentation.",
+        "ingredients": [],
+        "subcategory": {
+          "2.4.30.1": {
+            "category_name": "Soybean Beverages and Related Products",
+            "description": "Milky liquid prepared from soybeans by eluting protein.",
+            "ingredients": [
+              "Soybean",
+              "soy derivatives",
+              "Water",
+              "Edible oil",
+              "Sugars",
+              "Edible Salts",
+              "Spices",
+              "seasoning",
+              "condiments"
+            ]
+          },
+          "2.4.30.2": {
+            "category_name": "Soybean Curd and Related Products",
+            "description": "Semisolid or solid product made from soybean liquid and coagulants.",
+            "ingredients": [
+              "Soybean",
+              "soy derivatives",
+              "Water",
+              "magnesium chloride",
+              "calcium sulfate",
+              "calcium chloride",
+              "citric acid",
+              "acetic acid",
+              "magnesium sulfate",
+              "glucono-delta-lactone"
+            ]
+          },
+          "2.4.30.3": {
+            "category_name": "Compressed Soybean Curd",
+            "description": "Partially dehydrated soybean curd with a chewy texture.",
+            "ingredients": []
+          },
+          "2.4.30.4": {
+            "category_name": "Dehydrated Soybean Curd Film",
+            "description": "Obtained from the uncovered still surface of soybean liquid.",
+            "ingredients": []
+          },
+          "2.4.30.5": {
+            "category_name": "Tofu",
+            "description": "Made by coagulating milky liquid obtained from soybean and pressing into blocks.",
+            "ingredients": [
+              "soybean",
+              "magnesium chloride",
+              "calcium sulfate",
+              "calcium chloride",
+              "citric acid",
+              "acetic acid",
+              "magnesium sulfate",
+              "glucono-delta-lactone",
+              "spices",
+              "herbs"
+            ]
+          }
+        }
+      },
+      "2.4.31": {
+        "category_name": "Cassava or Tapioca product (Gari)",
+        "description": "Finished product obtained by artisanal or industrial processing of cassava tubers.",
+        "ingredients": [
+          "cassava tubers (Manihot esculenta Crantz)"
+        ]
+      },
+      "2.4.32": {
+        "category_name": "Edible Cassava or Tapioca Flour",
+        "description": "Product prepared from dried cassava chips or paste.",
+        "ingredients": [
+          "dried cassava chips or paste",
+          "bitter cassava (Manihot utilissima Pohl)"
+        ]
+      },
+      "2.4.33": {
+        "category_name": "Roasted Bengal Gram Flour (Chana Sattu)",
+        "description": "Obtained from clean, washed, dried and sound grains of gram after grinding of roasted form.",
+        "ingredients": [
+          "grains of gram (Cicer arietinum)"
+        ]
+      },
+      "2.4.34": {
+        "category_name": "Ragi Flour",
+        "description": "Product obtained from dried mature grains of Eleusine coracana L. Gaertn.",
+        "ingredients": [
+          "dried mature grains of Eleusine coracana L. Gaertn."
+        ]
+      },
+      "2.4.35": {
+        "category_name": "Breakfast Cereal",
+        "description": "Ready to eat and quick or regular cooking cereal products.",
+        "ingredients": [
+          "milled/whole grains",
+          "rice",
+          "wheat",
+          "oats",
+          "millets",
+          "barley",
+          "pulses",
+          "corn",
+          "legumes",
+          "seeds",
+          "edible tubers",
+          "pseudo-cereals",
+          "flavoring agents",
+          "spices",
+          "spice extracts",
+          "seasonings",
+          "malt derivatives",
+          "nutritive and natural sweeteners",
+          "salt",
+          "dried or candied fruits",
+          "vegetables",
+          "nuts",
+          "cocoa",
+          "maltodextrin",
+          "milk"
+        ]
+      },
+      "2.4.36": {
+        "category_name": "YELLOW PEA POWDER",
+        "description": "Product obtained by grinding dehusked Yellow Pea.",
+        "ingredients": [
+          "dehusked Yellow Pea (Pisumsativum L.)"
+        ]
+      },
+      "2.4.37": {
+        "category_name": "Multigrain flour (atta)",
+        "description": "Product obtained by milling blend of clean whole wheat and other permitted ingredients.",
+        "ingredients": [
+          "whole wheat",
+          "Processed Soybean",
+          "Cereals",
+          "Pulses",
+          "Millets",
+          "Psyllium husk",
+          "Gluten",
+          "wheat bran",
+          "fenugreek seeds"
+        ]
+      },
+      "2.4.38": {
+        "category_name": "Mixed Millet Flour",
+        "description": "Product obtained by milling blend of clean millets or pseudomillets.",
+        "ingredients": [
+          "Sorghum (Jowar)",
+          "Pearl Millet (Bajra)",
+          "Finger Millet (Ragi)",
+          "Foxtail Millet",
+          "Proso Millet",
+          "Kodo Millet",
+          "Barnyard Millet",
+          "Little Millet",
+          "Brown top millet",
+          "Buckwheat (Kuttu)",
+          "Amaranth (Chaulai)"
+        ]
+      },
+      "2.4.39": {
+        "category_name": "Fermented Soybean Curd",
+        "description": "Prepared by fermentation of aqueous extract of soybean.",
+        "ingredients": [
+          "aqueous extract of soybean",
+          "Lactic acid bacteria",
+          "S. thermophillus",
+          "L. bulgaricus",
+          "Milk",
+          "reconstituted milk",
+          "sugar",
+          "fruit juice",
+          "fruit pulp"
+        ]
+      },
+      "2.4.40": {
+        "category_name": "Papad",
+        "description": "Product prepared from the blend of cereal, millet flour, pulse flour, and other ingredients.",
+        "ingredients": [
+          "cereal",
+          "millet flour",
+          "pulse flour",
+          "processed soya flour",
+          "fruits",
+          "vegetables",
+          "vegetable juices",
+          "edible vegetable oils",
+          "spices",
+          "herbs",
+          "salt",
+          "sugar"
+        ]
+      }
+    }
+  },
+  "2.5": {
+    "category_name": "Meat and Meat Products",
+    "description": "Standards for various meat, poultry, and egg products including processing definitions and quality requirements.",
+    "ingredients": [],
+    "subcategory": {
+      "2.5.1": {
+        "category_name": "Definition",
+        "description": "Definitions of terms used in the standards such as animal, carcass, meat, edible offal, and slaughter.",
+        "ingredients": []
+      },
+      "2.5.2": {
+        "category_name": "Meat and Meat Products",
+        "description": "General standards for processed and specific meat products.",
+        "ingredients": [],
+        "subcategory": {
+          "2.5.2.1": {
+            "category_name": "Canned or Retort Pouch Meat Products",
+            "description": "Thermally processed shelf stable products packed in hermetically sealed containers or pouches.",
+            "ingredients": []
+          },
+          "2.5.2.2": {
+            "category_name": "Comminuted or Restructured Meat Products",
+            "description": "Raw or cooked products subjected to particle size reduction or restructuring steps like grinding, flaking, or chopping.",
+            "ingredients": [
+              "Boneless meat",
+              "Meat emulsions",
+              "Batters",
+              "Water",
+              "Herbs",
+              "Sugar",
+              "Spices",
+              "Preservatives",
+              "Condiments",
+              "Stabilizers",
+              "Hydrolysed vegetable protein",
+              "Milk powders",
+              "Caseinate",
+              "Whey powder",
+              "Egg protein",
+              "Vegetable protein products",
+              "Meal",
+              "Flour",
+              "Fibres",
+              "Starch",
+              "Rusk",
+              "Bread",
+              "Biscuit",
+              "Bakery products",
+              "Sucrose",
+              "Dextrose",
+              "Lactose",
+              "Maltose",
+              "Glucose syrup",
+              "Corn syrup",
+              "Other Dairy products and analogues",
+              "Fats",
+              "Oils",
+              "Fat emulsions",
+              "Fruits",
+              "Vegetables",
+              "Fruit and vegetable juices",
+              "Fruit and vegetable nectars",
+              "Cereal",
+              "Cereal products",
+              "Egg",
+              "Egg products",
+              "Sweetening agents",
+              "Honey",
+              "Salt",
+              "Salt substitutes",
+              "Black Salt",
+              "Masalas",
+              "Vinegar",
+              "Mustards",
+              "Sauces",
+              "Yeast",
+              "Soybean based seasonings",
+              "Water soluble hydrolysed protein",
+              "Carrageenan",
+              "Gellan gum",
+              "Guar gum",
+              "Gum Arabic",
+              "Karaya Gum",
+              "Konjac Flour",
+              "Cellulose gel",
+              "Processed Eucheuma Seaweed",
+              "Sodium Carboxymethyl Cellulose",
+              "Xanthan gum",
+              "Trimmings",
+              "Skin",
+              "Edible by-products",
+              "Mechanically recovered meat (MRM)",
+              "Mechanically deboned meat (MDM)"
+            ]
+          },
+          "2.5.2.2A": {
+            "category_name": "Meat Sausages",
+            "description": "Fresh, cooked, smoked, or fermented products obtained by stuffing minced meat and ingredients into casings.",
+            "ingredients": [
+              "Minced meat",
+              "Pork",
+              "Poultry",
+              "Meat",
+              "Fat",
+              "Oil",
+              "Salt",
+              "Water",
+              "Extenders",
+              "Spices",
+              "Casings",
+              "Offals",
+              "Trimmings"
+            ]
+          },
+          "2.5.2.3": {
+            "category_name": "Cured or Pickled and Cooked or Smoked Meat Products",
+            "description": "Products preserved by curing, pickling, cooking, or smoking to extend shelf life.",
+            "ingredients": [
+              "Meat",
+              "Common salt",
+              "Nitrate",
+              "Nitrite",
+              "Adjuncts",
+              "Vinegar",
+              "Edible vegetable oil",
+              "Spices",
+              "Condiments",
+              "Hard wood smoke",
+              "Liquid smoke",
+              "Potassium chloride",
+              "Phosphates",
+              "Milk powders",
+              "Caseinate",
+              "Whey powder",
+              "Hydrolysed vegetable protein",
+              "Soya",
+              "Sugar",
+              "Sucrose",
+              "Brown cane sugar",
+              "Dextrose",
+              "Lactose",
+              "Maltose",
+              "Glucose syrup",
+              "Honey",
+              "Treacle",
+              "Molasses",
+              "Herbs",
+              "Seasonings",
+              "Saffron",
+              "Mustards",
+              "Sauces",
+              "Yeast",
+              "Soybean based seasonings",
+              "Juniper berries",
+              "Smoke",
+              "Smoke essences"
+            ]
+          },
+          "2.5.2.4": {
+            "category_name": "Dried or Dehydrated Meat Products",
+            "description": "Meat products in which part of free water has been removed by evaporation or sublimation.",
+            "ingredients": [
+              "Food-grade salt",
+              "NaCl",
+              "Potassium chloride",
+              "Nitrites",
+              "Phosphates",
+              "Trimmings",
+              "Fat",
+              "Skin",
+              "Edible by-products",
+              "Mechanically deboned meat (MDM)",
+              "Mechanically recovered meat (MRM)",
+              "Milk powders",
+              "Caseinate",
+              "Whey powder",
+              "Egg protein",
+              "Vegetable protein products",
+              "Hydrolysed vegetable protein",
+              "Soya",
+              "Meal",
+              "Flour",
+              "Fibres",
+              "Starch",
+              "Rusk",
+              "Bread",
+              "Biscuit",
+              "Bakery products",
+              "Sucrose",
+              "Dextrose",
+              "Lactose",
+              "Maltose",
+              "Glucose syrup",
+              "Corn syrup",
+              "Honey",
+              "Treacle",
+              "Molasses",
+              "Other Dairy products",
+              "Black Salt",
+              "Herbs",
+              "Sugars",
+              "Spices",
+              "Masalas",
+              "Seasonings",
+              "Condiments",
+              "Saffron",
+              "Preservatives",
+              "Stabilizers",
+              "Vinegars",
+              "Mustards",
+              "Sauces",
+              "Yeast",
+              "Soybean based seasonings",
+              "Juniper berries",
+              "Fats",
+              "Oils",
+              "Fat emulsions",
+              "Fruits",
+              "Vegetables",
+              "Fruit and vegetable juices",
+              "Fruit and vegetable nectars",
+              "Cereal",
+              "Cereal products",
+              "Egg",
+              "Egg product",
+              "Sweetening agents",
+              "Water soluble hydrolysed protein",
+              "Carrageenan",
+              "Gellan gum",
+              "Guar gum",
+              "Gum Arabic",
+              "Karaya Gum",
+              "Konjac Flour",
+              "Cellulose gel",
+              "Processed Eucheuma Seaweed",
+              "Sodium Carboxymethyl Cellulose",
+              "Xanthan gum",
+              "Smoke",
+              "Smoke essences"
+            ]
+          },
+          "2.5.2.5": {
+            "category_name": "Cooked or Semi-Cooked Meat Products",
+            "description": "Meat products subjected to heat treatment involving baking, boiling, or other cooking methods.",
+            "ingredients": [
+              "Meat",
+              "Meat mince",
+              "Brine",
+              "Spices",
+              "Binders",
+              "Fat",
+              "Additives",
+              "Common Salt",
+              "Sodium chloride",
+              "Potassium chloride",
+              "Salt substitutes",
+              "Nitrites",
+              "Milk powders",
+              "Caseinate",
+              "Whey powder",
+              "Egg protein",
+              "Vegetable protein products",
+              "Meal",
+              "Flour",
+              "Fibres",
+              "Starch",
+              "Bread",
+              "Biscuit",
+              "Bakery products",
+              "Sucrose",
+              "Dextrose",
+              "Lactose",
+              "Maltose",
+              "Glucose syrup",
+              "Corn syrup",
+              "Fats",
+              "Vegetables",
+              "Cereal",
+              "Cereal products",
+              "Herbs",
+              "Seasonings",
+              "Condiments",
+              "Water soluble hydrolyzed protein"
+            ]
+          },
+          "2.5.2.6": {
+            "category_name": "Fresh or Chilled or Frozen Rabbit Meat",
+            "description": "Raw rabbit whole carcasses, pieces, cuts, or edible offal packed in suitable material.",
+            "ingredients": [
+              "Rabbit meat",
+              "Domestic rabbits",
+              "Brain",
+              "Liver",
+              "Gut",
+              "Paunches",
+              "Lungs"
+            ]
+          },
+          "2.5.2.7": {
+            "category_name": "Fresh or Chilled or Frozen Pork or Pig Meat",
+            "description": "Raw pork including whole carcasses, pieces, cuts, or edible offal packed in suitable material.",
+            "ingredients": [
+              "Pork",
+              "Domestic pigs",
+              "Brain",
+              "Liver",
+              "Gut",
+              "Paunches",
+              "Tripe",
+              "Lungs"
+            ]
+          },
+          "2.5.2.8": {
+            "category_name": "Fresh or Chilled or Frozen Beef",
+            "description": "Raw beef including whole carcasses, pieces, cuts, or edible offal packed in suitable material.",
+            "ingredients": [
+              "Beef",
+              "Buffaloes",
+              "Mithun",
+              "Brain",
+              "Liver",
+              "Gut",
+              "Paunches",
+              "Tripe",
+              "Lungs"
+            ]
+          },
+          "2.5.2.9": {
+            "category_name": "Fresh or Chilled or Frozen Chevon or Goat Meat",
+            "description": "Raw chevon including whole carcasses, pieces, cuts, or edible offal packed in suitable material.",
+            "ingredients": [
+              "Chevon",
+              "Domestic goats",
+              "Brain",
+              "Liver",
+              "Gut",
+              "Paunches",
+              "Tripe",
+              "Lungs"
+            ]
+          },
+          "2.5.2.10": {
+            "category_name": "Fresh or Chilled or Frozen Mutton or Sheep Meat",
+            "description": "Raw mutton including whole carcasses, pieces, cuts, or edible offal packed in suitable material.",
+            "ingredients": [
+              "Mutton",
+              "Domestic sheep",
+              "Brain",
+              "Liver",
+              "Gut",
+              "Paunches",
+              "Tripe",
+              "Lungs"
+            ]
+          },
+          "2.5.2.11": {
+            "category_name": "Fresh or Chilled or Frozen Poultry Meat",
+            "description": "Poultry meat including whole carcasses, pieces, cuts, or edible offal packed in suitable material.",
+            "ingredients": [
+              "Poultry meat",
+              "Chicken",
+              "Turkey",
+              "Geese",
+              "Guinea fowl",
+              "Japanese quail",
+              "Gizzard",
+              "Liver",
+              "Heart"
+            ]
+          },
+          "2.5.2.12": {
+            "category_name": "Marinated Meat Products",
+            "description": "Meat products treated with a marinade to improve colour, flavor, tenderness, and yield.",
+            "ingredients": [
+              "Marinade",
+              "Salt",
+              "Phosphates",
+              "Acids",
+              "Tenderisers",
+              "Sugar",
+              "Seasoning",
+              "Flavouring agents",
+              "Potassium chloride",
+              "Nitrites",
+              "Organic acids",
+              "Acetic acid",
+              "Lactic acid",
+              "Citric acid",
+              "Wine",
+              "Beer",
+              "Fruits",
+              "Fruit juice",
+              "Curd",
+              "Buttermilk",
+              "Salsa",
+              "Soy sauce",
+              "Hydrocolloids",
+              "Gelatin",
+              "Soy proteins",
+              "Milk proteins",
+              "Modified food starches",
+              "Sucrose",
+              "Dextrose",
+              "Lactose",
+              "Maltose",
+              "Syrup",
+              "Corn syrup",
+              "Honey",
+              "Treacle",
+              "Molasses",
+              "Herbs",
+              "Spices",
+              "Condiments",
+              "Ascorbates",
+              "Monosodium glutamate",
+              "Xanthan gum",
+              "Guar gum"
+            ]
+          },
+          "2.5.2.13": {
+            "category_name": "Fermented Meat Products",
+            "description": "Meat products preserved by microbial fermentation which lowers pH and water activity.",
+            "ingredients": [
+              "Meat",
+              "Starter culture",
+              "Salt",
+              "Sugar",
+              "Spices",
+              "Seasonings",
+              "Condiments",
+              "Sodium chloride",
+              "Nitrites",
+              "Phosphates",
+              "Milk powders",
+              "Caseinate",
+              "Whey powder",
+              "Egg protein",
+              "Vegetable protein products",
+              "Meal",
+              "Flour",
+              "Fibres",
+              "Starch",
+              "Bread",
+              "Biscuit",
+              "Bakery products",
+              "Cereal products",
+              "Herbs",
+              "Vinegar",
+              "Water soluble hydrolysed protein"
+            ]
+          },
+          "2.5.2.14": {
+            "category_name": "Animal Casings",
+            "description": "Soft cylindrical containers obtained from intestines, oesophagus, and urinary bladder of food animals.",
+            "ingredients": [
+              "Large intestines",
+              "Small intestines",
+              "Oesophagus",
+              "Urinary bladder",
+              "Salt"
+            ]
+          }
+        }
+      },
+      "2.5.3": {
+        "category_name": "Egg and Egg Products",
+        "description": "Standards for fresh eggs and processed egg products.",
+        "ingredients": [],
+        "subcategory": {
+          "2.5.3.1": {
+            "category_name": "Fresh Eggs",
+            "description": "Eggs in shell other than broken, incubated, or cooked eggs.",
+            "ingredients": [
+              "Eggs"
+            ]
+          },
+          "2.5.3.2": {
+            "category_name": "Frozen Egg Products",
+            "description": "Pasteurized and frozen whole egg, egg yolk, or egg white prepared from hens' eggs.",
+            "ingredients": [
+              "Whole egg",
+              "Egg yolk",
+              "Egg white",
+              "Albumen",
+              "Food Additives"
+            ]
+          },
+          "2.5.3.3": {
+            "category_name": "Egg Powder",
+            "description": "Product obtained by suitable drying of liquid contents of sound hens' eggs.",
+            "ingredients": [
+              "Whole egg liquid",
+              "Egg yolk",
+              "Egg white",
+              "Food Additives"
+            ]
+          },
+          "2.5.3.4": {
+            "category_name": "Liquid Egg Products",
+            "description": "Homogeneous product from hens' eggs that is pasteurized and preserved in liquid form.",
+            "ingredients": [
+              "Whole egg",
+              "Egg yolk",
+              "Egg white",
+              "Beta-Hydroxy Butyric acid",
+              "Lactic acid",
+              "Succinic acid",
+              "Triethyl citrate",
+              "Sodium Citrate",
+              "Sodium Hexametaphosphate",
+              "Tetrasodium Pyrophosphate"
+            ]
+          },
+          "2.5.3.5": {
+            "category_name": "Pickled Eggs",
+            "description": "Cooked eggs preserved using vinegar, oil, and salt as major pickling ingredients.",
+            "ingredients": [
+              "Cooked eggs",
+              "Vinegar",
+              "Edible oil",
+              "Common Salt",
+              "Spices",
+              "Seasonings",
+              "Garlic",
+              "Ginger",
+              "Edible fat",
+              "Acetic acid",
+              "Anise",
+              "Chili powder",
+              "Cardamom",
+              "Caraway",
+              "Cinnamon",
+              "Clove",
+              "Cumin",
+              "Black pepper",
+              "Turmeric",
+              "Water",
+              "Permitted flavors",
+              "Permitted coloring agents",
+              "Permitted preservatives"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "2.6": {
+    "category_name": "Fish and Fish Products",
+    "description": "General standards and regulations concerning fish, crustaceans, molluscs, and derived products.",
+    "ingredients": [],
+    "subcategory": {
+      "2.6.1": {
+        "category_name": "Fish and Fish Products",
+        "description": "Specific product standards for various frozen, canned, and processed fish and seafood items.",
+        "ingredients": [],
+        "subcategory": {
+          "2.6.1.1": {
+            "category_name": "Frozen shrimp",
+            "description": "Frozen product obtained from shrimp species, peeled or unpeeled, raw or cooked.",
+            "ingredients": [
+              "Penaeidae",
+              "Solenoceridae",
+              "Aristeidae",
+              "Sergestidae",
+              "Hippolytidae",
+              "Crangonidae",
+              "Palaemonidae",
+              "Atyidae",
+              "water"
+            ]
+          },
+          "2.6.1.2": {
+            "category_name": "Frozen Lobsters",
+            "description": "Product prepared from fresh lobsters of sound quality belonging to specified families.",
+            "ingredients": [
+              "Homarus",
+              "Nephropidae",
+              "Palinuridae",
+              "Scyllaride",
+              "Nephros norvegicus",
+              "water"
+            ]
+          },
+          "2.6.1.3": {
+            "category_name": "Frozen squid and parts of squid",
+            "description": "Product prepared from fresh squid of sound quality belonging to specified squid families.",
+            "ingredients": [
+              "Loliginidae",
+              "Ommastrephidae",
+              "Onychoteuthide",
+              "Thysanotenthidae",
+              "water"
+            ]
+          },
+          "2.6.1.4": {
+            "category_name": "Frozen Finfish",
+            "description": "Product frozen from finfish species suitable for human consumption, with or without head and viscera.",
+            "ingredients": [
+              "Finfish",
+              "Carangidae",
+              "Chanidae",
+              "Clupeidae",
+              "Coryphaenidae",
+              "Engraulidae",
+              "Istiophoridae",
+              "Mugilidae",
+              "Pristigasteridae",
+              "Scombridae",
+              "Xiphiidae",
+              "water"
+            ]
+          },
+          "2.6.1.5": {
+            "category_name": "Frozen fish fillets",
+            "description": "Slices of fish removed from the carcass of species suitable for human consumption, frozen.",
+            "ingredients": [
+              "Finfish",
+              "Carangidae",
+              "Chanidae",
+              "Clupeidae",
+              "Coryphaenidae",
+              "Engraulidae",
+              "Istiophoridae",
+              "Mugilidae",
+              "Pristigasteridae",
+              "Scombridae",
+              "Xiphiidae",
+              "water"
+            ]
+          },
+          "2.6.1.7": {
+            "category_name": "Salted fish/dried salted fish",
+            "description": "Product prepared from fresh or wholesome fish after drying with or without addition of salt.",
+            "ingredients": [
+              "fresh fish",
+              "wholesome fish",
+              "salt"
+            ]
+          },
+          "2.6.1.8": {
+            "category_name": "Canned Fishery Products",
+            "description": "Canned finfish, crustaceans and molluscs solid packed or packed in suitable medium.",
+            "ingredients": [
+              "Sardine",
+              "Sardinella longiceps",
+              "Sardinella gibbosa",
+              "Sardinella fimbriata",
+              "Sardinella albella",
+              "Amblygaster sirm",
+              "Dussumieria acuta",
+              "Dussumieria elopsoides",
+              "Tuna",
+              "Bonito",
+              "Thunnus alalunga",
+              "Thunnus albacares",
+              "Thunnus obesus",
+              "Thunnus maccoyii",
+              "Thunnus thynnus",
+              "Thunnus tonggol",
+              "Euthynnus affinis",
+              "Katsuwonus pelamis",
+              "Sarda orientalis",
+              "Sarda sarda",
+              "Mackerel",
+              "Rastrelliger kanagurta",
+              "Seer fish",
+              "Scomberomorus spp.",
+              "Pomfret",
+              "Pampus argenteus",
+              "Pampus chinensis",
+              "Parastromateus niger",
+              "Shrimp",
+              "Prawn",
+              "Penaeidae",
+              "Solenoceridae",
+              "Aristeidae",
+              "Sergestidae",
+              "Hippolytidae",
+              "Crangonidae",
+              "Palaemonidae",
+              "Atyidae",
+              "Crab",
+              "Scylla serrata",
+              "Portunus pelagicus",
+              "Potrunus sanguinolentus",
+              "Mussels",
+              "Perna viridis",
+              "Perna indica",
+              "Squid",
+              "Loligo duvauceli",
+              "oil",
+              "water",
+              "brine",
+              "tomato sauce",
+              "curry"
+            ]
+          },
+          "2.6.1.9": {
+            "category_name": "Frozen cephalopods",
+            "description": "Frozen product prepared from sound squid, cuttlefish or octopus offered for direct consumption.",
+            "ingredients": [
+              "Squid",
+              "Loliginidae",
+              "Onychoteuthidae",
+              "Ommastrephidae",
+              "Thysanoteuthidae",
+              "Cuttlefish",
+              "Sepiidae",
+              "Sepiolidae",
+              "Octopus",
+              "Octopodidae",
+              "water"
+            ]
+          },
+          "2.6.1.10": {
+            "category_name": "Smoked Fishery Products",
+            "description": "Fish product that is smoked, smoke-flavoured, or smoke-dried.",
+            "ingredients": [
+              "fresh fish",
+              "chilled fish",
+              "frozen fish",
+              "wood",
+              "plant materials",
+              "salt",
+              "spices",
+              "smoke flavours"
+            ]
+          },
+          "2.6.1.11": {
+            "category_name": "Ready-to-Eat Finfish or Shell Fish Curry in Retortable Pouches",
+            "description": "Thermal processed instant fish or shell fish curry packed in retortable pouches.",
+            "ingredients": [
+              "finfish",
+              "shellfish",
+              "spices",
+              "vegetable fat"
+            ]
+          },
+          "2.6.1.12": {
+            "category_name": "Fish Oil",
+            "description": "Oils intended for human consumption derived from fresh and frozen fish, shellfish and/or their parts.",
+            "ingredients": [
+              "Anchovy",
+              "Tuna",
+              "Krill",
+              "Menhaden",
+              "Salmon",
+              "Cod liver"
+            ]
+          },
+          "2.6.1.13": {
+            "category_name": "Edible Fish Powder",
+            "description": "Fine powder prepared from non-oily white fish like sprats.",
+            "ingredients": [
+              "non-oily white fish",
+              "sprats"
+            ]
+          },
+          "2.6.1.14": {
+            "category_name": "Fish Pickles",
+            "description": "Fermented or preserved fish product with spices and oil.",
+            "ingredients": [
+              "Edible fish",
+              "ginger",
+              "garlic",
+              "chillies",
+              "curry powder",
+              "Edible common salt",
+              "Vinegar",
+              "Edible vegetable oils"
+            ]
+          },
+          "2.6.1.15": {
+            "category_name": "Frozen Minced Fish Meat",
+            "description": "Frozen meat separated from clean, fresh, gutted fish.",
+            "ingredients": [
+              "fresh fish",
+              "water"
+            ]
+          },
+          "2.6.1.16": {
+            "category_name": "Freeze dried prawns (shrimps)",
+            "description": "Freeze dried product prepared from clean, wholesome and fresh prawns.",
+            "ingredients": [
+              "prawns"
+            ]
+          },
+          "2.6.1.17": {
+            "category_name": "Frozen clam meat",
+            "description": "Frozen meat picked from Vallarta, Meretrix, or other edible clam species.",
+            "ingredients": [
+              "Vallarta species",
+              "Meretrix species",
+              "clams"
+            ]
+          },
+          "2.6.1.18": {
+            "category_name": "Live and Raw Bivalve Molluscs",
+            "description": "Bivalve molluscs that are alive immediately prior to consumption or processed raw.",
+            "ingredients": [
+              "Live bivalve molluscs",
+              "Raw bivalve molluscs"
+            ]
+          },
+          "2.6.1.19": {
+            "category_name": "Sturgeon Caviar",
+            "description": "Granular product prepared from fish eggs of the Acipenseridae family.",
+            "ingredients": [
+              "Acipenseridae",
+              "Acipenser",
+              "Huso",
+              "Pseudoscaphirhynchus",
+              "Scaphirhynchus",
+              "salt"
+            ]
+          },
+          "2.6.1.20": {
+            "category_name": "Fish Sauce",
+            "description": "Translucent liquid condiment produced by fermentation of fish and salt.",
+            "ingredients": [
+              "fish",
+              "salt"
+            ]
+          },
+          "2.6.1.21": {
+            "category_name": "Quick Frozen Fish Sticks (fish fingers), Fish Portions and Fish Fillets Breaded or Battered",
+            "description": "Quick frozen fish products coated with breading or batter.",
+            "ingredients": [
+              "fish flesh",
+              "breading",
+              "batter",
+              "Clupeidae",
+              "Scombridae",
+              "Scombresocidae",
+              "Pomatomidae",
+              "Coryphaenedae"
+            ]
+          },
+          "2.6.1.22": {
+            "category_name": "Fresh and Quick Frozen Raw Scallop Products",
+            "description": "Scallop adductor muscle meat with or without roe from the Pectinidae family.",
+            "ingredients": [
+              "Pectinidae family",
+              "scallop adductor muscle",
+              "roe",
+              "water",
+              "phosphates",
+              "salt"
+            ]
+          },
+          "2.6.1.23": {
+            "category_name": "Pasteurized Fish Sausage",
+            "description": "Fish mince based emulsion product stuffed into casing and pasteurized.",
+            "ingredients": [
+              "fish mince",
+              "seasoning",
+              "spices",
+              "food additives",
+              "starch",
+              "oil"
+            ]
+          },
+          "2.6.1.24": {
+            "category_name": "Pasteurised Crab Meat",
+            "description": "Ready-to-eat product from crab meat that has been cooked, pasteurized and chilled.",
+            "ingredients": [
+              "blue swimming crabs",
+              "potable water",
+              "brine"
+            ]
+          },
+          "2.6.1.25": {
+            "category_name": "Gelatin from Fish Processing Waste",
+            "description": "Gelatin derived from collagen found in fish processing waste.",
+            "ingredients": [
+              "Fish processing waste",
+              "skin",
+              "bones",
+              "swim bladder",
+              "scales"
+            ]
+          }
+        }
+      },
+      "2.6.2": {
+        "category_name": "Limit of Formaldehyde",
+        "description": "Regulations specifying limits for naturally occurring formaldehyde in fish species.",
+        "ingredients": [
+          "Barracuda",
+          "Billfishes",
+          "Bombay Duck",
+          "Bullseyes",
+          "Catfishes",
+          "Croakers",
+          "Eels",
+          "Filefishes",
+          "Puffers",
+          "Flat fishes",
+          "Goatfishes",
+          "Groupers",
+          "Rock Cods",
+          "Half Beaks",
+          "Full Beaks",
+          "Horse Mackerel",
+          "Leather Jacket",
+          "Queen Fish",
+          "Mackerel",
+          "Mullets",
+          "Carangids",
+          "Clupeoids",
+          "Anchovies",
+          "Perches",
+          "Pigface Breams",
+          "Pomfrets",
+          "Ribbon Fish",
+          "Sardines",
+          "Seer Fishes",
+          "Spanish Mackerel",
+          "Silver Bellies",
+          "Biddies",
+          "Snappers",
+          "Tarpons",
+          "Threadfin Breams",
+          "Threadfins",
+          "Tuna",
+          "Bonitos",
+          "White Fish",
+          "Indian Major Carps",
+          "Minor Carps",
+          "Exotic Carps",
+          "Freshwater Catfishes",
+          "Snakeheads",
+          "Murrels",
+          "Tilapia",
+          "Trout",
+          "Lizard fishes"
+        ]
+      }
+    }
+  },
+  "2.7": {
+    "category_name": "SWEETS & CONFECTIONERY",
+    "description": "Category covering sugar boiled confectionery, lozenges, chewing gum, chocolate, and cocoa products.",
+    "ingredients": [],
+    "subcategory": {
+      "2.7.1": {
+        "category_name": "Sugar boiled confectionery",
+        "description": "Processed composite food article made from sugar with or without doctoring agents by process of boiling.",
+        "ingredients": [
+          "sugar",
+          "invert sugar",
+          "jaggery",
+          "lactose",
+          "gur",
+          "bura sugar",
+          "khandsari",
+          "sorbitol",
+          "honey",
+          "liquid glucose",
+          "milk and milk products",
+          "edible molasses",
+          "malt extracts",
+          "edible starches",
+          "edible oils and fats",
+          "edible common salts",
+          "fruit and fruit products",
+          "nut and nut products",
+          "tea extract",
+          "coffee extract",
+          "chocolate",
+          "cocoa",
+          "vitamins",
+          "minerals",
+          "shellac",
+          "bee wax",
+          "paraffin wax",
+          "carnauba wax",
+          "edible desiccated coconut",
+          "spices and condiments and their extracts",
+          "candied peels",
+          "enzymes",
+          "permitted stabilizing and emulsifying agents",
+          "edible foodgrains",
+          "edible seeds",
+          "baking powder",
+          "gulkand",
+          "gulabanafsha",
+          "mulathi",
+          "puffed rice",
+          "china grass",
+          "eucalyptus oil",
+          "camphor",
+          "menthol oil crystals",
+          "pepper mint oil",
+          "thymol",
+          "edible oil seed flour",
+          "protein isolates",
+          "gum arabic",
+          "edible gum",
+          "Isomaltulose"
+        ]
+      },
+      "2.7.2": {
+        "category_name": "Lozenges",
+        "description": "Confections made mainly out of pulverised sugar or icing sugar with binding materials generally made from cold mixing.",
+        "ingredients": [
+          "pulverised sugar",
+          "icing sugar",
+          "edible gums",
+          "edible gelatine",
+          "liquid glucose",
+          "dextrin",
+          "dextrose",
+          "dextrosemonohydrate",
+          "honey",
+          "invert sugar",
+          "sugar",
+          "jaggery",
+          "bura sugar",
+          "khandsari",
+          "sorbitol",
+          "milk and milk products",
+          "nuts and nuts products",
+          "malt syrup",
+          "edible starches",
+          "edible common salt",
+          "ginger powder or extracts",
+          "cinnamon powder or extracts",
+          "aniseed powder or extracts",
+          "caraway powder or extracts",
+          "cardamom powder or extracts",
+          "cocoa powder or extracts",
+          "protein isolates",
+          "coffee-extracts",
+          "flavour",
+          "permitted colouring matter",
+          "permitted emulsifying and stabilizing agents",
+          "vitamins",
+          "minerals",
+          "Isomaltulose"
+        ]
+      },
+      "2.7.3": {
+        "category_name": "Chewing gum and bubble gum",
+        "description": "Products prepared from chewing gum base or bubble gum base, natural or synthetic, non-toxic, with cane sugar and liquid glucose.",
+        "ingredients": [
+          "chewing gum base",
+          "bubble gum base",
+          "cane sugar",
+          "liquid glucose",
+          "Babul",
+          "Kikar (Gum Arabic)",
+          "Khair",
+          "Jhingan (Jael)",
+          "Ghatti",
+          "Chiku (Sapota)",
+          "Natural rubber latex",
+          "Synthetic rubber latex",
+          "Glycerol ester of wood rosin",
+          "Glycerol ester of gum rosin",
+          "Synthetic resin",
+          "Glycerol ester or partially hydrogenated gum or wood rosin",
+          "Natural resin",
+          "Polyvinyl acetate",
+          "Agar",
+          "Malt",
+          "Milk powder",
+          "Chocolate",
+          "Coffee",
+          "Gelatin",
+          "Permitted Emulsifiers",
+          "Water",
+          "Vitamins",
+          "minerals",
+          "proteins",
+          "Isomaltulose"
+        ]
+      },
+      "2.7.4": {
+        "category_name": "Chocolate",
+        "description": "Homogeneous product obtained from cocoa materials including beans, nib, mass, cake, and powder with or without sugars and milk solids.",
+        "ingredients": [
+          "cocoa beans",
+          "cocoa nib",
+          "cocoa mass",
+          "cocoa press cake",
+          "cocoa powder",
+          "sugars",
+          "cocoa butter",
+          "milk solids",
+          "milk fat",
+          "vegetable fats",
+          "Isomaltulose",
+          "edible salts",
+          "spices and condiments and their extracts",
+          "vitamins",
+          "minerals",
+          "permitted emulsifying and stabilizing agents",
+          "permitted sequestering and buffering agents"
+        ]
+      },
+      "2.7.5": {
+        "category_name": "ICE LOLLIES OR EDIBLE ICES",
+        "description": "Frozen ice produce which contains citric acid, permitted flavours and colours, and sometimes fruits or nuts.",
+        "ingredients": [
+          "citric acid",
+          "permitted flavours",
+          "permitted colours",
+          "permitted stabilizers",
+          "permitted emulsifiers",
+          "sugar",
+          "liquid glucose",
+          "dried liquid glucose",
+          "honey",
+          "fruits and fruit products",
+          "coffee",
+          "cocoa",
+          "ginger",
+          "nuts",
+          "salt",
+          "spices and condiments",
+          "Isomaltulose"
+        ]
+      },
+      "2.7.6": {
+        "category_name": "Dry Mixtures of Cocoa and Sugars",
+        "description": "Product obtained from Cocoa Cake transformed into powder mixed with sugars intended for direct consumption.",
+        "ingredients": [
+          "Cocoa Cake",
+          "sugars",
+          "sweeteners",
+          "Spices",
+          "Salt (Sodium chloride)"
+        ]
+      },
+      "2.7.7": {
+        "category_name": "Cocoa Powder",
+        "description": "Material obtained by mechanical transformation from the partial removal of fat from the ground nib of well-fermented sound roasted beans.",
+        "ingredients": [
+          "ground nib",
+          "roasted beans of Theobroma cacao L"
+        ]
+      },
+      "2.7.8": {
+        "category_name": "Cocoa mass or Cocoa/Chocolate Liquor and Cocoa Cake",
+        "description": "Product prepared by grinding clean, practically shell-free cocoa nibs, or the product obtained by removal of fat from nibs.",
+        "ingredients": [
+          "cocoa beans",
+          "cocoa nibs",
+          "Cocoa Butter"
+        ]
+      }
+    }
+  },
+  "2.8": {
+    "category_name": "Sweetening agents including Honey",
+    "description": "Standards for various sweetening agents including sugars, honey, jaggery, and artificial sweeteners.",
+    "ingredients": [],
+    "subcategory": {
+      "2.8.1": {
+        "category_name": "SUGAR",
+        "description": "Includes varieties such as Plantation White Sugar, Refined Sugar, Khandsari Sugar, Bura Sugar, Cube Sugar, and Icing Sugar.",
+        "ingredients": [
+          "Plantation White Sugar",
+          "Refined Sugar",
+          "Khandsari Sugar",
+          "Sodium bicarbonate",
+          "Bura Sugar",
+          "Cube Sugar",
+          "Icing Sugar",
+          "Edible starch"
+        ]
+      },
+      "2.8.2": {
+        "category_name": "MISRI",
+        "description": "Candy product obtained from any kind of sugar or palmyrah juice.",
+        "ingredients": [
+          "Sugar",
+          "Palmyrah juice"
+        ]
+      },
+      "2.8.3": {
+        "category_name": "Honey and it's by products",
+        "description": "Natural sweet substance produced by honey bees, including various floral sources, Bees Wax, and Royal Jelly.",
+        "ingredients": [
+          "Honey",
+          "Blossom Honey",
+          "Honeydew Honey",
+          "Carvia Callosa Honey",
+          "Pressed Honey",
+          "Bees Wax",
+          "Royal Jelly"
+        ]
+      },
+      "2.8.4": {
+        "category_name": "GUR OR JAGGERY",
+        "description": "Product obtained by boiling or processing juice extracted from specific palms or sugarcane.",
+        "ingredients": [
+          "Palmyra palm juice",
+          "Date palm juice",
+          "Coconut palm juice",
+          "Sodium bicarbonate",
+          "Sugarcane juice"
+        ]
+      },
+      "2.8.5": {
+        "category_name": "DEXTROSE",
+        "description": "White or light cream granular powder, odourless and having a sweet taste.",
+        "ingredients": []
+      },
+      "2.8.6": {
+        "category_name": "GOLDEN SYRUP",
+        "description": "Golden yellow syrup obtained by inversion of sugar, free from crystallization.",
+        "ingredients": [
+          "Sugar"
+        ]
+      },
+      "2.8.7": {
+        "category_name": "DRIED GLUCOSE SYRUP",
+        "description": "Coarse or fine, white to creamish white powder with a sweet taste and bland flavour.",
+        "ingredients": []
+      },
+      "2.8.8": {
+        "category_name": "Sodium Saccharin (Food Grade)",
+        "description": "White crystals or crystalline powder that is intensely sweet to taste.",
+        "ingredients": []
+      },
+      "2.8.9": {
+        "category_name": "ASPARTYL PHENYL ALANINE METHYL ESTER (ASPERTAME)",
+        "description": "Material slightly soluble in water and Methanol containing not less than 98 percent Aspertame on dried basis.",
+        "ingredients": []
+      },
+      "2.8.10": {
+        "category_name": "Acesulfame Potassium",
+        "description": "Odourless, white crystalline powder having intensely sweet taste, also known as Acesulfame-K.",
+        "ingredients": []
+      },
+      "2.8.11": {
+        "category_name": "Sucralose",
+        "description": "White to off-white, odourless, crystalline powder having a sweet taste.",
+        "ingredients": []
+      },
+      "2.8.12": {
+        "category_name": "Calcium Saccharin (Food Grade)",
+        "description": "White crystals or white crystalline powder with an intensely sweet taste.",
+        "ingredients": []
+      }
+    }
+  },
+  "2.9": {
+    "category_name": "SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",
+    "description": "Standards for salt, spices, condiments, and related products including permissible limits for extraneous matter and microbiological requirements.",
+    "ingredients": [],
+    "subcategory": {
+      "2.9.1": {
+        "category_name": "Caraway (Siahjira)",
+        "description": "Mericarps of nearly mature fruit of Carum carvi L. or Carum bulbocastanum, available in whole or powder form.",
+        "ingredients": [
+          "Carum carvi L.",
+          "Carum bulbocastanum"
+        ]
+      },
+      "2.9.2": {
+        "category_name": "Cardamom (Elaichi)",
+        "description": "Dried capsules or seeds of Elettaria cardamomum or Amomum subulatum, covering small and large varieties in whole, seed, or powder form.",
+        "ingredients": [
+          "Elettaria cardamomum L.",
+          "Amomum subulatum Roxb."
+        ]
+      },
+      "2.9.3": {
+        "category_name": "Chillies and Capsicum (Lal Mirchi)",
+        "description": "Dried ripe fruits or pods of Capsicum annum L and Capsicum frutescens L, available as whole or powder.",
+        "ingredients": [
+          "Capsicum annum L",
+          "Capsicum frutescens L",
+          "edible vegetable oil"
+        ]
+      },
+      "2.9.4": {
+        "category_name": "Cinnamon (Dalchini)",
+        "description": "Inner bark of trunks or branches of Cinnamomum Zeylanicum Blume, available as whole or powder.",
+        "ingredients": [
+          "Cinnamomum Zeylanicum Blume"
+        ]
+      },
+      "2.9.5": {
+        "category_name": "Cassia (Taj)",
+        "description": "Bark of trees of various Cinnamomum species including Cinnamomum Cassia, available as whole or powder.",
+        "ingredients": [
+          "Cinnamomum Cassia",
+          "Cinnamomum aromaticum",
+          "Cinnamomum burmanii",
+          "Cinnamomum loureini"
+        ]
+      },
+      "2.9.6": {
+        "category_name": "Cloves (Laung)",
+        "description": "Dried unopened flower buds of Eugenia Caryophyllus, available as whole or powder.",
+        "ingredients": [
+          "Eugenia Caryophyllus"
+        ]
+      },
+      "2.9.7": {
+        "category_name": "Coriander (Dhania)",
+        "description": "Dried mature fruits (seeds) of Coriandrum sativum L., available as whole or powder.",
+        "ingredients": [
+          "Coriandrum sativum L."
+        ]
+      },
+      "2.9.8": {
+        "category_name": "Cumin (Zeera, Kalonji)",
+        "description": "Dried mature seeds of Cuminum cyminum L. (White) or Nigella sativa L. (Black), available as whole or powder.",
+        "ingredients": [
+          "Cuminum cyminum L.",
+          "Nigella sativa L."
+        ]
+      },
+      "2.9.9": {
+        "category_name": "Fennel (Saunf)",
+        "description": "Dried ripe fruit of Foeniculum vulgare P. Miller Var. Vulgare, available as whole or powder.",
+        "ingredients": [
+          "Foeniculum vulgare P. Miller Var. Vulgare"
+        ]
+      },
+      "2.9.10": {
+        "category_name": "Fenugreek (Methi)",
+        "description": "Dried mature seeds of Trigonella foenum graecum L., available as whole or powder.",
+        "ingredients": [
+          "Trigonella foenum graecum L."
+        ]
+      },
+      "2.9.11": {
+        "category_name": "Dried Ginger (Sonth, Dried Adrak)",
+        "description": "Dried rhizome of Zingiber officinale Roscoe, available as whole or powder, bleached or unbleached.",
+        "ingredients": [
+          "Zingiber officinale Roscoe",
+          "lime"
+        ]
+      },
+      "2.9.12": {
+        "category_name": "Mace (Jaipatri)",
+        "description": "Dried coat or aril of the seed of Myristica fragrans Houttuyn, available as whole or powder.",
+        "ingredients": [
+          "Myristica fragrans Houttuyn"
+        ]
+      },
+      "2.9.13": {
+        "category_name": "Mustard (Rai, Sarson)",
+        "description": "Dried, clean mature seeds of various Brassica species, available as whole or powder.",
+        "ingredients": [
+          "Brassica alba",
+          "Brassica compestris",
+          "Brassica juncea",
+          "Brassica nigra"
+        ]
+      },
+      "2.9.14": {
+        "category_name": "Nutmeg (Jaiphal)",
+        "description": "Dried seed (kernel) of Myristica fragrans Houttuyn, available as whole or powder.",
+        "ingredients": [
+          "Myristica fragrans Houttuyn"
+        ]
+      },
+      "2.9.15": {
+        "category_name": "Black, White & Green (BWG) Peppers",
+        "description": "Berries of Piper nigrum L. processed into black, white, or green pepper forms, whole, cracked, or ground.",
+        "ingredients": [
+          "Piper nigrum L."
+        ]
+      },
+      "2.9.16": {
+        "category_name": "Poppy (Khas Khas)",
+        "description": "Dried mature seeds of Papaver somniferum L.",
+        "ingredients": [
+          "Papaver somniferum L."
+        ]
+      },
+      "2.9.17": {
+        "category_name": "Saffron (Kesar)",
+        "description": "Dried stigmas or tops of styles of Crocus Sativus Linnaeus, available as whole or powder.",
+        "ingredients": [
+          "Crocus Sativus Linnaeus"
+        ]
+      },
+      "2.9.18": {
+        "category_name": "Turmeric (Haldi)",
+        "description": "Primary or secondary rhizomes of Curcuma Longa L., available as whole or powder.",
+        "ingredients": [
+          "Curcuma Longa L."
+        ]
+      },
+      "2.9.19": {
+        "category_name": "Curry Powder",
+        "description": "Powder obtained by grinding a mixture of specific aromatic herbs and spices, optionally with salt and starch.",
+        "ingredients": [
+          "black pepper",
+          "cinnamon",
+          "cloves",
+          "coriander",
+          "cardamom",
+          "chillies",
+          "cumin seeds",
+          "fenugreek",
+          "garlic",
+          "ginger",
+          "mustard",
+          "poppy seeds",
+          "turmeric",
+          "mace",
+          "nutmeg",
+          "curry leaves",
+          "white pepper",
+          "saffron",
+          "aniseeds",
+          "edible starch",
+          "edible common salt"
+        ]
+      },
+      "2.9.20": {
+        "category_name": "Mixed Masala",
+        "description": "Mixture of clean, dried and sound aromatic herbs and spices, whole or powder, with permitted ingredients.",
+        "ingredients": [
+          "aromatic herbs",
+          "spices",
+          "dried vegetables",
+          "dried fruits",
+          "oilseeds",
+          "garlic",
+          "ginger",
+          "poppy seeds",
+          "curry leaves",
+          "edible starches",
+          "edible salt",
+          "edible vegetable oil",
+          "fats",
+          "nuts",
+          "cereals",
+          "pulses",
+          "nutritive sweeteners"
+        ]
+      },
+      "2.9.21": {
+        "category_name": "Aniseed (Saunf)",
+        "description": "Dried and mature fruit of Pimpinella anisum L.",
+        "ingredients": [
+          "Pimpinella anisum L."
+        ]
+      },
+      "2.9.22": {
+        "category_name": "Ajowan (Bishops seed)",
+        "description": "Dried ripe fruits (seeds) of Trachyspermum ammi. L Sprague.",
+        "ingredients": [
+          "Trachyspermum ammi. L Sprague"
+        ]
+      },
+      "2.9.23": {
+        "category_name": "Dried Mango Slices",
+        "description": "Dried wholesome, edible part of raw mango fruit with or without outer skin.",
+        "ingredients": [
+          "raw mango fruit",
+          "edible common salt"
+        ]
+      },
+      "2.9.24": {
+        "category_name": "Dried Mango Powder (Amchur)",
+        "description": "Powder obtained by grinding dried mango slices.",
+        "ingredients": [
+          "dried mango slices",
+          "edible common salt"
+        ]
+      },
+      "2.9.26": {
+        "category_name": "Garlic (Lahsun)",
+        "description": "Dried or dehydrated cloves of Allium sativum L., whole, sliced, or powdered.",
+        "ingredients": [
+          "Allium sativum L.",
+          "food additives"
+        ]
+      },
+      "2.9.27": {
+        "category_name": "Celery",
+        "description": "Dried ripe fruits (seeds) of Apium graveoleans L.",
+        "ingredients": [
+          "Apium graveoleans L."
+        ]
+      },
+      "2.9.28": {
+        "category_name": "Dehydrated Onion (Sukha Pyaj)",
+        "description": "Product obtained by removal of most moisture from sound bulbs of Allium cepa L.",
+        "ingredients": [
+          "Allium cepa L.",
+          "food additives"
+        ]
+      },
+      "2.9.29": {
+        "category_name": "Asafoetida",
+        "description": "Oleogumresin obtained from the rhizome and roots of Ferula species, including Compounded Asafoetida (Bandhani Hing).",
+        "ingredients": [
+          "Ferula alliaces",
+          "Ferula rubricaulis",
+          "gum arabic",
+          "edible starches",
+          "edible cereal flour"
+        ]
+      },
+      "2.9.30": {
+        "category_name": "Edible Common Salt",
+        "description": "Crystalline solid sodium chloride, including Iron Fortified Iodized Salt standards.",
+        "ingredients": [
+          "sodium chloride",
+          "Potassium Iodate",
+          "nutrients",
+          "Hydroxy Propyl Methyl Cellulose",
+          "Titanium dioxide",
+          "Hydrogenated Soyabean oil",
+          "Sodium hexametaphosphate",
+          "anti-caking agent"
+        ]
+      },
+      "2.9.31": {
+        "category_name": "Seasoning",
+        "description": "Product intended to enhance flavour containing a mixture of ingredients like spices, salts, and extracts.",
+        "ingredients": [
+          "spices",
+          "condiments",
+          "herbs",
+          "salt",
+          "fruits",
+          "vegetables",
+          "dry fruits",
+          "nuts",
+          "raisins",
+          "edible starches",
+          "yeast",
+          "soya",
+          "hydrolyzed protein",
+          "meat",
+          "poultry",
+          "marine products",
+          "edible vegetable oils",
+          "fats",
+          "cereal",
+          "milk",
+          "nutritive sweeteners"
+        ]
+      },
+      "2.9.32": {
+        "category_name": "Spice Oleoresins",
+        "description": "Volatile and non-volatile constituents of spices or herbs obtained by solvent extraction.",
+        "ingredients": [
+          "spices",
+          "herbs",
+          "Acetone",
+          "Ethyl acetate",
+          "n-Hexane",
+          "Isopropyl alcohol",
+          "Methyl alcohol",
+          "Carbon dioxide",
+          "Water",
+          "Diethyl ether",
+          "Ethyl alcohol",
+          "Butan-1-ol",
+          "Butan-2-ol",
+          "Propan-1-ol",
+          "Methyl tert-butyl ether"
+        ]
+      },
+      "2.9.33": {
+        "category_name": "Tejpat",
+        "description": "Dried leaves of the tree Cinnamomum tamala, Nees and Eberm.",
+        "ingredients": [
+          "Cinnamomum tamala"
+        ]
+      },
+      "2.9.34": {
+        "category_name": "Star Anise",
+        "description": "Dried mature fruit of the tree Illicium verum Hook.",
+        "ingredients": [
+          "Illicium verum Hook."
+        ]
+      },
+      "2.9.35": {
+        "category_name": "Dried Oregano",
+        "description": "Leaves of the Origanum genus excluding Origanum majorana, available as whole or powder.",
+        "ingredients": [
+          "Origanum genus"
+        ]
+      },
+      "2.9.36": {
+        "category_name": "Pimento or Allspice",
+        "description": "Dried berry of Pimenta dioica (L.) Merr., available as whole or powder.",
+        "ingredients": [
+          "Pimenta dioica (L.) Merr."
+        ]
+      },
+      "2.9.37": {
+        "category_name": "Dried Laurel or Dried Bay Leaf",
+        "description": "Dried leaf of the tree Laurus nobilis L., available as whole or powder.",
+        "ingredients": [
+          "Laurus nobilis L."
+        ]
+      },
+      "2.9.38": {
+        "category_name": "Dried Mint",
+        "description": "Dried leaves or broken/crushed leaves of Mentha spicata Linnaeus.",
+        "ingredients": [
+          "Mentha spicata Linnaeus"
+        ]
+      },
+      "2.9.39": {
+        "category_name": "Dried Rosemary",
+        "description": "Dried leaves of the species Rosmarinus officinalis L.",
+        "ingredients": [
+          "Rosmarinus officinalis L."
+        ]
+      },
+      "2.9.40": {
+        "category_name": "Dried Thyme",
+        "description": "Product prepared from leaves/flowers of Thymus spp., available as whole, crushed, or ground.",
+        "ingredients": [
+          "Thymus spp."
+        ]
+      },
+      "2.9.41": {
+        "category_name": "Dried Sage",
+        "description": "Leaves of the species Salvia officinalis L., collected before flowering and dried.",
+        "ingredients": [
+          "Salvia officinalis L."
+        ]
+      },
+      "2.9.42": {
+        "category_name": "Dried Sweet Basil Leaves",
+        "description": "Dried leaves obtained from the species Ocimum basilicum L.",
+        "ingredients": [
+          "Ocimum basilicum L."
+        ]
+      },
+      "2.9.43": {
+        "category_name": "Dried Sweet Marjoram",
+        "description": "Dried leaves obtained from the species Origanum majorana L.",
+        "ingredients": [
+          "Origanum majorana L"
+        ]
+      },
+      "2.9.44": {
+        "category_name": "Dried Parsley",
+        "description": "Whole, cut, or broken dried leaves of Petroselinum crispum.",
+        "ingredients": [
+          "Petroselinum crispum"
+        ]
+      },
+      "2.9.45": {
+        "category_name": "Dehydrated Tarragon",
+        "description": "Dried leaves obtained from perennial plant Artemisia dracunculus Linnaeus, whole or powder.",
+        "ingredients": [
+          "Artemisia dracunculus Linnaeus"
+        ]
+      }
+    }
+  },
+  "2.10": {
+    "category_name": "BEVERAGES, (Other than Dairy and Fruits & Vegetables based)",
+    "description": "Category covering beverages excluding dairy and fruit/vegetable based products, including tea, coffee, water, and mixtures.",
+    "ingredients": [],
+    "subcategory": {
+      "2.10.1": {
+        "category_name": "TEA",
+        "description": "Products derived from Camellia sinensis including black, oolong, green, and instant tea varieties.",
+        "ingredients": [
+          "Camellia sinensis"
+        ],
+        "subcategory": {
+          "2.10.1.1": {
+            "category_name": "TEA (Black or Oolong)",
+            "description": "Tea obtained exclusively from the leaves, buds, and tender stems of Camellia sinensis.",
+            "ingredients": [
+              "leaves, buds and tender stems of Camellia sinensis",
+              "natural flavours",
+              "natural flavouring substances",
+              "pectinase enzyme"
+            ]
+          },
+          "2.10.1.2": {
+            "category_name": "KANGRA TEA",
+            "description": "Tea derived exclusively from plants grown in Kangra and Mandi valleys of Himachal Pradesh.",
+            "ingredients": [
+              "leaves, buds and tender stems of Camellia sinensis",
+              "natural flavours",
+              "natural flavouring substances",
+              "pectinase enzyme"
+            ]
+          },
+          "2.10.1.3": {
+            "category_name": "Green Tea",
+            "description": "Product derived exclusively from Camellia sinensis by enzyme inactivation, rolling, or comminution and drying.",
+            "ingredients": [
+              "leaves, buds and tender stems of Camellia sinensis",
+              "natural flavours",
+              "natural flavouring substances"
+            ]
+          },
+          "2.10.1.4": {
+            "category_name": "Instant Tea in Solid Form",
+            "description": "Dried water-dispersible solids obtained by aqueous extraction of Camellia sinensis.",
+            "ingredients": [
+              "leaves, buds and stems of Camellia sinensis",
+              "permitted process aids",
+              "permitted food additives"
+            ]
+          }
+        }
+      },
+      "2.10.2": {
+        "category_name": "COFFEE",
+        "description": "Coffee products including green, roasted, ground, soluble, and decaffeinated varieties.",
+        "ingredients": [
+          "Coffea arabica",
+          "Coffea liberica",
+          "Coffea excelsa",
+          "Coffea canephora"
+        ],
+        "subcategory": {
+          "2.10.2.1": {
+            "category_name": "Coffee (green raw or unroasted)",
+            "description": "Dried seeds of Coffea species with husks removed.",
+            "ingredients": [
+              "dried seeds of Coffea arabica",
+              "dried seeds of Coffea liberica",
+              "dried seeds of Coffea excelsa",
+              "dried seeds of Coffea canephora"
+            ]
+          },
+          "2.10.2.2": {
+            "category_name": "Roasted coffee",
+            "description": "Properly cleaned green coffee roasted to a brown colour with characteristic aroma.",
+            "ingredients": [
+              "green coffee"
+            ]
+          },
+          "2.10.2.3": {
+            "category_name": "Ground coffee",
+            "description": "Powdered products obtained from roasted coffee only, free from husk.",
+            "ingredients": [
+              "roasted coffee"
+            ]
+          },
+          "2.10.2.4": {
+            "category_name": "Decaffeinated roasted and ground coffee",
+            "description": "Roasted coffee from which nearly all caffeine has been removed.",
+            "ingredients": [
+              "decaffeinated green coffee"
+            ]
+          },
+          "2.10.2.5": {
+            "category_name": "Soluble Coffee Powder",
+            "description": "Free flowing powder or agglomerated granules obtained from freshly roasted and ground pure coffee beans.",
+            "ingredients": [
+              "freshly roasted and ground pure coffee beans"
+            ]
+          },
+          "2.10.2.6": {
+            "category_name": "Decaffeinated soluble coffee powder",
+            "description": "Soluble coffee powder from which most of the caffeine has been removed.",
+            "ingredients": [
+              "freshly roasted and ground pure coffee beans"
+            ]
+          }
+        }
+      },
+      "2.10.3": {
+        "category_name": "CHICORY",
+        "description": "Roasted chicory powder obtained from roots of Chicorium intybus Lin.",
+        "ingredients": [
+          "roots of chicorium intybus Lin",
+          "edible fats and oils",
+          "sugar",
+          "glucose",
+          "sucrose"
+        ],
+        "subcategory": {
+          "2.10.3.1": {
+            "category_name": "Chicory",
+            "description": "Roasted chicory powder obtained by roasting and grinding cleaned and dried roots.",
+            "ingredients": [
+              "roots of chicorium intybus Lin",
+              "edible fats and oils",
+              "sugar",
+              "glucose",
+              "sucrose"
+            ]
+          }
+        }
+      },
+      "2.10.4": {
+        "category_name": "COFFEE - CHICORY MIXTURE",
+        "description": "Mixtures of coffee and chicory in roasted/ground or instant forms.",
+        "ingredients": [],
+        "subcategory": {
+          "2.10.4.1": {
+            "category_name": "Coffee - Chicory Mixture",
+            "description": "Product prepared by mixing roasted and ground coffee and roasted and ground chicory.",
+            "ingredients": [
+              "roasted and ground coffee",
+              "roasted and ground chicory"
+            ]
+          },
+          "2.10.4.2": {
+            "category_name": "Instant Coffee - Chicory Mixture",
+            "description": "Soluble product manufactured from roasted and ground coffee and roasted and ground chicory.",
+            "ingredients": [
+              "roasted and ground coffee",
+              "roasted and ground chicory"
+            ]
+          },
+          "2.10.4.3": {
+            "category_name": "Decaffeinated Roasted and Ground coffee-chicory mixture",
+            "description": "Mixture of decaffeinated roasted and ground coffee and roasted and ground chicory.",
+            "ingredients": [
+              "decaffeinated roasted and ground coffee",
+              "roasted and ground chicory"
+            ]
+          },
+          "2.10.4.4": {
+            "category_name": "Decaffeinated Instant coffee-chicory mixture",
+            "description": "Soluble mixture manufactured from decaffeinated roasted and ground coffee and roasted and ground chicory.",
+            "ingredients": [
+              "decaffeinated roasted and ground coffee",
+              "roasted and ground chicory"
+            ]
+          }
+        }
+      },
+      "2.10.6": {
+        "category_name": "BEVERAGES NON-ALCOHOLIC",
+        "description": "Non-alcoholic beverages including carbonated water, caffeinated drinks, and coconut neera.",
+        "ingredients": [],
+        "subcategory": {
+          "2.10.6.1": {
+            "category_name": "CARBONATED WATER",
+            "description": "Water impregnated with carbon dioxide under pressure with optional sweeteners and additives.",
+            "ingredients": [
+              "water",
+              "carbon dioxide",
+              "sugar",
+              "liquid glucose",
+              "dextrose monohydrate",
+              "invert sugar",
+              "fructose",
+              "honey",
+              "fruits and vegetables extractives",
+              "flavouring",
+              "colouring matter",
+              "preservatives",
+              "emulsifying agents",
+              "stabilising agents",
+              "citric acid",
+              "fumaric acid",
+              "sorbitol",
+              "tartaric acid",
+              "phosphoric acid",
+              "lactic acid",
+              "ascorbic acid",
+              "malic acid",
+              "edible gums",
+              "edible gelatin",
+              "albumin",
+              "licorice",
+              "salts of sodium, calcium and magnesium",
+              "vitamins",
+              "caffeine",
+              "estergum",
+              "gellan gum",
+              "quinine salts",
+              "saccharin sodium",
+              "acesulfame-k",
+              "aspartame",
+              "sucralose",
+              "neotame"
+            ]
+          },
+          "2.10.6.2": {
+            "category_name": "Caffeinated Beverage",
+            "description": "Carbonated or non-carbonated beverages containing 145 to 300 mg/L of total caffeine.",
+            "ingredients": [
+              "water",
+              "caffeine",
+              "taurine",
+              "D-glucurono-Y-lactone",
+              "inositol",
+              "pantothenic acid",
+              "thiamine",
+              "riboflavin",
+              "niacin",
+              "vitamin B6",
+              "flavors",
+              "sweeteners",
+              "food additives"
+            ]
+          },
+          "2.10.6.3": {
+            "category_name": "Non-carbonated Water Based Beverages (Non-Alcoholic)",
+            "description": "Beverages containing water without added carbon dioxide, with optional sugar, fruit, or herbs.",
+            "ingredients": [
+              "water",
+              "sugar",
+              "liquid glucose",
+              "dextrose monohydrate",
+              "invert sugar",
+              "fructose",
+              "honey",
+              "salt",
+              "salt substitutes",
+              "fruits",
+              "flowers",
+              "vegetables",
+              "herbs",
+              "spices",
+              "flavouring",
+              "caffeine",
+              "vitamins",
+              "minerals"
+            ]
+          },
+          "2.10.6.4": {
+            "category_name": "Coconut neera",
+            "description": "Phloem sap from the unopened coconut spadix, fresh or processed.",
+            "ingredients": [
+              "sap of the coconut palm"
+            ]
+          }
+        }
+      },
+      "2.10.7": {
+        "category_name": "Mineral water",
+        "description": "Packaged natural mineral waters obtained from underground sources.",
+        "ingredients": [
+          "natural mineral water",
+          "carbon dioxide",
+          "nitrogen"
+        ],
+        "subcategory": {
+          "2.10.7.1": {
+            "category_name": "Natural Mineral Water",
+            "description": "Water clearly distinguished from ordinary drinking water by mineral content and underground source.",
+            "ingredients": [
+              "natural mineral water",
+              "carbon dioxide",
+              "nitrogen"
+            ]
+          },
+          "2.10.7.2": {
+            "category_name": "Spring water",
+            "description": "Water derived from an underground formation flowing naturally to the surface.",
+            "ingredients": [
+              "spring water"
+            ]
+          }
+        }
+      },
+      "2.10.8": {
+        "category_name": "Packaged Drinking Water (other than Mineral Water)",
+        "description": "Water likely to be used for human consumption, offered or sold in packaged form.",
+        "ingredients": [
+          "surface water",
+          "civic water supply",
+          "underground water",
+          "sea water",
+          "remineralization ingredients",
+          "nitrogen"
+        ]
+      },
+      "2.10.9": {
+        "category_name": "Drinking Water (Purified)",
+        "description": "Water other than packaged drinking water and natural mineral water offered through vending machines.",
+        "ingredients": [
+          "water"
+        ]
+      }
+    }
+  },
+  "2.11": {
+    "category_name": "Other food product and ingredients Regulations",
+    "description": "Regulations covering miscellaneous food products and ingredients including baking powder, catechu, gelatin, silver leaf, pan masala, and special dietary foods.",
+    "ingredients": [],
+    "subcategory": {
+      "2.11.1": {
+        "category_name": "Baking powder",
+        "description": "A combination capable of yielding carbon dioxide under baking conditions, consisting of sodium bicarbonate, acid-reacting material, and starch.",
+        "ingredients": [
+          "Sodium bicarbonate (INS 500(i))",
+          "Edible starches",
+          "Calcium lactate",
+          "Anhydrous calcium sulphate",
+          "Sodium sulphate",
+          "Gammadelta lactone",
+          "Acid pectin",
+          "Mono calcium phosphate mono hydrate INS 341 (ii)",
+          "Mono calcium phosphate anhydrous INS 341(ii)",
+          "Sodium aluminum phosphate INS 541(i)",
+          "Ammonium dihydrogen phosphate INS 342(i)",
+          "Calcium carbonate INS 170(i)",
+          "Potassium bitartrate",
+          "Potassium hydrogen tartrate (Cream of tartar)",
+          "Tartaric Acid INS 334",
+          "Tricalcium Phosphate INS 341(i)",
+          "Glucono delta lactone",
+          "Calcium silicate INS 552",
+          "Aluminium sodium sulphate INS 521",
+          "Sodium acid pyrophosphate INS 450(i)"
+        ]
+      },
+      "2.11.2": {
+        "category_name": "CATECHU (Edible)",
+        "description": "Dried aqueous extract prepared from the heart-wood of Acacia Catechu, free from infestation and impurities.",
+        "ingredients": []
+      },
+      "2.11.3": {
+        "category_name": "GELATIN",
+        "description": "Purified product obtained by partial hydrolysis of collagen derived from the skin, white connective tissues, and bones of animals.",
+        "ingredients": []
+      },
+      "2.11.4": {
+        "category_name": "SILVER LEAF (Chandi-ka-warq)",
+        "description": "Food grade silver in the form of sheets of uniform thickness, free from creases, folds, and animal origin material.",
+        "ingredients": []
+      },
+      "2.11.5": {
+        "category_name": "Pan Masala",
+        "description": "Food generally taken as such or in conjunction with Pan, containing specific aromatic and sweetening ingredients.",
+        "ingredients": [
+          "Betelnut",
+          "lime",
+          "coconut",
+          "catechu",
+          "saffron",
+          "cardamom",
+          "dry fruits",
+          "mulethi",
+          "sabnermusa",
+          "aromatic herbs",
+          "spices",
+          "sugar",
+          "glycerine",
+          "glucose",
+          "permitted natural colours",
+          "menthol",
+          "non prohibited flavours"
+        ]
+      },
+      "2.11.6": {
+        "category_name": "Omitted",
+        "description": "This regulation section has been omitted.",
+        "ingredients": []
+      },
+      "2.11.7": {
+        "category_name": "CAROB POWDER",
+        "description": "Powder obtained from the roasted pods of carob (Ceratonia Siliqua), free from husk and artificial additives.",
+        "ingredients": []
+      },
+      "2.11.8": {
+        "category_name": "Dietary Fibre (Dextrin - soluble fibre)",
+        "description": "Glucose polymer of natural origin obtained by dextrinification of acidified starch.",
+        "ingredients": []
+      },
+      "2.11.9": {
+        "category_name": "Special dietary food with low sodium content",
+        "description": "Food whose special dietary value results from the reduction, restriction, or removal of sodium.",
+        "ingredients": []
+      }
+    }
+  },
+  "2.12": {
+    "category_name": "Proprietary Food",
+    "description": "Food articles not standardised under specific regulations but made using permitted ingredients and additives.",
+    "ingredients": [],
+    "subcategory": {
+      "2.12.1": {
+        "category_name": "Definition and Standards",
+        "description": "Non-standardised food articles excluding novel foods, special dietary uses, and functional foods.",
+        "ingredients": [
+          "Standardised or permitted ingredients",
+          "Ingredients in Indian Food Composition Tables (IFCT) 2017",
+          "Micronutrients",
+          "Additives"
+        ]
+      }
+    }
+  },
+  "2.13": {
+    "category_name": "RADIATION PROCESSING OF FOOD",
+    "description": "Regulations governing the processing of food and allied products using ionizing radiation.",
+    "ingredients": [],
+    "subcategory": {
+      "2.13.1": {
+        "category_name": "Dose of Radiation",
+        "description": "Specifies permissible radiation dose limits for defined classes of food products and allied items.",
+        "ingredients": [
+          "Bulbs",
+          "stem and root tubers",
+          "rhizomes",
+          "fresh spices",
+          "ginger",
+          "garlic",
+          "turmeric",
+          "Fresh fruits",
+          "vegetables",
+          "Cereals",
+          "milled cereal products",
+          "pulses",
+          "milled pulse products",
+          "nuts",
+          "oil seeds",
+          "dried fruits",
+          "Fish",
+          "aquaculture products",
+          "seafood",
+          "crustaceans",
+          "Meat",
+          "meat products",
+          "poultry",
+          "eggs",
+          "Dry vegetables",
+          "seasonings",
+          "spices",
+          "condiments",
+          "dry herbs",
+          "tea",
+          "coffee",
+          "cocoa",
+          "plant products",
+          "Dried foods of animal origin",
+          "Ethnic foods",
+          "military rations",
+          "space foods",
+          "ready-to-eat foods",
+          "ready-to-cook foods",
+          "minimally processed foods",
+          "Packaging materials",
+          "Food additives",
+          "Health foods",
+          "dietary supplements",
+          "nutraceuticals"
+        ]
+      },
+      "2.13.2": {
+        "category_name": "Requirement for Radiation Processing",
+        "description": "Mandates that irradiation facilities must be approved and licensed under Atomic Energy Rules.",
+        "ingredients": []
+      },
+      "2.13.3": {
+        "category_name": "Restrictions on Radiation Processing of Food",
+        "description": "Sets operational restrictions including dose conformity, prevention of re-irradiation, and personnel qualifications.",
+        "ingredients": []
+      },
+      "2.13.4": {
+        "category_name": "Record of Radiation Processing of Food",
+        "description": "Requires facilities to record details of all radiation treatments in accordance with rules.",
+        "ingredients": []
+      },
+      "2.13.5": {
+        "category_name": "Standards of Radiation Processed Food",
+        "description": "Ensures processed food complies with the Food Safety and Standards Act and related regulations.",
+        "ingredients": []
+      },
+      "2.13.6": {
+        "category_name": "Storage and Sale of Radiation Processed Food",
+        "description": "Prohibits the irradiation, storage, or transport for sale of food except as provided in the regulations.",
+        "ingredients": []
+      },
+      "2.13.7": {
+        "category_name": "Restriction on Sale of Radiation Processed Food",
+        "description": "Mandates that radiation processed food must only be sold in pre-packaged conditions.",
+        "ingredients": []
+      },
+      "2.13.8": {
+        "category_name": "Labelling of Radiation Processed Food",
+        "description": "Specifies labelling requirements including the Radura logo, declaration of processing, and license details.",
+        "ingredients": []
+      }
+    }
+  },
+  "2.14": {
+    "category_name": "Gluten Free Food",
+    "description": "Food consisting of or made of ingredients containing rice, millets, ragi, pulses or legumes with gluten levels below 20 mg/kg.",
+    "ingredients": [
+      "rice",
+      "millets",
+      "ragi",
+      "pulses",
+      "legumes"
+    ]
+  },
+  "2.15": {
+    "category_name": "Food specially processed to reduce gluten content to a level 20 -100mg/kg",
+    "description": "This category was omitted vide Notification [F. No. 1-116/Scientific Committee/Notif.27/2010-FSSAI(E)] dated 04.03.2021 (Amendment no. 73).",
+    "ingredients": []
+  },
+  "2.16": {
+    "category_name": "Hemp seeds and seed products",
+    "description": "Hulled, non-viable seeds obtained from Cannabis sativa or other indigenous Cannabis species complying with NDPS Act.",
+    "ingredients": [
+      "Hemp seed",
+      "Hemp seed oil",
+      "Hemp seed flour"
+    ],
+    "subcategory": {
+      "2.16.1": {
+        "category_name": "Hemp seed",
+        "description": "Standardized hemp seeds with specific limits for moisture, protein, fat, ash, and total THC.",
+        "ingredients": [
+          "Hemp seed"
+        ]
+      },
+      "2.16.2": {
+        "category_name": "Oil extracted from hemp seeds",
+        "description": "Oil derived from hemp seeds with specific limits for free fatty acid, peroxide value, and total THC.",
+        "ingredients": [
+          "Hemp seed oil"
+        ]
+      },
+      "2.16.3": {
+        "category_name": "Hemp seed flour",
+        "description": "Solid product obtained after milling seeds to powder, with or without oil extraction.",
+        "ingredients": [
+          "Hemp seed flour",
+          "Deoiled hemp seed flour"
+        ]
+      },
+      "2.16.4": {
+        "category_name": "Beverages made from hemp seeds",
+        "description": "Beverages containing hemp seeds subject to a maximum total THC limit of 0.2 mg/kg.",
+        "ingredients": [
+          "Hemp seeds"
+        ]
+      },
+      "2.16.5": {
+        "category_name": "Other food containing hemp seed or seed products",
+        "description": "Any other food products containing hemp components subject to a maximum total THC limit of 5 mg/kg.",
+        "ingredients": [
+          "Hemp seed",
+          "Seed products"
+        ]
+      }
+    }
+  }
+}

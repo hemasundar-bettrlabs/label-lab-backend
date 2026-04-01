@@ -3,8 +3,13 @@ from fastapi.middleware.cors import CORSMiddleware
 import os
 from dotenv import load_dotenv
 from app.routes import route
+from app.utils.logging_service import setup_logging
 
 load_dotenv()
+
+# ── Initialize Logging ──────────────────────────────────────────────────────────
+_LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
+setup_logging(log_level=_LOG_LEVEL)
 
 app = FastAPI(
     title="Label Validator Backend",

@@ -1,0 +1,1266 @@
+2026-04-01 12:39:31.079 │ INFO     │ app.utils.logging_service │ ✓ Logging initialized | Level=INFO | File=W:\labeling-lab\Label Validator\Label Validator V4\Backend\logs\app.log | SSE Stream enabled
+2026-04-01 12:40:22.000 │ INFO     │ app.utils.logging_service │ ✓ Logging initialized | Level=INFO | File=W:\labeling-lab\Label Validator\Label Validator V4\Backend\logs\app.log | SSE Stream enabled
+2026-04-01 12:41:39.626 │ INFO     │ app.utils.logging_service │ ✓ Logging initialized | Level=INFO | File=W:\labeling-lab\Label Validator\Label Validator V4\Backend\logs\app.log | SSE Stream enabled
+2026-04-01 12:43:58.773 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 1/9 │  Validating image context...       ║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:43:58.773 │ INFO     │ app.utils.logging_service │ ► Context: source=default_general, type=general, code=None
+2026-04-01 12:43:59.304 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 2/9 │  Extracting OCR data...            ║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:43:59.305 │ INFO     │ app.utils.logging_service │ ► OCR: Initiating OCR Extraction Service
+2026-04-01 12:43:59.305 │ INFO     │ app.utils.logging_service │ ► OCR Phase 2: Starting structured JSON extraction...
+2026-04-01 12:43:59.367 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 12:44:07.897 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:44:07.942 │ INFO     │ app.utils.logging_service │ 
+╭─ RAW OCR TEXT ────────────────────────────────────
+2026-04-01 12:44:07.942 │ INFO     │ app.utils.logging_service │ │ "```json\n[\n  {\"panel_1_text\": \"LOW ON CARBS, HIGH ON HEALTH\\nMade with premium SuperFood Seeds, Lo! products are\\nHigh on Fibre and Protein while being significantly lower\\non Carbs. Reducing Carbs helps with Weight Loss and\\nimproved Health.\\nWEIGHT LOSS DIGESTION HEALTH STRENGTH\\nNutrition Value\\nServing Size (g) 24\\nEnergy (kcal) 124.5\\nNet Carbohydrates (g) 2.6\\nTotal Carbohydrates (g) 6.1\\nDietary Fibre (g) 3.4\\nTotal Sugars (g) 0.5\\nAdded Sugar (g) 0\\nTotal Fat (g) 8.4\\nSaturated Fat (g) 2.7\\nTrans Fat (g) 0\\nProtein (g) 6.2\\nSodium (mg) 158.7\\nApproximate Values\\nNet Carbs = Total Carbs - Dietary Fibre\\nSnacks and Savouries Category 15.1\\nThe product is a Proprietary Food\\nINGREDIENTS\\nSuperfood Seeds Mix (Sesame,\\nMelon, Sunflower, Pumpkin, Flax),\\nEdible Vegetable Oil (Refined\\nSunflower Oil), Groundnuts,\\nCoconut Flour, Isolated Wheat\\nProtein, Urad Dal, Chickpea Flour,\\nRice Flour, Edible Common Salt,\\nSpice Mix\\nWe use Nuts and Seeds. These are healthy fats, and you may even notice\\ntheir oiliness. No Preservatives added.\\nHOW LOW IS LO!?\\nWith 60% - 80% Lower Net Carbs,\\nLo! Foods products are good for those\\non a Keto, Low Carb or Diabetic diet.\\nNET CARBS\\nRegular\\nMurukku\\nLo\\n80%\\nLOWER\\nMRP \u20b9:\\n(incl. of all taxes)\\nUnit Sale Price \u20b9:\\nper g\\nBatch No.:\\nDate of Pkg.:\\nUse by:\\nNet Quantity: 100 g\\n8 906112 990449\\nLO\\nFOODS\\nKeto\\nSmart\\nKeto\\nMurukku\\nSERVING SUGGESTION\\n~24 g\\nALLERGEN ADVICE\\nContains Nuts,\\nSesame & Gluten\\nORDER NOW\\nlofoods.fit\\nMANUFACTURED & MARKETED BY\\nBajo Foods Pvt. Ltd.\\n48/2C-C1, Hosapalya Garvebhavi Palya,\\nBommanahalli, B.B.M.P South, Bangalore,\\nKarnataka-560068\\nfssai\\nLic. No. 11222999000278\\nAn ISO 22000: 2018 Certified Company\\nFeedback or Complaints:\\nWrite to \\\"Manufactured & Marketed\\\" by address\\nfeedback@bajofoods.com +91 84312 37920\\nLearn more at @lofoods /lofoodsindia\\nSTORE IN A COOL, DRY PLACE\\nDO NOT BUY IF THE PACKET SEAL IS TAMPERED\"}, {\"panel_2_text\": \"HEALTHY SNACK\\nHIGH FIBRE\\nKeto\\nKETO COMPLIANT\\nHIGH PROTEIN\\n2.6g\\nNET CARBS\\nper serving\\nLO\\nFOODS\\nKeto\\nSmart\\nKeto\\nMurukku\\nINDIAN FOODS,\\nNOW LOW ON CARBS\"}\n]\n```"
+2026-04-01 12:44:07.942 │ INFO     │ app.utils.logging_service │ ╰──────────────────────────────────────────────────
+2026-04-01 12:44:07.970 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 12:44:15.795 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:44:15.841 │ INFO     │ app.utils.logging_service │ ► OCR: Phase 2 structured JSON extracted successfully.
+2026-04-01 12:44:15.843 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 3/9 │  Extracting brand metadata...      ║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:44:15.844 │ INFO     │ app.utils.logging_service │ ► Metadata: Extracting Brand Metadata
+2026-04-01 12:44:15.872 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 12:44:49.531 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:44:49.533 │ INFO     │ app.utils.logging_service │ ► Metadata: Metadata LLM raw output: {
+    "brandName": "Lo Foods",
+    "productName": "Keto Murukku",
+    "fssaiCategory": "Snacks and Savouries Category 15.1",
+    "licenseNo": "11222999000278",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+2026-04-01 12:44:49.534 │ INFO     │ app.utils.logging_service │ 
+╭─ EXTRACTED METADATA ──────────────────────────────
+2026-04-01 12:44:49.534 │ INFO     │ app.utils.logging_service │ │ {
+2026-04-01 12:44:49.534 │ INFO     │ app.utils.logging_service │ │   "brandName": "Lo Foods",
+2026-04-01 12:44:49.534 │ INFO     │ app.utils.logging_service │ │   "productName": "Keto Murukku",
+2026-04-01 12:44:49.534 │ INFO     │ app.utils.logging_service │ │   "fssaiCategory": "Snacks and Savouries Category 15.1",
+2026-04-01 12:44:49.534 │ INFO     │ app.utils.logging_service │ │   "licenseNo": "11222999000278",
+2026-04-01 12:44:49.534 │ INFO     │ app.utils.logging_service │ │   "sampleType": "Physical Pack",
+2026-04-01 12:44:49.534 │ INFO     │ app.utils.logging_service │ │   "pdpArea": "",
+2026-04-01 12:44:49.534 │ INFO     │ app.utils.logging_service │ │   "nablReportId": "",
+2026-04-01 12:44:49.535 │ INFO     │ app.utils.logging_service │ │   "claimsBasis": "",
+2026-04-01 12:44:49.535 │ INFO     │ app.utils.logging_service │ │   "productCompliant": null,
+2026-04-01 12:44:49.535 │ INFO     │ app.utils.logging_service │ │   "categoryCompliant": null
+2026-04-01 12:44:49.536 │ INFO     │ app.utils.logging_service │ │ }
+2026-04-01 12:44:49.536 │ INFO     │ app.utils.logging_service │ ╰──────────────────────────────────────────────────
+2026-04-01 12:44:49.536 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 4/9 │  Running regulatory checks...      ║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:44:49.536 │ INFO     │ app.utils.logging_service │ ► Core: Running Regulatory Analysis
+2026-04-01 12:44:49.537 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 12:45:11.277 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:45:11.284 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 5/9 │  Validating product category...    ║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:45:11.284 │ INFO     │ app.utils.logging_service │ ► Claims: Running Claims Subsystem
+2026-04-01 12:45:11.288 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 12:45:18.401 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:45:18.407 │ INFO     │ app.utils.logging_service │ ► Claims: Claims Validation Result: [{'claim_text': 'LOW ON CARBS', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "FSSAI does not define a specific threshold for 'Low Carbs' in the provided ground truth. While Net Carbs are 10.83g/100g, without a regulatory limit, this claim requires specific lab justification or comparison data.", 'reference': 'FSSAI Nutritional Claims Thresholds'}, {'claim_text': 'HIGH FIBRE', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The product contains 14.17g of Dietary Fibre per 100g, which exceeds the 6g/100g threshold for solids. It also meets the energy-based criteria (14.17g/518.75kcal * 100 = 2.73g/100kcal, which is close to 3g, but the 100g solid threshold is definitively met).', 'reference': 'FSSAI Nutritional Claims - Dietary Fibre (High)'}, {'claim_text': 'HIGH PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "Protein content is 25.83g per 100g. Assuming an average adult RDA of 50g, 20% RDA is 10g. The product provides ~51% RDA per 100g, exceeding the 20% RDA requirement for 'High Protein'.", 'reference': 'FSSAI Nutritional Claims - Protein (High)'}, {'claim_text': '2.6g NET CARBS per serving', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The nutrition table explicitly lists Net Carbohydrates as 2.6g per serving.', 'reference': 'Nutrition Table Data'}, {'claim_text': '80% LOWER Net Carbs', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "Comparative claims require a reference food. There is no data provided regarding the 'standard' product being compared to verify the 80% reduction.", 'reference': 'FSSAI Comparative Claims Regulation'}, {'claim_text': 'Reducing Carbs helps with Weight Loss and improved Health', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'This is a non-specific health claim. FSSAI requires such claims to be supported by scientific evidence or be part of an approved list of health claims.', 'reference': 'FSSAI Health Claims Regulation'}, {'claim_text': 'KETO COMPLIANT', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "FSSAI does not have a standardized definition for 'Keto Compliant'. This requires internal validation against specific keto ratios (Fat vs Protein+Carbs).", 'reference': 'FSSAI General Labeling Requirements'}, {'claim_text': 'Made with premium SuperFood Seeds', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "The ingredients list confirms the presence of a 'Superfood Seeds Mix' including Sesame, Melon, Sunflower, Pumpkin, and Flax.", 'reference': 'Ingredients List'}, {'claim_text': 'No Preservatives added', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (e.g., INS 202, INS 211) are listed in the ingredients list.', 'reference': 'Ingredients List'}]
+2026-04-01 12:45:18.409 │ INFO     │ app.utils.logging_service │ ► Claims: Claims Analysis Result: Analyzed 9 claim(s). 5 passed, 0 failed, 4 need review.
+2026-04-01 12:45:18.409 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 6/9 │  Substantiating claims...          ║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:45:18.410 │ INFO     │ app.utils.logging_service │ ► Nutrition: Running Nutrition Subsystem
+2026-04-01 12:45:18.412 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 12:45:20.587 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:45:20.591 │ INFO     │ app.utils.logging_service │ ► Nutrition: Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is marketed as a low-carb, keto-compliant food item aimed at weight loss and general health management for the adult population. As it does not target a specific gender or high-activity group, the general adult demographic (men) with a sedentary activity level is the appropriate baseline for RDA calculations.'}
+2026-04-01 12:45:20.594 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 7/9 │  Verifying nutrition limits...     ║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:45:20.594 │ INFO     │ app.utils.logging_service │ ► Lab Tests: Running Lab Test Pipeline
+2026-04-01 12:45:20.597 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 12:45:26.837 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:45:26.841 │ INFO     │ app.utils.logging_service │ ► Lab Tests: Generated 6 suggestions
+2026-04-01 12:45:26.841 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 8/9 │  Generating lab test suggestions...║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:45:26.842 │ ERROR    │ app.utils.logging_service │ ✖ ERROR in System: Analysis failed: name 'category_validation_check' is not defined
+2026-04-01 12:50:47.018 │ INFO     │ app.utils.logging_service │ ✓ Logging initialized | Level=INFO | File=W:\labeling-lab\Label Validator\Label Validator V4\Backend\logs\app.log | SSE Stream enabled
+2026-04-01 12:52:21.539 │ INFO     │ app.utils.logging_service │ ✓ Logging initialized | Level=INFO | File=W:\labeling-lab\Label Validator\Label Validator V4\Backend\logs\app.log | SSE Stream enabled
+2026-04-01 12:52:51.697 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 1/9 │  Validating image context...       ║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:52:51.698 │ INFO     │ app.utils.logging_service │ ► Context: source=default_general, type=general, code=None
+2026-04-01 12:52:52.585 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 2/9 │  Extracting OCR data...            ║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:52:52.586 │ INFO     │ app.utils.logging_service │ ► OCR: Initiating OCR Extraction Service
+2026-04-01 12:52:52.587 │ INFO     │ app.utils.logging_service │ ► OCR Phase 2: Starting structured JSON extraction...
+2026-04-01 12:52:52.688 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 12:53:01.020 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:53:01.026 │ INFO     │ app.utils.logging_service │ 
+╭─ RAW OCR TEXT ────────────────────────────────────
+2026-04-01 12:53:01.027 │ INFO     │ app.utils.logging_service │ │ "ATOM EATS\ndeliciously crunchy\nTRUFFLE*\nPOTATO\nCHIPS\ngluten free \u00b7 preservative free\nnet wt. 300g\nPARTY PACK \u00b7 PARTY PACK \u00b7 PARTY PACK \u00b7 PARTY PACK\nPARTY PACK \u00b7 PARTY PACK \u00b7 PARTY PACK \u00b7 PARTY\n\nPANEL 1\n\nMade using the choicest Potatoes, ruffle cut for maximum flavour. Sprinkled with our classic black truffle seasoning for that deep and long lasting umami flavour!\n\nBlack Truffles are a rare mushroom that are foraged in Southern Europe, they grow wild in nature, adding to their immense value in the culinary world! Truffles are a delicacy enjoyed by gourmands of the world, just like you.\n\nNutrition Facts*\nServing Size 20g - 20 Servings Per Pack\n| | per 100 g | per serving | % RDA/serving |\n| :--- | :--- | :--- | :--- |\n| Energy (kcal) | 563.2 | 112.6 | 5.63% |\n| Protein (g) | 5.3 | 1.1 | 1.96% |\n| Carbohydrates (g) | 57.8 | 11.6 | |\n| Dietary Fiber (g) | 3.0 | 0.6 | 2.00% |\n| Total Sugars (g) | 2.8 | 0.6 | |\n| Added Sugars (g) | 1.7 | 0.3 | 0.68% |\n| Total Fat (g) | 35.2 | 7.0 | 10.51% |\n| Saturated Fat (g) | 13.7 | 2.7 | 12.45% |\n| Trans Fat (g) | 0.0 | 0.00 | 0.00% |\n| Cholesterol (mg) | 0.0 | 0.0 | |\n| Sodium (mg) | 700.0 | 140.0 | 7.00% |\n\n*- Approximate values, %RDA values are based on a 2000 calorie diet for an average adult per day\n\nnet wt. 300g\nAll trademarks and copyrights are owned by Atom Foods LLP.\n\nIngredients:\nPotato Chips (90%) [Potato, Edible Vegetable Oil (Palm Oil), Iodized Salt], Truffle Seasoning (10%) [Maltodextrin, Sugar, Iodized Salt, Spice & Spice Extract, Anticaking agents (INS 551, INS 341 (iii)), Flavour Enhancers (INS 627, INS 331), Soy Hydrolysed Vegetable Protein, Yeast Extract Powder, Natural & Nature Identical Flavour, Black Truffle Powder (Tuber Melanosporum)]\n\nAllergens:\nContains Soy\n\nStorage Conditions: Store in a cool & dry place, away from direct sunlight.\n\nManufactured By:\nDelux Foods, B-20, Creasent Industrial Estate, Nehru Nagar, Kanjur Village Road, Kanjurmarg - East, Mumbai - 400042, Maharashtra Fssai Lic. No. 11517013000210\n\nMarketed By:\nAtom Foods LLP, Room No. 5, Gr Floor, Chapra Bldg, Madhavdas Pasta Lane, Dadar East, Mumbai - 400014, Maharashtra\nfssai Lic. No. 11523998000446\n\nFor more snacks, check us out\nwww.atomeats.com\nCRUNCH POPS\nSALTED PRETZELS\nCHOCO PRETZELS\nTRUFFLE CHIPS\n/atom.eats\n\nWe would love to hear from you, for feedback or complaints, write to our Consumer Care Executive: at the Marketers address, e-mail: support@atomeats.com or call: +91 89288 78511\n\nMRP: \u20b9.\nUSP: \u20b9.\nMFG Date:\nEXP Date:\nBatch No.:\n(incl. of all taxes)\n\nPANEL 2"
+2026-04-01 12:53:01.029 │ INFO     │ app.utils.logging_service │ ╰──────────────────────────────────────────────────
+2026-04-01 12:53:01.132 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 12:53:07.463 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:53:07.469 │ INFO     │ app.utils.logging_service │ ► OCR: Phase 2 structured JSON extracted successfully.
+2026-04-01 12:53:07.471 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 3/9 │  Extracting brand metadata...      ║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:53:07.471 │ INFO     │ app.utils.logging_service │ ► Metadata: Extracting Brand Metadata
+2026-04-01 12:53:07.570 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 12:53:10.789 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:53:10.793 │ INFO     │ app.utils.logging_service │ ► Metadata: Metadata LLM raw output: {
+    "brandName": "ATOM EATS",
+    "productName": "TRUFFLE POTATO CHIPS",
+    "fssaiCategory": "Potato Chips",
+    "licenseNo": "11523998000446",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+2026-04-01 12:53:10.795 │ INFO     │ app.utils.logging_service │ 
+╭─ EXTRACTED METADATA ──────────────────────────────
+2026-04-01 12:53:10.796 │ INFO     │ app.utils.logging_service │ │ {
+2026-04-01 12:53:10.797 │ INFO     │ app.utils.logging_service │ │   "brandName": "ATOM EATS",
+2026-04-01 12:53:10.799 │ INFO     │ app.utils.logging_service │ │   "productName": "TRUFFLE POTATO CHIPS",
+2026-04-01 12:53:10.799 │ INFO     │ app.utils.logging_service │ │   "fssaiCategory": "Potato Chips",
+2026-04-01 12:53:10.800 │ INFO     │ app.utils.logging_service │ │   "licenseNo": "11523998000446",
+2026-04-01 12:53:10.800 │ INFO     │ app.utils.logging_service │ │   "sampleType": "Physical Pack",
+2026-04-01 12:53:10.800 │ INFO     │ app.utils.logging_service │ │   "pdpArea": "",
+2026-04-01 12:53:10.801 │ INFO     │ app.utils.logging_service │ │   "nablReportId": "",
+2026-04-01 12:53:10.801 │ INFO     │ app.utils.logging_service │ │   "claimsBasis": "",
+2026-04-01 12:53:10.801 │ INFO     │ app.utils.logging_service │ │   "productCompliant": null,
+2026-04-01 12:53:10.801 │ INFO     │ app.utils.logging_service │ │   "categoryCompliant": null
+2026-04-01 12:53:10.802 │ INFO     │ app.utils.logging_service │ │ }
+2026-04-01 12:53:10.803 │ INFO     │ app.utils.logging_service │ ╰──────────────────────────────────────────────────
+2026-04-01 12:53:10.803 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 4/9 │  Running regulatory checks...      ║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:53:10.803 │ INFO     │ app.utils.logging_service │ ► Core: Running Regulatory Analysis
+2026-04-01 12:53:10.805 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 12:53:22.730 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:53:22.734 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 5/9 │  Validating product category...    ║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:53:22.735 │ INFO     │ app.utils.logging_service │ ► Claims: Running Claims Subsystem
+2026-04-01 12:53:22.738 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 12:53:27.423 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:53:27.430 │ INFO     │ app.utils.logging_service │ ► Claims: Claims Validation Result: [{'claim_text': 'gluten free', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "The ingredients list (Potato, Palm Oil, Truffle Seasoning) does not contain gluten-containing grains like wheat, barley, or rye. However, FSSAI requires lab verification to confirm gluten levels are below 20 mg/kg to support a 'Gluten Free' claim.", 'reference': 'FSSAI Nutritional Claims Thresholds - Gluten Free'}, {'claim_text': 'preservative free', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list does not contain any additives classified as preservatives. It contains anticaking agents (INS 551, 341), flavour enhancers (INS 627, 331), and natural/nature identical flavours, but no chemical preservatives.', 'reference': 'Ingredients List'}, {'claim_text': 'deliciously crunchy', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'This is a subjective sensory/puffery claim related to the physical nature of potato chips and does not require specific nutritional validation.', 'reference': 'General Labeling Standards'}, {'claim_text': 'Made using the choicest Potatoes', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "The primary ingredient is Potato (90%), supporting the claim that the product is made from potatoes. 'Choicest' is a quality descriptor that is not strictly regulated by nutritional thresholds.", 'reference': 'Ingredients List'}]
+2026-04-01 12:53:27.435 │ INFO     │ app.utils.logging_service │ ► Claims: Claims Analysis Result: Analyzed 4 claim(s). 3 passed, 0 failed, 1 need review.
+2026-04-01 12:53:27.442 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 6/9 │  Substantiating claims...          ║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:53:27.450 │ INFO     │ app.utils.logging_service │ ► Nutrition: Running Nutrition Subsystem
+2026-04-01 12:53:27.457 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 12:53:30.047 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:53:30.049 │ INFO     │ app.utils.logging_service │ ► Nutrition: Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a standard snack food (potato chips) with no specific health claims or demographic targeting, therefore it is categorized under the general adult population RDA.'}
+2026-04-01 12:53:30.051 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 7/9 │  Verifying nutrition limits...     ║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:53:30.051 │ INFO     │ app.utils.logging_service │ ► Lab Tests: Running Lab Test Pipeline
+2026-04-01 12:53:30.053 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 12:53:34.623 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:53:34.630 │ INFO     │ app.utils.logging_service │ ► Lab Tests: Generated 4 suggestions
+2026-04-01 12:53:34.631 │ INFO     │ app.utils.logging_service │ 
+╔══════════════════════════════════════════════════╗
+║  STEP 8/9 │  Generating lab test suggestions...║
+╚══════════════════════════════════════════════════╝
+2026-04-01 12:53:34.631 │ ERROR    │ app.utils.logging_service │ ✖ ERROR in System: Analysis failed: name 'category_validation_check' is not defined
+2026-04-01 12:56:57.288 │ INFO     │ app.utils.logging_service │ ✓ Logging initialized | Level=INFO | File=W:\labeling-lab\Label Validator\Label Validator V4\Backend\logs\app.log | SSE Stream enabled
+2026-04-01 12:56:57.288 │ INFO     │ app.utils.logging_service │ ► Test: Simple logging test
+2026-04-01 12:57:22.653 │ INFO     │ app.utils.logging_service │ ✓ Logging initialized | Level=INFO | File=W:\labeling-lab\Label Validator\Label Validator V4\Backend\logs\app.log | SSE Stream enabled
+2026-04-01 12:59:04.947 │ INFO     │ app.utils.logging_service │ Logging initialized | Level=INFO | File=W:\labeling-lab\Label Validator\Label Validator V4\Backend\logs\app.log
+2026-04-01 12:59:04.948 │ INFO     │ app.utils.logging_service │ ► Test: Test message
+2026-04-01 13:07:34.305 │ INFO     │ app.utils.logging_service │ STEP 1/9 | Validating image context...
+2026-04-01 13:07:34.306 │ INFO     │ app.utils.logging_service │ ► Context: source=default_general, type=general, code=None
+2026-04-01 13:07:34.745 │ INFO     │ app.utils.logging_service │ STEP 2/9 | Extracting OCR data...
+2026-04-01 13:07:34.746 │ INFO     │ app.utils.logging_service │ ► OCR: Initiating OCR Extraction Service
+2026-04-01 13:07:34.746 │ INFO     │ app.utils.logging_service │ ► OCR Phase 2: Starting structured JSON extraction...
+2026-04-01 13:07:34.808 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 13:07:42.333 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 13:07:42.338 │ INFO     │ app.utils.logging_service │ --- RAW OCR TEXT ---
+2026-04-01 13:07:42.338 │ INFO     │ app.utils.logging_service │ "PANEL 1\n\nLOW ON CARBS, HIGH ON HEALTH\nMade with premium SuperFood Seeds, Lo! products are\nHigh on Fibre and Protein while being significantly lower\non Carbs. Reducing Carbs helps with Weight Loss and\nimproved Health.\n\nWEIGHT LOSS DIGESTION HEALTH STRENGTH\n\nNutrition Value\nServing Size (g) 24\nEnergy (kcal) 124.5\nNet Carbohydrates (g) 2.6\nTotal Carbohydrates (g) 6.1\nDietary Fibre (g) 3.4\nTotal Sugars (g) 0.5\nAdded Sugar (g) 0\nTotal Fat (g) 8.4\nSaturated Fat (g) 2.7\nTrans Fat (g) 0\nProtein (g) 6.2\nSodium (mg) 158.7\nApproximate Values\nNet Carbs = Total Carbs - Dietary Fibre\n\nSnacks and Savouries Category 15.1\nThe product is a Proprietary Food\n\nINGREDIENTS\nSuperfood Seeds Mix (Sesame,\nMelon, Sunflower, Pumpkin, Flax),\nEdible Vegetable Oil (Refined\nSunflower Oil), Groundnuts,\nCoconut Flour, Isolated Wheat\nProtein, Urad Dal, Chickpea Flour,\nRice Flour, Edible Common Salt,\nSpice Mix\n\nWe use Nuts and Seeds. These are healthy fats, and you may even notice\ntheir oiliness. No Preservatives added.\n\nHOW LOW IS LO!?\nWith 60% - 80% Lower Net Carbs,\nLo Foods products are good for those\non a Keto, Low Carb or Diabetic diet.\n\n80%\nLOWER\nRegular\nMurukku\nLo\n\nMRP \u20b9:\n(incl. of all taxes)\nUnit Sale Price \u20b9:\nper g\nBatch No.:\nDate of Pkg.:\nUse by:\n\nNet Quantity: 100 g\n\n8 906112 990449\n\nLO\nFOODS\nKeto\nSmart\n\nKeto\nMurukku\n\nSERVING SUGGESTION\n~24 g\n\nALLERGEN ADVICE\nContains Nuts,\nSesame & Gluten\n\nORDER NOW\nlofoods.fit\n\nMANUFACTURED & MARKETED BY\nBajo Foods Pvt. Ltd.\n48/2C-C1, Hosapalya Garvebhavi Palya,\nBommanahalli, B.B.M.P South, Bangalore,\nKarnataka-560068\n\nfssai\nLic. No. 11222999000278\n\nAn ISO 22000: 2018 Certified Company\nFeedback or Complaints:\nWrite to \"Manufactured & Marketed\" by address\nfeedback@bajofoods.com +91 84312 37920\nLearn more at @lofoods /lofoodsindia\n\nSTORE IN A COOL, DRY PLACE\nDO NOT BUY IF THE PACKET SEAL IS TAMPERED\n\nPANEL 1\n\nHEALTHY SNACK\n\nHIGH FIBRE\nKeto\nKETO COMPLIANT\nHIGH PROTEIN\n\n2.6g\nNET CARBS\nper serving\n\nLO\nFOODS\nKeto\nSmart\n\nKeto\nMurukku\n\nINDIAN FOODS,\nNOW LOW ON CARBS\n\nPANEL 2"
+2026-04-01 13:07:42.404 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 13:07:48.272 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 13:07:48.275 │ INFO     │ app.utils.logging_service │ ► OCR: Phase 2 structured JSON extracted successfully.
+2026-04-01 13:07:48.277 │ INFO     │ app.utils.logging_service │ STEP 3/9 | Extracting brand metadata...
+2026-04-01 13:07:48.278 │ INFO     │ app.utils.logging_service │ ► Metadata: Extracting Brand Metadata
+2026-04-01 13:07:48.328 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 13:07:52.975 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 13:07:52.979 │ INFO     │ app.utils.logging_service │ ► Metadata: Metadata LLM raw output: {
+    "brandName": "Lo Foods",
+    "productName": "Keto Murukku",
+    "fssaiCategory": "Snacks and Savouries Category 15.1",
+    "licenseNo": "11222999000278",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+2026-04-01 13:07:52.980 │ INFO     │ app.utils.logging_service │ --- EXTRACTED METADATA ---
+2026-04-01 13:07:52.981 │ INFO     │ app.utils.logging_service │ {
+  "brandName": "Lo Foods",
+  "productName": "Keto Murukku",
+  "fssaiCategory": "Snacks and Savouries Category 15.1",
+  "licenseNo": "11222999000278",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+2026-04-01 13:07:52.981 │ INFO     │ app.utils.logging_service │ STEP 4/9 | Running regulatory checks...
+2026-04-01 13:07:52.983 │ INFO     │ app.utils.logging_service │ ► Core: Running Regulatory Analysis
+2026-04-01 13:07:52.985 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 13:08:07.725 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 13:08:07.730 │ INFO     │ app.utils.logging_service │ STEP 5/9 | Validating product category...
+2026-04-01 13:08:07.731 │ INFO     │ app.utils.logging_service │ ► Claims: Running Claims Subsystem
+2026-04-01 13:08:07.734 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 13:08:15.612 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 13:08:15.617 │ INFO     │ app.utils.logging_service │ ► Claims: Claims Validation Result: [{'claim_text': 'LOW ON CARBS, HIGH ON HEALTH', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "FSSAI does not define a specific threshold for 'Low Carb' in the provided ground truth. While net carbs are 10.83g/100g, without a regulatory limit, this cannot be verified as 'Low'. 'High on Health' is a non-specific health claim requiring clinical substantiation.", 'reference': 'FSSAI Schedule II (Nutritional Claims)'}, {'claim_text': 'High on Fibre and Protein', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "Fiber is 14.17g/100g (exceeds 6g/100g threshold). Protein is 25.83g/100g; assuming an adult RDA of 54g, this provides ~47% RDA per 100g, exceeding the 20% RDA threshold for 'High Protein'.", 'reference': 'FSSAI Nutritional Claims Thresholds (Dietary Fibre/Protein)'}, {'claim_text': 'Reducing Carbs helps with Weight Loss and improved Health', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'This is a functional health claim. While the product is lower in carbs than traditional snacks, health claims regarding weight loss require specific approval and clinical evidence not provided in the composition data.', 'reference': 'FSSAI Regulation 4 (Health Claims)'}, {'claim_text': 'No Preservatives added', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list (Seeds, Oil, Groundnuts, Flours, Salt, Spices) does not contain any listed chemical preservatives or Class II preservatives.', 'reference': 'Ingredients List'}, {'claim_text': '60% - 80% Lower Net Carbs', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "Comparative claims require a reference food (e.g., 'than regular potato chips'). While the net carb count is low (10.83g/100g), the specific percentage reduction cannot be validated without the reference product's data.", 'reference': 'FSSAI Comparative Claims Regulation'}, {'claim_text': 'KETO COMPLIANT', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "FSSAI does not currently define 'Keto Compliant' in the provided nutritional thresholds. Compliance depends on the total daily macronutrient ratio which is outside the scope of a single product label.", 'reference': 'FSSAI General Labeling Requirements'}, {'claim_text': '2.6g NET CARBS per serving', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The nutrition table explicitly lists Net Carbohydrates as 2.6g per serving.', 'reference': 'Nutrition Table'}, {'claim_text': 'Made with premium SuperFood Seeds', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list confirms the presence of Sesame, Melon, Sunflower, Pumpkin, and Flax seeds.', 'reference': 'Ingredients List'}, {'claim_text': 'HEALTHY SNACK', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "The product contains 35g of Total Fat and 11.25g of Saturated Fat per 100g. Saturated fat provides ~101 kcal per 100g, which is ~19.5% of total energy (518.75 kcal). This exceeds the 'Low Saturated Fat' threshold of 10% energy, making a general 'Healthy' claim misleading under strict auditing.", 'reference': 'FSSAI Saturated Fat Thresholds'}]
+2026-04-01 13:08:15.618 │ INFO     │ app.utils.logging_service │ ► Claims: Claims Analysis Result: Analyzed 9 claim(s). 4 passed, 1 failed, 4 need review.
+2026-04-01 13:08:15.618 │ INFO     │ app.utils.logging_service │ STEP 6/9 | Substantiating claims...
+2026-04-01 13:08:15.619 │ INFO     │ app.utils.logging_service │ ► Nutrition: Running Nutrition Subsystem
+2026-04-01 13:08:15.621 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 13:08:18.461 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 13:08:18.465 │ INFO     │ app.utils.logging_service │ ► Nutrition: Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is marketed as a low-carb, keto-compliant snack aimed at weight loss and general health improvement. These claims are typically targeted at the general adult population looking for dietary management, which defaults to the standard adult RDA demographic.'}
+2026-04-01 13:08:18.467 │ INFO     │ app.utils.logging_service │ STEP 7/9 | Verifying nutrition limits...
+2026-04-01 13:08:18.467 │ INFO     │ app.utils.logging_service │ ► Lab Tests: Running Lab Test Pipeline
+2026-04-01 13:08:18.471 │ INFO     │ logging │ AFC is enabled with max remote calls: 10.
+2026-04-01 13:08:26.569 │ INFO     │ logging │ HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/bettrlabs/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-01 13:08:26.575 │ INFO     │ app.utils.logging_service │ ► Lab Tests: Generated 7 suggestions
+2026-04-01 13:08:26.576 │ INFO     │ app.utils.logging_service │ STEP 8/9 | Generating lab test suggestions...
+2026-04-01 13:08:26.577 │ INFO     │ app.utils.logging_service │ ✓ SUCCESS: Final Score: 70.0%
+[2026-04-01 13:13:00] [STEP 1/9] Validating image context...
+[2026-04-01 13:13:00] [Context] source=default_general, type=general, code=None
+[2026-04-01 13:13:00] [STEP 2/9] Extracting OCR data...
+[2026-04-01 13:13:00] [OCR] Initiating OCR Extraction Service
+[2026-04-01 13:13:00] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 13:13:06] [RAW OCR TEXT] "```json\n[\n  {\"panel_1_text\": \"LOW ON CARBS, HIGH ON HEALTH\\nMade with premium SuperFood Seeds, Lo! products are\\nHigh on Fibre and Protein while being significantly lower\\non Carbs. Reducing Carbs helps with Weight Loss and\\nimproved Health.\\nWEIGHT LOSS DIGESTION HEALTH STRENGTH\\nNutrition Value\\nServing Size (g) 24\\nEnergy (kcal) 124.5\\nNet Carbohydrates (g) 2.6\\nTotal Carbohydrates (g) 6.1\\nDietary Fibre (g) 3.4\\nTotal Sugars (g) 0.5\\nAdded Sugar (g) 0\\nTotal Fat (g) 8.4\\nSaturated Fat (g) 2.7\\nTrans Fat (g) 0\\nProtein (g) 6.2\\nSodium (mg) 158.7\\nApproximate Values\\nNet Carbs = Total Carbs - Dietary Fibre\\nSnacks and Savouries Category 15.1\\nThe product is a Proprietary Food\\nINGREDIENTS\\nSuperfood Seeds Mix (Sesame,\\nMelon, Sunflower, Pumpkin, Flax),\\nEdible Vegetable Oil (Refined\\nSunflower Oil), Groundnuts,\\nCoconut Flour, Isolated Wheat\\nProtein, Urad Dal, Chickpea Flour,\\nRice Flour, Edible Common Salt,\\nSpice Mix\\nWe use Nuts and Seeds. These are healthy fats, and you may even notice\\ntheir oiliness. No Preservatives added.\\nHOW LOW IS LO!?\\nWith 60% - 80% Lower Net Carbs,\\nLo! Foods products are good for those\\non a Keto, Low Carb or Diabetic diet.\\nNET CARBS\\nRegular\\nMurukku\\nLo\\n80%\\nLOWER\\nMRP \u20b9:\\n(incl. of all taxes)\\nUnit Sale Price \u20b9:\\nper g\\nBatch No.:\\nDate of Pkg.:\\nUse by:\\nNet Quantity: 100 g\\n8 906112 990449\\nLO\\nFOODS\\nKeto\\nSmart\\nKeto\\nMurukku\\nSERVING SUGGESTION\\n~24 g\\nALLERGEN ADVICE\\nContains Nuts,\\nSesame & Gluten\\nORDER NOW\\nlofoods.fit\\nMANUFACTURED & MARKETED BY\\nBajo Foods Pvt. Ltd.\\n48/2C-C1, Hosapalya Garvebhavi Palya,\\nBommanahalli, B.B.M.P South, Bangalore,\\nKarnataka-560068\\nfssai\\nLic. No. 11222999000278\\nAn ISO 22000: 2018 Certified Company\\nFeedback or Complaints:\\nWrite to \\\"Manufactured & Marketed\\\" by address\\nfeedback@bajofoods.com +91 84312 37920\\nLearn more at @lofoods /lofoodsindia\\nSTORE IN A COOL, DRY PLACE\\nDO NOT BUY IF THE PACKET SEAL IS TAMPERED\"}, {\"panel_2_text\": \"HEALTHY SNACK\\nHIGH FIBRE\\nKeto\\nKETO COMPLIANT\\nHIGH PROTEIN\\n2.6g\\nNET CARBS\\nper serving\\nLO\\nFOODS\\nKeto\\nSmart\\nKeto\\nMurukku\\nINDIAN FOODS,\\nNOW LOW ON CARBS\"}\n]\n```"
+[2026-04-01 13:13:15] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 13:13:15] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 13:13:15] [Metadata] Extracting Brand Metadata
+[2026-04-01 13:13:18] [Metadata] Metadata LLM raw output: {
+    "brandName": "Lo Foods",
+    "productName": "Keto Murukku",
+    "fssaiCategory": "Snacks and Savouries Category 15.1",
+    "licenseNo": "11222999000278",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 13:13:18] [EXTRACTED METADATA] {
+  "brandName": "Lo Foods",
+  "productName": "Keto Murukku",
+  "fssaiCategory": "Snacks and Savouries Category 15.1",
+  "licenseNo": "11222999000278",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 13:13:18] [STEP 4/9] Running regulatory checks...
+[2026-04-01 13:13:18] [Core] Running Regulatory Analysis
+[2026-04-01 13:13:31] [STEP 5/9] Validating product category...
+[2026-04-01 13:13:31] [Claims] Running Claims Subsystem
+[2026-04-01 13:13:39] [Claims] Claims Validation Result: [{'claim_text': 'LOW ON CARBS', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "FSSAI Schedule II does not define a specific threshold for 'Low Carbohydrate' in the provided ground truth. While Net Carbs are 10.83g/100g, there is no regulatory benchmark to validate this specific claim.", 'reference': 'FSSAI Advertising and Claims Regulations'}, {'claim_text': 'HIGH FIBRE', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The product contains 14.17g of Dietary Fibre per 100g, which exceeds the 6g/100g threshold for solids. It also meets the energy-based criteria (14.17g/518.75kcal * 100 = 2.73g/100kcal, which is close to 3g, but the 100g solid threshold is definitively met).', 'reference': 'FSSAI Nutritional Claims Thresholds - Dietary Fibre'}, {'claim_text': 'HIGH PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "Protein content is 25.83g per 100g. Assuming an adult RDA of 54g, 20% RDA is 10.8g. The product provides ~47% RDA per 100g, exceeding the 20% RDA requirement for 'High Protein'.", 'reference': 'FSSAI Nutritional Claims Thresholds - Protein'}, {'claim_text': '2.6g NET CARBS per serving', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The nutrition table explicitly lists Net Carbohydrates as 2.6g per serving.', 'reference': 'Nutrition Information Table'}, {'claim_text': '80% LOWER Net Carbs', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "Comparative claims require a reference food. While the product is low in carbs (10.83g/100g), there is no data provided for a standard reference product to verify the '80% lower' calculation.", 'reference': 'FSSAI Comparative Claims Requirement'}, {'claim_text': 'Reducing Carbs helps with Weight Loss and improved Health', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'This is a non-specific health claim. FSSAI requires health claims to be based on scientific evidence and pre-approved wording. No clinical data or specific health relationship was provided for validation.', 'reference': 'FSSAI Health Claims Regulations'}, {'claim_text': 'KETO COMPLIANT', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "FSSAI does not have a standardized definition for 'Keto Compliant'. While the macronutrient profile (High Fat, High Protein, Low Carb) aligns with ketogenic principles, it cannot be audited against a specific FSSAI threshold.", 'reference': 'FSSAI General Principles'}, {'claim_text': 'Made with premium SuperFood Seeds', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "The ingredients list confirms the presence of a 'Superfood Seeds Mix' including Sesame, Melon, Sunflower, Pumpkin, and Flax.", 'reference': 'Ingredients List'}, {'claim_text': 'No Preservatives added', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list does not contain any chemical preservatives or INS numbers associated with preservatives.', 'reference': 'Ingredients List'}]
+[2026-04-01 13:13:39] [Claims] Claims Analysis Result: Analyzed 9 claim(s). 5 passed, 0 failed, 4 need review.
+[2026-04-01 13:13:39] [STEP 6/9] Substantiating claims...
+[2026-04-01 13:13:39] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 13:13:42] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is marketed as a low-carb, keto-compliant food item aimed at weight loss and general health management for the adult population. As it does not target a specific gender or high-activity group, the general adult demographic (men) with a sedentary activity level is the appropriate baseline for RDA calculations.'}
+[2026-04-01 13:13:42] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 13:13:42] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 13:13:49] [Lab Tests] Generated 6 suggestions
+[2026-04-01 13:13:49] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 13:13:49] [SUCCESS] Final Score: 70.0%
+[2026-04-01 13:14:20] [STEP 1/9] Validating image context...
+[2026-04-01 13:14:20] [Context] source=default_general, type=general, code=None
+[2026-04-01 13:14:20] [STEP 2/9] Extracting OCR data...
+[2026-04-01 13:14:20] [OCR] Initiating OCR Extraction Service
+[2026-04-01 13:14:20] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 13:14:25] [RAW OCR TEXT] "NUTRITION INFORMATION\nServing Size: Approx. 15 g (Approx. 2 Biscuits)\nNo. of Servings per pack - About 55\nApprox. Values per 100 g\nPer\nServe\n(%) RDA\nEnergy 509 kcal 4\nProtein 6.7 g\nCarbohydrate 67.3 g\nof which Total Sugars 20.5 g\nAdded Sugars 20.3 g 6\nTotal Fat 23.7 g 5\nSaturated fatty acids 11.6 g 8\nMono unsaturated fatty acids 9.2 g\nPoly unsaturated fatty acids 2.6 g\nTrans fatty acids 0 g 0\nCholesterol 1.5 mg\nSodium 220 mg 2\n^Basis average adult's Recommended Dietary Allowance\nof 2000 kcal diet\nINGREDIENTS: REFINED WHEAT FLOUR (MAIDA), REFINED\nPALM OIL, SUGAR, INVERT SUGAR SYRUP, CASHEW (1.4%),\nMILK PRODUCTS [MILK SOLIDS & BUTTER (0.1%)], RAISING\nAGENTS [503(ii) & 500(ii)], IODISED SALT, EMULSIFIERS [322(i),\n471 & 472e] AND NATURE IDENTICAL & ARTIFICIAL (VANILLA\n& MILK) FLAVOURING SUBSTANCES."
+[2026-04-01 13:14:31] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 13:14:31] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 13:14:31] [Metadata] Extracting Brand Metadata
+[2026-04-01 13:14:34] [Metadata] Metadata LLM raw output: {
+    "brandName": "",
+    "productName": "",
+    "fssaiCategory": "",
+    "licenseNo": "",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 13:14:34] [EXTRACTED METADATA] {
+  "brandName": "",
+  "productName": "",
+  "fssaiCategory": "",
+  "licenseNo": "",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 13:14:34] [STEP 4/9] Running regulatory checks...
+[2026-04-01 13:14:34] [Category] Predicting Product Category
+[2026-04-01 13:14:34] [Category] Initializing Product Category Predictor (LLM-based)
+[2026-04-01 13:14:34] [Category] No category in OCR JSON or metadata. Predicting from ingredients...
+[2026-04-01 13:14:34] [ERROR: Category] Prediction failed: VertexLLMService.generate_content() got an unexpected keyword argument 'max_tokens'
+[2026-04-01 13:14:34] [STEP 5/9] Validating product category...
+[2026-04-01 13:14:34] [Core] Running Regulatory Analysis
+[2026-04-01 13:14:47] [STEP 6/9] Substantiating claims...
+[2026-04-01 13:14:47] [Claims] Running Claims Subsystem
+[2026-04-01 13:14:47] [Claims] Claims Analysis Result: Analyzed 0 claim(s). 0 passed, 0 failed, 0 need review.
+[2026-04-01 13:14:47] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 13:14:47] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 13:14:49] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a standard processed biscuit containing refined flour, sugar, and fats. It does not contain specific nutritional fortifications or marketing claims targeting infants, children, or pregnant/lactating women, making it suitable for the general adult population.'}
+[2026-04-01 13:14:49] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 13:14:49] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 13:14:57] [Lab Tests] Generated 6 suggestions
+[2026-04-01 13:14:57] [STEP 9/9] Finalizing report...
+[2026-04-01 13:14:57] [SUCCESS] Final Score: 65.0%
+[2026-04-01 13:20:12] [STEP 1/9] Validating image context...
+[2026-04-01 13:20:12] [Context] source=default_general, type=general, code=None
+[2026-04-01 13:20:12] [STEP 2/9] Extracting OCR data...
+[2026-04-01 13:20:12] [OCR] Initiating OCR Extraction Service
+[2026-04-01 13:20:12] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 13:20:17] [RAW OCR TEXT] "NUTRITION INFORMATION\nServing Size: Approx. 15 g (Approx. 2 Biscuits)\nNo. of Servings per pack - About 55\nApprox. Values per 100 g\nPer\nServe\n(%) RDA\nEnergy 509 kcal 4\nProtein 6.7 g\nCarbohydrate 67.3 g\nof which Total Sugars 20.5 g\nAdded Sugars 20.3 g 6\nTotal Fat 23.7 g 5\nSaturated fatty acids 11.6 g 8\nMono unsaturated fatty acids 9.2 g\nPoly unsaturated fatty acids 2.6 g\nTrans fatty acids 0 g 0\nCholesterol 1.5 mg\nSodium 220 mg 2\n^Basis average adult's Recommended Dietary Allowance\nof 2000 kcal diet\nINGREDIENTS: REFINED WHEAT FLOUR (MAIDA), REFINED\nPALM OIL, SUGAR, INVERT SUGAR SYRUP, CASHEW (1.4%),\nMILK PRODUCTS [MILK SOLIDS & BUTTER (0.1%)], RAISING\nAGENTS [503(ii) & 500(ii)], IODISED SALT, EMULSIFIERS [322(i),\n471 & 472e] AND NATURE IDENTICAL & ARTIFICIAL (VANILLA\n& MILK) FLAVOURING SUBSTANCES."
+[2026-04-01 13:20:22] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 13:20:22] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 13:20:22] [Metadata] Extracting Brand Metadata
+[2026-04-01 13:20:26] [Metadata] Metadata LLM raw output: {
+    "brandName": "",
+    "productName": "",
+    "fssaiCategory": "",
+    "licenseNo": "",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 13:20:26] [EXTRACTED METADATA] {
+  "brandName": "",
+  "productName": "",
+  "fssaiCategory": "",
+  "licenseNo": "",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 13:20:26] [STEP 4/9] Running regulatory checks...
+[2026-04-01 13:20:26] [Category] Predicting Product Category
+[2026-04-01 13:20:26] [Category] Initializing Product Category Predictor (LLM-based)
+[2026-04-01 13:20:26] [Category] No category in OCR JSON or metadata. Predicting from ingredients...
+[2026-04-01 13:20:28] [Category] ✓ Predicted & Injected: Snacks & Baked Goods (confidence: 0.95)
+[2026-04-01 13:20:28] [Category] Predicted: Snacks & Baked Goods (confidence: 0.95)
+[2026-04-01 13:20:28] [STEP 5/9] Validating product category...
+[2026-04-01 13:20:28] [Core] Running Regulatory Analysis
+[2026-04-01 13:20:39] [STEP 6/9] Substantiating claims...
+[2026-04-01 13:20:39] [Claims] Running Claims Subsystem
+[2026-04-01 13:20:39] [Claims] Claims Analysis Result: Analyzed 0 claim(s). 0 passed, 0 failed, 0 need review.
+[2026-04-01 13:20:39] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 13:20:39] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 13:20:42] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a standard processed biscuit containing refined flour, sugar, and fats. It does not contain specific nutritional fortifications or marketing claims targeting infants, children, or pregnant/lactating women, making it suitable for the general adult population.'}
+[2026-04-01 13:20:42] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 13:20:42] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 13:20:47] [Lab Tests] Generated 6 suggestions
+[2026-04-01 13:20:47] [STEP 9/9] Finalizing report...
+[2026-04-01 13:20:47] [ERROR: System] Analysis failed: 1 validation error for AnalysisResult
+checks.0.status
+  Input should be 'Complies', 'Fail' or 'Action' [type=enum, input_value='Predicted', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/enum
+[2026-04-01 13:30:04] [STEP 1/9] Validating image context...
+[2026-04-01 13:30:04] [Context] source=default_general, type=general, code=None
+[2026-04-01 13:30:04] [STEP 2/9] Extracting OCR data...
+[2026-04-01 13:30:04] [OCR] Initiating OCR Extraction Service
+[2026-04-01 13:30:04] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 13:30:10] [RAW OCR TEXT] "INGREDIENTS:\nMixed Nuts [Almond (25%), Peanut], Isomalt (INS\n953), Butter, Coconut Flour, Vital Wheat Gluten,\nRefined Sunflower Oil, Seed Mix Flour (2%)\n(Sunflower, Flax, Melon, Pumpkin), Leavening\nAgent [INS 500(i), INS 503(ii)], Emulsifier from Soya\n[INS 322 (i)], Iodized Salt, Nature Identical Flavour\n(Vanilla & Butter), Jackfruit Flour, Jamun Seed\nPowder, Karela Seed Powder, Methi Seed Powder,\nStevia (INS 960), Sweetener (INS 955)."
+[2026-04-01 13:30:15] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 13:30:15] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 13:30:15] [Metadata] Extracting Brand Metadata
+[2026-04-01 13:30:19] [Metadata] Metadata LLM raw output: {
+    "brandName": "",
+    "productName": "",
+    "fssaiCategory": "",
+    "licenseNo": "",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 13:30:19] [EXTRACTED METADATA] {
+  "brandName": "",
+  "productName": "",
+  "fssaiCategory": "",
+  "licenseNo": "",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 13:30:19] [STEP 4/9] Running regulatory checks...
+[2026-04-01 13:30:19] [Category] Predicting Product Category
+[2026-04-01 13:30:19] [Category] Initializing Product Category Predictor (LLM-based)
+[2026-04-01 13:30:19] [Category] No category in OCR JSON or metadata. Predicting from ingredients...
+[2026-04-01 13:30:21] [Category] ✓ Predicted & Injected: Snacks & Baked Goods (confidence: 0.95)
+[2026-04-01 13:30:21] [Category] Predicted: Snacks & Baked Goods (confidence: 0.95)
+[2026-04-01 13:30:21] [STEP 5/9] Validating product category...
+[2026-04-01 13:30:21] [Core] Running Regulatory Analysis
+[2026-04-01 13:30:34] [STEP 6/9] Substantiating claims...
+[2026-04-01 13:30:34] [Claims] Running Claims Subsystem
+[2026-04-01 13:30:34] [Claims] Claims Analysis Result: Analyzed 0 claim(s). 0 passed, 0 failed, 0 need review.
+[2026-04-01 13:30:34] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 13:30:34] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 13:30:34] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 13:30:34] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 13:30:42] [Lab Tests] Generated 7 suggestions
+[2026-04-01 13:30:42] [STEP 9/9] Finalizing report...
+[2026-04-01 13:30:42] [SUCCESS] Final Score: 40.0%
+[2026-04-01 13:36:33] [STEP 1/9] Validating image context...
+[2026-04-01 13:36:33] [Context] source=default_general, type=general, code=None
+[2026-04-01 13:36:33] [STEP 2/9] Extracting OCR data...
+[2026-04-01 13:36:33] [OCR] Initiating OCR Extraction Service
+[2026-04-01 13:36:33] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 13:36:39] [RAW OCR TEXT] "Servings per container: 60 Serving size: 1 gummy (3.0g)\nNutritional Information Each serving *%RDA\n(Approx. Values) provides:\nEnergy Value 9.28 kcal 0.46%\nCarbohydrate 2.16 g \u2020\nAdded Sugars 1.65 g 3.3%\nTotal Sugars 1.89 g \u2020\nProtein 0.05 g 0.09%\n0.05 g 0.07%\nTotal Fat 0.00 mg \u2020\nCholesterol 0.00 mg 0.00%\nEach Serving of Mela-Rest Gummy Provides:\nMelatonin 10 mg \u2020\n\n\u2020 RDA value not established.\n*%RDA values established as per ICMR guidelines\n2020 (Men Moderate Work) and as per Labelling &\nDisplay regulation, 2020.\n# Melatonin may support healthy sleep.\nReference PDR for Nutritional Supplement 2nd edition\npage no 420 & 421.\nIngredients: Sucrose, Binding Agent (Liquid Glucose),\nGelling Agent (INS 440), Acidity Regulator (INS 330),\nMelatonin & Emulsifier (INS 331 (i)).\n\nCONTAINS NATURE IDENTICAL FLAVOURING\nSUBSTANCE (RASPBERRY).\nCONTAINS PERMITTED FOOD COLOUR (INS 124).\nAllergen Warning: Processed In a facility that also\nmakes products that may contain soy, tree nuts,\npeanuts, milk and wheat."
+[2026-04-01 13:36:43] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 13:36:43] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 13:36:43] [Metadata] Extracting Brand Metadata
+[2026-04-01 13:36:48] [Metadata] Metadata LLM raw output: {
+    "brandName": "",
+    "productName": "Mela-Rest Gummy",
+    "fssaiCategory": "",
+    "licenseNo": "",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 13:36:48] [EXTRACTED METADATA] {
+  "brandName": "",
+  "productName": "Mela-Rest Gummy",
+  "fssaiCategory": "",
+  "licenseNo": "",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 13:36:48] [STEP 4/9] Running regulatory checks...
+[2026-04-01 13:36:48] [Category] Predicting Product Category
+[2026-04-01 13:36:48] [Category] Initializing Product Category Predictor (LLM-based)
+[2026-04-01 13:36:48] [Category] No category in OCR JSON or metadata. Predicting from ingredients...
+[2026-04-01 13:36:50] [Category] ✓ Predicted & Injected: Confectionery (confidence: 0.90)
+[2026-04-01 13:36:50] [Category] Predicted: Confectionery (confidence: 0.90)
+[2026-04-01 13:36:50] [STEP 5/9] Validating product category...
+[2026-04-01 13:36:50] [Core] Running Regulatory Analysis
+[2026-04-01 13:37:01] [STEP 6/9] Substantiating claims...
+[2026-04-01 13:37:01] [Claims] Running Claims Subsystem
+[2026-04-01 13:37:05] [Claims] Claims Validation Result: [{'claim_text': 'Melatonin may support healthy sleep.', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'The product contains 10mg of Melatonin per serving as per the nutrition table. However, FSSAI requires specific clinical evidence or approval for health claims related to sleep support for nutraceuticals. Lab data or regulatory approval for this specific health benefit must be verified.', 'reference': 'FSSAI Health Claims Regulations'}, {'claim_text': 'CONTAINS NATURE IDENTICAL FLAVOURING SUBSTANCE (RASPBERRY).', 'tag': 'Ingredient Claim', 'status': 'Action', 'reasoning': "The ingredients list mentions Sucrose, Liquid Glucose, Gelling Agent, and Melatonin, but does not explicitly list 'Nature Identical Flavouring Substance' or 'Raspberry'. This is a labeling discrepancy.", 'reference': 'FSSAI Food Labelling and Display Regulations'}, {'claim_text': 'CONTAINS PERMITTED FOOD COLOUR (INS 124).', 'tag': 'Ingredient Claim', 'status': 'Fail', 'reasoning': 'The provided ingredients list (Sucrose, Liquid Glucose, INS 440, INS 330, Melatonin, INS 331 (i)) does not include INS 124 or any food color. The claim contradicts the provided ingredient composition.', 'reference': 'FSSAI Food Labelling and Display Regulations'}]
+[2026-04-01 13:37:05] [Claims] Claims Analysis Result: Analyzed 3 claim(s). 0 passed, 1 failed, 2 need review.
+[2026-04-01 13:37:05] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 13:37:05] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 13:37:08] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'Melatonin supplements are generally marketed for the adult population to support sleep cycles. As there is no specific demographic indicated on the label, the general adult population (men) with a sedentary activity level is the standard baseline for RDA calculations.'}
+[2026-04-01 13:37:08] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 13:37:08] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 13:37:13] [Lab Tests] Generated 6 suggestions
+[2026-04-01 13:37:13] [STEP 9/9] Finalizing report...
+[2026-04-01 13:37:13] [SUCCESS] Final Score: 65.0%
+[2026-04-01 14:18:38] [STEP 1/9] Validating image context...
+[2026-04-01 14:18:38] [Context] source=default_general, type=general, code=None
+[2026-04-01 14:18:38] [STEP 2/9] Extracting OCR data...
+[2026-04-01 14:18:38] [OCR] Initiating OCR Extraction Service
+[2026-04-01 14:18:38] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 14:18:46] [RAW OCR TEXT] "330.00\n12.00\n76.50\n153.00\n76.50\n12.00\n12.00\nNUTRITIONAL INFORMATION SERVE SIZE 20 g**\nNutrients\nPer 100g %RDA per serve\nEnergy (kcal)\nProtein (g)\nCarbohydrate (g)\n-Total Sugars (g)\n-Added Sugars (g)\nTotal Fat (g)\n-Trans Fat\n-Saturated Fat (g)\nSodium (mg)\n^Approximate Values\n**Pack <20 g is a single consumption pack.\nSTORE IN A COOL, DRY & HYGIENIC PLACE.\nDO NOT BUY THE PACK IF FOUND\nTAMPERED WITH.\nExperience tantalizingly delicious\nflavours in every bite!\nMANUFACTURED BY: PODARAN SNACKS\nD.NO 6/307-1, ARUVANKATTU THOTTAM,\nMULVADIPALAYAM, PALAYAKOTTAI VILLAGE,\nKANGAYAM-638701 TIRUPUR DIST. TAMIL NADU.\nFSSAI Lic. No. 10020042005392\nMARKETED BY:\nRITA AND JO'S FOODS PVT. LTD.\n5 A, EVERTON ENCLAVE,\nKAILASH NAGAR, PERUMBAKKAM,\nCHENNAI 600100 TAMIL NADU\nFSSAI Lic. No. 993322\nPRODUCT OF INDIA\nOTHER\nJoey's\nSMOKEY BACON\nFLAVOURED POTATO\nCRISPS\n100% Veg\nPotato Chips\n*Images shown are indicative only and does not reflect the contents of the pack.\nPer Serve (20g)\nEnergy\n107 Kcal\n5%\nof Adult's RDA\nPROPRIETARY FOOD - POTATO CHIPS (15.1)\nINGREDIENTS: Potato, Edible Vegetable Oil\n(Palmolein, Rice Bran Oil), *Seasoning (Sugar,\nFlavour Enhancer (INS 621), Iodised Salt,\nWheat Flour, Flavour (Natural and Nature\nIdentical Flavouring Substances), Acidity\nRegulator (INS 330), Dehydrated Garlic\nPowder, Milk Solids, Dehydrated Onion\nPowder, Mixed Spices (Ginger, Pepper),\nAnticaking agent (INS 551, INS 341(iii)), Lemon\nPowder, Yeast Extract, Refined Palm Oil and\nAntioxidants (INS 319). *As flavouring agent.\nSeasoning contains added MONOSODIUM\nGLUTAMATE NOT RECOMMENDED FOR\nINFANTS BELOW 12 MONTHS AND\nPREGNANT WOMEN.\n-Contains Garlic ALLERGEN ADVICE:\nContains Milk, Sesame, Sulphite, Wheat.\nManufactured in a facility that may process\nsoy products, peanuts and tree nuts, oats,\nsesame seeds and wheat.\n8 902979 000826\nMRP Rs. 35/- (INCL. OF ALL TAXES)\nUNIT SALE PRICE:\nNET WEIGHT:\nBATCH NO.:\nDATE OF MFG.:\nUSE BY\n\"Best Before Five Months From Manufacture\"\nFor feedback or queries, write\n(indicating Batch No. and Manufacturing Date) to:\nCUSTOMER CARE\nRITA AND JO'S FOODS PVT. LTD.\n5 A, EVERTON ENCLAVE, KAILASH NAGAR,\nPERUMBAKKAM, CHENNAI 600100 TAMIL NADU\nOR CALL US AT 9600616019 OR EMAIL US AT\nCUSTOMER.SUPPORT@RITAANDJO FOODS.COM\nVisit www.ritaandjosfoods.co.in\n181.00\n205.00\nBack Panel\nFront Panel\nBack Panel\nSeal Area\nEyemark (10x5mm)\n330x205mm - Reel Fed Laminate\nBarcode Area\n(32x20mm)\nBatch Code\nArea (35x30mm)"
+[2026-04-01 14:18:53] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 14:18:53] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 14:18:53] [Metadata] Extracting Brand Metadata
+[2026-04-01 14:18:56] [Metadata] Metadata LLM raw output: {
+    "brandName": "Joey's",
+    "productName": "SMOKEY BACON FLAVOURED POTATO CRISPS",
+    "fssaiCategory": "POTATO CHIPS",
+    "licenseNo": "10020042005892",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 14:18:56] [EXTRACTED METADATA] {
+  "brandName": "Joey's",
+  "productName": "SMOKEY BACON FLAVOURED POTATO CRISPS",
+  "fssaiCategory": "POTATO CHIPS",
+  "licenseNo": "10020042005892",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 14:18:56] [STEP 4/9] Running regulatory checks...
+[2026-04-01 14:18:56] [Core] Running Regulatory Analysis
+[2026-04-01 14:19:15] [STEP 5/9] Validating product category...
+[2026-04-01 14:19:15] [Claims] Running Claims Subsystem
+[2026-04-01 14:19:18] [Claims] Claims Validation Result: [{'claim_text': '100% Veg', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains only plant-based items (Potato, Vegetable Oils, Wheat Flour, Spices) and Milk Solids. Under FSSAI, milk and milk products are classified as Vegetarian.', 'reference': 'FSS (Labelling and Display) Regulations, 2020'}, {'claim_text': 'Experience tantalizingly delicious flavours in every bite!', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': 'This is a subjective puffery/marketing statement rather than a nutritional claim. However, it is categorized as a Nutritional Claim in the request. It does not reference any specific nutrient threshold from the ground truth data.', 'reference': 'FSS (Advertising and Claims) Regulations, 2018'}]
+[2026-04-01 14:19:18] [Claims] Claims Analysis Result: Analyzed 2 claim(s). 1 passed, 0 failed, 1 need review.
+[2026-04-01 14:19:18] [STEP 6/9] Substantiating claims...
+[2026-04-01 14:19:18] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 14:19:21] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a standard snack food (potato chips) with no specific health claims, age-targeted marketing, or specialized nutritional fortification, making it suitable for the general adult population.'}
+[2026-04-01 14:19:21] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 14:19:21] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 14:19:26] [Lab Tests] Generated 6 suggestions
+[2026-04-01 14:19:26] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 14:19:26] [SUCCESS] Final Score: 75.0%
+[2026-04-01 14:25:35] [STEP 1/9] Validating image context...
+[2026-04-01 14:25:35] [Context] source=default_general, type=general, code=None
+[2026-04-01 14:25:36] [STEP 2/9] Extracting OCR data...
+[2026-04-01 14:25:36] [OCR] Initiating OCR Extraction Service
+[2026-04-01 14:25:36] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 14:25:43] [RAW OCR TEXT] "330.00\n12.00 76.50 153.00 76.50 12.00\n12.00\n181.00 205.00\n\nNUTRITIONAL INFORMATION^ SERVE SIZE 20 g**\nNutrients Per 100g %RDA per serve\nEnergy (kcal)\nProtein (g)\nCarbohydrate (g)\n-Total Sugars (g)\n-Added Sugars (g)\nTotal Fat (g)\n-Trans Fat\n-Saturated Fat (g)\nSodium (mg)\n^Approximate Values\n**Pack <20 g is a single consumption pack.\nSTORE IN A COOL, DRY & HYGIENIC PLACE.\nDO NOT BUY THE PACK IF FOUND TAMPERED WITH.\nExperience tantalizingly delicious flavours in every bite!\n\nMANUFACTURED BY: PODARAN SNACKS\nD.NO 6/307-1, ARUVANKATTU THOTTAM,\nMULVADIPALAYAM, PALAYAKOTTAI VILLAGE,\nKANGAYAM-638701 TIRUPUR DIST. TAMIL NADU.\nFSSAI Lic. No. 10020042005392\nMARKETED BY:\nRITA AND JO'S FOODS PVT. LTD.\n5 A, EVERTON ENCLAVE,\nKAILASH NAGAR, PERUMBAKKAM,\nCHENNAI 600100 TAMIL NADU\nFSSAI Lic. No. 993322\nPRODUCT OF INDIA\nOTHER\n\nJoey's\nSMOKEY BACON\nFLAVOURED POTATO\nCRISPS\n100% Veg\nPotato Chips\nPer Serve (20g)\nEnergy\n107 Kcal\n5%\nof Adult's RDA\n*Images shown are indicative only and does not reflect the contents of the pack.\n\nPROPRIETARY FOOD - POTATO CHIPS (15.1)\nINGREDIENTS: Potato, Edible Vegetable Oil (Palmolein, Rice Bran Oil), *Seasoning (Sugar, Flavour Enhancer (INS 621), Iodised Salt, Wheat Flour, Flavour (Natural and Nature Identical Flavouring Substances), Acidity Regulator (INS 330), Dehydrated Garlic Powder, Milk Solids, Dehydrated Onion Powder, Mixed Spices (Ginger, Pepper), Anticaking agent (INS 551, INS 341(iii)), Lemon Powder, Yeast Extract, Refined Palm Oil and Antioxidants (INS 319). *As flavouring agent.\nSeasoning contains added MONOSODIUM GLUTAMATE NOT RECOMMENDED FOR INFANTS BELOW 12 MONTHS AND PREGNANT WOMEN.\n-Contains Garlic ALLERGEN ADVICE: Contains Milk, Sesame, Sulphite, Wheat.\nManufactured in a facility that may process soy products, peanuts and tree nuts, nuts, sesame seeds and wheat.\n8 902979 000826\nMRP Rs. 35/- (INCL. OF ALL TAXES)\nUNIT SALE PRICE:\nNET WEIGHT:\nBATCH NO.:\nDATE OF MFG.:\nUSE BY\n\"Best Before Five Months From Manufacture\"\nFor feedback or queries, write (indicating Batch No. and Manufacturing Date) to:\nCUSTOMER CARE\nRITA AND JO'S FOODS PVT. LTD.\n5 A, EVERTON ENCLAVE, KAILASH NAGAR, PERUMBAKKAM, CHENNAI 600100 TAMIL NADU\nOR CALL US AT 9600616019 OR EMAIL US AT CUSTOMER.SUPPORT@RITAANDJO FOODS.COM\nVisit www.ritaandjosfoods.co.in\n\nBack Panel Front Panel Back Panel\n\nSeal Area\nEyemark (10x5mm)\n330x205mm - Reel Fed Laminate\nBarcode Area (32x20mm)\nBatch Code Area (35x30mm)"
+[2026-04-01 14:25:49] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 14:25:49] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 14:25:49] [Metadata] Extracting Brand Metadata
+[2026-04-01 14:25:51] [Metadata] Metadata LLM raw output: {
+    "brandName": "Joey's",
+    "productName": "SMOKEY BACON FLAVOURED POTATO CRISPS",
+    "fssaiCategory": "POTATO CHIPS",
+    "licenseNo": "10020042005892",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 14:25:51] [EXTRACTED METADATA] {
+  "brandName": "Joey's",
+  "productName": "SMOKEY BACON FLAVOURED POTATO CRISPS",
+  "fssaiCategory": "POTATO CHIPS",
+  "licenseNo": "10020042005892",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 14:25:51] [STEP 4/9] Running regulatory checks...
+[2026-04-01 14:25:51] [Core] Running Regulatory Analysis
+[2026-04-01 14:26:10] [STEP 5/9] Validating product category...
+[2026-04-01 14:26:10] [Claims] Running Claims Subsystem
+[2026-04-01 14:26:13] [Claims] Claims Validation Result: [{'claim_text': '100% Veg Potato Chips', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list consists of Potato, Edible Vegetable Oils, and a seasoning mix containing plant-based and mineral ingredients (Wheat Flour, Garlic, Onion, Spices). No animal-derived ingredients are listed.', 'reference': 'Ingredients List'}, {'claim_text': 'Experience tantalizingly delicious flavours in every bite!', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product contains a complex seasoning blend including Flavour Enhancers (INS 621), Natural and Nature Identical Flavouring Substances, Garlic, Onion, and Mixed Spices, which supports the claim of added flavours.', 'reference': 'Ingredients List'}, {'claim_text': 'Seasoning contains added MONOSODIUM GLUTAMATE NOT RECOMMENDED FOR INFANTS BELOW 12 MONTHS AND PREGNANT WOMEN.', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': "The ingredients list explicitly mentions 'Flavour Enhancer (INS 621)', which is Monosodium Glutamate. The accompanying advisory statement is a mandatory regulatory requirement for products containing MSG.", 'reference': 'Ingredients List; FSSAI Labelling Regulations'}]
+[2026-04-01 14:26:13] [Claims] Claims Analysis Result: Analyzed 3 claim(s). 3 passed, 0 failed, 0 need review.
+[2026-04-01 14:26:13] [STEP 6/9] Substantiating claims...
+[2026-04-01 14:26:13] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 14:26:15] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general snack food (potato chips) intended for the general adult population. While the label explicitly warns against consumption by infants and pregnant women, it does not target a specific demographic, making the general adult RDA (men/sedentary) the appropriate baseline for nutritional analysis.'}
+[2026-04-01 14:26:15] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 14:26:15] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 14:26:21] [Lab Tests] Generated 5 suggestions
+[2026-04-01 14:26:21] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 14:26:21] [SUCCESS] Final Score: 75.0%
+[2026-04-01 14:31:45] [STEP 1/9] Validating image context...
+[2026-04-01 14:31:45] [Context] source=default_general, type=general, code=None
+[2026-04-01 14:31:45] [STEP 2/9] Extracting OCR data...
+[2026-04-01 14:31:45] [OCR] Initiating OCR Extraction Service
+[2026-04-01 14:31:45] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 14:31:54] [RAW OCR TEXT] "330.00\n12.00\n76.50\n153.00\n76.50\n12.00\n12.00\nNUTRITIONAL INFORMATION SERVE SIZE 20 g**\nNutrients\nPer 100g %RDA per serve\nEnergy (kcal)\nProtein (g)\nCarbohydrate (g)\n-Total Sugars (g)\n-Added Sugars (g)\nTotal Fat (g)\n-Trans Fat\n-Saturated Fat (g)\nSodium (mg)\n^Approximate Values\n**Pack <20 g is a single consumption pack.\nSTORE IN A COOL, DRY & HYGIENIC PLACE.\nDO NOT BUY THE PACK IF FOUND\nTAMPERED WITH.\nExperience tantalizingly delicious\nflavours in every bite!\nMANUFACTURED BY: PODARAN SNACKS\nD.NO 6/307-1, ARUVANKATTU THOTTAM,\nMULVADIPALAYAM, PALAYAKOTTAI VILLAGE,\nKANGAYAM-638701 TIRUPUR DIST. TAMIL NADU.\nFSSAI Lic. No. 10020042005392\nMARKETED BY:\nRITA AND JO'S FOODS PVT. LTD.\n5 A, EVERTON ENCLAVE,\nKAILASH NAGAR, PERUMBAKKAM,\nCHENNAI 600100 TAMIL NADU\nFSSAI Lic. No. 993322\nPRODUCT OF INDIA\nOTHER\nJoey's\nSMOKEY BACON\nFLAVOURED POTATO\nCRISPS\n100% Veg\nPotato Chips\n*Images shown are indicative only and does not reflect the contents of the pack.\nPer Serve (20g)\nEnergy\n107 Kcal\n5%\nof Adult's RDA\nPROPRIETARY FOOD - POTATO CHIPS (15.1)\nINGREDIENTS: Potato, Edible Vegetable Oil\n(Palmolein, Rice Bran Oil), *Seasoning (Sugar,\nFlavour Enhancer (INS 621), Iodised Salt,\nWheat Flour, Flavour (Natural and Nature\nIdentical Flavouring Substances), Acidity\nRegulator (INS 330), Dehydrated Garlic\nPowder, Milk Solids, Dehydrated Onion\nPowder, Mixed Spices (Ginger, Pepper),\nAnticaking agent (INS 551, INS 341(iii)), Lemon\nPowder, Yeast Extract, Refined Palm Oil and\nAntioxidants (INS 319). *As flavouring agent.\nSeasoning contains added MONOSODIUM\nGLUTAMATE NOT RECOMMENDED FOR\nINFANTS BELOW 12 MONTHS AND\nPREGNANT WOMEN.\n-Contains Garlic ALLERGEN ADVICE:\nContains Milk, Sesame, Sulphite, Wheat.\nManufactured in a facility that may process\nsoy products, peanuts and tree nuts, oats,\nsesame seeds and wheat.\n8 902979 000826\nMRP Rs. 35/- (INCL. OF ALL TAXES)\nUNIT SALE PRICE:\nNET WEIGHT:\nBATCH NO.:\nDATE OF MFG.:\nUSE BY\n\"Best Before Five Months From Manufacture\"\nFor feedback or queries, write\n(indicating Batch No. and Manufacturing Date) to:\nCUSTOMER CARE\nRITA AND JO'S FOODS PVT. LTD.\n5 A, EVERTON ENCLAVE, KAILASH NAGAR,\nPERUMBAKKAM, CHENNAI 600100 TAMIL NADU\nOR CALL US AT 9600616019 OR EMAIL US AT\nCUSTOMER.SUPPORT@RITAANDJO FOODS.COM\nVisit www.ritaandjosfoods.co.in\n181.00\n205.00\nBack Panel\nFront Panel\nBack Panel\nSeal Area\nEyemark (10x5mm)\n330x205mm - Reel Fed Laminate\nBarcode Area\n(32x20mm)\nBatch Code\nArea (35x30mm)"
+[2026-04-01 14:32:00] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 14:32:00] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 14:32:00] [Metadata] Extracting Brand Metadata
+[2026-04-01 14:32:20] [Metadata] Metadata LLM raw output: {
+    "brandName": "Joey's",
+    "productName": "SMOKEY BACON FLAVOURED POTATO CRISPS",
+    "fssaiCategory": "POTATO CHIPS",
+    "licenseNo": "10020042005892",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 14:32:20] [EXTRACTED METADATA] {
+  "brandName": "Joey's",
+  "productName": "SMOKEY BACON FLAVOURED POTATO CRISPS",
+  "fssaiCategory": "POTATO CHIPS",
+  "licenseNo": "10020042005892",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 14:32:20] [STEP 4/9] Running regulatory checks...
+[2026-04-01 14:32:20] [Core] Running Regulatory Analysis
+[2026-04-01 14:32:40] [STEP 5/9] Validating product category...
+[2026-04-01 14:32:40] [Claims] Running Claims Subsystem
+[2026-04-01 14:32:43] [Claims] Claims Validation Result: [{'claim_text': '100% Veg', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains only plant-based components (Potato, Vegetable Oils, Seasoning, Spices) and Milk Solids. Under FSSAI, milk and milk products are considered vegetarian.', 'reference': 'FSSAI Food Safety and Standards (Packaging and Labelling) Regulations'}, {'claim_text': 'Experience tantalizingly delicious flavours in every bite!', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': 'This is a subjective sensory/marketing claim rather than a nutritional claim. However, it is categorized as a Nutritional Claim in the request. It cannot be validated against nutritional thresholds as it does not mention a specific nutrient.', 'reference': 'FSSAI Advertising and Claims Regulations'}]
+[2026-04-01 14:32:43] [Claims] Claims Analysis Result: Analyzed 2 claim(s). 1 passed, 0 failed, 1 need review.
+[2026-04-01 14:32:43] [STEP 6/9] Substantiating claims...
+[2026-04-01 14:32:43] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 14:32:46] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a standard snack food (potato chips) with no specific health claims, age-targeted marketing, or specialized nutritional fortification, making it suitable for the general adult population.'}
+[2026-04-01 14:32:46] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 14:32:46] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 14:32:52] [Lab Tests] Generated 6 suggestions
+[2026-04-01 14:32:59] [Lab Tests] Generated 5 contaminants-related tests
+[2026-04-01 14:32:59] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 14:32:59] [SUCCESS] Final Score: 75.0%
+[2026-04-01 14:41:57] [STEP 1/9] Validating image context...
+[2026-04-01 14:41:57] [Context] source=default_general, type=general, code=None
+[2026-04-01 14:41:57] [STEP 2/9] Extracting OCR data...
+[2026-04-01 14:41:57] [OCR] Initiating OCR Extraction Service
+[2026-04-01 14:41:57] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 14:42:06] [RAW OCR TEXT] "330.00\n12.00 76.50 153.00 76.50 12.00\n12.00\n181.00 205.00\n\nNUTRITIONAL INFORMATION^ SERVE SIZE 20 g**\nNutrients Per 100g %RDA per serve\nEnergy (kcal)\nProtein (g)\nCarbohydrate (g)\n-Total Sugars (g)\n-Added Sugars (g)\nTotal Fat (g)\n-Trans Fat\n-Saturated Fat (g)\nSodium (mg)\n^Approximate Values\n**Pack <20 g is a single consumption pack.\nSTORE IN A COOL, DRY & HYGIENIC PLACE.\nDO NOT BUY THE PACK IF FOUND TAMPERED WITH.\nExperience tantalizingly delicious flavours in every bite!\n\nMANUFACTURED BY: PODARAN SNACKS\nD.NO 6/307-1, ARUVANKATTU THOTTAM,\nMULVADIPALAYAM, PALAYAKOTTAI VILLAGE,\nKANGAYAM-638701 TIRUPUR DIST. TAMIL NADU.\nFSSAI Lic. No. 10020042005392\nMARKETED BY:\nRITA AND JO'S FOODS PVT. LTD.\n5 A, EVERTON ENCLAVE,\nKAILASH NAGAR, PERUMBAKKAM,\nCHENNAI 600100 TAMIL NADU\nFSSAI Lic. No. 993322\nPRODUCT OF INDIA\nOTHER\n\nJoey's\nSMOKEY BACON\nFLAVOURED POTATO\nCRISPS\n100% Veg\nPotato Chips\nPer Serve (20g)\nEnergy\n107 Kcal\n5%\nof Adult's RDA\n*Images shown are indicative only and does not reflect the contents of the pack.\n\nPROPRIETARY FOOD - POTATO CHIPS (15.1)\nINGREDIENTS: Potato, Edible Vegetable Oil (Palmolein, Rice Bran Oil), *Seasoning (Sugar, Flavour Enhancer (INS 621), Iodised Salt, Wheat Flour, Flavour (Natural and Nature Identical Flavouring Substances), Acidity Regulator (INS 330), Dehydrated Garlic Powder, Milk Solids, Dehydrated Onion Powder, Mixed Spices (Ginger, Pepper), Anticaking agent (INS 551, INS 341(iii)), Lemon Powder, Yeast Extract, Refined Palm Oil and Antioxidants (INS 319). *As flavouring agent.\nSeasoning contains added MONOSODIUM GLUTAMATE NOT RECOMMENDED FOR INFANTS BELOW 12 MONTHS AND PREGNANT WOMEN.\n-Contains Garlic ALLERGEN ADVICE: Contains Milk, Sesame, Sulphite, Wheat.\nManufactured in a facility that may process soy products, peanuts and tree nuts, nuts, sesame seeds and wheat.\n8 902979 000826\nMRP Rs. 35/- (INCL. OF ALL TAXES)\nUNIT SALE PRICE:\nNET WEIGHT:\nBATCH NO.:\nDATE OF MFG.:\nUSE BY\n\"Best Before Five Months From Manufacture\"\nFor feedback or queries, write (indicating Batch No. and Manufacturing Date) to:\nCUSTOMER CARE\nRITA AND JO'S FOODS PVT. LTD.\n5 A, EVERTON ENCLAVE, KAILASH NAGAR, PERUMBAKKAM, CHENNAI 600100 TAMIL NADU\nOR CALL US AT 9600616019 OR EMAIL US AT CUSTOMER.SUPPORT@RITAANDJO FOODS.COM\nVisit www.ritaandjosfoods.co.in\n\nBack Panel Front Panel Back Panel\n\nSeal Area\nEyemark (10x5mm)\n330x205mm - Reel Fed Laminate\nBarcode Area (32x20mm)\nBatch Code Area (35x30mm)"
+[2026-04-01 14:42:11] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 14:42:11] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 14:42:11] [Metadata] Extracting Brand Metadata
+[2026-04-01 14:42:15] [Metadata] Metadata LLM raw output: {
+    "brandName": "Joey's",
+    "productName": "SMOKEY BACON FLAVOURED POTATO CRISPS",
+    "fssaiCategory": "POTATO CHIPS",
+    "licenseNo": "10020042005892",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 14:42:15] [EXTRACTED METADATA] {
+  "brandName": "Joey's",
+  "productName": "SMOKEY BACON FLAVOURED POTATO CRISPS",
+  "fssaiCategory": "POTATO CHIPS",
+  "licenseNo": "10020042005892",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 14:42:15] [STEP 4/9] Running regulatory checks...
+[2026-04-01 14:42:15] [Core] Running Regulatory Analysis
+[2026-04-01 14:42:35] [STEP 5/9] Validating product category...
+[2026-04-01 14:42:35] [Claims] Running Claims Subsystem
+[2026-04-01 14:42:39] [Claims] Claims Validation Result: [{'claim_text': '100% Veg Potato Chips', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains only plant-based items (Potato, Vegetable Oil, Seasoning, Spices) and milk solids. In India, milk is considered vegetarian. No meat, poultry, or seafood derivatives are present.', 'reference': 'FSSAI Food Safety and Standards (Labelling and Display) Regulations, 2020'}, {'claim_text': 'Experience tantalizingly delicious flavours in every bite!', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'This is a subjective puffery claim. However, the ingredients list confirms the presence of various flavoring agents, spices, and flavor enhancers (INS 621) which support the claim of added flavors.', 'reference': 'FSSAI Food Safety and Standards (Advertising and Claims) Regulations, 2018'}, {'claim_text': 'Seasoning contains added MONOSODIUM GLUTAMATE NOT RECOMMENDED FOR INFANTS BELOW 12 MONTHS AND PREGNANT WOMEN.', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': "The ingredients list explicitly mentions 'Flavour Enhancer (INS 621)', which is Monosodium Glutamate. The warning statement is a mandatory statutory requirement under FSSAI for products containing MSG.", 'reference': 'FSSAI Food Safety and Standards (Labelling and Display) Regulations, 2020'}]
+[2026-04-01 14:42:39] [Claims] Claims Analysis Result: Analyzed 3 claim(s). 3 passed, 0 failed, 0 need review.
+[2026-04-01 14:42:39] [STEP 6/9] Substantiating claims...
+[2026-04-01 14:42:39] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 14:42:42] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general snack food (potato chips) intended for the general adult population. While the label explicitly warns against consumption by infants and pregnant women, it does not target a specific demographic, making the general adult RDA (men/sedentary) the appropriate baseline for nutritional analysis.'}
+[2026-04-01 14:42:42] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 14:42:42] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 14:42:48] [Lab Tests] Generated 5 suggestions
+[2026-04-01 14:42:54] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-01 14:42:54] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 14:42:54] [SUCCESS] Final Score: 75.0%
+[2026-04-01 15:04:48] [STEP 1/9] Validating image context...
+[2026-04-01 15:04:48] [Context] source=default_general, type=general, code=None
+[2026-04-01 15:04:48] [STEP 2/9] Extracting OCR data...
+[2026-04-01 15:04:48] [OCR] Initiating OCR Extraction Service
+[2026-04-01 15:04:48] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 15:04:55] [RAW OCR TEXT] "330.00\n12.00 76.50 153.00 76.50 12.00\n12.00\n181.00 205.00\n\nNUTRITIONAL INFORMATION^ SERVE SIZE 20 g**\nNutrients Per 100g %RDA per serve\nEnergy (kcal)\nProtein (g)\nCarbohydrate (g)\n-Total Sugars (g)\n-Added Sugars (g)\nTotal Fat (g)\n-Trans Fat\n-Saturated Fat (g)\nSodium (mg)\n^Approximate Values\n**Pack <20 g is a single consumption pack.\nSTORE IN A COOL, DRY & HYGIENIC PLACE.\nDO NOT BUY THE PACK IF FOUND TAMPERED WITH.\nExperience tantalizingly delicious flavours in every bite!\n\nMANUFACTURED BY: PODARAN SNACKS\nD.NO 6/307-1, ARUVANKATTU THOTTAM,\nMULVADIPALAYAM, PALAYAKOTTAI VILLAGE,\nKANGAYAM-638701 TIRUPUR DIST. TAMIL NADU.\nFSSAI Lic. No. 10020042005392\nMARKETED BY:\nRITA AND JO'S FOODS PVT. LTD.\n5 A, EVERTON ENCLAVE,\nKAILASH NAGAR, PERUMBAKKAM,\nCHENNAI 600100 TAMIL NADU\nFSSAI Lic. No. 993322\nPRODUCT OF INDIA\nOTHER\n\nJoey's\nSMOKEY BACON\nFLAVOURED POTATO\nCRISPS\n100% Veg\nPotato Chips\nPer Serve (20g)\nEnergy\n107 Kcal\n5%\nof Adult's RDA\n*Images shown are indicative only and does not reflect the contents of the pack.\n\nPROPRIETARY FOOD - POTATO CHIPS (15.1)\nINGREDIENTS: Potato, Edible Vegetable Oil (Palmolein, Rice Bran Oil), *Seasoning (Sugar, Flavour Enhancer (INS 621), Iodised Salt, Wheat Flour, Flavour (Natural and Nature Identical Flavouring Substances), Acidity Regulator (INS 330), Dehydrated Garlic Powder, Milk Solids, Dehydrated Onion Powder, Mixed Spices (Ginger, Pepper), Anticaking agent (INS 551, INS 341(iii)), Lemon Powder, Yeast Extract, Refined Palm Oil and Antioxidants (INS 319). *As flavouring agent.\nSeasoning contains added MONOSODIUM GLUTAMATE NOT RECOMMENDED FOR INFANTS BELOW 12 MONTHS AND PREGNANT WOMEN.\n-Contains Garlic ALLERGEN ADVICE: Contains Milk, Sesame, Sulphite, Wheat.\nManufactured in a facility that may process soy products, peanuts and tree nuts, nuts, sesame seeds and wheat.\n8 902979 000826\nMRP Rs. 35/- (INCL. OF ALL TAXES)\nUNIT SALE PRICE:\nNET WEIGHT:\nBATCH NO.:\nDATE OF MFG.:\nUSE BY\n\"Best Before Five Months From Manufacture\"\nFor feedback or queries, write (indicating Batch No. and Manufacturing Date) to:\nCUSTOMER CARE\nRITA AND JO'S FOODS PVT. LTD.\n5 A, EVERTON ENCLAVE, KAILASH NAGAR, PERUMBAKKAM, CHENNAI 600100 TAMIL NADU\nOR CALL US AT 9600616019 OR EMAIL US AT CUSTOMER.SUPPORT@RITAANDJO FOODS.COM\nVisit www.ritaandjosfoods.co.in\n\nBack Panel Front Panel Back Panel\n\nSeal Area\nEyemark (10x5mm)\n330x205mm - Reel Fed Laminate\nBarcode Area (32x20mm)\nBatch Code Area (35x30mm)"
+[2026-04-01 15:05:00] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 15:05:00] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 15:05:00] [Metadata] Extracting Brand Metadata
+[2026-04-01 15:05:04] [Metadata] Metadata LLM raw output: {
+    "brandName": "Joey's",
+    "productName": "SMOKEY BACON FLAVOURED POTATO CRISPS",
+    "fssaiCategory": "POTATO CHIPS",
+    "licenseNo": "10020042005892",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 15:05:04] [EXTRACTED METADATA] {
+  "brandName": "Joey's",
+  "productName": "SMOKEY BACON FLAVOURED POTATO CRISPS",
+  "fssaiCategory": "POTATO CHIPS",
+  "licenseNo": "10020042005892",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 15:05:04] [STEP 4/9] Running regulatory checks...
+[2026-04-01 15:05:04] [Core] Running Regulatory Analysis
+[2026-04-01 15:05:25] [STEP 5/9] Validating product category...
+[2026-04-01 15:05:25] [Claims] Running Claims Subsystem
+[2026-04-01 15:05:30] [Claims] Claims Validation Result: [{'claim_text': '100% Veg Potato Chips', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list consists of Potato, Edible Vegetable Oils, and a seasoning mix containing plant-based and mineral ingredients (Wheat Flour, Garlic, Onion, Spices). No animal-derived ingredients are listed.', 'reference': 'Ingredients List'}, {'claim_text': 'Experience tantalizingly delicious flavours in every bite!', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product contains a complex seasoning blend including Flavour Enhancers (INS 621), Natural and Nature Identical Flavouring Substances, Garlic, Onion, and Mixed Spices, which supports the claim of added flavours.', 'reference': 'Ingredients List'}, {'claim_text': 'Seasoning contains added MONOSODIUM GLUTAMATE NOT RECOMMENDED FOR INFANTS BELOW 12 MONTHS AND PREGNANT WOMEN.', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': "The ingredients list explicitly mentions 'Flavour Enhancer (INS 621)', which is Monosodium Glutamate. The accompanying advisory statement is a mandatory regulatory requirement for products containing MSG.", 'reference': 'Ingredients List; FSSAI Labelling Regulations'}]
+[2026-04-01 15:05:30] [Claims] Claims Analysis Result: Analyzed 3 claim(s). 3 passed, 0 failed, 0 need review.
+[2026-04-01 15:05:30] [STEP 6/9] Substantiating claims...
+[2026-04-01 15:05:30] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 15:05:34] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general snack food (potato chips) intended for the general adult population. While the label explicitly warns against consumption by infants and pregnant women, it does not target a specific demographic, making the general adult RDA (men/sedentary) the appropriate baseline for nutritional analysis.'}
+[2026-04-01 15:05:34] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 15:05:34] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 15:05:40] [Lab Tests] Generated 5 suggestions
+[2026-04-01 15:05:48] [Lab Tests] Generated 5 microbiological hazard-related tests
+[2026-04-01 15:05:48] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 15:05:48] [SUCCESS] Final Score: 75.0%
+[2026-04-01 15:13:38] [STEP 1/9] Validating image context...
+[2026-04-01 15:13:38] [Context] source=default_general, type=general, code=None
+[2026-04-01 15:13:38] [STEP 2/9] Extracting OCR data...
+[2026-04-01 15:13:38] [OCR] Initiating OCR Extraction Service
+[2026-04-01 15:13:38] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 15:13:46] [RAW OCR TEXT] "330.00\n12.00 76.50 153.00 76.50 12.00\n12.00\n181.00 205.00\n\nNUTRITIONAL INFORMATION^ SERVE SIZE 20 g**\nNutrients Per 100g %RDA per serve\nEnergy (kcal)\nProtein (g)\nCarbohydrate (g)\n-Total Sugars (g)\n-Added Sugars (g)\nTotal Fat (g)\n-Trans Fat\n-Saturated Fat (g)\nSodium (mg)\n^Approximate Values\n**Pack <20 g is a single consumption pack.\nSTORE IN A COOL, DRY & HYGIENIC PLACE.\nDO NOT BUY THE PACK IF FOUND TAMPERED WITH.\nExperience tantalizingly delicious flavours in every bite!\n\nMANUFACTURED BY: PODARAN SNACKS\nD.NO 6/307-1, ARUVANKATTU THOTTAM,\nMULVADIPALAYAM, PALAYAKOTTAI VILLAGE,\nKANGAYAM-638701 TIRUPUR DIST. TAMIL NADU.\nFSSAI Lic. No. 10020042005392\nMARKETED BY:\nRITA AND JO'S FOODS PVT. LTD.\n5 A, EVERTON ENCLAVE,\nKAILASH NAGAR, PERUMBAKKAM,\nCHENNAI 600100 TAMIL NADU\nFSSAI Lic. No. 993322\nPRODUCT OF INDIA\nOTHER\n\nJoey's\nSMOKEY BACON\nFLAVOURED POTATO\nCRISPS\n100% Veg\nPotato Chips\nPer Serve (20g)\nEnergy\n107 Kcal\n5%\nof Adult's RDA\n*Images shown are indicative only and does not reflect the contents of the pack.\n\nPROPRIETARY FOOD - POTATO CHIPS (15.1)\nINGREDIENTS: Potato, Edible Vegetable Oil (Palmolein, Rice Bran Oil), *Seasoning (Sugar, Flavour Enhancer (INS 621), Iodised Salt, Wheat Flour, Flavour (Natural and Nature Identical Flavouring Substances), Acidity Regulator (INS 330), Dehydrated Garlic Powder, Milk Solids, Dehydrated Onion Powder, Mixed Spices (Ginger, Pepper), Anticaking agent (INS 551, INS 341(iii)), Lemon Powder, Yeast Extract, Refined Palm Oil and Antioxidants (INS 319). *As flavouring agent.\nSeasoning contains added MONOSODIUM GLUTAMATE NOT RECOMMENDED FOR INFANTS BELOW 12 MONTHS AND PREGNANT WOMEN.\n-Contains Garlic ALLERGEN ADVICE: Contains Milk, Sesame, Sulphite, Wheat.\nManufactured in a facility that may process soy products, peanuts and tree nuts, nuts, sesame seeds and wheat.\n8 902979 000826\nMRP Rs. 35/- (INCL. OF ALL TAXES)\nUNIT SALE PRICE:\nNET WEIGHT:\nBATCH NO.:\nDATE OF MFG.:\nUSE BY\n\"Best Before Five Months From Manufacture\"\nFor feedback or queries, write (indicating Batch No. and Manufacturing Date) to:\nCUSTOMER CARE\nRITA AND JO'S FOODS PVT. LTD.\n5 A, EVERTON ENCLAVE, KAILASH NAGAR, PERUMBAKKAM, CHENNAI 600100 TAMIL NADU\nOR CALL US AT 9600616019 OR EMAIL US AT CUSTOMER.SUPPORT@RITAANDJO FOODS.COM\nVisit www.ritaandjosfoods.co.in\n\nBack Panel Front Panel Back Panel\n\nSeal Area\nEyemark (10x5mm)\n330x205mm - Reel Fed Laminate\nBarcode Area (32x20mm)\nBatch Code Area (35x30mm)"
+[2026-04-01 15:13:51] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 15:13:51] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 15:13:51] [Metadata] Extracting Brand Metadata
+[2026-04-01 15:13:54] [Metadata] Metadata LLM raw output: {
+    "brandName": "Joey's",
+    "productName": "SMOKEY BACON FLAVOURED POTATO CRISPS",
+    "fssaiCategory": "POTATO CHIPS",
+    "licenseNo": "10020042005892",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 15:13:54] [EXTRACTED METADATA] {
+  "brandName": "Joey's",
+  "productName": "SMOKEY BACON FLAVOURED POTATO CRISPS",
+  "fssaiCategory": "POTATO CHIPS",
+  "licenseNo": "10020042005892",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 15:13:54] [STEP 4/9] Running regulatory checks...
+[2026-04-01 15:13:54] [Core] Running Regulatory Analysis
+[2026-04-01 15:14:13] [STEP 5/9] Validating product category...
+[2026-04-01 15:14:13] [Claims] Running Claims Subsystem
+[2026-04-01 15:14:17] [Claims] Claims Validation Result: [{'claim_text': '100% Veg Potato Chips', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains only plant-based items (Potato, Vegetable Oil, Seasoning, Spices) and milk solids. In India, milk is considered vegetarian. No meat, poultry, or seafood derivatives are present.', 'reference': 'FSSAI Food Safety and Standards (Labelling and Display) Regulations, 2020'}, {'claim_text': 'Experience tantalizingly delicious flavours in every bite!', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'This is a subjective puffery claim. However, the ingredients list confirms the presence of various flavoring agents, spices, and flavor enhancers (INS 621) which support the claim of added flavors.', 'reference': 'FSSAI Food Safety and Standards (Advertising and Claims) Regulations, 2018'}, {'claim_text': 'Seasoning contains added MONOSODIUM GLUTAMATE NOT RECOMMENDED FOR INFANTS BELOW 12 MONTHS AND PREGNANT WOMEN.', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': "The ingredients list explicitly mentions 'Flavour Enhancer (INS 621)', which is Monosodium Glutamate. The warning statement is a mandatory statutory requirement under FSSAI for products containing MSG.", 'reference': 'FSSAI Food Safety and Standards (Labelling and Display) Regulations, 2020'}]
+[2026-04-01 15:14:17] [Claims] Claims Analysis Result: Analyzed 3 claim(s). 3 passed, 0 failed, 0 need review.
+[2026-04-01 15:14:17] [STEP 6/9] Substantiating claims...
+[2026-04-01 15:14:17] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 15:14:20] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general snack food (potato chips) intended for the general adult population. While the label explicitly warns against consumption by infants and pregnant women, it does not target a specific demographic, making the general adult RDA (men/sedentary) the appropriate baseline for nutritional analysis.'}
+[2026-04-01 15:14:20] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 15:14:20] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 15:14:26] [Lab Tests] Generated 5 suggestions
+[2026-04-01 15:14:32] [Lab Tests] Generated 5 microbiological hazard-related tests
+[2026-04-01 15:14:32] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 15:14:32] [SUCCESS] Final Score: 75.0%
+[2026-04-01 15:20:44] [STEP 1/9] Validating image context...
+[2026-04-01 15:20:44] [Context] source=default_general, type=general, code=None
+[2026-04-01 15:20:44] [STEP 2/9] Extracting OCR data...
+[2026-04-01 15:20:44] [OCR] Initiating OCR Extraction Service
+[2026-04-01 15:20:44] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 15:20:54] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-01 15:21:05] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 15:21:05] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 15:21:05] [Metadata] Extracting Brand Metadata
+[2026-04-01 15:21:10] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 15:21:10] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 15:21:10] [STEP 4/9] Running regulatory checks...
+[2026-04-01 15:21:10] [Core] Running Regulatory Analysis
+[2026-04-01 15:21:22] [STEP 5/9] Validating product category...
+[2026-04-01 15:21:22] [Claims] Running Claims Subsystem
+[2026-04-01 15:21:30] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 20.0g of protein per serving (75g). This also meets the 'High Protein' threshold as 20g per serving exceeds 20% of the RDA for adults (approx 10.8g-12g required).", 'reference': 'Nutrition Table; FSSAI Protein High/Rich threshold'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 5.0g of Dietary Fiber per serving. Additionally, the product contains 6.67g per 100g, which meets the 'High Fiber' threshold of 6g/100g for solids.", 'reference': 'Nutrition Table; FSSAI Dietary Fibre High/Rich threshold'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The nutrition table lists 21 distinct vitamins and minerals: Vit A, E, C, D2, K, B1, B2, B3, B5, B6, B9, B12, Biotin, Calcium, Zinc, Chromium, Selenium, Phosphorus, Magnesium, Sodium, and Potassium.', 'reference': 'Nutrition Table'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "The product contains 93.33mg Omega-3 per 100g. FSSAI 'Source' threshold for Omega-3 requires at least 300mg ALA per 100g or 40mg EPA+DHA. While it meets the EPA+DHA numerical value if applicable, the source (Flaxseeds) typically provides ALA, for which 93.33mg is significantly below the 300mg (0.3g) requirement.", 'reference': 'Nutrition Table; FSSAI Omega-3 Fatty Acids threshold'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'Sustained energy claims are functional health claims that require clinical study data or specific low-glycemic index validation (GI < 55) which is not provided in the current data set.', 'reference': 'FSSAI Health Claims Regulation'}, {'claim_text': 'ACTIVE PROTEIN BOOST', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': 'The product is high in protein (26.67g/100g) and contains added amino acids like L-Glutamine, L-Leucine, L-Valine, and L-Isoleucine (BCAAs) which support muscle protein synthesis.', 'reference': 'Nutrition Table; Ingredients List'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No class I or class II preservatives are listed in the ingredients. Citric acid and Vitamin C are listed but function as acidity regulators/antioxidants.', 'reference': 'Ingredients List'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product uses Brown Rice Syrup, Sugar, Fructose, and Glycerine for sweetness; no high-intensity artificial sweeteners (like Aspartame or Sucralose) are listed.', 'reference': 'Ingredients List'}, {'claim_text': '100% VEG', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'All ingredients listed (Soy, Whey, Milk solids, Nuts, Grains) are vegetarian-friendly. No meat, egg, or gelatin-based ingredients are present.', 'reference': 'Ingredients List'}]
+[2026-04-01 15:21:30] [Claims] Claims Analysis Result: Analyzed 9 claim(s). 7 passed, 1 failed, 1 need review.
+[2026-04-01 15:21:30] [STEP 6/9] Substantiating claims...
+[2026-04-01 15:21:30] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 15:21:32] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-01 15:21:32] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 15:21:32] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 15:21:38] [Lab Tests] Generated 8 suggestions
+[2026-04-01 15:21:46] [Lab Tests] Generated 3 microbiological hazard-related tests
+[2026-04-01 15:21:46] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 15:21:46] [SUCCESS] Final Score: 65.0%
+[2026-04-01 15:28:14] [STEP 1/9] Validating image context...
+[2026-04-01 15:28:14] [Context] source=default_general, type=general, code=None
+[2026-04-01 15:28:15] [STEP 2/9] Extracting OCR data...
+[2026-04-01 15:28:15] [OCR] Initiating OCR Extraction Service
+[2026-04-01 15:28:15] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 15:28:25] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-01 15:28:35] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 15:28:35] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 15:28:35] [Metadata] Extracting Brand Metadata
+[2026-04-01 15:28:38] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 15:28:38] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 15:28:38] [STEP 4/9] Running regulatory checks...
+[2026-04-01 15:28:38] [Core] Running Regulatory Analysis
+[2026-04-01 15:28:50] [STEP 5/9] Validating product category...
+[2026-04-01 15:28:50] [Claims] Running Claims Subsystem
+[2026-04-01 15:28:59] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 20.0g of protein per serving (75g). This also meets the 'High Protein' threshold as 20g per serving exceeds 20% of the RDA for adults (approx 10.8g-12g required).", 'reference': 'Nutrition Table; FSSAI Protein High/Rich threshold'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 5.0g of Dietary Fiber per serving. Additionally, the product contains 6.67g per 100g, which meets the 'High Fiber' threshold of 6g/100g for solids.", 'reference': 'Nutrition Table; FSSAI Dietary Fibre High/Rich threshold'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The nutrition table lists 21 distinct vitamins and minerals: Vit A, E, C, D2, K, B1, B2, B3, B5, B6, B9, B12, Biotin, Calcium, Zinc, Chromium, Selenium, Phosphorus, Magnesium, Sodium, and Potassium.', 'reference': 'Nutrition Table'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "The product contains 93.33mg Omega-3 per 100g. FSSAI 'Source' threshold for Omega-3 requires at least 300mg ALA per 100g or 40mg EPA+DHA. While it meets the EPA+DHA numerical value if applicable, the source (Flaxseeds) typically provides ALA, for which 93.33mg is significantly below the 300mg (0.3g) requirement.", 'reference': 'Nutrition Table; FSSAI Omega-3 Fatty Acids threshold'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'Sustained energy claims are functional health claims that require clinical study data or specific low-glycemic index validation (GI < 55) which is not provided in the current data set.', 'reference': 'FSSAI Health Claims Regulation'}, {'claim_text': 'ACTIVE PROTEIN BOOST', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': 'The product is high in protein (26.67g/100g) and contains added amino acids like L-Glutamine, L-Leucine, L-Valine, and L-Isoleucine (BCAAs) which support muscle protein synthesis.', 'reference': 'Nutrition Table; Ingredients List'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No class I or class II preservatives are listed in the ingredients. Citric acid and Vitamin C are listed but function as acidity regulators/antioxidants.', 'reference': 'Ingredients List'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product uses Brown Rice Syrup, Sugar, Fructose, and Glycerine for sweetness; no high-intensity artificial sweeteners (like Aspartame or Sucralose) are listed.', 'reference': 'Ingredients List'}, {'claim_text': '100% VEG', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'All ingredients listed (Soy, Whey, Milk solids, Nuts, Grains) are vegetarian-friendly. No meat, egg, or gelatin-based ingredients are present.', 'reference': 'Ingredients List'}]
+[2026-04-01 15:28:59] [Claims] Claims Analysis Result: Analyzed 9 claim(s). 7 passed, 1 failed, 1 need review.
+[2026-04-01 15:28:59] [STEP 6/9] Substantiating claims...
+[2026-04-01 15:28:59] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 15:29:01] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-01 15:29:01] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 15:29:01] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 15:29:07] [Lab Tests] Generated 8 suggestions
+[2026-04-01 15:29:13] [Lab Tests] Generated 4 microbiological hazard-related tests
+[2026-04-01 15:29:13] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 15:29:13] [SUCCESS] Final Score: 65.0%
+[2026-04-01 15:36:19] [STEP 1/9] Validating image context...
+[2026-04-01 15:36:19] [Context] source=default_general, type=general, code=None
+[2026-04-01 15:36:20] [STEP 2/9] Extracting OCR data...
+[2026-04-01 15:36:20] [OCR] Initiating OCR Extraction Service
+[2026-04-01 15:36:20] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 15:36:28] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-01 15:36:39] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 15:36:39] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 15:36:39] [Metadata] Extracting Brand Metadata
+[2026-04-01 15:36:43] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 15:36:43] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 15:36:43] [STEP 4/9] Running regulatory checks...
+[2026-04-01 15:36:43] [Core] Running Regulatory Analysis
+[2026-04-01 15:36:54] [STEP 5/9] Validating product category...
+[2026-04-01 15:36:54] [Claims] Running Claims Subsystem
+[2026-04-01 15:37:02] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 20.0g protein per serving (75g). This also meets the 'High Protein' threshold as 26.67g/100g exceeds 20% of the RDA for protein (approx 10.8g-12g based on 54g-60g RDA).", 'reference': 'FSSAI Nutritional Claims - Protein High/Rich'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 5.0g Dietary Fiber per serving. At 6.67g/100g, it exceeds the 6g/100g threshold for 'High Fiber' in solids.", 'reference': 'FSSAI Nutritional Claims - Dietary Fibre High/Rich'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The nutrition table lists 21 distinct vitamins and minerals: Vit A, E, C, D2, K, B1, B2, B3, B5, B6, B9, B12, Biotin, Calcium, Zinc, Chromium, Selenium, Phosphorus, Magnesium, Sodium, and Potassium.', 'reference': 'Nutrition Table Data'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The product contains 93.33mg Omega-3 per 100g. This exceeds the 'High' threshold of 80mg EPA+DHA per 100g or 100kcal (93.33mg/100g and 22.36mg/100kcal). Flaxseeds are also present in the ingredients.", 'reference': 'FSSAI Nutritional Claims - Omega-3 Fatty Acids'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': "Sustained energy claims require clinical validation or specific low-glycemic index testing (GI < 55). While ingredients like oats and fiber are present, the specific '4 hours' duration is a functional claim requiring lab evidence.", 'reference': 'FSSAI Health Claims - Functional'}, {'claim_text': 'ACTIVE PROTEIN BOOST', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': 'The product is high in protein (26.67g/100g) and contains added L-Glutamine and BCAAs (Leucine, Valine, Isoleucine) which are associated with protein synthesis and muscle support.', 'reference': 'Nutrition Table - Amino Acid Profile'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No class I or class II preservatives are listed in the ingredients. Citric acid is used as an acidulant and Vitamin C as an antioxidant.', 'reference': 'Ingredients List'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product uses Brown Rice Syrup, Sugar, Fructose, and Glycerine. No high-intensity artificial sweeteners like Aspartame, Sucralose, or Acesulfame-K are listed.', 'reference': 'Ingredients List'}, {'claim_text': '100% VEG', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'All ingredients listed (Whey, Milk Solids, Soy, Nuts, Grains) are vegetarian-sourced. No meat, egg, or gelatin-based ingredients are present.', 'reference': 'Ingredients List'}]
+[2026-04-01 15:37:02] [Claims] Claims Analysis Result: Analyzed 9 claim(s). 8 passed, 0 failed, 1 need review.
+[2026-04-01 15:37:02] [STEP 6/9] Substantiating claims...
+[2026-04-01 15:37:02] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 15:37:05] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-01 15:37:05] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 15:37:05] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 15:37:12] [Lab Tests] Generated 8 suggestions
+[2026-04-01 15:37:18] [Lab Tests] Generated 5 microbiological hazard-related tests
+[2026-04-01 15:37:18] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 15:37:18] [SUCCESS] Final Score: 65.0%
+[2026-04-01 15:50:38] [STEP 1/9] Validating image context...
+[2026-04-01 15:50:38] [Context] source=default_general, type=general, code=None
+[2026-04-01 15:50:39] [STEP 2/9] Extracting OCR data...
+[2026-04-01 15:50:39] [OCR] Initiating OCR Extraction Service
+[2026-04-01 15:50:39] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 15:50:48] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-01 15:50:58] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 15:50:58] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 15:50:58] [Metadata] Extracting Brand Metadata
+[2026-04-01 15:51:01] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 15:51:01] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 15:51:01] [STEP 4/9] Running regulatory checks...
+[2026-04-01 15:51:01] [Core] Running Regulatory Analysis
+[2026-04-01 15:51:12] [STEP 5/9] Validating product category...
+[2026-04-01 15:51:12] [Claims] Running Claims Subsystem
+[2026-04-01 15:51:19] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 20.0g protein per serving (75g). This also meets the 'High Protein' threshold as 26.67g/100g is significantly above the 20% RDA requirement for adults (approx 10.8g/100g).", 'reference': 'Nutrition Table; FSSAI Protein High/Rich threshold'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 5.0g Dietary Fiber per serving. At 6.67g/100g, it also meets the 'High Fiber' threshold of 6g/100g for solids.", 'reference': 'Nutrition Table; FSSAI Dietary Fibre High/Rich threshold'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The nutrition table lists 21 distinct vitamins and minerals: Vit A, E, C, D2, K, B1, B2, B3, B5, B6, B9, B12, Biotin, Calcium, Zinc, Chromium, Selenium, Phosphorus, Magnesium, Sodium, and Potassium.', 'reference': 'Nutrition Table'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "The product contains 93.33mg Omega-3 per 100g. FSSAI 'Source' claim requires 300mg ALA or 40mg EPA+DHA. While it meets the EPA+DHA threshold if applicable, the total Omega-3 (93.33mg) is only 22.36mg per 100kcal (93.33/4.1733), failing the 0.3g (300mg) ALA per 100g/100kcal threshold.", 'reference': 'Nutrition Table; FSSAI Omega-3 Fatty Acids threshold'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'Sustained energy claims are functional health claims that require clinical validation or specific low-glycemic index data (GI < 55) which is not provided in the current dataset.', 'reference': 'FSSAI Health Claims Regulations'}, {'claim_text': 'ACTIVE PROTEIN BOOST', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': "The product is 'High Protein' (26.67g/100g) and contains added BCAA, Glutamine, and Leucine, supporting a protein-related functional claim.", 'reference': 'Nutrition Table; Ingredients List'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (Class II) are listed in the ingredients. Citric acid and Vitamin C are listed but often function as acidity regulators/antioxidants.', 'reference': 'Ingredients List'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product uses Brown Rice Syrup, Sugar, Fructose, and Glycerine; no high-intensity artificial sweeteners like Aspartame or Sucralose are listed.', 'reference': 'Ingredients List'}, {'claim_text': '100% VEG', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'All ingredients listed (Soy, Whey, Milk solids, Nuts, Grains) are vegetarian-friendly.', 'reference': 'Ingredients List'}]
+[2026-04-01 15:51:19] [Claims] Claims Analysis Result: Analyzed 9 claim(s). 7 passed, 1 failed, 1 need review.
+[2026-04-01 15:51:19] [STEP 6/9] Substantiating claims...
+[2026-04-01 15:51:19] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 15:51:22] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-01 15:51:22] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 15:51:22] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 15:51:29] [Lab Tests] Generated 8 suggestions
+[2026-04-01 15:51:34] [Lab Tests] Generated 5 microbiological hazard-related tests
+[2026-04-01 15:51:34] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 15:51:34] [SUCCESS] Final Score: 65.0%
+[2026-04-01 16:22:17] [STEP 1/9] Validating image context...
+[2026-04-01 16:22:17] [Context] source=default_general, type=general, code=None
+[2026-04-01 16:22:18] [STEP 2/9] Extracting OCR data...
+[2026-04-01 16:22:18] [OCR] Initiating OCR Extraction Service
+[2026-04-01 16:22:18] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 16:22:28] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-01 16:22:38] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 16:22:38] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 16:22:38] [Metadata] Extracting Brand Metadata
+[2026-04-01 16:22:43] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 16:22:43] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 16:22:43] [STEP 4/9] Running regulatory checks...
+[2026-04-01 16:22:43] [Core] Running Regulatory Analysis
+[2026-04-01 16:22:55] [STEP 5/9] Validating product category...
+[2026-04-01 16:22:55] [Claims] Running Claims Subsystem
+[2026-04-01 16:23:03] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 20.0g protein per serving (75g). This also meets the 'High Protein' threshold as 26.67g/100g is significantly above the 20% RDA requirement for adults (approx 10.8g/100g).", 'reference': 'Nutrition Table; FSSAI Protein High/Rich threshold'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 5.0g Dietary Fiber per serving. At 6.67g/100g, it also meets the 'High Fiber' threshold of 6g/100g for solids.", 'reference': 'Nutrition Table; FSSAI Dietary Fibre High/Rich threshold'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The nutrition table lists 21 distinct vitamins and minerals: Vit A, E, C, D2, K, B1, B2, B3, B5, B6, B9, B12, Biotin, Calcium, Zinc, Chromium, Selenium, Phosphorus, Magnesium, Sodium, and Potassium.', 'reference': 'Nutrition Table'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "The product contains 93.33mg Omega-3 per 100g. FSSAI 'Source' claim requires 300mg ALA or 40mg EPA+DHA. While it meets the EPA+DHA threshold if applicable, the total Omega-3 (93.33mg) is only 22.36mg per 100kcal (93.33/4.1733), failing the 0.3g (300mg) ALA per 100g/100kcal threshold.", 'reference': 'Nutrition Table; FSSAI Omega-3 Fatty Acids threshold'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'Sustained energy claims are functional health claims that require clinical validation or specific low-glycemic index data (GI < 55) which is not provided in the current dataset.', 'reference': 'FSSAI Health Claims Regulations'}, {'claim_text': 'ACTIVE PROTEIN BOOST', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': "The product is 'High Protein' (26.67g/100g) and contains added BCAA, Glutamine, and Leucine, supporting a protein-related functional claim.", 'reference': 'Nutrition Table; Ingredients List'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (Class II) are listed in the ingredients. Citric acid and Vitamin C are listed but often function as acidity regulators/antioxidants.', 'reference': 'Ingredients List'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product uses Brown Rice Syrup, Sugar, Fructose, and Glycerine; no high-intensity artificial sweeteners like Aspartame or Sucralose are listed.', 'reference': 'Ingredients List'}, {'claim_text': '100% VEG', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'All ingredients listed (Soy, Whey, Milk solids, Nuts, Grains) are vegetarian-friendly.', 'reference': 'Ingredients List'}]
+[2026-04-01 16:23:03] [Claims] Claims Analysis Result: Analyzed 9 claim(s). 7 passed, 1 failed, 1 need review.
+[2026-04-01 16:23:03] [STEP 6/9] Substantiating claims...
+[2026-04-01 16:23:03] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 16:23:06] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-01 16:23:06] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 16:23:06] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 16:23:13] [Lab Tests] Generated 8 suggestions
+[2026-04-01 16:23:20] [Lab Tests] Generated 4 microbiological hazard-related tests
+[2026-04-01 16:23:20] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 16:23:20] [SUCCESS] Final Score: 65.0%
+[2026-04-01 16:25:12] [STEP 1/9] Validating image context...
+[2026-04-01 16:25:12] [Context] source=default_general, type=general, code=None
+[2026-04-01 16:25:13] [STEP 2/9] Extracting OCR data...
+[2026-04-01 16:25:13] [OCR] Initiating OCR Extraction Service
+[2026-04-01 16:25:13] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 16:25:23] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-01 16:25:33] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 16:25:33] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 16:25:33] [Metadata] Extracting Brand Metadata
+[2026-04-01 16:25:37] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 16:25:37] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 16:25:37] [STEP 4/9] Running regulatory checks...
+[2026-04-01 16:25:37] [Core] Running Regulatory Analysis
+[2026-04-01 16:25:49] [STEP 5/9] Validating product category...
+[2026-04-01 16:25:49] [Claims] Running Claims Subsystem
+[2026-04-01 16:25:56] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 20.0g protein per serving (75g). This also meets the 'High Protein' threshold as 26.67g/100g is significantly above the 20% RDA requirement for adults (approx 10.8g/100g).", 'reference': 'Nutrition Table; FSSAI Protein High/Rich threshold'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 5.0g Dietary Fiber per serving. At 6.67g/100g, it also meets the 'High Fiber' threshold of 6g/100g for solids.", 'reference': 'Nutrition Table; FSSAI Dietary Fibre High/Rich threshold'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The nutrition table lists 21 distinct vitamins and minerals: Vit A, E, C, D2, K, B1, B2, B3, B5, B6, B9, B12, Biotin, Calcium, Zinc, Chromium, Selenium, Phosphorus, Magnesium, Sodium, and Potassium.', 'reference': 'Nutrition Table'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "The product contains 93.33mg Omega-3 per 100g. FSSAI 'Source' claim requires 300mg ALA or 40mg EPA+DHA. While it meets the EPA+DHA threshold if applicable, the total Omega-3 (93.33mg) is only 22.36mg per 100kcal (93.33/4.1733), failing the 0.3g (300mg) ALA per 100g/100kcal threshold.", 'reference': 'Nutrition Table; FSSAI Omega-3 Fatty Acids threshold'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'Sustained energy claims are functional health claims that require clinical validation or specific low-glycemic index data (GI < 55) which is not provided in the current dataset.', 'reference': 'FSSAI Health Claims Regulations'}, {'claim_text': 'ACTIVE PROTEIN BOOST', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': "The product is 'High Protein' (26.67g/100g) and contains added BCAA, Glutamine, and Leucine, supporting a protein-related functional claim.", 'reference': 'Nutrition Table; Ingredients List'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (Class II) are listed in the ingredients. Citric acid and Vitamin C are listed but often function as acidity regulators/antioxidants.', 'reference': 'Ingredients List'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product uses Brown Rice Syrup, Sugar, Fructose, and Glycerine; no high-intensity artificial sweeteners like Aspartame or Sucralose are listed.', 'reference': 'Ingredients List'}, {'claim_text': '100% VEG', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'All ingredients listed (Soy, Whey, Milk solids, Nuts, Grains) are vegetarian-friendly.', 'reference': 'Ingredients List'}]
+[2026-04-01 16:25:56] [Claims] Claims Analysis Result: Analyzed 9 claim(s). 7 passed, 1 failed, 1 need review.
+[2026-04-01 16:25:56] [STEP 6/9] Substantiating claims...
+[2026-04-01 16:25:56] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 16:25:59] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-01 16:25:59] [Nutrition] [RDA] Initializing RDA Calculator for: gender=men, activity=moderate, period=None
+[2026-04-01 16:25:59] [Nutrition] [RDA] Processing 37 nutrition entries
+[2026-04-01 16:25:59] [Nutrition] [RDA] Calculation complete: 37 nutrients analyzed
+[2026-04-01 16:25:59] [ERROR: Nutrition] [RDA] Nutrition Pipeline Error: 'PipelineLogger' object has no attribute 'debug'
+[2026-04-01 16:25:59] [Nutrition] [RDA] Nutrition Pipeline completed: Generated 1 check(s)
+[2026-04-01 16:25:59] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 16:25:59] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 16:26:06] [Lab Tests] Generated 8 suggestions
+[2026-04-01 16:26:12] [Lab Tests] Generated 4 microbiological hazard-related tests
+[2026-04-01 16:26:12] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 16:26:12] [SUCCESS] Final Score: 65.0%
+[2026-04-01 16:27:12] [STEP 1/9] Validating image context...
+[2026-04-01 16:27:12] [Context] source=default_general, type=general, code=None
+[2026-04-01 16:27:12] [STEP 2/9] Extracting OCR data...
+[2026-04-01 16:27:12] [OCR] Initiating OCR Extraction Service
+[2026-04-01 16:27:12] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 16:27:21] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-01 16:27:32] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 16:27:32] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 16:27:32] [Metadata] Extracting Brand Metadata
+[2026-04-01 16:27:35] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 16:27:35] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 16:27:35] [STEP 4/9] Running regulatory checks...
+[2026-04-01 16:27:35] [Core] Running Regulatory Analysis
+[2026-04-01 16:27:53] [STEP 5/9] Validating product category...
+[2026-04-01 16:27:53] [Claims] Running Claims Subsystem
+[2026-04-01 16:28:00] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 20.0g protein per serving (75g). This also meets the 'High Protein' threshold as 26.67g/100g is significantly above the 20% RDA requirement for solids.", 'reference': 'FSSAI Nutritional Claims - Protein (High)'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 5.0g Dietary Fiber per serving. At 6.67g per 100g, it also meets the 'High Fiber' threshold of 6g/100g for solids.", 'reference': 'FSSAI Nutritional Claims - Dietary Fibre (High)'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The nutrition table lists 21 distinct vitamins and minerals: Vit A, E, C, D2, K, B1, B2, B3, B5, B6, B9, B12, Biotin, Calcium, Zinc, Chromium, Selenium, Phosphorus, Magnesium, Sodium, and Potassium.', 'reference': 'Nutrition Table'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "The product contains 93.33mg Omega-3 per 100g. For a 'Source' claim, FSSAI requires 0.3g (300mg) ALA or 40mg EPA+DHA. While it meets the EPA+DHA threshold if the source is marine, the ingredients (Flaxseeds) indicate ALA, which fails the 300mg/100g or 300mg/100kcal (22.3mg/100kcal actual vs 300mg required) threshold.", 'reference': 'FSSAI Nutritional Claims - Omega-3 Fatty Acids'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'This is a functional health claim regarding the duration of energy release. It requires specific clinical study data or glycemic response testing which is not provided in the nutrition table or ingredients list.', 'reference': 'FSSAI Health Claims'}, {'claim_text': 'ACTIVE PROTEIN BOOST', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': "The product is 'High Protein' (26.67g/100g) and contains added BCAA, L-Glutamine, and Leucine, which supports the descriptive claim of a protein boost for active individuals.", 'reference': 'Nutrition Table & Ingredients List'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (Class II) are listed in the ingredients. Citric acid is used, but typically as an acidity regulator/antioxidant in this context.', 'reference': 'Ingredients List'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product uses Brown Rice Syrup, Sugar, Fructose, and Glycerine for sweetness; no high-intensity artificial sweeteners like Aspartame or Sucralose are listed.', 'reference': 'Ingredients List'}, {'claim_text': '100% VEG', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'All ingredients listed (Soy, Whey, Milk, Nuts, Grains) are vegetarian-friendly. No meat, egg, or gelatin-based ingredients are present.', 'reference': 'Ingredients List'}]
+[2026-04-01 16:28:00] [Claims] Claims Analysis Result: Analyzed 9 claim(s). 7 passed, 1 failed, 1 need review.
+[2026-04-01 16:28:00] [STEP 6/9] Substantiating claims...
+[2026-04-01 16:28:00] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 16:28:02] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-01 16:28:02] [Nutrition] [RDA] Initializing RDA Calculator for: gender=men, activity=moderate, period=None
+[2026-04-01 16:28:02] [Nutrition] [RDA] Processing 37 nutrition entries
+[2026-04-01 16:28:02] [Nutrition] [RDA] Calculation complete: 37 nutrients analyzed
+[2026-04-01 16:28:02] [Nutrition] [RDA] Energy: 417.33 Kcal = 20.9% of RDA (2000 kcal/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Protein: 26.67 g = 49.4% of RDA (54.0 g/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Total Carbohydrate: 45.2 g = 15.1% of RDA (300 g/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Dietary Fiber: 6.67 g = 16.7% of RDA (40 g/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Total Fat: 16.67 g = 24.9% of RDA (67 g/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Saturated Fat: 6.13 g = 27.9% of RDA (22 g/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Trans Fat: 0.0 g = 0.0% of RDA (2 g/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Cholesterol: 0.0 mg = 0.0% of RDA (300 mg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Vitamin A: 200.0 mcg = 20.0% of RDA (1000 µg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Vitamin E: 3.33 mg = 33.3% of RDA (10 mg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Vitamin C: 13.33 mg = 16.7% of RDA (80 mg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Vitamin K: 18.33 mcg = 33.3% of RDA (55 µg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Vitamin B1: 0.28 mg = 15.6% of RDA (1.8 mg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Vitamin B2: 0.32 mg = 12.8% of RDA (2.5 mg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Vitamin B3: 3.6 mg = 20.0% of RDA (18 mg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Vitamin B5: 1.0 mg = 20.0% of RDA (5 mg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Vitamin B6: 0.4 mg = 16.7% of RDA (2.4 mg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Vitamin B9: 40.0 mcg = 13.3% of RDA (300 µg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Vitamin B12: 0.2 mcg = 9.1% of RDA (2.2 µg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Biotin: 10.0 mcg = 25.0% of RDA (40 µg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Calcium: 200.0 mg = 20.0% of RDA (1000 mg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Zinc: 4.0 mg = 23.5% of RDA (17 mg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Chromium: 16.67 mcg = 33.3% of RDA (50 µg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Selenium: 13.33 mcg = 33.3% of RDA (40 µg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Phosphorus: 120.0 mg = 12.0% of RDA (1000 mg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Magnesium: 68.0 mg = 15.5% of RDA (440 mg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Sodium: 140.0 mg = 7.0% of RDA (2000 mg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Potassium: 250.0 mg = 7.1% of RDA (3500 mg/d)
+[2026-04-01 16:28:02] [Nutrition] [RDA] Summary | Compliant: 28, Violations: 0, Warnings: 0
+[2026-04-01 16:28:02] [Nutrition] [RDA] Nutrition Pipeline completed: Generated 1 check(s)
+[2026-04-01 16:28:02] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 16:28:02] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 16:28:09] [Lab Tests] Generated 8 suggestions
+[2026-04-01 16:28:15] [Lab Tests] Generated 4 microbiological hazard-related tests
+[2026-04-01 16:28:15] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 16:28:15] [SUCCESS] Final Score: 65.0%
+[2026-04-01 16:29:47] [STEP 1/9] Validating image context...
+[2026-04-01 16:29:47] [Context] source=default_general, type=general, code=None
+[2026-04-01 16:29:48] [STEP 2/9] Extracting OCR data...
+[2026-04-01 16:29:48] [OCR] Initiating OCR Extraction Service
+[2026-04-01 16:29:48] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 16:29:57] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-01 16:30:07] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 16:30:07] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 16:30:07] [Metadata] Extracting Brand Metadata
+[2026-04-01 16:30:10] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 16:30:10] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 16:30:10] [STEP 4/9] Running regulatory checks...
+[2026-04-01 16:30:10] [Core] Running Regulatory Analysis
+[2026-04-01 16:30:21] [STEP 5/9] Validating product category...
+[2026-04-01 16:30:21] [Claims] Running Claims Subsystem
+[2026-04-01 16:30:29] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 20.0g protein per serving (75g). This also meets the 'High Protein' threshold as 26.67g/100g is significantly above the 20% RDA requirement for adults (approx 10.8g/100g).", 'reference': 'Nutrition Table; FSSAI Protein High/Rich threshold'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 5.0g Dietary Fiber per serving. At 6.67g/100g, it also meets the 'High Fiber' threshold of 6g/100g for solids.", 'reference': 'Nutrition Table; FSSAI Dietary Fibre High/Rich threshold'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The nutrition table lists 21 distinct vitamins and minerals: Vit A, E, C, D2, K, B1, B2, B3, B5, B6, B9, B12, Biotin, Calcium, Zinc, Chromium, Selenium, Phosphorus, Magnesium, Sodium, and Potassium.', 'reference': 'Nutrition Table'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "The product contains 93.33mg Omega-3 per 100g. FSSAI 'Source' claim requires 300mg ALA or 40mg EPA+DHA. While it meets the EPA+DHA threshold if applicable, the total Omega-3 (93.33mg) is only 22.36mg per 100kcal (93.33/4.1733), failing the 0.3g (300mg) ALA per 100g/100kcal threshold.", 'reference': 'Nutrition Table; FSSAI Omega-3 Fatty Acids threshold'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'Sustained energy claims are functional health claims that require clinical validation or specific low-glycemic index data (GI < 55) which is not provided in the current dataset.', 'reference': 'FSSAI Health Claims Regulations'}, {'claim_text': 'ACTIVE PROTEIN BOOST', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': "The product is 'High Protein' (26.67g/100g) and contains added BCAA, Glutamine, and Leucine, supporting a protein-related functional claim.", 'reference': 'Nutrition Table; Ingredients List'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No chemical preservatives (Class II) are listed in the ingredients. Citric acid and Vitamin C are listed but often function as acidity regulators/antioxidants.', 'reference': 'Ingredients List'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product uses Brown Rice Syrup, Sugar, Fructose, and Glycerine; no high-intensity artificial sweeteners like Aspartame or Sucralose are listed.', 'reference': 'Ingredients List'}, {'claim_text': '100% VEG', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'All ingredients listed (Soy, Whey, Milk solids, Nuts, Grains) are vegetarian-friendly.', 'reference': 'Ingredients List'}]
+[2026-04-01 16:30:29] [Claims] Claims Analysis Result: Analyzed 9 claim(s). 7 passed, 1 failed, 1 need review.
+[2026-04-01 16:30:29] [STEP 6/9] Substantiating claims...
+[2026-04-01 16:30:29] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 16:30:33] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-01 16:30:33] [Nutrition] [RDA] Initializing RDA Calculator for: gender=men, activity=moderate, period=None
+[2026-04-01 16:30:33] [Nutrition] [RDA] Processing 37 nutrition entries
+[2026-04-01 16:30:33] [Nutrition] [RDA] Calculation complete: 37 nutrients analyzed
+[2026-04-01 16:30:33] [Nutrition] [RDA] Energy: 417.33 Kcal = 20.9% of RDA (2000 kcal/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Protein: 26.67 g = 49.4% of RDA (54.0 g/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Total Carbohydrate: 45.2 g = 15.1% of RDA (300 g/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Dietary Fiber: 6.67 g = 16.7% of RDA (40 g/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Total Fat: 16.67 g = 24.9% of RDA (67 g/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Saturated Fat: 6.13 g = 27.9% of RDA (22 g/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Trans Fat: 0.0 g = 0.0% of RDA (2 g/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Cholesterol: 0.0 mg = 0.0% of RDA (300 mg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Vitamin A: 200.0 mcg = 20.0% of RDA (1000 µg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Vitamin E: 3.33 mg = 33.3% of RDA (10 mg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Vitamin C: 13.33 mg = 16.7% of RDA (80 mg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Vitamin K: 18.33 mcg = 33.3% of RDA (55 µg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Vitamin B1: 0.28 mg = 15.6% of RDA (1.8 mg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Vitamin B2: 0.32 mg = 12.8% of RDA (2.5 mg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Vitamin B3: 3.6 mg = 20.0% of RDA (18 mg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Vitamin B5: 1.0 mg = 20.0% of RDA (5 mg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Vitamin B6: 0.4 mg = 16.7% of RDA (2.4 mg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Vitamin B9: 40.0 mcg = 13.3% of RDA (300 µg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Vitamin B12: 0.2 mcg = 9.1% of RDA (2.2 µg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Biotin: 10.0 mcg = 25.0% of RDA (40 µg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Calcium: 200.0 mg = 20.0% of RDA (1000 mg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Zinc: 4.0 mg = 23.5% of RDA (17 mg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Chromium: 16.67 mcg = 33.3% of RDA (50 µg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Selenium: 13.33 mcg = 33.3% of RDA (40 µg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Phosphorus: 120.0 mg = 12.0% of RDA (1000 mg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Magnesium: 68.0 mg = 15.5% of RDA (440 mg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Sodium: 140.0 mg = 7.0% of RDA (2000 mg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Potassium: 250.0 mg = 7.1% of RDA (3500 mg/d)
+[2026-04-01 16:30:33] [Nutrition] [RDA] Summary | Compliant: 28, Violations: 0, Warnings: 0
+[2026-04-01 16:30:33] [Nutrition] [RDA] Nutrition Pipeline completed: Generated 1 check(s)
+[2026-04-01 16:30:33] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 16:30:33] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 16:30:39] [Lab Tests] Generated 8 suggestions
+[2026-04-01 16:30:45] [Lab Tests] Generated 4 microbiological hazard-related tests
+[2026-04-01 16:30:45] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 16:30:45] [SUCCESS] Final Score: 65.0%
+[2026-04-01 16:34:11] [STEP 1/9] Validating image context...
+[2026-04-01 16:34:11] [Context] source=default_general, type=general, code=None
+[2026-04-01 16:34:12] [STEP 2/9] Extracting OCR data...
+[2026-04-01 16:34:12] [OCR] Initiating OCR Extraction Service
+[2026-04-01 16:34:12] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-01 16:34:19] [RAW OCR TEXT] "PANEL 1\n\nLOW ON CARBS, HIGH ON HEALTH\nMade with premium SuperFood Seeds, Lo! products are\nHigh on Fibre and Protein while being significantly lower\non Carbs. Reducing Carbs helps with Weight Loss and\nimproved Health.\n\nWEIGHT LOSS DIGESTION HEALTH STRENGTH\n\nNutrition Value\nServing Size (g) 24\nEnergy (kcal) 124.5\nNet Carbohydrates (g) 2.6\nTotal Carbohydrates (g) 6.1\nDietary Fibre (g) 3.4\nTotal Sugars (g) 0.5\nAdded Sugar (g) 0\nTotal Fat (g) 8.4\nSaturated Fat (g) 2.7\nTrans Fat (g) 0\nProtein (g) 6.2\nSodium (mg) 158.7\nApproximate Values\nNet Carbs = Total Carbs - Dietary Fibre\n\nSnacks and Savouries Category 15.1\nThe product is a Proprietary Food\n\nINGREDIENTS\nSuperfood Seeds Mix (Sesame,\nMelon, Sunflower, Pumpkin, Flax),\nEdible Vegetable Oil (Refined\nSunflower Oil), Groundnuts,\nCoconut Flour, Isolated Wheat\nProtein, Urad Dal, Chickpea Flour,\nRice Flour, Edible Common Salt,\nSpice Mix\n\nWe use Nuts and Seeds. These are healthy fats, and you may even notice\ntheir oiliness. No Preservatives added.\n\nHOW LOW IS LO!?\nWith 60% - 80% Lower Net Carbs,\nLo Foods products are good for those\non a Keto, Low Carb or Diabetic diet.\n\n80%\nLOWER\nRegular\nMurukku\nLo\n\nMRP \u20b9:\n(incl. of all taxes)\nUnit Sale Price \u20b9:\nper g\nBatch No.:\nDate of Pkg.:\nUse by:\n\nNet Quantity: 100 g\n\n8 906112 990449\n\nLO\nFOODS\nKeto\nSmart\n\nKeto\nMurukku\n\nSERVING SUGGESTION\n~24 g\n\nALLERGEN ADVICE\nContains Nuts,\nSesame & Gluten\n\nORDER NOW\nlofoods.fit\n\nMANUFACTURED & MARKETED BY\nBajo Foods Pvt. Ltd.\n48/2C-C1, Hosapalya Garvebhavi Palya,\nBommanahalli, B.B.M.P South, Bangalore,\nKarnataka-560068\n\nfssai\nLic. No. 11222999000278\n\nAn ISO 22000: 2018 Certified Company\nFeedback or Complaints:\nWrite to \"Manufactured & Marketed\" by address\nfeedback@bajofoods.com +91 84312 37920\nLearn more at @lofoods /lofoodsindia\n\nSTORE IN A COOL, DRY PLACE\nDO NOT BUY IF THE PACKET SEAL IS TAMPERED\n\nPANEL 1\n\nHEALTHY SNACK\n\nHIGH FIBRE\nKeto\nKETO COMPLIANT\nHIGH PROTEIN\n\n2.6g\nNET CARBS\nper serving\n\nLO\nFOODS\nKeto\nSmart\n\nKeto\nMurukku\n\nINDIAN FOODS,\nNOW LOW ON CARBS\n\nPANEL 2"
+[2026-04-01 16:34:27] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-01 16:34:27] [STEP 3/9] Extracting brand metadata...
+[2026-04-01 16:34:27] [Metadata] Extracting Brand Metadata
+[2026-04-01 16:34:32] [Metadata] Metadata LLM raw output: {
+    "brandName": "Lo Foods",
+    "productName": "Keto Murukku",
+    "fssaiCategory": "Snacks and Savouries Category 15.1",
+    "licenseNo": "11222999000278",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-01 16:34:32] [EXTRACTED METADATA] {
+  "brandName": "Lo Foods",
+  "productName": "Keto Murukku",
+  "fssaiCategory": "Snacks and Savouries Category 15.1",
+  "licenseNo": "11222999000278",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-01 16:34:32] [STEP 4/9] Running regulatory checks...
+[2026-04-01 16:34:32] [Core] Running Regulatory Analysis
+[2026-04-01 16:34:46] [STEP 5/9] Validating product category...
+[2026-04-01 16:34:46] [Claims] Running Claims Subsystem
+[2026-04-01 16:34:53] [Claims] Claims Validation Result: [{'claim_text': 'High on Fibre', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The product contains 14.17g of fibre per 100g, which exceeds the 6g/100g threshold for solids. It also contains 2.73g per 100kcal, which is close to the 3g/100kcal alternative, but it complies via the primary solid threshold.', 'reference': 'FSSAI Nutritional Claims - Dietary Fibre (High)'}, {'claim_text': 'High on Protein', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "Protein content is 25.83g per 100g. Based on a standard adult RDA of 54g, this provides ~47.8% RDA per 100g, exceeding the 20% RDA requirement for 'High' claims.", 'reference': 'FSSAI Nutritional Claims - Protein (High)'}, {'claim_text': '2.6g NET CARBS per serving', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The nutrition table explicitly lists Net Carbohydrates as 2.6g per serving.', 'reference': 'Nutrition Table Data'}, {'claim_text': '60% - 80% Lower Net Carbs', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': 'Comparative claims require a reference to a standard product in the same category. While the net carb count is low (10.83g/100g), the specific percentage reduction cannot be verified without the reference product data.', 'reference': 'FSSAI Advertising and Claims Regulations - Comparative Claims'}, {'claim_text': 'No Preservatives added', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains seeds, oil, groundnuts, flours, salt, and spices; no chemical preservatives (e.g., INS 202, INS 211) are listed.', 'reference': 'Ingredients List'}, {'claim_text': 'Made with premium SuperFood Seeds', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list confirms the presence of Sesame, Melon, Sunflower, Pumpkin, and Flax seeds.', 'reference': 'Ingredients List'}, {'claim_text': 'KETO COMPLIANT', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "FSSAI does not have a defined standard for 'Keto Compliant'. While the macronutrient profile (high fat, high protein, low net carb) aligns with ketogenic principles, it is a non-standardized claim.", 'reference': 'FSSAI General Principles for Claims'}, {'claim_text': 'Reducing Carbs helps with Weight Loss and improved Health', 'tag': 'Health Claim', 'status': 'Fail', 'reasoning': 'This is a non-specific health claim. FSSAI requires health claims to be based on specific nutrients and approved wording. General weight loss claims without specific clinical evidence or approved functional links are restricted.', 'reference': 'FSSAI Health Claims Regulations'}]
+[2026-04-01 16:34:53] [Claims] Claims Analysis Result: Analyzed 8 claim(s). 5 passed, 1 failed, 2 need review.
+[2026-04-01 16:34:53] [STEP 6/9] Substantiating claims...
+[2026-04-01 16:34:53] [Nutrition] Running Nutrition Subsystem
+[2026-04-01 16:34:56] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': "The product is marketed as 'Keto Compliant' and emphasizes weight loss through low net carbs, which targets the general adult population seeking weight management or metabolic health, typically represented by the sedentary adult RDA demographic."}
+[2026-04-01 16:34:56] [Nutrition] [RDA] Initializing RDA Calculator for: gender=men, activity=sedentary, period=None
+[2026-04-01 16:34:56] [Nutrition] [RDA] Processing 11 nutrition entries
+[2026-04-01 16:34:56] [Nutrition] [RDA] Calculation complete: 11 nutrients analyzed
+[2026-04-01 16:34:56] [Nutrition] [RDA] Energy: 518.75 kcal = 25.9% of RDA (2000 kcal/d)
+[2026-04-01 16:34:56] [Nutrition] [RDA] Total Fat: 35.0 g = 52.2% of RDA (67 g/d)
+[2026-04-01 16:34:56] [Nutrition] [RDA] Saturated Fat: 11.25 g = 51.1% of RDA (22 g/d)
+[2026-04-01 16:34:56] [Nutrition] [RDA] Trans Fat: 0.0 g = 0.0% of RDA (2 g/d)
+[2026-04-01 16:34:56] [Nutrition] [RDA] Protein: 25.83 g = 47.8% of RDA (54.0 g/d)
+[2026-04-01 16:34:56] [Nutrition] [RDA] Sodium: 661.25 mg = 33.1% of RDA (2000 mg/d)
+[2026-04-01 16:34:56] [Nutrition] [RDA] Summary | Compliant: 6, Violations: 0, Warnings: 0
+[2026-04-01 16:34:56] [Nutrition] [RDA] Nutrition Pipeline completed: Generated 1 check(s)
+[2026-04-01 16:34:56] [STEP 7/9] Verifying nutrition limits...
+[2026-04-01 16:34:56] [Lab Tests] Running Lab Test Pipeline
+[2026-04-01 16:35:03] [Lab Tests] Generated 5 suggestions
+[2026-04-01 16:35:09] [Lab Tests] Generated 5 microbiological hazard-related tests
+[2026-04-01 16:35:09] [STEP 8/9] Generating lab test suggestions...
+[2026-04-01 16:35:09] [SUCCESS] Final Score: 70.0%

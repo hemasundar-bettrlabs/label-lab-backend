@@ -41,10 +41,45 @@ These 5 fields are printed at production time (inkjet/laser). For these checks O
 
 ## IMPORTANT CHECKS: NEED TO BE CHECKED STRICTLY
 
-| Check | Field | Accepted Keywords |
-|-------|-------|-------------------|
-| CHK-07 | Nutritional Information | Must Contain %RDA and it should be calculated based on Per Serve
+1) Nutritional Information:
+Must Contain %RDA and it should be calculated based on Per Serve.
+The system must verify the presence of the following: 
+Energy (kcal)
+Protein (g)
+Carbohydrate (g)
+Total Sugars (g)
+Added Sugars (g)
+Total Fat (g)
+Saturated Fat (g)
+Trans Fat (g)
+Cholesterol (mg)
+Sodium (mg)
+The system should analyze the info all should present  
+ex: in label if just it mention sugar not added sugar and total sugar , it should flag
 
+2) Conditional Declarations:
+Saturated Fat & Trans Fat: Required only if total fat > 0.5% in the final product. May be declared as “not more than”.  
+Cholesterol: Required only if: Product contains animal-origin fat, AND Total fat > 0.5%.
+
+3) Nutrition information must be declared: 
+Per 100 g / 100 ml OR Per serving AND % RDA per serving must be provided  
+Decision: If both not present → Flag as non-compliant | If present → Proceed.
+If serving size ≠ 100 g/ml and net weight 
+Both Per 100 g/ml AND Per Serving values must be declared.  
+If serving size = net weight 
+Single declaration is acceptable per serve and calculate %rda per serve.  
+Validate: Consistency between per 100 g and per serving values.
+
+4) Saturated fat and trans fat may be declared as “not more than”
+Decision: If used → Acceptable  
+No flag required
+
+5) If vitamins/minerals are mentioned → must be in metric units
+Decision: If not in metric units → Flag
+Else → Valid
+
+6) Serving size may also be given in household units (spoon, cup, etc.)
+Decision: Optional → No compliance issue
 ---
 
 ## COMPLIANCE CHECKS

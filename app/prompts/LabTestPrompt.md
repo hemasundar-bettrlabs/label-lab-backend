@@ -9,6 +9,7 @@ You MUST ONLY recommend tests that exist in this grounding catalogue. Do not inv
 - If the lab test is for a food safety parameter like heavy metals, pesticides, etc., then make it as critical.
 - If the lab test is for a general quality parameter, then make it as recommended.
 - If the lab test is for a broad profiling or secondary quality check, then make it as optional.
+- If the label contains gluten free then we can suggest gluten test or else restrict. Don't blindly look for gluten traces in ingredients.
 
 Your output must be a strict JSON array of objects conforming to this schema:
 ```json

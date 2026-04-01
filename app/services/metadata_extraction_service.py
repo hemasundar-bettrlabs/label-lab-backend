@@ -5,6 +5,7 @@ from google.genai import types
 from app.models.schemas import ExtractedMetadata
 from app.services.image_processor import decode_image_from_base64
 from app.services.llm_service import llm_service
+from app.utils.logger import pipeline_logger
 from dotenv import load_dotenv
 import asyncio
 import traceback
@@ -67,7 +68,7 @@ async def extract_brand_metadata(base64_image: str) -> ExtractedMetadata:
         response = await asyncio.to_thread(run_llm)
 
         result_text = clean_json_response(response.text)
-        print(f"INFO: Metadata LLM raw output: {result_text}")
+        pipeline_logger.info("Metadata", f"Metadata LLM raw output: {result_text}")
         result = json.loads(result_text)
         
         # Merge with defaults to prevent Pydantic missing-field crashes
@@ -89,7 +90,7 @@ async def extract_brand_metadata(base64_image: str) -> ExtractedMetadata:
         return ExtractedMetadata(**defaults)
 
     except Exception as e:
-        print(f"WARNING: Metadata extraction failed ({e}). Using fallback.")
+        pipeline_logger.error("Metadata", f"Metadata extraction failed: {str(e)}")
         traceback.print_exc()
         # Guaranteed non-crashing fallback
         return ExtractedMetadata(

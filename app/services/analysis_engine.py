@@ -14,6 +14,7 @@ from app.services.labtest_engine import run_lab_test_pipeline
 from app.services.ocr_extraction_service import extract_label_data
 from app.services.llm_service import llm_service
 from app.services.metadata_extraction_service import extract_brand_metadata
+from app.services.product_category_engine import ProductCategoryPredictor
 from dotenv import load_dotenv
 import io
 import asyncio
@@ -100,7 +101,8 @@ async def validate_is_label(base64_image: str) -> LabelValidationResult:
         return LabelValidationResult(**result)
         
     except Exception as e:
-        print(f"Validation Error: {e}")
+        from app.utils.logger import pipeline_logger
+        pipeline_logger.error("Validation", f"Validation Error: {str(e)}")
         return LabelValidationResult(
             isLabel=False, 
             confidence=0, 
@@ -129,6 +131,8 @@ async def run_analysis_job(job_id: str):
         steps.append("Extracting brand metadata")
         if core_categories:
             steps.append("Running regulatory checks")
+        if 'Claims' in categories or 'Nutrition' in categories:
+            steps.append("Validating product category")
         if 'Claims' in categories:
             steps.append("Substantiating claims")
         if 'Nutrition' in categories:
@@ -241,6 +245,47 @@ async def run_analysis_job(job_id: str):
 
         result_json = {"overallScore": 100, "status": "Compliant", "summary": "No specific core checks.", "checks": []}
         
+        # Category Prediction (after metadata and OCR extraction, before claims/nutrition)
+        # Only predict if category is missing from BOTH OCR JSON and metadata
+        category_validation_check = None  # Initialize here, populate if prediction succeeds
+        ocr_category = extraction.product_category if extraction else None
+        metadata_category = extracted_metadata.fssaiCategory if extracted_metadata else None
+        
+        if ('Claims' in categories or 'Nutrition' in categories) and extraction and not ocr_category and not metadata_category:
+            await advance_step("category")
+            pipeline_logger.info("Category", "Predicting Product Category")
+            try:
+                predictor = ProductCategoryPredictor()
+                # Convert extracted ingredients list to comma-separated string
+                ingredients_str = ", ".join(extraction.ingredients) if extraction.ingredients else ""
+                prediction = await predictor.predict_category(
+                    product_name=extracted_metadata.productName or "Unknown",
+                    brand_name=extracted_metadata.brandName,
+                    ingredients=ingredients_str,
+                    ocr_category=ocr_category,
+                    metadata_category=metadata_category,
+                    extraction=extraction,  # Pass extraction for OCR JSON injection
+                )
+                if prediction:
+                    # OCR JSON already updated by predict_category() method
+                    # Also update metadata for consistency
+                    extracted_metadata.fssaiCategory = extraction.product_category
+                    pipeline_logger.info("Category", f"Predicted: {prediction.suggested_category} (confidence: {prediction.confidence_score:.2f})")
+                    # Create check dict from prediction with status "Action" (needs review)
+                    category_validation_check = {
+                        "id": "CAT-001",
+                        "category": "Category",
+                        "name": "Product Category Prediction",
+                        "description": prediction.suggested_category,
+                        "status": "Action",
+                        "feedback": prediction.reasoning,
+                        "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100},
+                        "location": {"x": 50, "y": 50}
+                    }
+            except Exception as e:
+                pipeline_logger.error("Category", f"Prediction failed: {e}")
+        
+        
         if core_categories:
             await advance_step("regulatory")
             pipeline_logger.info("Core", "Running Regulatory Analysis")
@@ -291,6 +336,10 @@ async def run_analysis_job(job_id: str):
 
         if nutrition_checks:
             result_json.setdefault("checks", []).extend(nutrition_checks)
+
+        # Add category validation result if available
+        if category_validation_check:
+            result_json.setdefault("checks", []).insert(0, category_validation_check)
 
         if claims_result and ("checks" in result_json):
             for i, verdict in enumerate(claims_result.verdicts):

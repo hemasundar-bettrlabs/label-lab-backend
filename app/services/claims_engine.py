@@ -14,6 +14,7 @@ from app.stores.claims_store import (
 )
 
 from app.services.llm_service import llm_service
+from app.services.rda_calculator import RDACalculator
 
 load_dotenv()
 
@@ -32,13 +33,39 @@ async def validate_claims(extraction_result: ClaimsExtractionResult) -> list[Cla
 
         root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+        # Calculate RDA percentages for all nutrients
+        rda_calculator = RDACalculator()
+        rda_percentages = {}
+        nutrition_with_rda = []
+        
+        for entry in extraction_result.nutrition_table:
+            entry_dict = entry.model_dump()
+            try:
+                # Calculate RDA percentage if numeric per_100g value exists
+                if entry.per_100g and isinstance(entry.per_100g, (int, float)):
+                    rda_pct = rda_calculator.calculate_rda_percentage(
+                        nutrient=entry.nutrient,
+                        amount=entry.per_100g,
+                        amount_unit=entry.unit
+                    )
+                    if rda_pct is not None:
+                        entry_dict['rda_percentage_per_100g'] = rda_pct
+                        rda_percentages[entry.nutrient.lower()] = rda_pct
+                        pipeline_logger.info("Claims", f"{entry.nutrient}: {rda_pct}% RDA per 100g")
+            except Exception as e:
+                pipeline_logger.warning("Claims", f"Could not calculate RDA for {entry.nutrient}: {e}")
+            
+            nutrition_with_rda.append(entry_dict)
+
         # Convert extraction components to formatted strings
-        nutrition_str = json.dumps([n.model_dump() for n in extraction_result.nutrition_table], indent=2)
+        nutrition_str = json.dumps(nutrition_with_rda, indent=2, default=str)
         ingredients_str = ", ".join(extraction_result.ingredients)
         claims_str = json.dumps([c.model_dump() for c in extraction_result.claims], indent=2)
         nutritional_claims_str = open(os.path.join(root, "app", "data", "nutritional_claims.json")).read()
 
-        prompt = build_claims_validation_prompt(nutrition_str, ingredients_str, claims_str, nutritional_claims_str)
+        # Add RDA percentage info to prompt
+        rda_info = json.dumps(rda_percentages, indent=2)
+        prompt = build_claims_validation_prompt(nutrition_str, ingredients_str, claims_str, nutritional_claims_str, rda_info)
 
         response = await llm_service.generate_content_async(
             model_name=CLAIMS_VALIDATION_MODEL,

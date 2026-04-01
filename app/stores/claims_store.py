@@ -21,8 +21,15 @@ For each claim provided, determine if it is:
 Provide a concise, clear reason for your decision, referencing the specific values.
 """
 
-def build_claims_validation_prompt(nutrition_json: str, ingredients_list: str, claims_json: str, nutritional_claims_json: str) -> str:
+def build_claims_validation_prompt(nutrition_json: str, ingredients_list: str, claims_json: str, nutritional_claims_json: str, rda_percentages_json: str = "") -> str:
     """Build the final validation prompt from extracted data."""
+    rda_section = ""
+    if rda_percentages_json:
+        rda_section = f"""
+    ## 4. CALCULATED RDA PERCENTAGES (per 100g):
+    {rda_percentages_json}
+    """
+    
     return f"""
     # CONTEXT: PRODUCT COMPOSITION
     
@@ -33,16 +40,24 @@ def build_claims_validation_prompt(nutrition_json: str, ingredients_list: str, c
     {ingredients_list}
 
     ## 3. POSSIBLE NUTRITIONAL CLAIMS WITH THRESHOLDS:
-    {nutritional_claims_json}
+    {nutritional_claims_json}{rda_section}
     
     # TASK: CLAIMS TO VALIDATE
     Assess the following claims extracted from the label:
     {claims_json}
     
     For each claim, evaluate it based ONLY on the provided nutrition table and ingredients list and nutritional claims with thresholds.
-    If the claim requires data that is missing from these two sources (e.g., "Clinical trials prove X"), then mark it as 'Action'.
-    If the claim is "High Protein", but the nutrition table shows protein is very low, mark it as 'Fail'.
-    If the claim is "Made with real apples", and apples are in the ingredients list, mark it as 'Complies'.
+    
+    IMPORTANT - RDA CLAIM VALIDATION:
+    - "Source of [Nutrient]" claim requires ≥ 10% RDA per 100g. Check the "CALCULATED RDA PERCENTAGES" section.
+    - "High in [Nutrient]" claim requires ≥ 20% RDA per 100g. Check the "CALCULATED RDA PERCENTAGES" section.
+    - If the calculated RDA % is lower than required for the claim, mark it as 'Fail'.
+    - Example: If label claims "Source of Vitamin A" but RDA is only 8%, mark as 'Fail' because 8% < 10% required.
+    
+    For other claims:
+    - If the claim requires data that is missing from these two sources (e.g., "Clinical trials prove X"), then mark it as 'Action'.
+    - If the claim is "High Protein", but the nutrition table shows protein is very low, mark it as 'Fail'.
+    - If the claim is "Made with real apples", and apples are in the ingredients list, mark it as 'Complies'.
 
     Think through each claim logically.
     """

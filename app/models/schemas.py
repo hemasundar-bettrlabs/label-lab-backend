@@ -1,4 +1,4 @@
-from typing import List, Optional, Literal
+from typing import List, Optional, Literal, Dict
 from enum import Enum
 
 from pydantic import BaseModel
@@ -147,6 +147,14 @@ class ComplianceRule(BaseModel):
     location: Optional[Coordinate] = None
     boundingBox: Optional[BoundingBox] = None
     panelIndex: Optional[int] = None
+    # Extended fields for category validation
+    detected_category: Optional[str] = None
+    confidence_score: Optional[float] = None
+    matched_ingredients: Optional[Dict[str, str]] = None
+    unmatched_ingredients: Optional[List[str]] = None
+    rule_based_scores: Optional[Dict[str, float]] = None
+    fallback_predictions: Optional[List[Dict]] = None
+    match_summary: Optional[str] = None
 
 class LabTestSuggestion(BaseModel):
     testName: str
@@ -196,6 +204,7 @@ class ClaimsExtractionResult(BaseModel):
     allergens: List[str]
     servings: ServingsInfo
     claims: List[ExtractedClaim]
+    product_category: Optional[str] = None  # Added: Product category from OCR or suggested
 
 class ClaimVerdict(BaseModel):
     claim_text: str

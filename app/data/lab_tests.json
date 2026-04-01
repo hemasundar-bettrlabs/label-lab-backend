@@ -75,14 +75,6 @@
     },
     {
         "Category": "GC-MS/MS Analysis",
-        "Test": "Pesticide Residual Analysis",
-        "price": 5500,
-        "Scenario": "Checking a batch of organic apples to ensure no prohibited synthetic pesticides are present.",
-        "Nutritional/Functional Claim (Y/N)": "N",
-        "Ingredient Claim (Y/N)": "Y"
-    },
-    {
-        "Category": "GC-MS/MS Analysis",
         "Test": "Phytochemical Screening",
         "price": 3300,
         "Scenario": "Identifying volatile bioactive compounds in a new herbal extract intended for health supplements.",
@@ -176,14 +168,6 @@
         "Test": "Proton NMR (DMSO Exchange)",
         "price": 1650,
         "Scenario": "Analyzing complex, polar organic molecules (like certain sugars) in R&D formulation.",
-        "Nutritional/Functional Claim (Y/N)": "N",
-        "Ingredient Claim (Y/N)": "Y"
-    },
-    {
-        "Category": "ICP-MS Mineral",
-        "Test": "Heavy Metal Analysis",
-        "price": 880,
-        "Scenario": "Screening baby food for toxic heavy metals to ensure regulatory compliance.",
         "Nutritional/Functional Claim (Y/N)": "N",
         "Ingredient Claim (Y/N)": "Y"
     },

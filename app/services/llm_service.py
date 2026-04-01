@@ -1,10 +1,13 @@
 import os
+import logging
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
 from typing import Optional, Any, Union, Dict, List
 
 load_dotenv()
+
+logger = logging.getLogger(__name__)
 
 class VertexLLMService:
     _instance = None
@@ -22,10 +25,10 @@ class VertexLLMService:
         gcp_location = os.getenv("GCP_LOCATION", "us-central1")
         
         if not gcp_project_id:
-            print("WARNING: GCP_PROJECT_ID is not set. Vertex AI initialization may fail.")
+            logger.warning("GCP_PROJECT_ID is not set. Vertex AI initialization may fail.")
         
         cls._client = genai.Client(vertexai=True, project=gcp_project_id, location=gcp_location)
-        print(f"INFO: VertexLLMService initialized for project {gcp_project_id} in {gcp_location}")
+        logger.info(f"VertexLLMService initialized for project {gcp_project_id} in {gcp_location}")
 
     def generate_content(
         self,
@@ -64,7 +67,7 @@ class VertexLLMService:
             return response
 
         except Exception as e:
-            print(f"ERROR in VertexLLMService.generate_content: {e}")
+            logger.error(f"Error in VertexLLMService.generate_content: {e}")
             raise e
 
     async def generate_content_async(self, *args, **kwargs):
