@@ -155,6 +155,8 @@ class ComplianceRule(BaseModel):
     rule_based_scores: Optional[Dict[str, float]] = None
     fallback_predictions: Optional[List[Dict]] = None
     match_summary: Optional[str] = None
+    # Nutrition RDA details
+    nutritionDetails: Optional[List[Dict]] = None
 
 class LabTestSuggestion(BaseModel):
     testName: str

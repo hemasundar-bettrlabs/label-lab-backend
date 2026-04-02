@@ -154,48 +154,24 @@ async def run_nutrition_pipeline(extraction: ClaimsExtractionResult) -> tuple[li
             else:
                 compliant_nutrients.append(nutrient_display)
         
-        # Merge results into standard checks
-        # Add violations as individual FAIL checks
-        for i, v in enumerate(violations):
-            checks.append({
-                "id": f"NUT-FAIL-{i+1:03d}",
-                "category": "Nutrition",
-                "name": f"Nutrition Violation: {v['name']}",
-                "description": f"Mandatory RDA Compliance for {v['name']}",
-                "status": "Fail",
-                "feedback": v["feedback"],
-                "location": {"x": 50, "y": 50},
-                "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100}
-            })
-            
-        # Add below-adequacy nutrients as individual NON-COMPLIANT checks
-        for i, b in enumerate(below_adequacy):
-            checks.append({
-                "id": f"NUT-INADEQUATE-{i+1:03d}",
-                "category": "Nutrition",
-                "name": f"Nutrition Below Adequacy: {b['name']}",
-                "description": f"RDA Adequacy for {b['name']}",
-                "status": "Fail",
-                "feedback": b["feedback"],
-                "location": {"x": 50, "y": 50},
-                "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100}
-            })
-            
-        # Overall RDA Compliance Summary
+        # Overall RDA Compliance Summary with consolidated nutrition details
         total_nutrients = len(rda_results)
         
         if violations or below_adequacy:
             # FAIL: If there are any violations or nutrients below adequacy
             num_inadequate = len(violations) + len(below_adequacy)
+            # Combine violations and below-adequacy items for detailed display
+            nutrition_details = violations + below_adequacy
             checks.append({
                 "id": "NUT-COMPLIANCE-001",
                 "category": "Nutrition",
                 "name": "Nutrition RDA Compliance",
                 "description": "Validation of declared nutritional values against standard RDA constants.",
                 "status": "Fail",
-                "feedback": f"RDA Compliance Failed: {num_inadequate} out of {total_nutrients} nutrients fail RDA adequacy standards. {len(violations)} nutrient(s) exceed RDA limits. {len(below_adequacy)} nutrient(s) are below minimum adequacy thresholds for {audience['gender']} ({audience['activity_level']}).",
+                "feedback": f"RDA Compliance Failed: {num_inadequate} out of {total_nutrients} nutrients fail RDA adequacy standards. {len(below_adequacy)} nutrient(s) are below minimum adequacy thresholds for {audience['gender']} ({audience['activity_level']}).",
                 "location": {"x": 50, "y": 50},
-                "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100}
+                "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100},
+                "nutritionDetails": nutrition_details
             })
         else:
             # COMPLIES: Only if ALL nutrients meet RDA adequacy standards
@@ -207,7 +183,8 @@ async def run_nutrition_pipeline(extraction: ClaimsExtractionResult) -> tuple[li
                 "status": "Complies",
                 "feedback": f"All declared nutrients comply with RDA adequacy standards for {audience['gender']} ({audience['activity_level']}) patients/consumers. All {total_nutrients} parameters tested are within acceptable RDA ranges.",
                 "location": {"x": 50, "y": 50},
-                "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100}
+                "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100},
+                "nutritionDetails": []
             })
 
     except Exception as e:

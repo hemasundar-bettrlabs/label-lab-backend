@@ -62,7 +62,7 @@ async def run_lab_test_pipeline(
     claims_result: Any, 
     nutrition_checks: List[Dict], 
     extraction: ClaimsExtractionResult,
-    metadata: Dict[str, Any] = None
+    metadata: Dict[str, Any]
 ) -> List[LabTestSuggestion]:
     """Generates lab test suggestions based on the aggregated audit results."""
     try:
@@ -134,7 +134,7 @@ async def run_lab_test_pipeline(
 
 
         
-        result_json = json.loads(clean_json_response(response.text))
+        result_json = json.loads(clean_json_response(response.text)) # pyright: ignore[reportArgumentType]
         
         # Convert to Pydantic models
         suggestions = [LabTestSuggestion(**item) for item in result_json]
@@ -222,7 +222,6 @@ Analyze whether the food product below requires contaminants testing, based stri
 2. **Apply only defined limits.**
    - Only recommend tests for contaminants explicitly listed for the matched category.
    - If a parameter (e.g., copper) is not listed for the product category, do not suggest it — unless it appears under the "Food Not Specified / All Foods / Other Foods" fallback.
-
 ---
 
 ### ANALYSIS TASK
@@ -256,9 +255,9 @@ Only include test groups where at least one parameter is explicitly regulated fo
   {{
     "testName": "Heavy Metals Analysis (Lead, Arsenic, Cadmium, Mercury)",
     "category": "Safety Test",
-    "price": 2500,
-    "price_low": 2000,
-    "price_high": 3500,
+    "price": 880,
+    "price_low": 880,
+    "price_high": 1000,
     "priority": "Critical",
     "description": "Testing for regulated heavy metals under FSSAI Contaminants Regulations for {category_str}.",
     "relatedChecks": []
@@ -266,15 +265,18 @@ Only include test groups where at least one parameter is explicitly regulated fo
   {{
     "testName": "Mycotoxin Analysis (Aflatoxins, Ochratoxin A, Patulin)",
     "category": "Safety Test",
-    "price": 3000,
-    "price_low": 2500,
-    "price_high": 4000,
+    "price": 880,
+    "price_low": 880,
+    "price_high": 1000,
     "priority": "Critical",
     "description": "Testing for mycotoxins and crop contaminants under FSSAI regulations for {category_str}.",
     "relatedChecks": []
   }}
 ]
 ```
+### Pricing reference Must Be Followed Strictly No Hallucinations (INR):
+  For All the Test Keep the price range between 880-1000 INR, with 880 INR being the most common price for basic contaminant panels in Indian labs.
+
 """
 
         # Call LLM for contaminants analysis
@@ -305,7 +307,7 @@ Only include test groups where at least one parameter is explicitly regulated fo
             }
         )
         
-        result_json = json.loads(clean_json_response(response.text))
+        result_json = json.loads(clean_json_response(response.text)) # pyright: ignore[reportArgumentType]
         contaminants_tests = [LabTestSuggestion(**item) for item in result_json]
         
         return contaminants_tests
@@ -463,7 +465,6 @@ Fresh whole fruit/vegetable not further processed → falls under "Fresh" which 
 Product does not match any subcategory in Group A or Group B → return [].
 Never combine tests from two subcategories, even if the product seems to straddle both.
 
-
 STEP 4 — OUTPUT
 Return only a JSON array. One object per test. No additional text, no explanation outside the array.
 If no subcategory matched → return [].
@@ -471,24 +472,25 @@ If no subcategory matched → return [].
   {{
     "testName": "<exact test name from the allowed list>",
     "category": "Safety Test",
-    "price": <integer, realistic Indian lab price in INR>,
-    "price_low": <integer>,
-    "price_high": <integer>,
+    "price": 750,
+    "price_low": 750,
+    "price_high": 1000,
     "priority": "Critical",
     "description": "<one sentence: why this test matters for this specific product and subcategory>",
     "relatedChecks": []
   }}
 ]
-Pricing reference (INR):
 
-Aerobic Plate Count: 3000-4500
-Yeast and Mold Count: 3500-5000
-Enterobacteriaceae: 3500-5000
-Staphylococcus aureus: 3500-5000
-Salmonella: 4000-6000
-Listeria monocytogenes: 4500-6500
-E. Coli O157 / Shiga toxin: 4500-7000
-Vibrio cholerae: 4000-6000
+### Pricing reference Must Be Followed Strictly No Hallucinations:
+
+Aerobic Plate Count: 750-1000
+Yeast and Mold Count: 750-1000
+Enterobacteriaceae: 750-1000
+Staphylococcus aureus: 750-1000
+Salmonella: 750-1000
+Listeria monocytogenes: 750-1000
+E. Coli O157 / Shiga toxin: 750-1000
+Vibrio cholerae: 750-1000
 """
 
         # Call LLM for microbiological hazards analysis
@@ -519,7 +521,7 @@ Vibrio cholerae: 4000-6000
             }
         )
         
-        result_json = json.loads(clean_json_response(response.text))
+        result_json = json.loads(clean_json_response(response.text)) # pyright: ignore[reportArgumentType]
         microbiological_tests = [LabTestSuggestion(**item) for item in result_json]
         
         return microbiological_tests

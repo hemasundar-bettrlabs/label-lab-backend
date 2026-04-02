@@ -97,7 +97,7 @@ async def validate_is_label(base64_image: str) -> LabelValidationResult:
             response_mime_type="application/json"
         )
         
-        result = json.loads(clean_json_response(response.text))
+        result = json.loads(clean_json_response(response.text)) # pyright: ignore[reportArgumentType]
         return LabelValidationResult(**result)
         
     except Exception as e:
@@ -188,7 +188,7 @@ async def run_analysis_job(job_id: str):
 
         def run_main_analysis():
             return llm_service.generate_content(
-                model_name=ANALYSIS_MODEL,
+                model_name=ANALYSIS_MODEL, # pyright: ignore[reportArgumentType]
                 contents=[
                     types.Part.from_bytes(data=img_bytes, mime_type="image/jpeg"),
                     final_prompt
@@ -269,7 +269,7 @@ async def run_analysis_job(job_id: str):
                 if prediction:
                     # OCR JSON already updated by predict_category() method
                     # Also update metadata for consistency
-                    extracted_metadata.fssaiCategory = extraction.product_category
+                    extracted_metadata.fssaiCategory = prediction.suggested_category
                     pipeline_logger.info("Category", f"Predicted: {prediction.suggested_category} (confidence: {prediction.confidence_score:.2f})")
                     # Create check dict from prediction with status "Action" (needs review)
                     category_validation_check = {
@@ -290,7 +290,7 @@ async def run_analysis_job(job_id: str):
             await advance_step("regulatory")
             pipeline_logger.info("Core", "Running Regulatory Analysis")
             response = await asyncio.to_thread(run_main_analysis)
-            result_json = json.loads(clean_json_response(response.text))
+            result_json = json.loads(clean_json_response(response.text)) # pyright: ignore[reportArgumentType]
 
         # Initialize default nutrition audience
         nutrition_audience = {
@@ -319,7 +319,7 @@ async def run_analysis_job(job_id: str):
             checks=result_json.get("checks", []),
             claims_result=claims_result,
             nutrition_checks=nutrition_checks,
-            extraction=extraction,
+            extraction=extraction, # pyright: ignore[reportArgumentType]
             metadata=extracted_metadata.model_dump() if extracted_metadata else {},
         )
 
@@ -346,6 +346,10 @@ async def run_analysis_job(job_id: str):
 
         if nutrition_checks:
             result_json.setdefault("checks", []).extend(nutrition_checks)
+            # Log nutrition checks being added
+            for check in nutrition_checks:
+                if check.get("id") == "NUT-COMPLIANCE-001":
+                    pipeline_logger.info("Analysis", f"Added Nutrition Check with nutritionDetails: {len(check.get('nutritionDetails', []))} items")
 
         # Add category validation result if available
         if category_validation_check:
@@ -360,6 +364,34 @@ async def run_analysis_job(job_id: str):
                     "clauseRef": verdict.reference, "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100},
                     "location": {"x": 50, "y": 50}
                 })
+            
+            # Add summary check for all claims
+            fail_count = sum(1 for v in claims_result.verdicts if v.status == 'Fail')
+            action_count = sum(1 for v in claims_result.verdicts if v.status == 'Action')
+            pass_count = sum(1 for v in claims_result.verdicts if v.status == 'Complies')
+            total_claims = len(claims_result.verdicts)
+            
+            # Determine overall claims status
+            if fail_count > 0:
+                claims_status = 'Fail'
+                claims_feedback = f"Claims Validation: {fail_count} out of {total_claims} claim(s) are non-compliant with regulatory requirements."
+            elif action_count > 0:
+                claims_status = 'Action'
+                claims_feedback = f"Claims Validation: {action_count} out of {total_claims} claim(s) require review or amendments."
+            else:
+                claims_status = 'Complies'
+                claims_feedback = f"Claims Validation: All {total_claims} claim(s) comply with regulatory requirements."
+            
+            result_json["checks"].insert(0, {
+                "id": "CLM-SUMMARY",
+                "category": "Claims",
+                "name": "Claims Summary",
+                "description": "Overall assessment of all product claims against regulatory standards.",
+                "status": claims_status,
+                "feedback": claims_feedback,
+                "boundingBox": {"ymin": 0, "xmin": 0, "ymax": 100, "xmax": 100},
+                "location": {"x": 50, "y": 50}
+            })
 
         if lab_tests:
             result_json["suggestedLabTests"] = [test.model_dump() for test in lab_tests]
@@ -367,6 +399,12 @@ async def run_analysis_job(job_id: str):
         result_json["extractedMetadata"] = extracted_metadata.model_dump()
         from app.models.schemas import AnalysisResult
         final_res = AnalysisResult(**result_json)
+        
+        # Verify nutritionDetails are in final result
+        nut_check = next((c for c in final_res.checks if c.id == "NUT-COMPLIANCE-001"), None)
+        if nut_check:
+            pipeline_logger.info("Analysis", f"Final Result: Nutrition Check found with status={nut_check.status}, nutritionDetails={len(nut_check.nutritionDetails or [])}")
+        
         pipeline_logger.success(f"Final Score: {final_res.overallScore}%")
         
         await job_store.add_event(job_id, "result", final_res.model_dump())

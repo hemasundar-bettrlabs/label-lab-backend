@@ -2569,3 +2569,1184 @@ checks.28.status
 [2026-04-02 01:36:36] [Lab Tests] Generated 3 microbiological hazard-related tests
 [2026-04-02 01:36:36] [STEP 8/9] Generating lab test suggestions...
 [2026-04-02 01:36:36] [SUCCESS] Final Score: 65.0%
+[2026-04-02 09:41:54] [STEP 1/9] Validating image context...
+[2026-04-02 09:41:54] [Context] source=default_general, type=general, code=None
+[2026-04-02 09:41:54] [STEP 2/9] Extracting OCR data...
+[2026-04-02 09:41:54] [OCR] Initiating OCR Extraction Service
+[2026-04-02 09:41:54] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 09:42:09] [RAW OCR TEXT] "```json\n[\n  {\"text\": \"2kg\\nVALUE\\nPACK\"},\n  {\"text\": \"100% AUTHENTIC\"},\n  {\"text\": \"iD\"},\n  {\"text\": \"IDLY &\\nDOSA\\nBATTER\"},\n  {\"text\": \"Hello! This batter is made fresh with traditional ingredients\\nand is naturally fermented, just like in your kitchen.\\nA home-made feast is only minutes away.\"},\n  {\"text\": \"NO ADDED\\nPRESERVATIVES\"},\n  {\"text\": \"NO\\nSODA\"},\n  {\"text\": \"RO-PURIFIED\\nWATER\"},\n  {\"text\": \"MILDLY SALTED\"},\n  {\"text\": \"BUY ONLY IF\\nREFRIGERATED\"},\n  {\"text\": \"TRY TASTIER,\\nHEALTHIER\\nPAROTAS!\"},\n  {\"text\": \"PANEL 1\"},\n  {\"text\": \"Seal of Freshness\"},\n  {\"text\": \"100% AUTHENTIC\"},\n  {\"text\": \"iD\"},\n  {\"text\": \"INGREDIENTS\\nRice (34%), Urad Dal, Fenugreek,\\nRO-purified Water (50%) and Edible\\nCommon Salt.\"},\n  {\"text\": \"NUTRITIONAL FACTS\\nPER 100g\\nEnergy 143.35kcal \u2022 Protein 5.5g\\nFat 1.6g \u2022 Saturated Fatty Acid 0.68g\\nMUFA 0.52g \u2022 Sugar 0g \u2022 PUFA 0.3g\\nTrans Fatty Acid 0g \u2022 Cholesterol 0mg\\nCarbohydrate 26.3g \u2022 Sodium 92mg\"},\n  {\"text\": \"DIRECTIONS FOR USE\\nAdd a little water to make dosas,\\nafter which don't cook idlies.\\nAdd salt as per your taste. The batter\\nis mildly salted.\"},\n  {\"text\": \"STORE IN\\nREFRIGERATOR (0-5\u00b0C)\"},\n  {\"text\": \"CAUTION\\nPlease don't buy a puffed-up pack.\\nDo wash the pack before opening it.\"},\n  {\"text\": \"iD FOLLOWS AUTHENTIC HOME-STYLE RECIPES\\nIMPROVED BY TECHNOLOGY\"},\n  {\"text\": \"MADE THE WAY YOU WOULD\\nNO ADDED FLAVOURS\\nRO-PURIFIED WATER\\nULTRA-HYGIENIC KITCHENS\\nPREMIUM INGREDIENTS\"},\n  {\"text\": \"8 906020 580541\"},\n  {\"text\": \"Net weight: 2 kg\"},\n  {\"text\": \"MRP:\\n(inclusive of all taxes)\\nUse-by:\\nBatch no:\"},\n  {\"text\": \"Cooks about\\n40 OR 28\\nIdlies Dosas\\n(OR ONE REALLY BIG IDLY OR DOSA)\"},\n  {\"text\": \"Marketed by: iD Fresh Food (India) Pvt Ltd, 37,\\nDoddenakundi Industrial Area, Whitefield Road,\\nMahadevapura, Bengaluru 560048.\\nFor mfg unit address, match the alphabet of batch no.\\nwith the ones below. Manufactured by:\\n(B) iD Fresh Food (India) Pvt Ltd, Shed # B-62, KSSIDC\\nIndustrial Area, Piligumpe, Hoskote, Bengaluru 562114.\\nFSSAI Lic. No. 10014043001054\\n(C) iD Fresh Food (India) Pvt Ltd, No. 282, SIDCO\\nIndustrial Estate, Thirumudivakkam, Sri Perumbudur Taluk,\\nChennai 600044. FSSAI Lic. No. 10014042001587\\n(H) iD Fresh Food (India) Pvt Ltd, 5-9-287/42/A,\\nRajiv Gandhi Nagar, Moosapet, Kukatpally,\\nHyderabad 500072. FSSAI Lic. No. 13615013000258\\n(M) iD Fresh Food (India) Pvt Ltd, No. 53, CTS No. 443/10,\\nMarol Industrial Co-op Society, Andheri East,\\nGreater Mumbai 400059. FSSAI Lic. No. 11514005000340\"},\n  {\"text\": \"2kg\\nVALUE\\nPACK\"},\n  {\"text\": \"KNOW-HOW FROM\\nCFTRI, MYSORE\"},\n  {\"text\": \"CUSTOMER CARE:\\n+91-9739910521\\nWEB: www.idfresh.in\\nMAIL: info@idfresh.in\\n/IDFresh\"},\n  {\"text\": \"PANEL 2\"}\n]\n```"
+[2026-04-02 09:42:16] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 09:42:16] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 09:42:16] [Metadata] Extracting Brand Metadata
+[2026-04-02 09:42:19] [Metadata] Metadata LLM raw output: {
+    "brandName": "iD",
+    "productName": "IDLY & DOSA BATTER",
+    "fssaiCategory": "Batter",
+    "licenseNo": "10014043001054",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 09:42:19] [EXTRACTED METADATA] {
+  "brandName": "iD",
+  "productName": "IDLY & DOSA BATTER",
+  "fssaiCategory": "Batter",
+  "licenseNo": "10014043001054",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 09:42:19] [STEP 4/9] Running regulatory checks...
+[2026-04-02 09:42:19] [Core] Running Regulatory Analysis
+[2026-04-02 09:42:43] [STEP 5/9] Validating product category...
+[2026-04-02 09:42:43] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 09:42:46] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a basic fermented batter (likely idli/dosa batter) consisting of staple ingredients like rice and lentils. It is a general food item suitable for the entire adult population, thus defaulting to the general adult RDA demographic.'}
+[2026-04-02 09:42:46] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a basic fermented batter (likely idli/dosa batter) consisting of staple ingredients like rice and lentils. It is a general food item suitable for the entire adult population, thus defaulting to the general adult RDA demographic.'}
+[2026-04-02 09:42:46] [STEP 6/9] Substantiating claims...
+[2026-04-02 09:42:46] [Claims] Running Claims Subsystem
+[2026-04-02 09:42:46] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a basic fermented batter (likely idli/dosa batter) consisting of staple ingredients like rice and lentils. It is a general food item suitable for the entire adult population, thus defaulting to the general adult RDA demographic.'}
+[2026-04-02 09:42:46] [Claims] RDA calculations complete: 11 nutrients processed
+[2026-04-02 09:42:46] [Claims] Energy: 7.2% RDA per 100g
+[2026-04-02 09:42:46] [Claims] Protein: 10.2% RDA per 100g
+[2026-04-02 09:42:46] [Claims] Sodium: 4.6% RDA per 100g
+[2026-04-02 09:42:46] [Claims (RDA)] RDA Percentages: {
+  "energy": 7.2,
+  "protein": 10.2,
+  "sodium": 4.6
+}
+[2026-04-02 09:42:46] [Claims (RDA)] RDA Percentages Count: 3
+[2026-04-02 09:42:54] [Claims] Claims Validation Result: [{'claim_text': 'NO ADDED PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list (Rice, Urad Dal, Fenugreek, RO-purified Water, Edible Common Salt) does not contain any chemical preservatives or additives listed under FSSAI Class I or Class II preservatives.', 'reference': 'Ingredients List', 'nutrient_involved': 'Preservatives'}, {'claim_text': 'NO SODA', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'Sodium bicarbonate (baking soda) or other leavening agents are absent from the provided ingredients list.', 'reference': 'Ingredients List', 'nutrient_involved': 'Sodium Bicarbonate'}, {'claim_text': 'NO ADDED FLAVOURS', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No natural, nature-identical, or artificial flavoring substances are declared in the ingredients list.', 'reference': 'Ingredients List', 'nutrient_involved': 'Flavours'}, {'claim_text': 'RO-PURIFIED WATER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'RO-purified Water is explicitly listed as an ingredient (50%) in the product composition.', 'reference': 'Ingredients List', 'nutrient_involved': 'Water'}, {'claim_text': 'PREMIUM INGREDIENTS', 'tag': 'Ingredient Claim', 'status': 'Action', 'reasoning': "The term 'Premium' is a subjective quality descriptor. Under FSSAI, such claims should not be misleading and usually require justification of superior quality standards compared to standard ingredients, which is not provided.", 'reference': 'FSSAI Advertising and Claims Regulations', 'nutrient_involved': 'General Ingredients'}, {'claim_text': '100% AUTHENTIC', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "Authenticity claims are considered marketing puffery but under FSSAI, '100%' claims must be verifiable. There is no objective data provided to validate the 'Authentic' nature of the processing or origin.", 'reference': 'FSSAI Advertising and Claims Regulations', 'nutrient_involved': 'General Product Quality'}, {'claim_text': 'naturally fermented', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': 'The ingredients (Rice, Urad Dal) and the nature of the product (likely Idli/Dosa batter) involve a traditional natural fermentation process. The absence of chemical leavening agents (No Soda) supports the claim of natural fermentation.', 'reference': 'Ingredients List', 'nutrient_involved': 'Probiotics/Fermentation'}]
+[2026-04-02 09:42:54] [Claims] Claims Analysis Result: Analyzed 7 claim(s). 5 passed, 0 failed, 2 need review.
+[2026-04-02 09:42:54] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 09:42:54] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 09:43:00] [Lab Tests] Generated 5 suggestions
+[2026-04-02 09:43:00] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 09:43:10] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 09:43:10] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 09:43:14] [Lab Tests] Generated 2 microbiological hazard-related tests
+[2026-04-02 09:43:14] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 09:43:14] [SUCCESS] Final Score: 65.0%
+[2026-04-02 09:53:25] [STEP 1/9] Validating image context...
+[2026-04-02 09:53:25] [Context] source=default_general, type=general, code=None
+[2026-04-02 09:53:26] [STEP 2/9] Extracting OCR data...
+[2026-04-02 09:53:26] [OCR] Initiating OCR Extraction Service
+[2026-04-02 09:53:26] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 09:53:40] [RAW OCR TEXT] "```\n[FRONT]\n\n\u0c95\u0cbe\u0cb0 \u0caa\u0cc1\u0cb0\u0c82\nKaara Puram\n\nBUTTER MURUKKU\nFRIED IN FRESH OIL. EVERY BATCH. EVERY TIME.\n\nNO PALM OIL\n\n[BACK]\n\nKaara Puram\nKaara Puram is inspired by the towns of South India. We use high-quality ingredients and time-tested\nrecipes, made in small batches where the grain is still respected, the spice is allowed to bloom, and the\ncrunch is earned, not forced. These are the bites tucked into bags when children leave home, flavours\nthat travel through generations and textures that feel like memory. All of it gathers in one warm\ntown shaped by the crunch we have always known.\n\nButter Murukku\noriginates from Tamil Nadu,\nwhere they're made especially\nfor evenings and festivals.\n\nThe name means \"twist,\" after the spirals pressed from dough made with\nrice flour, fried gram (besan), butter, and seeds like ajwain and jeera, then\nfried until they're crispy.\n\nIt snaps firm, a satisfying echo of skill and patience. Then the butter softens, melting into a warm,\nlingering richness that fills the mouth. This is the snack that appears without announcement and is\nremembered by feel rather than flavour.\n\nBest enjoyed with friends, over cups of coffee that go cold.\n\nNutritional Information (Approx.)\nServing size - 20 g    5 servings per pack\n| | Per 100g | %RDA (per serve 20 g)* |\n| :--- | :--- | :--- |\n| Energy (Kcal) | 520 | 5.2 |\n| Protein (g) | 7.4 | 2.96 |\n| Carbohydrates (g) | 60.5 | - |\n| Total Sugars (g) | 0.8 | - |\n| Added Sugars (g) | 0 | - |\n| Total Fat (g) | 26 | 7.8 |\n| Saturated Fat (g) | 7.6 | 6.9 |\n| Trans Fat (g) | 0 | - |\n| Sodium (mg) | 580 | 5.8 |\n\n*%RDA values are based on a 2000 calorie diet. Your RDA\nvalues may differ depending on your calorie needs.\n\nWe're here to listen:\nGot a thought, a worry, or an idea?\nsupport@firstclub.co.in\n+91 7411454556\n\nIngredients: Rice flour, Rice bran oil, Fried gram\nflour (Besan), Unsalted butter, Iodised salt, Ajwain\nseeds, Jeera seeds.\n\nAllergen Information: Contains milk. May contain\nnut and wheat.\n\nStorage Information: Store in a cool, dry &\nhygienic place.\n\nManufactured by:\nWishvish Foods Private Limited,\nPlot no 190 & 191, Obadenahalli, Industrial Area, Phase 3,\nObadenahalli, Doddaballapur Taluk, Doddaballapur, Bangalore\nRural, Karnataka - 561205\nfssai Lic No. 11224999000584\n\nMarketed by:\nFirstclub Technology Pvt. Ltd., No 16/1, Vaishnavi Tech Park,\n6th Floor, North Tower, Sarjapura Main Road, Bellandur Gate,\nBangalore, B.B.M.P East, Karnataka - 560103\nfssai Lic No. 11225333002599\n\nNet weight :\nMRP \u20b9 :\n(incl. of all taxes)\nUSP Per g \u20b9 :\n(Unit sale price)\nBatch No. :\nMFD. :\nUse by :\n\nWe follow strict oil quality standards by monitoring Total Polar Compounds (TPC) and maintaining\nlevels below 20%, well within the regulatory limit of 25%, ensuring every batch is fried in fresh oil.\n```"
+[2026-04-02 09:53:51] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 09:53:51] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 09:53:51] [Metadata] Extracting Brand Metadata
+[2026-04-02 09:53:54] [Metadata] Metadata LLM raw output: {
+    "brandName": "Kaara Puram",
+    "productName": "BUTTER MURUKKU",
+    "fssaiCategory": "Snack",
+    "licenseNo": "11224999000584",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 09:53:54] [EXTRACTED METADATA] {
+  "brandName": "Kaara Puram",
+  "productName": "BUTTER MURUKKU",
+  "fssaiCategory": "Snack",
+  "licenseNo": "11224999000584",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 09:53:54] [STEP 4/9] Running regulatory checks...
+[2026-04-02 09:53:54] [Core] Running Regulatory Analysis
+[2026-04-02 09:54:20] [STEP 5/9] Validating product category...
+[2026-04-02 09:54:20] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 09:54:23] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose snack (savory rice crackers) with no specific demographic targeting, health claims for specific life stages, or high-performance athletic branding, therefore it defaults to the general adult population.'}
+[2026-04-02 09:54:23] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose snack (savory rice crackers) with no specific demographic targeting, health claims for specific life stages, or high-performance athletic branding, therefore it defaults to the general adult population.'}
+[2026-04-02 09:54:23] [STEP 6/9] Substantiating claims...
+[2026-04-02 09:54:23] [Claims] Running Claims Subsystem
+[2026-04-02 09:54:23] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose snack (savory rice crackers) with no specific demographic targeting, health claims for specific life stages, or high-performance athletic branding, therefore it defaults to the general adult population.'}
+[2026-04-02 09:54:23] [Claims] RDA calculations complete: 9 nutrients processed
+[2026-04-02 09:54:23] [Claims] Energy: 26.0% RDA per 100g
+[2026-04-02 09:54:23] [Claims] Protein: 13.7% RDA per 100g
+[2026-04-02 09:54:23] [Claims] Total Fat: 38.8% RDA per 100g
+[2026-04-02 09:54:23] [Claims] Saturated Fat: 34.5% RDA per 100g
+[2026-04-02 09:54:23] [Claims] Sodium: 29.0% RDA per 100g
+[2026-04-02 09:54:23] [Claims (RDA)] RDA Percentages: {
+  "energy": 26.0,
+  "protein": 13.7,
+  "total fat": 38.8,
+  "saturated fat": 34.5,
+  "sodium": 29.0
+}
+[2026-04-02 09:54:23] [Claims (RDA)] RDA Percentages Count: 5
+[2026-04-02 09:54:26] [Claims] Claims Validation Result: [{'claim_text': 'NO PALM OIL', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "The ingredients list specifies 'Rice bran oil' and 'Unsalted butter' as the fat sources. Palm oil is not listed in the ingredients.", 'reference': 'Ingredients List', 'nutrient_involved': 'Palm Oil'}, {'claim_text': 'FRIED IN FRESH OIL', 'tag': 'Ingredient Claim', 'status': 'Action', 'reasoning': "The term 'Fresh Oil' is a quality/process claim that cannot be verified through the nutrition table or ingredients list. It requires internal production logs or quality assurance certifications to validate the oil replacement frequency.", 'reference': 'Process Claim', 'nutrient_involved': 'Oil Quality'}, {'claim_text': 'Trans Fat (g) 0', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table declares 0g Trans Fat per 100g, which meets the FSSAI threshold for 'Trans Fat Free' (< 0.2 g per 100 g).", 'reference': 'Nutrition Table; FSSAI Trans Fat Free Threshold', 'nutrient_involved': 'Trans Fat'}]
+[2026-04-02 09:54:26] [Claims] Claims Analysis Result: Analyzed 3 claim(s). 2 passed, 0 failed, 1 need review.
+[2026-04-02 09:54:26] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 09:54:26] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 09:54:46] [Lab Tests] Generated 4 suggestions
+[2026-04-02 09:54:46] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 09:55:03] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 09:55:03] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 09:55:21] [Lab Tests] Generated 3 microbiological hazard-related tests
+[2026-04-02 09:55:21] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 09:55:21] [SUCCESS] Final Score: 75.0%
+[2026-04-02 09:57:51] [STEP 1/9] Validating image context...
+[2026-04-02 09:57:51] [Context] source=default_general, type=general, code=None
+[2026-04-02 09:57:51] [STEP 2/9] Extracting OCR data...
+[2026-04-02 09:57:51] [OCR] Initiating OCR Extraction Service
+[2026-04-02 09:57:51] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 09:58:05] [RAW OCR TEXT] "shake and sip\npaper boat\u2122\ndrinks and memories\njaljeera\nREADY-TO-SERVE FRUIT BEVERAGE\nPANEL 1\nHOLD HERE WHILE OPENING\nDO NOT PURCHASE IF SEAL\nIS BROKEN / PACK IS PUFFED.\njaljeera\nNO ADDED PRESERVATIVES.\nNO ADDED COLOURS.\nJUST LAUGHTER AND SUNSHINE.\nNUTRITIONAL INFORMATION\u2020\u2020\nServing size 200ml\nServing per package 1\nPer 100ml % RDA per serving\u2020\nEnergy (kcal) 49.6 5.0%\nProtein (g) 0.0\nCarbohydrate (g) 12.4\nTotal Sugars (g) 12.2\nadded sugars (g) 12.2 49%\nTotal fat (g) 0.0 0%\nSodium (mg) 357.0 36%\n\u2020\u2020Approximate values \u2020 % RDA as per 2000 kcal energy\nINGREDIENTS: WATER, SUGAR, LEMON JUICE\nCONCENTRATE (1%)#, BLACK SALT, IODISED SALT,\nFLAVOURS (NATURE-IDENTICAL AND NATURAL),\nSPICES AND CONDIMENTS (CUMIN POWDER,\nPEPPER BLACK POWDER AND GINGER POWDER)\nAND ACIDITY REGULATORS [TRISODIUM CITRATE\n(E331(iii)) AND CITRIC ACID(E330)].\n#RECONSTITUTED 8% LEMON JUICE.\nFOR MANUFACTURING DATE, MRP \u20b9 (INCL. OF\nALL TAXES), USE BY DATE AND BATCH NUMBER:\nSEE BELOW\n\"BEST BEFORE EIGHT MONTHS FROM MANUFACTURE\" WHEN UNOPENED.\nKEEP IN A COOL CLEAN, DRY AND HYGIENIC CONDITIONS, AWAY FROM DIRECT SUNLIGHT.\nREFRIGERATE AFTER OPENING AND CONSUME WITHIN 24 HOURS OF OPENING.\nMANUFACTURED BY: FOR MANUFACTURER AND MANUFACTURING UNIT\nADDRESS READ FIRST TWO CHARACTERS OF BATCH NUMBER AND READ BELOW:\n(AA) HECTOR BEVERAGES PVT. LTD., PLOT NO. 132, SECTOR - 3, IMT MANESAR, GURUGRAM-122050, HARYANA.\n(PR) HECTOR BEVERAGES PVT. LTD., PLOT NO. 30P-43, KADAKOLA INDUSTRIAL AREA, JAYAPURA, MYSORE - 571311, KARNATAKA.\nLic. No. 10015043001132\nMARKETED BY: HECTOR BEVERAGES PVT. LTD., PLOT NO. 132, SECTOR - 3, IMT MANESAR, GURUGRAM-122050, HARYANA.\nCPCB Regn. No. B-33014/1301/MS-AA/2021-22/WM-III\nCONSUMER HELPLINE: ORC AT REGISTERED OFFICE ADDRESS\nAND AT 1800-203-3515 OR WRITE TO US AT\npaperboat@hectorbeverages.com\nfssai\nLic. No. 10012064000017\nCONTAINS LOVE AND\nINGREDIENT BITS. SO,\nSHAKE WELL. SERVE CHILLED.\nNET QUANTITY:\n200ml\nPANEL 2\nNUTRITIONAL INFORMATION\u2020\u2020\nServing size 200ml\nServing per package 1\nPer 100ml % RDA per serving\u2020\nEnergy (kcal) 49.6 5.0%\nProtein (g) 0.0\nCarbohydrate (g) 12.4\nTotal Sugars (g) 12.2\nadded sugars (g) 12.2 49%\nTotal fat (g) 0.0 0%\nSodium (mg) 357.0 36%\n\u2020\u2020Approximate values \u2020 % RDA as per 2000 kcal energy\nINGREDIENTS: WATER, SUGAR, LEMON JUICE\nCONCENTRATE (1%)#, BLACK SALT, IODISED SALT,\nFLAVOURS (NATURE-IDENTICAL AND NATURAL),\nSPICES AND CONDIMENTS (CUMIN POWDER,\nPEPPER BLACK POWDER AND GINGER POWDER)\nAND ACIDITY REGULATORS [TRISODIUM CITRATE\n(E331(iii)) AND CITRIC ACID(E330)].\n#RECONSTITUTED 8% LEMON JUICE.\nfssai\nLic. No. 10012064000017"
+[2026-04-02 09:58:13] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 09:58:13] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 09:58:13] [Metadata] Extracting Brand Metadata
+[2026-04-02 09:58:17] [Metadata] Metadata LLM raw output: {
+    "brandName": "paper boat",
+    "productName": "jaljeera",
+    "fssaiCategory": "READY-TO-SERVE FRUIT BEVERAGE",
+    "licenseNo": "10012064000017",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 09:58:17] [EXTRACTED METADATA] {
+  "brandName": "paper boat",
+  "productName": "jaljeera",
+  "fssaiCategory": "READY-TO-SERVE FRUIT BEVERAGE",
+  "licenseNo": "10012064000017",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 09:58:17] [STEP 4/9] Running regulatory checks...
+[2026-04-02 09:58:17] [Core] Running Regulatory Analysis
+[2026-04-02 09:58:35] [STEP 5/9] Validating product category...
+[2026-04-02 09:58:35] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 09:58:37] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose lemon-based beverage with no specific nutritional claims targeting children, infants, or pregnant/lactating women. Therefore, it is categorized under the general adult population demographic.'}
+[2026-04-02 09:58:37] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose lemon-based beverage with no specific nutritional claims targeting children, infants, or pregnant/lactating women. Therefore, it is categorized under the general adult population demographic.'}
+[2026-04-02 09:58:37] [STEP 6/9] Substantiating claims...
+[2026-04-02 09:58:37] [Claims] Running Claims Subsystem
+[2026-04-02 09:58:37] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose lemon-based beverage with no specific nutritional claims targeting children, infants, or pregnant/lactating women. Therefore, it is categorized under the general adult population demographic.'}
+[2026-04-02 09:58:37] [Claims] RDA calculations complete: 7 nutrients processed
+[2026-04-02 09:58:37] [Claims] Energy: 2.5% RDA per 100g
+[2026-04-02 09:58:37] [Claims] added sugars: 24.4% RDA per 100g
+[2026-04-02 09:58:37] [Claims] Sodium: 17.8% RDA per 100g
+[2026-04-02 09:58:37] [Claims (RDA)] RDA Percentages: {
+  "energy": 2.5,
+  "added sugars": 24.4,
+  "sodium": 17.8
+}
+[2026-04-02 09:58:37] [Claims (RDA)] RDA Percentages Count: 3
+[2026-04-02 09:58:43] [Claims] Claims Validation Result: [{'claim_text': 'NO ADDED PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list (Water, Sugar, Lemon Juice Concentrate, Black Salt, Iodised Salt, Flavours, Spices, and Acidity Regulators) does not contain any class II preservatives or common chemical preservatives like Sodium Benzoate or Potassium Sorbate.', 'reference': 'Ingredients List', 'nutrient_involved': 'Preservatives'}, {'claim_text': 'NO ADDED COLOURS', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list mentions only Flavours (Nature-identical and Natural) and Spices (Cumin, Pepper, Ginger). No synthetic or natural food colors (e.g., Caramel, Annatto, or E-numbers associated with coloring) are listed.', 'reference': 'Ingredients List', 'nutrient_involved': 'Colours'}, {'claim_text': 'RECONSTITUTED 8% LEMON JUICE', 'tag': 'Ingredient Claim', 'status': 'Fail', 'reasoning': "The ingredients list explicitly states 'LEMON JUICE CONCENTRATE (1%)#'. There is a direct contradiction between the 8% claim on the label and the 1% declared in the ingredients list.", 'reference': 'Ingredients List', 'nutrient_involved': 'Lemon Juice'}]
+[2026-04-02 09:58:43] [Claims] Claims Analysis Result: Analyzed 3 claim(s). 2 passed, 1 failed, 0 need review.
+[2026-04-02 09:58:43] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 09:58:43] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 09:58:49] [Lab Tests] Generated 5 suggestions
+[2026-04-02 09:58:49] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 09:59:00] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 09:59:00] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 09:59:11] [Lab Tests] Generated 8 microbiological hazard-related tests
+[2026-04-02 09:59:11] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 09:59:11] [SUCCESS] Final Score: 65.0%
+[2026-04-02 10:08:01] [STEP 1/9] Validating image context...
+[2026-04-02 10:08:01] [Context] source=default_general, type=general, code=None
+[2026-04-02 10:08:02] [STEP 2/9] Extracting OCR data...
+[2026-04-02 10:08:02] [OCR] Initiating OCR Extraction Service
+[2026-04-02 10:08:02] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 10:08:11] [RAW OCR TEXT] "shake and sip\npaper boat\u2122\ndrinks and memories\njaljeera\nREADY-TO-SERVE FRUIT BEVERAGE\nPANEL 1\nHOLD HERE WHILE OPENING\nDO NOT PURCHASE IF SEAL\nIS BROKEN / PACK IS PUFFED.\njaljeera\nNO ADDED PRESERVATIVES.\nNO ADDED COLOURS.\nJUST LAUGHTER AND SUNSHINE.\nNUTRITIONAL INFORMATION\u2020\u2020\nServing size 200ml\nServing per package 1\nPer 100ml % RDA per serving\u2020\nEnergy (kcal) 49.6 5.0%\nProtein (g) 0.0\nCarbohydrate (g) 12.4\nTotal Sugars (g) 12.2\nadded sugars (g) 12.2 49%\nTotal fat (g) 0.0 0%\nSodium (mg) 357.0 36%\n\u2020\u2020Approximate values \u2020 % RDA as per 2000 kcal energy\nINGREDIENTS: WATER, SUGAR, LEMON JUICE CONCENTRATE (1%)#, BLACK SALT, IODISED SALT, FLAVOURS (NATURE-IDENTICAL AND NATURAL), SPICES AND CONDIMENTS (CUMIN POWDER, PEPPER BLACK POWDER AND GINGER POWDER) AND ACIDITY REGULATORS [TRISODIUM CITRATE (E331(iii)) AND CITRIC ACID(E330)].\n#RECONSTITUTED 8% LEMON JUICE.\nFOR MANUFACTURING DATE, MRP \u20b9 (INCL. OF ALL TAXES), USE BY DATE AND BATCH NUMBER: SEE BELOW\n8 908001 705196\n\"BEST BEFORE EIGHT MONTHS FROM MANUFACTURE\" WHEN UNOPENED.\nKEEP IN A COOL CLEAN, DRY AND HYGIENIC CONDITIONS, AWAY FROM DIRECT SUNLIGHT.\nREFRIGERATE AFTER OPENING AND CONSUME WITHIN 24 HOURS OF OPENING.\nMANUFACTURED BY: FOR MANUFACTURER AND MANUFACTURING UNIT\nADDRESS, READ FIRST TWO CHARACTERS OF BATCH NUMBER AND READ BELOW:\n(AA) HECTOR BEVERAGES PVT. LTD., PLOT NO. 132, SECTOR-3, IMT MANESAR, GURUGRAM-122050, HARYANA.\n(PB) HECTOR BEVERAGES PVT. LTD., PLOT NO. 30P & 31, KADAKOLA INDUSTRIAL AREA, JAYAPURA, MYSORE - 571311, KARNATAKA.\nLic. No. 10015043001132\nMARKETED BY: HECTOR BEVERAGES PVT. LTD., PLOT NO. 132, SECTOR-3, IMT MANESAR, GURUGRAM-122050, HARYANA.\nCPCB Regn. No. B-33014/383/MS-AA/2012/27478-25\nCONSUMER HELPLINE: ORC AT REGISTERED OFFICE ADDRESS\nAND AT 1800-203-3515 OR WRITE TO US AT\npaperboat@hectorbeverages.com\nCONTAINS LOVE AND\nINGREDIENTS BITS. SO,\nSHAKE WELL, SERVE CHILLED.\nfssai\nLic. No. 10012064000017\nNET QUANTITY:\n200ml\nPANEL 2\nNUTRITIONAL INFORMATION\u2020\u2020\nServing size 200ml\nServing per package 1\nPer 100ml % RDA per serving\u2020\nEnergy (kcal) 49.6 5.0%\nProtein (g) 0.0\nCarbohydrate (g) 12.4\nTotal Sugars (g) 12.2\nadded sugars (g) 12.2 49%\nTotal fat (g) 0.0 0%\nSodium (mg) 357.0 36%\n\u2020\u2020Approximate values \u2020 % RDA as per 2000 kcal energy\nINGREDIENTS: WATER, SUGAR, LEMON JUICE CONCENTRATE (1%)#, BLACK SALT, IODISED SALT, FLAVOURS (NATURE-IDENTICAL AND NATURAL), SPICES AND CONDIMENTS (CUMIN POWDER, PEPPER BLACK POWDER AND GINGER POWDER) AND ACIDITY REGULATORS [TRISODIUM CITRATE (E331(iii)) AND CITRIC ACID(E330)].\n#RECONSTITUTED 8% LEMON JUICE.\nfssai\nLic. No. 10012064000017"
+[2026-04-02 10:08:17] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 10:08:17] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 10:08:17] [Metadata] Extracting Brand Metadata
+[2026-04-02 10:08:21] [Metadata] Metadata LLM raw output: {
+    "brandName": "paper boat",
+    "productName": "jaljeera",
+    "fssaiCategory": "READY-TO-SERVE FRUIT BEVERAGE",
+    "licenseNo": "10012064000017",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 10:08:21] [EXTRACTED METADATA] {
+  "brandName": "paper boat",
+  "productName": "jaljeera",
+  "fssaiCategory": "READY-TO-SERVE FRUIT BEVERAGE",
+  "licenseNo": "10012064000017",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 10:08:21] [STEP 4/9] Running regulatory checks...
+[2026-04-02 10:08:21] [Core] Running Regulatory Analysis
+[2026-04-02 10:08:41] [STEP 5/9] Validating product category...
+[2026-04-02 10:08:41] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 10:08:43] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose lemon-based beverage with no specific health claims or demographic targeting, therefore it is categorized under the general adult population RDA.'}
+[2026-04-02 10:08:43] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose lemon-based beverage with no specific health claims or demographic targeting, therefore it is categorized under the general adult population RDA.'}
+[2026-04-02 10:08:43] [STEP 6/9] Substantiating claims...
+[2026-04-02 10:08:43] [Claims] Running Claims Subsystem
+[2026-04-02 10:08:43] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose lemon-based beverage with no specific health claims or demographic targeting, therefore it is categorized under the general adult population RDA.'}
+[2026-04-02 10:08:43] [Claims] RDA calculations complete: 7 nutrients processed
+[2026-04-02 10:08:43] [Claims] Energy: 2.5% RDA per 100g
+[2026-04-02 10:08:43] [Claims] added sugars: 24.4% RDA per 100g
+[2026-04-02 10:08:43] [Claims] Sodium: 17.8% RDA per 100g
+[2026-04-02 10:08:43] [Claims (RDA)] RDA Percentages: {
+  "energy": 2.5,
+  "added sugars": 24.4,
+  "sodium": 17.8
+}
+[2026-04-02 10:08:43] [Claims (RDA)] RDA Percentages Count: 3
+[2026-04-02 10:08:49] [Claims] Claims Validation Result: [{'claim_text': 'NO ADDED PRESERVATIVES.', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list (Water, Sugar, Lemon Juice Concentrate, Black Salt, Iodised Salt, Flavours, Spices, and Acidity Regulators) does not contain any substances classified as Class II preservatives under FSSAI regulations.', 'reference': 'Ingredients List', 'nutrient_involved': 'Preservatives'}, {'claim_text': 'NO ADDED COLOURS.', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list does not mention any natural or synthetic coloring agents. It only lists flavours, spices, and acidity regulators.', 'reference': 'Ingredients List', 'nutrient_involved': 'Colours'}, {'claim_text': 'RECONSTITUTED 8% LEMON JUICE.', 'tag': 'Ingredient Claim', 'status': 'Fail', 'reasoning': "The ingredients list explicitly states 'LEMON JUICE CONCENTRATE (1%)#'. There is a direct contradiction between the 8% claim and the 1% declared in the ingredients list.", 'reference': 'Ingredients List', 'nutrient_involved': 'Lemon Juice'}]
+[2026-04-02 10:08:49] [Claims] Claims Analysis Result: Analyzed 3 claim(s). 2 passed, 1 failed, 0 need review.
+[2026-04-02 10:08:49] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 10:08:49] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 10:08:58] [Lab Tests] Generated 6 suggestions
+[2026-04-02 10:08:58] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 10:09:04] [Lab Tests] Generated 4 contaminants-related tests
+[2026-04-02 10:09:04] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 10:09:10] [Lab Tests] Generated 8 microbiological hazard-related tests
+[2026-04-02 10:09:10] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 10:09:10] [SUCCESS] Final Score: 65.0%
+[2026-04-02 10:10:49] [STEP 1/9] Validating image context...
+[2026-04-02 10:10:49] [Context] source=default_general, type=general, code=None
+[2026-04-02 10:10:49] [STEP 2/9] Extracting OCR data...
+[2026-04-02 10:10:49] [OCR] Initiating OCR Extraction Service
+[2026-04-02 10:10:49] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 10:10:59] [RAW OCR TEXT] "NUTRITIONAL INFORMATION\nServing size 1 bar (75g)\nServing size per pack 1\nAmount per serving\nEnergy 313 Kcal\nProtein 20.0 g\nTotal Carbohydrate 33.9 g\nDietary Fiber 5.0 g\nSugar 10.7 g\n(From other ingredients)\nNet Carb* 28.9 g\nTotal Fat 12.5 g\nSaturated Fat 4.6 g\nTrans Fat 0 g\nCholesterol 0 mg\n\nCONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOUR(S)\n(Peanut, Chocolate & Hazelnut Flavour)\n\n*Based on an independent study, majority of the respondents claimed that\nRiteBite Max Protein Active provided sustained energy for upto 4 hours.\n\n8906009531380\n\nfssai\nLic. No. 11516013000380\n\nFOOD / HEALTH SUPPLEMENT (13.6)\nIngredients: Protein Blend (31%) (Soy Nuggets, Whey Protein\nConcentrate, Calcium Caseinate, Soy Concentrate), Brown Rice\nSyrup, Milk Compound (15%) (Sugar, Edible Vegetable Oil, Milk\nSolids, Cocoa Solids, Emulsifier (Soy Lecithin), Vanilla Flavours),\nEdible Vegetable Oil, Dietary Fiber (7%) (Fructooligosaccharide,\nChicory Root Fiber), Almonds (5%), Whole Grain Rolled Oats\n(4.4%), Raisins (2.5%), Cashew Nut (2%), Humectant (Glycerine),\nFructose, Cocoa Powder, Milk Solids, Flaxseeds, Emulsifier (Soy\nLecithin), Binding agent (Guar Gum), Soy Protein Isolate, Tribasic\nCalcium Phosphate, Salt and Citric Acid, Antioxidants (Vitamin C),\nVitamins, Minerals, Glutamine and Amino Acids\n\nVitamin & Minerals (Name, %RDA): Vit A 150mcg (25%),\nVit E 2.5mg (25%), Vit C 10mg (25%), Vit D2 2.5mcg (25%),\nVit K 13.75mcg (25%), Vit B1 0.21mg (15%), Vit B2 0.24mg (15%),\nVit B3 2.70mg (15%), Vit B5 0.75mg (15%), Vit B6 0.30mg (15%),\nVit B9 30mcg (15%), Vit B12 0.15mcg (15%), Biotin 7.5mcg (25%),\nCalcium 150mg (25%), Zinc 3mg (25%), Chromium 12.5mcg (25%),\nSelenium 10mcg (25%), Phosphorus 90mg (15%), Magnesium\n51mg (15%), Sodium 105mg (5%), Potassium 187.5mg (5%),\nOmega -3 70mg. BCAA 2.8g, L - Glutamine 2.9g, L - Leucine 1.3g,\nL - Valine 760mg, L - Isoleucine 780mg\n\nALMONDS\nCASHEW NUTS\nFLAXSEEDS\nWHOLE GRAIN ROLLED OATS\nDARK CHOCOLATE\n\nPANEL 1\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nCHOCO FUDGE BAR\n20g PROTEIN\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nACTIVE PROTEIN BOOST\n4 HOURS SUSTAINED ENERGY#\n\n20g PROTEIN\n\n5g FIBER\n21 VIT.&MIN.\nOMEGA-3\n4h ENERGY#\n\nRiteBite\nMAX PROTEIN\u00ae\nACTIVE\nCHOCO FUDGE BAR\n\nALL NEW CHOCO FUDGE BAR\nNO PRESERVATIVES \u2022 NO ARTIFICIAL SWEETENER\n6 Bars (75g Each)\n100% VEG\n\nPANEL 2"
+[2026-04-02 10:11:09] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 10:11:09] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 10:11:09] [Metadata] Extracting Brand Metadata
+[2026-04-02 10:11:11] [Metadata] Metadata LLM raw output: {
+    "brandName": "RiteBite",
+    "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+    "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+    "licenseNo": "11516013000380",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 10:11:11] [EXTRACTED METADATA] {
+  "brandName": "RiteBite",
+  "productName": "MAX PROTEIN ACTIVE CHOCO FUDGE BAR",
+  "fssaiCategory": "FOOD / HEALTH SUPPLEMENT",
+  "licenseNo": "11516013000380",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 10:11:11] [STEP 4/9] Running regulatory checks...
+[2026-04-02 10:11:11] [Core] Running Regulatory Analysis
+[2026-04-02 10:11:21] [STEP 5/9] Validating product category...
+[2026-04-02 10:11:21] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 10:11:24] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-02 10:11:24] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-02 10:11:24] [STEP 6/9] Substantiating claims...
+[2026-04-02 10:11:24] [Claims] Running Claims Subsystem
+[2026-04-02 10:11:24] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'moderate', 'specific_period': None, 'reasoning': "The product is marketed as an 'Active Protein Boost' with 20g of protein and '4 hours sustained energy', which targets individuals with an active lifestyle or those engaging in exercise. As a general adult-oriented supplement, it defaults to the 'men' category for RDA purposes with a 'moderate' activity level to account for the fitness-focused positioning."}
+[2026-04-02 10:11:24] [Claims] RDA calculations complete: 37 nutrients processed
+[2026-04-02 10:11:24] [Claims] Energy: 20.9% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Protein: 49.4% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Total Carbohydrate: 15.1% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Dietary Fiber: 16.7% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Total Fat: 24.9% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Saturated Fat: 27.9% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Vitamin A: 20.0% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Vitamin E: 33.3% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Vitamin C: 16.7% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Vitamin K: 33.3% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Biotin: 25.0% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Calcium: 20.0% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Zinc: 23.5% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Chromium: 33.3% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Selenium: 33.3% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Magnesium: 15.5% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Sodium: 7.0% RDA per 100g
+[2026-04-02 10:11:24] [Claims] Potassium: 7.1% RDA per 100g
+[2026-04-02 10:11:24] [Claims (RDA)] RDA Percentages: {
+  "energy": 20.9,
+  "protein": 49.4,
+  "total carbohydrate": 15.1,
+  "dietary fiber": 16.7,
+  "total fat": 24.9,
+  "saturated fat": 27.9,
+  "vitamin a": 20.0,
+  "vitamin e": 33.3,
+  "vitamin c": 16.7,
+  "vitamin k": 33.3,
+  "biotin": 25.0,
+  "calcium": 20.0,
+  "zinc": 23.5,
+  "chromium": 33.3,
+  "selenium": 33.3,
+  "magnesium": 15.5,
+  "sodium": 7.0,
+  "potassium": 7.1
+}
+[2026-04-02 10:11:24] [Claims (RDA)] RDA Percentages Count: 18
+[2026-04-02 10:11:32] [Claims] Claims Validation Result: [{'claim_text': '20g PROTEIN', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 20.0g protein per serving (75g). This also meets the 'High Protein' threshold as 26.67g per 100g provides 49.4% RDA, exceeding the 20% RDA requirement.", 'reference': 'Nutrition Table: Protein 20.0g per serve', 'rda_percentage': 49.4, 'nutrient_involved': 'Protein'}, {'claim_text': '5g FIBER', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms 5.0g dietary fiber per serving. At 6.67g per 100g, it meets the FSSAI 'High Fiber' threshold of ≥ 6g per 100g.", 'reference': 'Nutrition Table: Dietary Fiber 5.0g per serve', 'rda_percentage': 16.7, 'nutrient_involved': 'Fiber'}, {'claim_text': '21 VIT.&MIN.', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "Claim states 21 vitamins/minerals, but the nutrition table lists 22 items (Vit A, E, C, D2, K, B1, B2, B3, B5, B6, B9, B12, Biotin, Calcium, Zinc, Chromium, Selenium, Phosphorus, Magnesium, Sodium, Potassium, Iron/others). Furthermore, several B-vitamins (B1, B2, B3, B5, B6, B9, B12), Vitamin D2, and Phosphorus lack RDA % data. Cannot verify compliance for a 'Source' claim (≥ 15% RDA) without complete RDA data.", 'reference': 'Nutrition Table and Calculated RDA Percentages', 'nutrient_involved': 'Vitamins and Minerals'}, {'claim_text': 'OMEGA-3', 'tag': 'Nutritional Claim', 'status': 'Fail', 'reasoning': "FSSAI requires ≥ 300mg (0.3g) ALA or ≥ 40mg EPA+DHA per 100g for a 'Source' claim. The product contains only 93.33mg Omega-3 per 100g, which is significantly below the 300mg threshold.", 'reference': 'Nutrition Table: Omega-3 93.33mg per 100g', 'nutrient_involved': 'Omega-3'}, {'claim_text': '4 HOURS SUSTAINED ENERGY#', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'Claims regarding specific duration of energy release (4 hours) require clinical Glycemic Index (GI) testing or clinical trial data to validate the metabolic response. This data is not provided in the label context.', 'reference': 'FSSAI Health Claims Requirement', 'nutrient_involved': 'Energy'}, {'claim_text': 'ACTIVE PROTEIN BOOST', 'tag': 'Health Claim', 'status': 'Complies', 'reasoning': 'The product is high in protein (26.67g/100g, 49.4% RDA) and contains functional amino acids including BCAA (3.73g/100g) and L-Glutamine (3.87g/100g) which support protein synthesis and recovery claims.', 'reference': 'Nutrition Table: Protein, BCAA, Glutamine', 'rda_percentage': 49.4, 'nutrient_involved': 'Protein'}, {'claim_text': 'NO PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No synthetic preservatives (e.g., Class II preservatives like Sorbates or Benzoates) are listed in the ingredients. Citric acid is used but typically functions as an acidulant/antioxidant.', 'reference': 'Ingredients List', 'nutrient_involved': 'Preservatives'}, {'claim_text': 'NO ARTIFICIAL SWEETENER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The product uses Brown Rice Syrup, Sugar, Fructose, and Glycerine for sweetness. No high-intensity artificial sweeteners (like Sucralose or Aspartame) are listed.', 'reference': 'Ingredients List', 'nutrient_involved': 'Sweeteners'}, {'claim_text': '100% VEG', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'All ingredients listed (Soy, Whey, Milk Solids, Nuts, Grains) are vegetarian-compliant. No meat, egg, or gelatin-based ingredients are present.', 'reference': 'Ingredients List', 'nutrient_involved': 'Dietary Preference'}]
+[2026-04-02 10:11:32] [Claims (RDA)] Protein: 49.4% RDA captured in verdict
+[2026-04-02 10:11:32] [Claims (RDA)] Fiber: 16.7% RDA captured in verdict
+[2026-04-02 10:11:32] [Claims (RDA)] Protein: 49.4% RDA captured in verdict
+[2026-04-02 10:11:32] [Claims] Claims Analysis Result: Analyzed 9 claim(s). 6 passed, 2 failed, 1 need review.
+[2026-04-02 10:11:32] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 10:11:32] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 10:11:37] [Lab Tests] Generated 7 suggestions
+[2026-04-02 10:11:37] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 10:11:46] [Lab Tests] Generated 4 contaminants-related tests
+[2026-04-02 10:11:46] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 10:11:49] [Lab Tests] Generated 3 microbiological hazard-related tests
+[2026-04-02 10:11:49] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 10:11:49] [SUCCESS] Final Score: 65.0%
+[2026-04-02 10:16:18] [STEP 1/9] Validating image context...
+[2026-04-02 10:16:18] [Context] source=default_general, type=general, code=None
+[2026-04-02 10:16:18] [STEP 2/9] Extracting OCR data...
+[2026-04-02 10:16:18] [OCR] Initiating OCR Extraction Service
+[2026-04-02 10:16:18] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 10:16:29] [RAW OCR TEXT] "RAW\u00ae\nPRESSERY\nDAILY DOSE\nBerry\nHealthy\nStrawberry, Blueberry\n& Cranberry\nANTI-INFLAMMATORY.\nRICH IN ANTIOXIDANTS.\nHIGH IN VITAMIN C.\nBENEFITS\nPANEL 1\nNUTRITION FACTS**\n1 SERVING PER CONTAINER\nSERVING SIZE 1 GLASS (250 ml)\nPer %RDA*\n100ml (per 250ml)\nENERGY VALUE 30.4kcal 3.79%\nTOTAL FAT 0.1g 0.10%\nSODIUM 1.3mg 0.16%\nTOTAL CARBOHYDRATES 7.3g\nDIETARY FIBER 0.1g 1.17%\nTOTAL SUGARS 7.3g\nADDED SUGAR 2.5g 12.5%\nPROTEIN 0.1g 0.23%\nVITAMIN A 0.2mcg 0.06%\nVITAMIN C 31.1mg 97.3%\nCALCIUM 5.1mg 1.29%\nIRON 0.02mg 0.32%\nPOTASSIUM 56.0mg 4.00%\nINGREDIENTS: WATER, STRAWBERRY PULP\n(29%), APPLE JUICE(20%), BLUEBERRY\nPULP(3%), KHANDSARI SUGAR, CRANBERRY\nJUICE CONCENTRATE(0.8%), ACIDITY\nREGULATOR (INS 330), PECTIN, NATURAL\nFLAVORING SUBSTANCES, ANTIOXIDANTS\n[VITAMIN C - INS 300), INS 224], NATURAL\nCOLOUR [INS 163 (ii)], STEVIA\nAllergen Advice: Contains Sulphite,\nManufactured in the same facility which\nprocesses Nut, Milk\nManufactured By:\n(VB) VINAYAK BEVERAGES\nSy. No. 593/A, Nandigama Village, Patancheru\nMandal, Sangareddy,\nTelangana- 502300 fssai\nLic. No. 10014047000299\nMarketed By: RAW PRESSERY PRIVATE LIMITED\nOffice No. 910, 9th Floor, Niharika Mirage,\nPlot No. 274, Sector-10, Kharghar, Navi Mumbai,\nRaigad, Maharashtra- 410210\nwww.wingreensworld.com fssai\nLic. No. 10016022005650\nContact Consumer Care Executive:\nSAME AS MARKETED BY ADDRESS\n+91 8800-793-638,\nsupport@wingreens.in\nPANEL 2\nRAW DAILY DOSE\nIT'S REFRESHING. IT'S NOURISHING. IT'S DELICIOUS!\nIT'S BERRY BERRY HEALTHY!\nA delicious blend of Strawberries, Blueberries, &\nCranberries, all rich in Vitamin C and natural\nantioxidants. Berries also contain bioactive compounds\nthat exhibit anti-inflammatory effects. Each sip will leave\nyou feeling \"berry healthy\" and inspired to\nBE YOU. BE RAW.\nREADY TO SERVE FRUIT BEVERAGES\nNET QUANTITY\n250ml\nIMAGES USED FOR ILLUSTRATIVE PURPOSE ONLY.\nSTORE AWAY FROM DIRECT SUNLIGHT. SEE BOTTLE NECK FOR\nTHE DATE OF MANUFACTURE, USE BY DATE, BATCH NO. AND MRP\n(incl. of all taxes)\nOUR BOTTLES ARE FOOD-GRADE. THE TASTE OF OUR PRODUCT\nMAY VARY FROM SEASON TO SEASON.\nRECYCLE VALUE IN MAHARASHTRA Rs. 15/kg.\nPRODUCT OF INDIA. SHAKE WELL BEFORE DRINKING.\n8 904258 703893\nTASTES BEST WHEN\nCONSUMED CHILLED\nDO NOT CONSUME IF\nTHE BOTTLE IS\nPUFFED/BLOATED\nRAW\nA brand of\nWINGREENS WORLD.COM\nKEEP REFRIGERATED ONCE\nOPENED. CONSUME WITHIN\nTWO DAYS OF OPENING\nFor illustrative purposes only.\nPANEL 3"
+[2026-04-02 10:16:38] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 10:16:38] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 10:16:38] [Metadata] Extracting Brand Metadata
+[2026-04-02 10:16:41] [Metadata] Metadata LLM raw output: {
+    "brandName": "RAW PRESSERY",
+    "productName": "Berry Healthy",
+    "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+    "licenseNo": "10014047000299",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 10:16:41] [EXTRACTED METADATA] {
+  "brandName": "RAW PRESSERY",
+  "productName": "Berry Healthy",
+  "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+  "licenseNo": "10014047000299",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 10:16:41] [STEP 4/9] Running regulatory checks...
+[2026-04-02 10:16:41] [Core] Running Regulatory Analysis
+[2026-04-02 10:17:05] [STEP 5/9] Validating product category...
+[2026-04-02 10:17:05] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 10:17:07] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general fruit-based beverage marketed for its antioxidant and vitamin content without specific claims targeting children, infants, or pregnant/lactating individuals. Therefore, it defaults to the general adult population demographic.'}
+[2026-04-02 10:17:07] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general fruit-based beverage marketed for its antioxidant and vitamin content without specific claims targeting children, infants, or pregnant/lactating individuals. Therefore, it defaults to the general adult population demographic.'}
+[2026-04-02 10:17:07] [STEP 6/9] Substantiating claims...
+[2026-04-02 10:17:07] [Claims] Running Claims Subsystem
+[2026-04-02 10:17:07] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general fruit-based beverage marketed for its antioxidant and vitamin content without specific claims targeting children, infants, or pregnant/lactating individuals. Therefore, it defaults to the general adult population demographic.'}
+[2026-04-02 10:17:07] [Claims] RDA calculations complete: 13 nutrients processed
+[2026-04-02 10:17:07] [Claims] TOTAL FAT: 0.1% RDA per 100g
+[2026-04-02 10:17:07] [Claims] SODIUM: 0.1% RDA per 100g
+[2026-04-02 10:17:07] [Claims] DIETARY FIBER: 0.3% RDA per 100g
+[2026-04-02 10:17:07] [Claims] PROTEIN: 0.2% RDA per 100g
+[2026-04-02 10:17:07] [Claims] VITAMIN A: 0.0% RDA per 100g
+[2026-04-02 10:17:07] [Claims] VITAMIN C: 38.9% RDA per 100g
+[2026-04-02 10:17:07] [Claims] CALCIUM: 0.5% RDA per 100g
+[2026-04-02 10:17:07] [Claims] IRON: 0.1% RDA per 100g
+[2026-04-02 10:17:07] [Claims] POTASSIUM: 1.6% RDA per 100g
+[2026-04-02 10:17:07] [Claims (RDA)] RDA Percentages: {
+  "total fat": 0.1,
+  "sodium": 0.1,
+  "dietary fiber": 0.3,
+  "protein": 0.2,
+  "vitamin a": 0.0,
+  "vitamin c": 38.9,
+  "calcium": 0.5,
+  "iron": 0.1,
+  "potassium": 1.6
+}
+[2026-04-02 10:17:07] [Claims (RDA)] RDA Percentages Count: 9
+[2026-04-02 10:17:13] [Claims] Claims Validation Result: [{'claim_text': 'RICH IN ANTIOXIDANTS.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "Vitamin C is a recognized antioxidant. The product contains 31.1mg of Vitamin C per 100g, which is 38.9% of the RDA. According to FSSAI thresholds, a 'High/Rich' claim for vitamins/minerals requires ≥ 30% RDA per 100g for solids or ≥ 15% RDA per 100ml for liquids. At 38.9% RDA, it meets the 'Rich' threshold.", 'reference': 'FSSAI Advertising and Claims Regulations', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'HIGH IN VITAMIN C.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table lists Vitamin C at 31.1mg per 100g, which calculates to 38.9% of the RDA (80mg). This exceeds the 30% RDA threshold required for a 'High' claim in solid foods and the 15% RDA threshold for liquids.", 'reference': 'FSSAI Advertising and Claims Regulations', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'ANTI-INFLAMMATORY.', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': "This is a high-level functional health claim. Under FSSAI, such claims must be supported by specific clinical evidence or be a recognized health claim associated with specific nutrients at required levels. While berries contain polyphenols, the specific 'anti-inflammatory' effect of this finished product requires clinical validation or GI/functional testing data which is not provided.", 'reference': 'FSSAI Health Claims Requirements', 'nutrient_involved': 'Bioactive compounds'}, {'claim_text': 'Berries also contain bioactive compounds that exhibit anti-inflammatory effects.', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'While scientifically plausible for the ingredients (strawberries, blueberries, cranberries), claiming this effect for the product itself requires clinical data or a specific link to a nutrient meeting a functional threshold. No clinical trial data or specific bioactive quantification is provided in the nutrition table.', 'reference': 'FSSAI Health Claims Requirements', 'nutrient_involved': 'Bioactive compounds'}, {'claim_text': 'A delicious blend of Strawberries, Blueberries, & Cranberries, all rich in Vitamin C and natural antioxidants.', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "The ingredients list confirms the presence of Strawberry Pulp (29%), Blueberry Pulp (3%), and Cranberry Juice Concentrate (0.8%). The 'Rich in Vitamin C' part of the claim is validated by the nutrition table showing 38.9% RDA per 100g.", 'reference': 'Ingredients List & Nutrition Table', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}]
+[2026-04-02 10:17:13] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 10:17:13] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 10:17:13] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 10:17:13] [Claims] Claims Analysis Result: Analyzed 5 claim(s). 3 passed, 0 failed, 2 need review.
+[2026-04-02 10:17:13] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 10:17:13] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 10:17:23] [Lab Tests] Generated 7 suggestions
+[2026-04-02 10:17:23] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 10:17:31] [Lab Tests] Generated 4 contaminants-related tests
+[2026-04-02 10:17:31] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 10:17:38] [Lab Tests] Generated 8 microbiological hazard-related tests
+[2026-04-02 10:17:38] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 10:17:38] [SUCCESS] Final Score: 75.0%
+[2026-04-02 10:24:45] [STEP 1/9] Validating image context...
+[2026-04-02 10:24:45] [Context] source=default_general, type=general, code=None
+[2026-04-02 10:24:45] [STEP 2/9] Extracting OCR data...
+[2026-04-02 10:24:45] [OCR] Initiating OCR Extraction Service
+[2026-04-02 10:24:45] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 10:24:53] [RAW OCR TEXT] "```json\n[\n  {\"panel_1\": \"RAW\u00ae\\nPRESSERY\\nDAILY DOSE\\nBerry\\nHealthy\\nStrawberry, Blueberry\\n& Cranberry\\nANTI-INFLAMMATORY.\\nRICH IN ANTIOXIDANTS.\\nHIGH IN VITAMIN C.\\nBENEFITS\"},\n  {\"panel_2\": \"NUTRITION FACTS**\\n1 SERVING PER CONTAINER\\nSERVING SIZE 1 GLASS (250 ml)\\nPer 100ml %RDA* (per 250ml)\\nENERGY VALUE 30.4kcal 3.79%\\nTOTAL FAT 0.1g 0.10%\\nSODIUM 1.3mg 0.16%\\nTOTAL CARBOHYDRATES 7.3g\\nDIETARY FIBER 0.1g 1.17%\\nTOTAL SUGARS 7.3g\\nADDED SUGAR 2.5g 12.5%\\nPROTEIN 0.1g 0.23%\\nVITAMIN A 0.2mcg 0.06%\\nVITAMIN C 31.1mg 97.3%\\nCALCIUM 5.1mg 1.29%\\nIRON 0.02mg 0.32%\\nPOTASSIUM 56.0mg 4.00%\\nINGREDIENTS: WATER, STRAWBERRY PULP\\n(29%), APPLE JUICE(20%), BLUEBERRY\\nPULP(3%), KHANDSARI SUGAR, CRANBERRY\\nJUICE CONCENTRATE(0.8%), ACIDITY\\nREGULATOR (INS 330), PECTIN, NATURAL\\nFLAVORING SUBSTANCES, ANTIOXIDANTS\\n[VITAMIN C - INS 300), INS 224], NATURAL\\nCOLOUR [INS 163 (ii)], STEVIA\\nAllergen Advice: Contains Sulphite,\\nManufactured in the same facility which\\nprocesses Nut, Milk\\nManufactured By:\\n(VB) VINAYAK BEVERAGES\\nSy. No. 593/A, Nandigama Village, Patancheru\\nMandal, Sangareddy,\\nTelangana- 502300 fssai\\nLic. No. 10014047000299\\nMarketed By: RAW PRESSERY PRIVATE LIMITED\\nOffice No. 910, 9th Floor, Niharika Mirage,\\nPlot No. 274, Sector-10, Kharghar, Navi Mumbai,\\nRaigad, Maharashtra- 410210\\nwww.wingreensworld.com fssai\\nLic. No. 10016022005650\\nContact Consumer Care Executive:\\nSAME AS MARKETED BY ADDRESS\\n+91 8800-793-638,\\nsupport@wingreens.in\"},\n  {\"panel_3\": \"RAW DAILY DOSE\\nIT'S REFRESHING. IT'S NOURISHING. IT'S DELICIOUS!\\nIT'S BERRY BERRY HEALTHY!\\nA delicious blend of Strawberries, Blueberries, &\\nCranberries, all rich in Vitamin C and natural\\nantioxidants. Berries also contain bioactive compounds\\nthat exhibit anti-inflammatory effects. Each sip will leave\\nyou feeling \\\"berry healthy\\\" and inspired to\\nBE YOU. BE RAW.\\nREADY TO SERVE FRUIT BEVERAGES\\nNET QUANTITY\\n250ml\\nIMAGES USED FOR ILLUSTRATIVE PURPOSE ONLY.\\nSTORE AWAY FROM DIRECT SUNLIGHT. SEE BOTTLE NECK FOR\\nTHE DATE OF MANUFACTURE, USE BY DATE, BATCH NO. AND MRP\\n(incl. of all taxes)\\nOUR BOTTLES ARE FOOD-GRADE. THE TASTE OF OUR PRODUCT\\nMAY VARY FROM SEASON TO SEASON.\\nRECYCLE VALUE IN MAHARASHTRA Rs. 15/kg.\\nPRODUCT OF INDIA. SHAKE WELL BEFORE DRINKING.\\n8 904258 703893\\nRAW\\nA brand of\\nTASTES BEST WHEN\\nCONSUMED CHILLED\\nWINGREENS WORLD.COM\\nDO NOT CONSUME IF\\nTHE BOTTLE IS\\nPUFFED/BLOATED\\nKEEP REFRIGERATED ONCE\\nOPENED. CONSUME WITHIN\\nTWO DAYS OF OPENING\\nFor illustrative purposes only.\"}\n]\n```"
+[2026-04-02 10:25:01] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 10:25:01] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 10:25:01] [Metadata] Extracting Brand Metadata
+[2026-04-02 10:25:04] [Metadata] Metadata LLM raw output: {
+    "brandName": "RAW PRESSERY",
+    "productName": "Berry Healthy",
+    "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+    "licenseNo": "10014047000299",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 10:25:04] [EXTRACTED METADATA] {
+  "brandName": "RAW PRESSERY",
+  "productName": "Berry Healthy",
+  "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+  "licenseNo": "10014047000299",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 10:25:04] [STEP 4/9] Running regulatory checks...
+[2026-04-02 10:25:04] [Core] Running Regulatory Analysis
+[2026-04-02 10:25:20] [STEP 5/9] Validating product category...
+[2026-04-02 10:25:20] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 10:25:22] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose fruit-based beverage marketed for its antioxidant and anti-inflammatory properties. It does not target a specific age, gender, or physiological state, therefore the general adult population demographic is appropriate.'}
+[2026-04-02 10:25:22] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose fruit-based beverage marketed for its antioxidant and anti-inflammatory properties. It does not target a specific age, gender, or physiological state, therefore the general adult population demographic is appropriate.'}
+[2026-04-02 10:25:22] [STEP 6/9] Substantiating claims...
+[2026-04-02 10:25:22] [Claims] Running Claims Subsystem
+[2026-04-02 10:25:22] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose fruit-based beverage marketed for its antioxidant and anti-inflammatory properties. It does not target a specific age, gender, or physiological state, therefore the general adult population demographic is appropriate.'}
+[2026-04-02 10:25:22] [Claims] RDA calculations complete: 13 nutrients processed
+[2026-04-02 10:25:22] [Claims] TOTAL FAT: 0.1% RDA per 100g
+[2026-04-02 10:25:22] [Claims] SODIUM: 0.1% RDA per 100g
+[2026-04-02 10:25:22] [Claims] DIETARY FIBER: 0.3% RDA per 100g
+[2026-04-02 10:25:22] [Claims] PROTEIN: 0.2% RDA per 100g
+[2026-04-02 10:25:22] [Claims] VITAMIN A: 0.0% RDA per 100g
+[2026-04-02 10:25:22] [Claims] VITAMIN C: 38.9% RDA per 100g
+[2026-04-02 10:25:22] [Claims] CALCIUM: 0.5% RDA per 100g
+[2026-04-02 10:25:22] [Claims] IRON: 0.1% RDA per 100g
+[2026-04-02 10:25:22] [Claims] POTASSIUM: 1.6% RDA per 100g
+[2026-04-02 10:25:22] [Claims (RDA)] RDA Percentages: {
+  "total fat": 0.1,
+  "sodium": 0.1,
+  "dietary fiber": 0.3,
+  "protein": 0.2,
+  "vitamin a": 0.0,
+  "vitamin c": 38.9,
+  "calcium": 0.5,
+  "iron": 0.1,
+  "potassium": 1.6
+}
+[2026-04-02 10:25:22] [Claims (RDA)] RDA Percentages Count: 9
+[2026-04-02 10:25:29] [Claims] Claims Validation Result: [{'claim_text': 'RICH IN ANTIOXIDANTS', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The product contains 31.1mg of Vitamin C per 100g, which provides 38.9% of the RDA. According to FSSAI thresholds, a 'High/Rich' claim for vitamins is permitted if the nutrient meets ≥ 30% RDA per 100g. Vitamin C is a recognized antioxidant.", 'reference': 'FSSAI Schedule II (Nutritional Claims)', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'HIGH IN VITAMIN C', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "Vitamin C content is 31.1mg per 100g, which is 38.9% of the RDA. This exceeds the 30% RDA threshold required by FSSAI for a 'High' claim in solid/semi-solid foods.", 'reference': 'FSSAI Schedule II (Nutritional Claims)', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'ANTI-INFLAMMATORY', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'This is a non-specified functional health claim. FSSAI requires such claims to be supported by specific clinical study data or recognized scientific evidence linking the product composition to the stated effect. No clinical data was provided for validation.', 'reference': 'FSSAI Health Claims Regulation', 'nutrient_involved': 'Bioactive compounds'}, {'claim_text': 'Berries also contain bioactive compounds that exhibit anti-inflammatory effects', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': "While the ingredients list confirms the presence of Strawberry, Blueberry, and Cranberry, the claim regarding 'anti-inflammatory effects' of these bioactive compounds in the context of this specific product requires clinical validation or GI/functional testing data which is currently missing.", 'reference': 'FSSAI Health Claims Regulation', 'nutrient_involved': 'Bioactive compounds'}]
+[2026-04-02 10:25:29] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 10:25:29] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 10:25:29] [Claims] Claims Analysis Result: Analyzed 4 claim(s). 2 passed, 0 failed, 2 need review.
+[2026-04-02 10:25:29] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 10:25:29] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 10:25:29] [ERROR: Lab Tests] Failed loading lab test prompts: list index out of range
+[2026-04-02 10:25:30] [ERROR: Lab Tests] Lab Test Pipeline Error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Unable to submit request because Model input cannot be empty. Learn more: https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/gemini', 'status': 'INVALID_ARGUMENT'}}
+[2026-04-02 10:25:30] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 10:25:30] [SUCCESS] Final Score: 75.0%
+[2026-04-02 10:28:59] [STEP 1/9] Validating image context...
+[2026-04-02 10:28:59] [Context] source=default_general, type=general, code=None
+[2026-04-02 10:28:59] [STEP 2/9] Extracting OCR data...
+[2026-04-02 10:28:59] [OCR] Initiating OCR Extraction Service
+[2026-04-02 10:28:59] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 10:29:07] [RAW OCR TEXT] "```json\n[\n  {\"panel_1\": \"RAW\u00ae\\nPRESSERY\\nDAILY DOSE\\nBerry\\nHealthy\\nStrawberry, Blueberry\\n& Cranberry\\nANTI-INFLAMMATORY.\\nRICH IN ANTIOXIDANTS.\\nHIGH IN VITAMIN C.\\nBENEFITS\"},\n  {\"panel_2\": \"NUTRITION FACTS**\\n1 SERVING PER CONTAINER\\nSERVING SIZE 1 GLASS (250 ml)\\nPer 100ml %RDA* (per 250ml)\\nENERGY VALUE 30.4kcal 3.79%\\nTOTAL FAT 0.1g 0.10%\\nSODIUM 1.3mg 0.16%\\nTOTAL CARBOHYDRATES 7.3g\\nDIETARY FIBER 0.1g 1.17%\\nTOTAL SUGARS 7.3g\\nADDED SUGAR 2.5g 12.5%\\nPROTEIN 0.1g 0.23%\\nVITAMIN A 0.2mcg 0.06%\\nVITAMIN C 31.1mg 97.3%\\nCALCIUM 5.1mg 1.29%\\nIRON 0.02mg 0.32%\\nPOTASSIUM 56.0mg 4.00%\\nINGREDIENTS: WATER, STRAWBERRY PULP\\n(29%), APPLE JUICE(20%), BLUEBERRY\\nPULP(3%), KHANDSARI SUGAR, CRANBERRY\\nJUICE CONCENTRATE(0.8%), ACIDITY\\nREGULATOR (INS 330), PECTIN, NATURAL\\nFLAVORING SUBSTANCES, ANTIOXIDANTS\\n[VITAMIN C - INS 300), INS 224], NATURAL\\nCOLOUR [INS 163 (ii)], STEVIA\\nAllergen Advice: Contains Sulphite,\\nManufactured in the same facility which\\nprocesses Nut, Milk\\nManufactured By:\\n(VB) VINAYAK BEVERAGES\\nSy. No. 593/A, Nandigama Village, Patancheru\\nMandal, Sangareddy,\\nTelangana- 502300 fssai\\nLic. No. 10014047000299\\nMarketed By: RAW PRESSERY PRIVATE LIMITED\\nOffice No. 910, 9th Floor, Niharika Mirage,\\nPlot No. 274, Sector-10, Kharghar, Navi Mumbai,\\nRaigad, Maharashtra- 410210\\nwww.wingreensworld.com fssai\\nLic. No. 10016022005650\\nContact Consumer Care Executive:\\nSAME AS MARKETED BY ADDRESS\\n+91 8800-793-638,\\nsupport@wingreens.in\"},\n  {\"panel_3\": \"RAW DAILY DOSE\\nIT'S REFRESHING. IT'S NOURISHING. IT'S DELICIOUS!\\nIT'S BERRY BERRY HEALTHY!\\nA delicious blend of Strawberries, Blueberries, &\\nCranberries, all rich in Vitamin C and natural\\nantioxidants. Berries also contain bioactive compounds\\nthat exhibit anti-inflammatory effects. Each sip will leave\\nyou feeling \\\"berry healthy\\\" and inspired to\\nBE YOU. BE RAW.\\nREADY TO SERVE FRUIT BEVERAGES\\nNET QUANTITY\\n250ml\\nIMAGES USED FOR ILLUSTRATIVE PURPOSE ONLY.\\nSTORE AWAY FROM DIRECT SUNLIGHT. SEE BOTTLE NECK FOR\\nTHE DATE OF MANUFACTURE, USE BY DATE, BATCH NO. AND MRP\\n(incl. of all taxes)\\nOUR BOTTLES ARE FOOD-GRADE. THE TASTE OF OUR PRODUCT\\nMAY VARY FROM SEASON TO SEASON.\\nRECYCLE VALUE IN MAHARASHTRA Rs. 15/kg.\\nPRODUCT OF INDIA. SHAKE WELL BEFORE DRINKING.\\n8 904258 703893\\nRAW\\nA brand of\\nTASTES BEST WHEN\\nCONSUMED CHILLED\\nWINGREENS WORLD.COM\\nDO NOT CONSUME IF\\nTHE BOTTLE IS\\nPUFFED/BLOATED\\nKEEP REFRIGERATED ONCE\\nOPENED. CONSUME WITHIN\\nTWO DAYS OF OPENING\\nFor illustrative purposes only.\"}\n]\n```"
+[2026-04-02 10:29:15] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 10:29:15] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 10:29:15] [Metadata] Extracting Brand Metadata
+[2026-04-02 10:29:18] [Metadata] Metadata LLM raw output: {
+    "brandName": "RAW PRESSERY",
+    "productName": "Berry Healthy",
+    "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+    "licenseNo": "10014047000299",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 10:29:18] [EXTRACTED METADATA] {
+  "brandName": "RAW PRESSERY",
+  "productName": "Berry Healthy",
+  "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+  "licenseNo": "10014047000299",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 10:29:18] [STEP 4/9] Running regulatory checks...
+[2026-04-02 10:29:18] [Core] Running Regulatory Analysis
+[2026-04-02 10:29:40] [STEP 5/9] Validating product category...
+[2026-04-02 10:29:40] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 10:29:42] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose fruit-based beverage marketed for its antioxidant and anti-inflammatory properties. It does not target a specific age, gender, or physiological state, therefore the general adult population demographic is appropriate.'}
+[2026-04-02 10:29:42] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose fruit-based beverage marketed for its antioxidant and anti-inflammatory properties. It does not target a specific age, gender, or physiological state, therefore the general adult population demographic is appropriate.'}
+[2026-04-02 10:29:42] [STEP 6/9] Substantiating claims...
+[2026-04-02 10:29:42] [Claims] Running Claims Subsystem
+[2026-04-02 10:29:42] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose fruit-based beverage marketed for its antioxidant and anti-inflammatory properties. It does not target a specific age, gender, or physiological state, therefore the general adult population demographic is appropriate.'}
+[2026-04-02 10:29:42] [Claims] RDA calculations complete: 13 nutrients processed
+[2026-04-02 10:29:42] [Claims] TOTAL FAT: 0.1% RDA per 100g
+[2026-04-02 10:29:42] [Claims] SODIUM: 0.1% RDA per 100g
+[2026-04-02 10:29:42] [Claims] DIETARY FIBER: 0.3% RDA per 100g
+[2026-04-02 10:29:42] [Claims] PROTEIN: 0.2% RDA per 100g
+[2026-04-02 10:29:42] [Claims] VITAMIN A: 0.0% RDA per 100g
+[2026-04-02 10:29:42] [Claims] VITAMIN C: 38.9% RDA per 100g
+[2026-04-02 10:29:42] [Claims] CALCIUM: 0.5% RDA per 100g
+[2026-04-02 10:29:42] [Claims] IRON: 0.1% RDA per 100g
+[2026-04-02 10:29:42] [Claims] POTASSIUM: 1.6% RDA per 100g
+[2026-04-02 10:29:42] [Claims (RDA)] RDA Percentages: {
+  "total fat": 0.1,
+  "sodium": 0.1,
+  "dietary fiber": 0.3,
+  "protein": 0.2,
+  "vitamin a": 0.0,
+  "vitamin c": 38.9,
+  "calcium": 0.5,
+  "iron": 0.1,
+  "potassium": 1.6
+}
+[2026-04-02 10:29:42] [Claims (RDA)] RDA Percentages Count: 9
+[2026-04-02 10:29:53] [Claims] Claims Validation Result: [{'claim_text': 'RICH IN ANTIOXIDANTS', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The product contains 31.1mg of Vitamin C per 100g, which provides 38.9% of the RDA. According to FSSAI thresholds, a 'High/Rich' claim for vitamins is permitted if the nutrient meets ≥ 30% RDA per 100g. Vitamin C is a recognized antioxidant.", 'reference': 'FSSAI Schedule II (Nutritional Claims)', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'HIGH IN VITAMIN C', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "Vitamin C content is 31.1mg per 100g, which is 38.9% of the RDA. This exceeds the 30% RDA threshold required by FSSAI for a 'High' claim in solid/semi-solid foods.", 'reference': 'FSSAI Schedule II (Nutritional Claims)', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'ANTI-INFLAMMATORY', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'This is a non-specified functional health claim. FSSAI requires such claims to be supported by specific clinical study data or recognized scientific evidence linking the product composition to the stated effect. No clinical data was provided for validation.', 'reference': 'FSSAI Health Claims Regulation', 'nutrient_involved': 'Bioactive compounds'}, {'claim_text': 'Berries also contain bioactive compounds that exhibit anti-inflammatory effects', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': "While the ingredients list confirms the presence of Strawberry, Blueberry, and Cranberry, the claim regarding 'anti-inflammatory effects' of these bioactive compounds in the context of this specific product requires clinical validation or GI/functional testing data which is currently missing.", 'reference': 'FSSAI Health Claims Regulation', 'nutrient_involved': 'Bioactive compounds'}]
+[2026-04-02 10:29:53] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 10:29:53] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 10:29:53] [Claims] Claims Analysis Result: Analyzed 4 claim(s). 2 passed, 0 failed, 2 need review.
+[2026-04-02 10:29:53] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 10:29:53] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 10:29:58] [Lab Tests] Generated 7 suggestions
+[2026-04-02 10:29:58] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 10:30:07] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 10:30:07] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 10:30:15] [Lab Tests] Generated 8 microbiological hazard-related tests
+[2026-04-02 10:30:15] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 10:30:15] [SUCCESS] Final Score: 70.0%
+[2026-04-02 10:34:33] [STEP 1/9] Validating image context...
+[2026-04-02 10:34:33] [Context] source=default_general, type=general, code=None
+[2026-04-02 10:34:33] [STEP 2/9] Extracting OCR data...
+[2026-04-02 10:34:33] [OCR] Initiating OCR Extraction Service
+[2026-04-02 10:34:33] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 10:34:42] [RAW OCR TEXT] "RAW\u00ae\nPRESSERY\nDAILY DOSE\nBerry\nHealthy\nStrawberry, Blueberry\n& Cranberry\nANTI-INFLAMMATORY.\nRICH IN ANTIOXIDANTS.\nHIGH IN VITAMIN C.\nBENEFITS\nPANEL 1\nNUTRITION FACTS**\n1 SERVING PER CONTAINER\nSERVING SIZE 1 GLASS (250 ml)\nPer %RDA*\n100ml (per 250ml)\nENERGY VALUE 30.4kcal 3.79%\nTOTAL FAT 0.1g 0.10%\nSODIUM 1.3mg 0.16%\nTOTAL CARBOHYDRATES 7.3g\nDIETARY FIBER 0.1g 1.17%\nTOTAL SUGARS 7.3g\nADDED SUGAR 2.5g 12.5%\nPROTEIN 0.1g 0.23%\nVITAMIN A 0.2mcg 0.06%\nVITAMIN C 31.1mg 97.3%\nCALCIUM 5.1mg 1.29%\nIRON 0.02mg 0.32%\nPOTASSIUM 56.0mg 4.00%\nINGREDIENTS: WATER, STRAWBERRY PULP\n(29%), APPLE JUICE(20%), BLUEBERRY\nPULP(3%), KHANDSARI SUGAR, CRANBERRY\nJUICE CONCENTRATE(0.8%), ACIDITY\nREGULATOR (INS 330), PECTIN, NATURAL\nFLAVORING SUBSTANCES, ANTIOXIDANTS\n[VITAMIN C - INS 300), INS 224], NATURAL\nCOLOUR [INS 163 (ii)], STEVIA\nAllergen Advice: Contains Sulphite,\nManufactured in the same facility which\nprocesses Nut, Milk\nManufactured By:\n(VB) VINAYAK BEVERAGES\nSy. No. 593/A, Nandigama Village, Patancheru\nMandal, Sangareddy,\nTelangana- 502300 fssai\nLic. No. 10014047000299\nMarketed By: RAW PRESSERY PRIVATE LIMITED\nOffice No. 910, 9th Floor, Niharika Mirage,\nPlot No. 274, Sector-10, Kharghar, Navi Mumbai,\nRaigad, Maharashtra- 410210\nwww.wingreensworld.com fssai\nLic. No. 10016022005650\nContact Consumer Care Executive:\nSAME AS MARKETED BY ADDRESS\n+91 8800-793-638,\nsupport@wingreens.in\nPANEL 2\nRAW DAILY DOSE\nIT'S REFRESHING. IT'S NOURISHING. IT'S DELICIOUS!\nIT'S BERRY BERRY HEALTHY!\nA delicious blend of Strawberries, Blueberries, &\nCranberries, all rich in Vitamin C and natural\nantioxidants. Berries also contain bioactive compounds\nthat exhibit anti-inflammatory effects. Each sip will leave\nyou feeling \"berry healthy\" and inspired to\nBE YOU. BE RAW.\nREADY TO SERVE FRUIT BEVERAGES\nNET QUANTITY\n250ml\nIMAGES USED FOR ILLUSTRATIVE PURPOSE ONLY.\nSTORE AWAY FROM DIRECT SUNLIGHT. SEE BOTTLE NECK FOR\nTHE DATE OF MANUFACTURE, USE BY DATE, BATCH NO. AND MRP\n(incl. of all taxes)\nOUR BOTTLES ARE FOOD-GRADE. THE TASTE OF OUR PRODUCT\nMAY VARY FROM SEASON TO SEASON.\nRECYCLE VALUE IN MAHARASHTRA Rs. 15/kg.\nPRODUCT OF INDIA. SHAKE WELL BEFORE DRINKING.\n8 904258 703893\nTASTES BEST WHEN\nCONSUMED CHILLED\nDO NOT CONSUME IF\nTHE BOTTLE IS\nPUFFED/BLOATED\nRAW\nA brand of\nWINGREENS WORLD.COM\nKEEP REFRIGERATED ONCE\nOPENED. CONSUME WITHIN\nTWO DAYS OF OPENING\nFor illustrative purposes only.\nPANEL 3"
+[2026-04-02 10:34:49] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 10:34:49] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 10:34:49] [Metadata] Extracting Brand Metadata
+[2026-04-02 10:34:51] [Metadata] Metadata LLM raw output: {
+    "brandName": "RAW PRESSERY",
+    "productName": "Berry Healthy",
+    "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+    "licenseNo": "10014047000299",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 10:34:51] [EXTRACTED METADATA] {
+  "brandName": "RAW PRESSERY",
+  "productName": "Berry Healthy",
+  "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+  "licenseNo": "10014047000299",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 10:34:51] [STEP 4/9] Running regulatory checks...
+[2026-04-02 10:34:51] [Core] Running Regulatory Analysis
+[2026-04-02 10:35:22] [STEP 5/9] Validating product category...
+[2026-04-02 10:35:22] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 10:35:24] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general fruit-based beverage marketed for its antioxidant and vitamin content without specific claims targeting children, infants, or pregnant/lactating individuals. Therefore, it defaults to the general adult population demographic.'}
+[2026-04-02 10:35:24] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general fruit-based beverage marketed for its antioxidant and vitamin content without specific claims targeting children, infants, or pregnant/lactating individuals. Therefore, it defaults to the general adult population demographic.'}
+[2026-04-02 10:35:24] [STEP 6/9] Substantiating claims...
+[2026-04-02 10:35:24] [Claims] Running Claims Subsystem
+[2026-04-02 10:35:24] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general fruit-based beverage marketed for its antioxidant and vitamin content without specific claims targeting children, infants, or pregnant/lactating individuals. Therefore, it defaults to the general adult population demographic.'}
+[2026-04-02 10:35:24] [Claims] RDA calculations complete: 13 nutrients processed
+[2026-04-02 10:35:24] [Claims] TOTAL FAT: 0.1% RDA per 100g
+[2026-04-02 10:35:24] [Claims] SODIUM: 0.1% RDA per 100g
+[2026-04-02 10:35:24] [Claims] DIETARY FIBER: 0.3% RDA per 100g
+[2026-04-02 10:35:24] [Claims] PROTEIN: 0.2% RDA per 100g
+[2026-04-02 10:35:24] [Claims] VITAMIN A: 0.0% RDA per 100g
+[2026-04-02 10:35:24] [Claims] VITAMIN C: 38.9% RDA per 100g
+[2026-04-02 10:35:24] [Claims] CALCIUM: 0.5% RDA per 100g
+[2026-04-02 10:35:24] [Claims] IRON: 0.1% RDA per 100g
+[2026-04-02 10:35:24] [Claims] POTASSIUM: 1.6% RDA per 100g
+[2026-04-02 10:35:24] [Claims (RDA)] RDA Percentages: {
+  "total fat": 0.1,
+  "sodium": 0.1,
+  "dietary fiber": 0.3,
+  "protein": 0.2,
+  "vitamin a": 0.0,
+  "vitamin c": 38.9,
+  "calcium": 0.5,
+  "iron": 0.1,
+  "potassium": 1.6
+}
+[2026-04-02 10:35:24] [Claims (RDA)] RDA Percentages Count: 9
+[2026-04-02 10:35:42] [Claims] Claims Validation Result: [{'claim_text': 'RICH IN ANTIOXIDANTS.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "Vitamin C is a recognized antioxidant. The product contains 31.1mg of Vitamin C per 100g, which is 38.9% of the RDA. According to FSSAI thresholds, a 'High/Rich' claim for vitamins/minerals requires ≥ 30% RDA per 100g for solids or ≥ 15% RDA per 100ml for liquids. At 38.9% RDA, it meets the 'Rich' threshold.", 'reference': 'FSSAI Advertising and Claims Regulations', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'HIGH IN VITAMIN C.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table lists Vitamin C at 31.1mg per 100g, which calculates to 38.9% of the RDA (80mg). This exceeds the 30% RDA threshold required for a 'High' claim in solid foods and the 15% RDA threshold for liquids.", 'reference': 'FSSAI Advertising and Claims Regulations', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'ANTI-INFLAMMATORY.', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': "This is a high-level functional health claim. Under FSSAI, such claims must be supported by specific clinical evidence or be a recognized health claim associated with specific nutrients at required levels. While berries contain polyphenols, the specific 'anti-inflammatory' effect of this finished product requires clinical validation or GI/functional testing data which is not provided.", 'reference': 'FSSAI Health Claims Requirements', 'nutrient_involved': 'Bioactive compounds'}, {'claim_text': 'Berries also contain bioactive compounds that exhibit anti-inflammatory effects.', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'While scientifically plausible for the ingredients (strawberries, blueberries, cranberries), claiming this effect for the product itself requires clinical data or a specific link to a nutrient meeting a functional threshold. No clinical trial data or specific bioactive quantification is provided in the nutrition table.', 'reference': 'FSSAI Health Claims Requirements', 'nutrient_involved': 'Bioactive compounds'}, {'claim_text': 'A delicious blend of Strawberries, Blueberries, & Cranberries, all rich in Vitamin C and natural antioxidants.', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "The ingredients list confirms the presence of Strawberry Pulp (29%), Blueberry Pulp (3%), and Cranberry Juice Concentrate (0.8%). The 'Rich in Vitamin C' part of the claim is validated by the nutrition table showing 38.9% RDA per 100g.", 'reference': 'Ingredients List & Nutrition Table', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}]
+[2026-04-02 10:35:42] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 10:35:42] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 10:35:42] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 10:35:42] [Claims] Claims Analysis Result: Analyzed 5 claim(s). 3 passed, 0 failed, 2 need review.
+[2026-04-02 10:35:42] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 10:35:42] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 10:35:49] [Lab Tests] Generated 8 suggestions
+[2026-04-02 10:35:49] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 10:35:55] [Lab Tests] Generated 4 contaminants-related tests
+[2026-04-02 10:35:55] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 10:36:01] [Lab Tests] Generated 8 microbiological hazard-related tests
+[2026-04-02 10:36:01] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 10:36:01] [SUCCESS] Final Score: 70.0%
+[2026-04-02 10:45:49] [STEP 1/9] Validating image context...
+[2026-04-02 10:45:49] [Context] source=default_general, type=general, code=None
+[2026-04-02 10:45:49] [STEP 2/9] Extracting OCR data...
+[2026-04-02 10:45:49] [OCR] Initiating OCR Extraction Service
+[2026-04-02 10:45:49] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 10:46:04] [RAW OCR TEXT] "RAW\u00ae\nPRESSERY\nDAILY DOSE\nBerry\nHealthy\nStrawberry, Blueberry\n& Cranberry\nANTI-INFLAMMATORY.\nRICH IN ANTIOXIDANTS.\nHIGH IN VITAMIN C.\nBENEFITS\nPANEL 1\nNUTRITION FACTS**\n1 SERVING PER CONTAINER\nSERVING SIZE 1 GLASS (250 ml)\nPer %RDA*\n100ml (per 250ml)\nENERGY VALUE 30.4kcal 3.79%\nTOTAL FAT 0.1g 0.10%\nSODIUM 1.3mg 0.16%\nTOTAL CARBOHYDRATES 7.3g\nDIETARY FIBER 0.1g 1.17%\nTOTAL SUGARS 7.3g\nADDED SUGAR 2.5g 12.5%\nPROTEIN 0.1g 0.23%\nVITAMIN A 0.2mcg 0.06%\nVITAMIN C 31.1mg 97.3%\nCALCIUM 5.1mg 1.29%\nIRON 0.02mg 0.32%\nPOTASSIUM 56.0mg 4.00%\nINGREDIENTS: WATER, STRAWBERRY PULP\n(29%), APPLE JUICE(20%), BLUEBERRY\nPULP(3%), KHANDSARI SUGAR, CRANBERRY\nJUICE CONCENTRATE(0.8%), ACIDITY\nREGULATOR (INS 330), PECTIN, NATURAL\nFLAVORING SUBSTANCES, ANTIOXIDANTS\n[VITAMIN C - INS 300), INS 224], NATURAL\nCOLOUR [INS 163 (ii)], STEVIA\nAllergen Advice: Contains Sulphite,\nManufactured in the same facility which\nprocesses Nut, Milk\nManufactured By:\n(VB) VINAYAK BEVERAGES\nSy. No. 593/A, Nandigama Village, Patancheru\nMandal, Sangareddy,\nTelangana- 502300 fssai\nLic. No. 10014047000299\nMarketed By: RAW PRESSERY PRIVATE LIMITED\nOffice No. 910, 9th Floor, Niharika Mirage,\nPlot No. 274, Sector-10, Kharghar, Navi Mumbai,\nRaigad, Maharashtra- 410210\nwww.wingreensworld.com fssai\nLic. No. 10016022005650\nContact Consumer Care Executive:\nSAME AS MARKETED BY ADDRESS\n+91 8800-793-638,\nsupport@wingreens.in\nPANEL 2\nRAW DAILY DOSE\nIT'S REFRESHING. IT'S NOURISHING. IT'S DELICIOUS!\nIT'S BERRY BERRY HEALTHY!\nA delicious blend of Strawberries, Blueberries, &\nCranberries, all rich in Vitamin C and natural\nantioxidants. Berries also contain bioactive compounds\nthat exhibit anti-inflammatory effects. Each sip will leave\nyou feeling \"berry healthy\" and inspired to\nBE YOU. BE RAW.\nREADY TO SERVE FRUIT BEVERAGES\nNET QUANTITY\n250ml\nIMAGES USED FOR ILLUSTRATIVE PURPOSE ONLY.\nSTORE AWAY FROM DIRECT SUNLIGHT. SEE BOTTLE NECK FOR\nTHE DATE OF MANUFACTURE, USE BY DATE, BATCH NO. AND MRP\n(incl. of all taxes)\nOUR BOTTLES ARE FOOD-GRADE. THE TASTE OF OUR PRODUCT\nMAY VARY FROM SEASON TO SEASON.\nRECYCLE VALUE IN MAHARASHTRA Rs. 15/kg.\nPRODUCT OF INDIA. SHAKE WELL BEFORE DRINKING.\n8 904258 703893\nTASTES BEST WHEN\nCONSUMED CHILLED\nDO NOT CONSUME IF\nTHE BOTTLE IS\nPUFFED/BLOATED\nRAW\nA brand of\nWINGREENS WORLD.COM\nKEEP REFRIGERATED ONCE\nOPENED. CONSUME WITHIN\nTWO DAYS OF OPENING\nFor illustrative purposes only.\nPANEL 3"
+[2026-04-02 10:46:17] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 10:46:17] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 10:46:17] [Metadata] Extracting Brand Metadata
+[2026-04-02 10:46:20] [Metadata] Metadata LLM raw output: {
+    "brandName": "RAW PRESSERY",
+    "productName": "Berry Healthy",
+    "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+    "licenseNo": "10014047000299",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 10:46:20] [EXTRACTED METADATA] {
+  "brandName": "RAW PRESSERY",
+  "productName": "Berry Healthy",
+  "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+  "licenseNo": "10014047000299",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 10:46:20] [STEP 4/9] Running regulatory checks...
+[2026-04-02 10:46:20] [Core] Running Regulatory Analysis
+[2026-04-02 10:46:45] [STEP 5/9] Validating product category...
+[2026-04-02 10:46:45] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 10:46:48] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general fruit-based beverage marketed for its antioxidant and vitamin content without specific claims targeting children, infants, or pregnant/lactating individuals. Therefore, it defaults to the general adult population demographic.'}
+[2026-04-02 10:46:48] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general fruit-based beverage marketed for its antioxidant and vitamin content without specific claims targeting children, infants, or pregnant/lactating individuals. Therefore, it defaults to the general adult population demographic.'}
+[2026-04-02 10:46:48] [STEP 6/9] Substantiating claims...
+[2026-04-02 10:46:48] [Claims] Running Claims Subsystem
+[2026-04-02 10:46:48] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general fruit-based beverage marketed for its antioxidant and vitamin content without specific claims targeting children, infants, or pregnant/lactating individuals. Therefore, it defaults to the general adult population demographic.'}
+[2026-04-02 10:46:48] [Claims] RDA calculations complete: 13 nutrients processed
+[2026-04-02 10:46:48] [Claims] TOTAL FAT: 0.1% RDA per 100g
+[2026-04-02 10:46:48] [Claims] SODIUM: 0.1% RDA per 100g
+[2026-04-02 10:46:48] [Claims] DIETARY FIBER: 0.3% RDA per 100g
+[2026-04-02 10:46:48] [Claims] PROTEIN: 0.2% RDA per 100g
+[2026-04-02 10:46:48] [Claims] VITAMIN A: 0.0% RDA per 100g
+[2026-04-02 10:46:48] [Claims] VITAMIN C: 38.9% RDA per 100g
+[2026-04-02 10:46:48] [Claims] CALCIUM: 0.5% RDA per 100g
+[2026-04-02 10:46:48] [Claims] IRON: 0.1% RDA per 100g
+[2026-04-02 10:46:48] [Claims] POTASSIUM: 1.6% RDA per 100g
+[2026-04-02 10:46:48] [Claims (RDA)] RDA Percentages: {
+  "total fat": 0.1,
+  "sodium": 0.1,
+  "dietary fiber": 0.3,
+  "protein": 0.2,
+  "vitamin a": 0.0,
+  "vitamin c": 38.9,
+  "calcium": 0.5,
+  "iron": 0.1,
+  "potassium": 1.6
+}
+[2026-04-02 10:46:48] [Claims (RDA)] RDA Percentages Count: 9
+[2026-04-02 10:46:59] [Claims] Claims Validation Result: [{'claim_text': 'RICH IN ANTIOXIDANTS.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "Vitamin C is a recognized antioxidant. The product contains 31.1mg of Vitamin C per 100g, which is 38.9% of the RDA. According to FSSAI thresholds, a 'High/Rich' claim for vitamins/minerals requires ≥ 30% RDA per 100g for solids or ≥ 15% RDA per 100ml for liquids. At 38.9% RDA, it meets the 'Rich' threshold.", 'reference': 'FSSAI Advertising and Claims Regulations', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'HIGH IN VITAMIN C.', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table lists Vitamin C at 31.1mg per 100g, which calculates to 38.9% of the RDA (80mg). This exceeds the 30% RDA threshold required for a 'High' claim in solid foods and the 15% RDA threshold for liquids.", 'reference': 'FSSAI Advertising and Claims Regulations', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'ANTI-INFLAMMATORY.', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': "This is a high-level functional health claim. Under FSSAI, such claims must be supported by specific clinical evidence or be a recognized health claim associated with specific nutrients at required levels. While berries contain polyphenols, the specific 'anti-inflammatory' effect of this finished product requires clinical validation or GI/functional testing data which is not provided.", 'reference': 'FSSAI Health Claims Requirements', 'nutrient_involved': 'Bioactive compounds'}, {'claim_text': 'Berries also contain bioactive compounds that exhibit anti-inflammatory effects.', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'While scientifically plausible for the ingredients (strawberries, blueberries, cranberries), claiming this effect for the product itself requires clinical data or a specific link to a nutrient meeting a functional threshold. No clinical trial data or specific bioactive quantification is provided in the nutrition table.', 'reference': 'FSSAI Health Claims Requirements', 'nutrient_involved': 'Bioactive compounds'}, {'claim_text': 'A delicious blend of Strawberries, Blueberries, & Cranberries, all rich in Vitamin C and natural antioxidants.', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "The ingredients list confirms the presence of Strawberry Pulp (29%), Blueberry Pulp (3%), and Cranberry Juice Concentrate (0.8%). The 'Rich in Vitamin C' part of the claim is validated by the nutrition table showing 38.9% RDA per 100g.", 'reference': 'Ingredients List & Nutrition Table', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}]
+[2026-04-02 10:46:59] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 10:46:59] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 10:46:59] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 10:46:59] [Claims] Claims Analysis Result: Analyzed 5 claim(s). 3 passed, 0 failed, 2 need review.
+[2026-04-02 10:46:59] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 10:46:59] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 10:47:05] [Lab Tests] Generated 6 suggestions
+[2026-04-02 10:47:05] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 10:47:09] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 10:47:09] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 10:47:15] [Lab Tests] Generated 8 microbiological hazard-related tests
+[2026-04-02 10:47:15] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 10:47:15] [SUCCESS] Final Score: 70.0%
+[2026-04-02 11:00:53] [STEP 1/9] Validating image context...
+[2026-04-02 11:00:53] [Context] source=default_general, type=general, code=None
+[2026-04-02 11:00:54] [STEP 2/9] Extracting OCR data...
+[2026-04-02 11:00:54] [OCR] Initiating OCR Extraction Service
+[2026-04-02 11:00:54] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 11:01:02] [RAW OCR TEXT] "RAW\u00ae\nPRESSERY\nDAILY DOSE\nBerry\nHealthy\nStrawberry, Blueberry\n& Cranberry\nANTI-INFLAMMATORY.\nRICH IN ANTIOXIDANTS.\nHIGH IN VITAMIN C.\nBENEFITS\nPANEL 1\nNUTRITION FACTS**\n1 SERVING PER CONTAINER\nSERVING SIZE 1 GLASS (250 ml)\nPer %RDA*\n100ml (per 250ml)\nENERGY VALUE 30.4kcal 3.79%\nTOTAL FAT 0.1g 0.10%\nSODIUM 1.3mg 0.16%\nTOTAL CARBOHYDRATES 7.3g\nDIETARY FIBER 0.1g 1.17%\nTOTAL SUGARS 7.3g\nADDED SUGAR 2.5g 12.5%\nPROTEIN 0.1g 0.23%\nVITAMIN A 0.2mcg 0.06%\nVITAMIN C 31.1mg 97.3%\nCALCIUM 5.1mg 1.29%\nIRON 0.02mg 0.32%\nPOTASSIUM 56.0mg 4.00%\nINGREDIENTS: WATER, STRAWBERRY PULP\n(29%), APPLE JUICE(20%), BLUEBERRY\nPULP(3%), KHANDSARI SUGAR, CRANBERRY\nJUICE CONCENTRATE(0.8%), ACIDITY\nREGULATOR (INS 330), PECTIN, NATURAL\nFLAVORING SUBSTANCES, ANTIOXIDANTS\n[VITAMIN C - INS 300), INS 224], NATURAL\nCOLOUR [INS 163 (ii)], STEVIA\nAllergen Advice: Contains Sulphite,\nManufactured in the same facility which\nprocesses Nut, Milk\nManufactured By:\n(VB) VINAYAK BEVERAGES\nSy. No. 593/A, Nandigama Village, Patancheru\nMandal, Sangareddy,\nTelangana- 502300 fssai\nLic. No. 10014047000299\nMarketed By: RAW PRESSERY PRIVATE LIMITED\nOffice No. 910, 9th Floor, Niharika Mirage,\nPlot No. 274, Sector-10, Kharghar, Navi Mumbai,\nRaigad, Maharashtra- 410210\nwww.wingreensworld.com fssai\nLic. No. 10016022005650\nContact Consumer Care Executive:\nSAME AS MARKETED BY ADDRESS\n+91 8800-793-638,\nsupport@wingreens.in\nPANEL 2\nRAW DAILY DOSE\nIT'S REFRESHING. IT'S NOURISHING. IT'S DELICIOUS!\nIT'S BERRY BERRY HEALTHY!\nA delicious blend of Strawberries, Blueberries, &\nCranberries, all rich in Vitamin C and natural\nantioxidants. Berries also contain bioactive compounds\nthat exhibit anti-inflammatory effects. Each sip will leave\nyou feeling \"berry healthy\" and inspired to\nBE YOU. BE RAW.\nREADY TO SERVE FRUIT BEVERAGES\nNET QUANTITY\n250ml\nIMAGES USED FOR ILLUSTRATIVE PURPOSE ONLY.\nSTORE AWAY FROM DIRECT SUNLIGHT. SEE BOTTLE NECK FOR\nTHE DATE OF MANUFACTURE, USE BY DATE, BATCH NO. AND MRP\n(incl. of all taxes)\nOUR BOTTLES ARE FOOD-GRADE. THE TASTE OF OUR PRODUCT\nMAY VARY FROM SEASON TO SEASON.\nRECYCLE VALUE IN MAHARASHTRA Rs. 15/kg.\nPRODUCT OF INDIA. SHAKE WELL BEFORE DRINKING.\n8 904258 703893\nTASTES BEST WHEN\nCONSUMED CHILLED\nDO NOT CONSUME IF\nTHE BOTTLE IS\nPUFFED/BLOATED\nRAW\nA brand of\nWINGREENS WORLD.COM\nKEEP REFRIGERATED ONCE\nOPENED. CONSUME WITHIN\nTWO DAYS OF OPENING\nFor illustrative purposes only.\nPANEL 3"
+[2026-04-02 11:01:49] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 11:01:49] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 11:01:49] [Metadata] Extracting Brand Metadata
+[2026-04-02 11:01:52] [Metadata] Metadata LLM raw output: {
+    "brandName": "RAW PRESSERY",
+    "productName": "Berry Healthy",
+    "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+    "licenseNo": "10014047000299",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 11:01:52] [EXTRACTED METADATA] {
+  "brandName": "RAW PRESSERY",
+  "productName": "Berry Healthy",
+  "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+  "licenseNo": "10014047000299",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 11:01:52] [STEP 4/9] Running regulatory checks...
+[2026-04-02 11:01:52] [Core] Running Regulatory Analysis
+[2026-04-02 11:02:47] [STEP 5/9] Validating product category...
+[2026-04-02 11:02:47] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 11:02:48] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a fruit-based beverage marketed with general health claims like antioxidant content and anti-inflammatory properties, which are applicable to the general adult population.'}
+[2026-04-02 11:02:48] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a fruit-based beverage marketed with general health claims like antioxidant content and anti-inflammatory properties, which are applicable to the general adult population.'}
+[2026-04-02 11:02:48] [STEP 6/9] Substantiating claims...
+[2026-04-02 11:02:48] [Claims] Running Claims Subsystem
+[2026-04-02 11:02:48] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a fruit-based beverage marketed with general health claims like antioxidant content and anti-inflammatory properties, which are applicable to the general adult population.'}
+[2026-04-02 11:02:48] [Claims] RDA calculations complete: 13 nutrients processed
+[2026-04-02 11:02:48] [Claims] TOTAL FAT: 0.1% RDA per 100g
+[2026-04-02 11:02:48] [Claims] SODIUM: 0.1% RDA per 100g
+[2026-04-02 11:02:48] [Claims] DIETARY FIBER: 0.3% RDA per 100g
+[2026-04-02 11:02:48] [Claims] PROTEIN: 0.2% RDA per 100g
+[2026-04-02 11:02:48] [Claims] VITAMIN A: 0.0% RDA per 100g
+[2026-04-02 11:02:48] [Claims] VITAMIN C: 38.9% RDA per 100g
+[2026-04-02 11:02:48] [Claims] CALCIUM: 0.5% RDA per 100g
+[2026-04-02 11:02:48] [Claims] IRON: 0.1% RDA per 100g
+[2026-04-02 11:02:48] [Claims] POTASSIUM: 1.6% RDA per 100g
+[2026-04-02 11:02:48] [Claims (RDA)] RDA Percentages: {
+  "total fat": 0.1,
+  "sodium": 0.1,
+  "dietary fiber": 0.3,
+  "protein": 0.2,
+  "vitamin a": 0.0,
+  "vitamin c": 38.9,
+  "calcium": 0.5,
+  "iron": 0.1,
+  "potassium": 1.6
+}
+[2026-04-02 11:02:48] [Claims (RDA)] RDA Percentages Count: 9
+[2026-04-02 11:02:55] [Claims] Claims Validation Result: [{'claim_text': 'RICH IN ANTIOXIDANTS', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The product contains 31.1mg of Vitamin C per 100g, which is 38.9% of the RDA. According to FSSAI thresholds, a 'High/Rich' claim for vitamins is permitted if the nutrient is ≥ 30% RDA per 100g. Vitamin C is a recognized antioxidant.", 'reference': 'FSSAI Schedule II (Nutritional Claims)', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'HIGH IN VITAMIN C', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "Vitamin C content is 31.1mg per 100g, providing 38.9% of the RDA. This exceeds the 30% RDA threshold required for a 'High' claim in solids/liquids per 100g.", 'reference': 'FSSAI Schedule II (Nutritional Claims)', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'ANTI-INFLAMMATORY', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'Anti-inflammatory claims are functional health claims that require specific clinical data or approval for the final formulation under FSSAI regulations. While ingredients like berries contain polyphenols, the specific product efficacy is not validated by the provided nutrition table.', 'reference': 'FSSAI Health Claims Regulations', 'nutrient_involved': 'Bioactive compounds'}, {'claim_text': 'Berries also contain bioactive compounds that exhibit anti-inflammatory effects', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'This is a nutrient function claim. While scientifically plausible for berries, FSSAI requires such claims to be supported by clinical evidence for the specific product or recognized monographs. No clinical GI or inflammatory marker study was provided.', 'reference': 'FSSAI Health Claims Regulations', 'nutrient_involved': 'Bioactive compounds'}, {'claim_text': 'Made with Real Fruit', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list confirms the presence of Strawberry Pulp (29%), Apple Juice (20%), Blueberry Pulp (3%), and Cranberry Juice Concentrate (0.8%). The claim is accurately supported by the composition.', 'reference': 'Ingredients List', 'nutrient_involved': 'Fruit Content'}]
+[2026-04-02 11:02:55] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 11:02:55] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 11:02:55] [Claims] Claims Analysis Result: Analyzed 5 claim(s). 3 passed, 0 failed, 2 need review.
+[2026-04-02 11:02:55] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 11:02:55] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 11:03:54] [Lab Tests] Generated 6 suggestions
+[2026-04-02 11:03:54] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 11:04:02] [Lab Tests] Generated 4 contaminants-related tests
+[2026-04-02 11:04:02] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 11:04:08] [Lab Tests] Generated 8 microbiological hazard-related tests
+[2026-04-02 11:04:08] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 11:04:08] [Analysis] Added Nutrition Check with nutritionDetails: 6 items
+[2026-04-02 11:04:08] [Analysis] Final Result: Nutrition Check found with status=CheckStatus.FAIL, nutritionDetails=6
+[2026-04-02 11:04:08] [SUCCESS] Final Score: 70.0%
+[2026-04-02 11:11:49] [STEP 1/9] Validating image context...
+[2026-04-02 11:11:49] [Context] source=default_general, type=general, code=None
+[2026-04-02 11:11:49] [STEP 2/9] Extracting OCR data...
+[2026-04-02 11:11:49] [OCR] Initiating OCR Extraction Service
+[2026-04-02 11:11:49] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 11:11:57] [RAW OCR TEXT] "```json\n[\n  {\"panel_1\": \"RAW\u00ae\\nPRESSERY\\nDAILY DOSE\\nBerry\\nHealthy\\nStrawberry, Blueberry\\n& Cranberry\\nANTI-INFLAMMATORY.\\nRICH IN ANTIOXIDANTS.\\nHIGH IN VITAMIN C.\\nBENEFITS\"},\n  {\"panel_2\": \"NUTRITION FACTS**\\n1 SERVING PER CONTAINER\\nSERVING SIZE 1 GLASS (250 ml)\\nPer 100ml %RDA* (per 250ml)\\nENERGY VALUE 30.4kcal 3.79%\\nTOTAL FAT 0.1g 0.10%\\nSODIUM 1.3mg 0.16%\\nTOTAL CARBOHYDRATES 7.3g\\nDIETARY FIBER 0.1g 1.17%\\nTOTAL SUGARS 7.3g\\nADDED SUGAR 2.5g 12.5%\\nPROTEIN 0.1g 0.23%\\nVITAMIN A 0.2mcg 0.06%\\nVITAMIN C 31.1mg 97.3%\\nCALCIUM 5.1mg 1.29%\\nIRON 0.02mg 0.32%\\nPOTASSIUM 56.0mg 4.00%\\nINGREDIENTS: WATER, STRAWBERRY PULP\\n(29%), APPLE JUICE(20%), BLUEBERRY\\nPULP(3%), KHANDSARI SUGAR, CRANBERRY\\nJUICE CONCENTRATE(0.8%), ACIDITY\\nREGULATOR (INS 330), PECTIN, NATURAL\\nFLAVORING SUBSTANCES, ANTIOXIDANTS\\n[VITAMIN C - INS 300), INS 224], NATURAL\\nCOLOUR [INS 163 (ii)], STEVIA\\nAllergen Advice: Contains Sulphite,\\nManufactured in the same facility which\\nprocesses Nut, Milk\\nManufactured By:\\n(VB) VINAYAK BEVERAGES\\nSy. No. 593/A, Nandigama Village, Patancheru\\nMandal, Sangareddy,\\nTelangana- 502300 fssai\\nLic. No. 10014047000299\\nMarketed By: RAW PRESSERY PRIVATE LIMITED\\nOffice No. 910, 9th Floor, Niharika Mirage,\\nPlot No. 274, Sector-10, Kharghar, Navi Mumbai,\\nRaigad, Maharashtra- 410210\\nwww.wingreensworld.com fssai\\nLic. No. 10016022005650\\nContact Consumer Care Executive:\\nSAME AS MARKETED BY ADDRESS\\n+91 8800-793-638,\\nsupport@wingreens.in\"},\n  {\"panel_3\": \"RAW DAILY DOSE\\nIT'S REFRESHING. IT'S NOURISHING. IT'S DELICIOUS!\\nIT'S BERRY BERRY HEALTHY!\\nA delicious blend of Strawberries, Blueberries, &\\nCranberries, all rich in Vitamin C and natural\\nantioxidants. Berries also contain bioactive compounds\\nthat exhibit anti-inflammatory effects. Each sip will leave\\nyou feeling \\\"berry healthy\\\" and inspired to\\nBE YOU. BE RAW.\\nREADY TO SERVE FRUIT BEVERAGES\\nNET QUANTITY\\n250ml\\nIMAGES USED FOR ILLUSTRATIVE PURPOSE ONLY.\\nSTORE AWAY FROM DIRECT SUNLIGHT. SEE BOTTLE NECK FOR\\nTHE DATE OF MANUFACTURE, USE BY DATE, BATCH NO. AND MRP\\n(incl. of all taxes)\\nOUR BOTTLES ARE FOOD-GRADE. THE TASTE OF OUR PRODUCT\\nMAY VARY FROM SEASON TO SEASON.\\nRECYCLE VALUE IN MAHARASHTRA Rs. 15/kg.\\nPRODUCT OF INDIA. SHAKE WELL BEFORE DRINKING.\\n8 904258 703893\\nRAW\\nA brand of\\nTASTES BEST WHEN\\nCONSUMED CHILLED\\nWINGREENS WORLD.COM\\nDO NOT CONSUME IF\\nTHE BOTTLE IS\\nPUFFED/BLOATED\\nKEEP REFRIGERATED ONCE\\nOPENED. CONSUME WITHIN\\nTWO DAYS OF OPENING\\nFor illustrative purposes only.\"}\n]\n```"
+[2026-04-02 11:12:07] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 11:12:07] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 11:12:07] [Metadata] Extracting Brand Metadata
+[2026-04-02 11:12:10] [Metadata] Metadata LLM raw output: {
+    "brandName": "RAW PRESSERY",
+    "productName": "Berry Healthy",
+    "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+    "licenseNo": "10014047000299",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 11:12:10] [EXTRACTED METADATA] {
+  "brandName": "RAW PRESSERY",
+  "productName": "Berry Healthy",
+  "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+  "licenseNo": "10014047000299",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 11:12:10] [STEP 4/9] Running regulatory checks...
+[2026-04-02 11:12:10] [Core] Running Regulatory Analysis
+[2026-04-02 11:12:27] [STEP 5/9] Validating product category...
+[2026-04-02 11:12:27] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 11:12:30] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose fruit-based beverage marketed for its antioxidant and anti-inflammatory properties. It does not target a specific age, gender, or physiological state, therefore the general adult population demographic is appropriate.'}
+[2026-04-02 11:12:30] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose fruit-based beverage marketed for its antioxidant and anti-inflammatory properties. It does not target a specific age, gender, or physiological state, therefore the general adult population demographic is appropriate.'}
+[2026-04-02 11:12:30] [STEP 6/9] Substantiating claims...
+[2026-04-02 11:12:30] [Claims] Running Claims Subsystem
+[2026-04-02 11:12:30] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a general-purpose fruit-based beverage marketed for its antioxidant and anti-inflammatory properties. It does not target a specific age, gender, or physiological state, therefore the general adult population demographic is appropriate.'}
+[2026-04-02 11:12:30] [Claims] RDA calculations complete: 13 nutrients processed
+[2026-04-02 11:12:30] [Claims] TOTAL FAT: 0.1% RDA per 100g
+[2026-04-02 11:12:30] [Claims] SODIUM: 0.1% RDA per 100g
+[2026-04-02 11:12:30] [Claims] DIETARY FIBER: 0.3% RDA per 100g
+[2026-04-02 11:12:30] [Claims] PROTEIN: 0.2% RDA per 100g
+[2026-04-02 11:12:30] [Claims] VITAMIN A: 0.0% RDA per 100g
+[2026-04-02 11:12:30] [Claims] VITAMIN C: 38.9% RDA per 100g
+[2026-04-02 11:12:30] [Claims] CALCIUM: 0.5% RDA per 100g
+[2026-04-02 11:12:30] [Claims] IRON: 0.1% RDA per 100g
+[2026-04-02 11:12:30] [Claims] POTASSIUM: 1.6% RDA per 100g
+[2026-04-02 11:12:30] [Claims (RDA)] RDA Percentages: {
+  "total fat": 0.1,
+  "sodium": 0.1,
+  "dietary fiber": 0.3,
+  "protein": 0.2,
+  "vitamin a": 0.0,
+  "vitamin c": 38.9,
+  "calcium": 0.5,
+  "iron": 0.1,
+  "potassium": 1.6
+}
+[2026-04-02 11:12:30] [Claims (RDA)] RDA Percentages Count: 9
+[2026-04-02 11:12:36] [Claims] Claims Validation Result: [{'claim_text': 'RICH IN ANTIOXIDANTS', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "Vitamin C is a recognized antioxidant. The product contains 31.1mg of Vitamin C per 100g, which is 38.9% of the RDA. According to FSSAI thresholds, a 'High/Rich' claim for vitamins requires ≥ 30% RDA per 100g for solids. Since 38.9% > 30%, the claim is supported.", 'reference': 'FSSAI Nutritional Claims Thresholds (Vitamins/Minerals High/Rich: ≥ 30% RDA per 100g)', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'HIGH IN VITAMIN C', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The product contains 31.1mg of Vitamin C per 100g, providing 38.9% of the RDA. This exceeds the FSSAI threshold of 30% RDA per 100g required to make a 'High' claim for vitamins in solid foods.", 'reference': 'FSSAI Nutritional Claims Thresholds (Vitamins/Minerals High: ≥ 30% RDA per 100g)', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'ANTI-INFLAMMATORY', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'Anti-inflammatory is a functional health claim. While the product contains berries and Vitamin C, FSSAI requires specific clinical data or established scientific substantiation for such physiological effect claims on a final product. No clinical trial data or GI/functional testing results were provided.', 'reference': 'FSSAI Health Claims - Functional/Physiological effects require clinical substantiation', 'nutrient_involved': 'Bioactive compounds/Antioxidants'}, {'claim_text': 'Berries also contain bioactive compounds that exhibit anti-inflammatory effects', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'This is a general health descriptor linking ingredients to a health benefit. Under FSSAI regulations, such claims must be supported by scientific evidence or clinical studies demonstrating that the specific quantity of berries/bioactives in this product is sufficient to exert the claimed effect. Evidence not provided.', 'reference': 'FSSAI Health Claims - Substantiation of bioactive effects', 'nutrient_involved': 'Bioactive compounds'}]
+[2026-04-02 11:12:36] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 11:12:36] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 11:12:36] [Claims] Claims Analysis Result: Analyzed 4 claim(s). 2 passed, 0 failed, 2 need review.
+[2026-04-02 11:12:36] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 11:12:36] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 11:12:41] [Lab Tests] Generated 6 suggestions
+[2026-04-02 11:12:41] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 11:12:46] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 11:12:46] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 11:12:52] [Lab Tests] Generated 8 microbiological hazard-related tests
+[2026-04-02 11:12:52] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 11:12:52] [Analysis] Added Nutrition Check with nutritionDetails: 6 items
+[2026-04-02 11:12:52] [Analysis] Final Result: Nutrition Check found with status=CheckStatus.FAIL, nutritionDetails=6
+[2026-04-02 11:12:52] [SUCCESS] Final Score: 70.0%
+[2026-04-02 11:14:31] [STEP 1/9] Validating image context...
+[2026-04-02 11:14:31] [Context] source=default_general, type=general, code=None
+[2026-04-02 11:14:32] [STEP 2/9] Extracting OCR data...
+[2026-04-02 11:14:32] [OCR] Initiating OCR Extraction Service
+[2026-04-02 11:14:32] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 11:14:40] [RAW OCR TEXT] "```json\n[\n  {\"panel_1\": \"RAW\u00ae\\nPRESSERY\\nDAILY DOSE\\nBerry\\nHealthy\\nStrawberry, Blueberry\\n& Cranberry\\nANTI-INFLAMMATORY.\\nRICH IN ANTIOXIDANTS.\\nHIGH IN VITAMIN C.\\nBENEFITS\"},\n  {\"panel_2\": \"NUTRITION FACTS**\\n1 SERVING PER CONTAINER\\nSERVING SIZE 1 GLASS (250 ml)\\nPer 100ml %RDA* (per 250ml)\\nENERGY VALUE 30.4kcal 3.79%\\nTOTAL FAT 0.1g 0.10%\\nSODIUM 1.3mg 0.16%\\nTOTAL CARBOHYDRATES 7.3g\\nDIETARY FIBER 0.1g 1.17%\\nTOTAL SUGARS 7.3g\\nADDED SUGAR 2.5g 12.5%\\nPROTEIN 0.1g 0.23%\\nVITAMIN A 0.2mcg 0.06%\\nVITAMIN C 31.1mg 97.3%\\nCALCIUM 5.1mg 1.29%\\nIRON 0.02mg 0.32%\\nPOTASSIUM 56.0mg 4.00%\\nINGREDIENTS: WATER, STRAWBERRY PULP\\n(29%), APPLE JUICE(20%), BLUEBERRY\\nPULP(3%), KHANDSARI SUGAR, CRANBERRY\\nJUICE CONCENTRATE(0.8%), ACIDITY\\nREGULATOR (INS 330), PECTIN, NATURAL\\nFLAVORING SUBSTANCES, ANTIOXIDANTS\\n[VITAMIN C - INS 300), INS 224], NATURAL\\nCOLOUR [INS 163 (ii)], STEVIA\\nAllergen Advice: Contains Sulphite,\\nManufactured in the same facility which\\nprocesses Nut, Milk\\nManufactured By:\\n(VB) VINAYAK BEVERAGES\\nSy. No. 593/A, Nandigama Village, Patancheru\\nMandal, Sangareddy,\\nTelangana- 502300 fssai\\nLic. No. 10014047000299\\nMarketed By: RAW PRESSERY PRIVATE LIMITED\\nOffice No. 910, 9th Floor, Niharika Mirage,\\nPlot No. 274, Sector-10, Kharghar, Navi Mumbai,\\nRaigad, Maharashtra- 410210\\nwww.wingreensworld.com fssai\\nLic. No. 10016022005650\\nContact Consumer Care Executive:\\nSAME AS MARKETED BY ADDRESS\\n+91 8800-793-638,\\nsupport@wingreens.in\"},\n  {\"panel_3\": \"RAW DAILY DOSE\\nIT'S REFRESHING. IT'S NOURISHING. IT'S DELICIOUS!\\nIT'S BERRY BERRY HEALTHY!\\nA delicious blend of Strawberries, Blueberries, &\\nCranberries, all rich in Vitamin C and natural\\nantioxidants. Berries also contain bioactive compounds\\nthat exhibit anti-inflammatory effects. Each sip will leave\\nyou feeling \\\"berry healthy\\\" and inspired to\\nBE YOU. BE RAW.\\nREADY TO SERVE FRUIT BEVERAGES\\nNET QUANTITY\\n250ml\\nIMAGES USED FOR ILLUSTRATIVE PURPOSE ONLY.\\nSTORE AWAY FROM DIRECT SUNLIGHT. SEE BOTTLE NECK FOR\\nTHE DATE OF MANUFACTURE, USE BY DATE, BATCH NO. AND MRP\\n(incl. of all taxes)\\nOUR BOTTLES ARE FOOD-GRADE. THE TASTE OF OUR PRODUCT\\nMAY VARY FROM SEASON TO SEASON.\\nRECYCLE VALUE IN MAHARASHTRA Rs. 15/kg.\\nPRODUCT OF INDIA. SHAKE WELL BEFORE DRINKING.\\n8 904258 703893\\nRAW\\nA brand of\\nTASTES BEST WHEN\\nCONSUMED CHILLED\\nWINGREENS WORLD.COM\\nDO NOT CONSUME IF\\nTHE BOTTLE IS\\nPUFFED/BLOATED\\nKEEP REFRIGERATED ONCE\\nOPENED. CONSUME WITHIN\\nTWO DAYS OF OPENING\\nFor illustrative purposes only.\"}\n]\n```"
+[2026-04-02 11:14:48] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 11:14:48] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 11:14:48] [Metadata] Extracting Brand Metadata
+[2026-04-02 11:14:51] [Metadata] Metadata LLM raw output: {
+    "brandName": "RAW PRESSERY",
+    "productName": "Berry Healthy",
+    "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+    "licenseNo": "10014047000299",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 11:14:51] [EXTRACTED METADATA] {
+  "brandName": "RAW PRESSERY",
+  "productName": "Berry Healthy",
+  "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+  "licenseNo": "10014047000299",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 11:14:51] [STEP 4/9] Running regulatory checks...
+[2026-04-02 11:14:51] [Core] Running Regulatory Analysis
+[2026-04-02 11:15:08] [STEP 5/9] Validating product category...
+[2026-04-02 11:15:08] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 11:15:10] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a fruit-based beverage marketed with general health claims like antioxidant content and anti-inflammatory properties, which are applicable to the general adult population.'}
+[2026-04-02 11:15:10] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a fruit-based beverage marketed with general health claims like antioxidant content and anti-inflammatory properties, which are applicable to the general adult population.'}
+[2026-04-02 11:15:10] [STEP 6/9] Substantiating claims...
+[2026-04-02 11:15:10] [Claims] Running Claims Subsystem
+[2026-04-02 11:15:10] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a fruit-based beverage marketed with general health claims like antioxidant content and anti-inflammatory properties, which are applicable to the general adult population.'}
+[2026-04-02 11:15:10] [Claims] RDA calculations complete: 13 nutrients processed
+[2026-04-02 11:15:10] [Claims] TOTAL FAT: 0.1% RDA per 100g
+[2026-04-02 11:15:10] [Claims] SODIUM: 0.1% RDA per 100g
+[2026-04-02 11:15:10] [Claims] DIETARY FIBER: 0.3% RDA per 100g
+[2026-04-02 11:15:10] [Claims] PROTEIN: 0.2% RDA per 100g
+[2026-04-02 11:15:10] [Claims] VITAMIN A: 0.0% RDA per 100g
+[2026-04-02 11:15:10] [Claims] VITAMIN C: 38.9% RDA per 100g
+[2026-04-02 11:15:10] [Claims] CALCIUM: 0.5% RDA per 100g
+[2026-04-02 11:15:10] [Claims] IRON: 0.1% RDA per 100g
+[2026-04-02 11:15:10] [Claims] POTASSIUM: 1.6% RDA per 100g
+[2026-04-02 11:15:10] [Claims (RDA)] RDA Percentages: {
+  "total fat": 0.1,
+  "sodium": 0.1,
+  "dietary fiber": 0.3,
+  "protein": 0.2,
+  "vitamin a": 0.0,
+  "vitamin c": 38.9,
+  "calcium": 0.5,
+  "iron": 0.1,
+  "potassium": 1.6
+}
+[2026-04-02 11:15:10] [Claims (RDA)] RDA Percentages Count: 9
+[2026-04-02 11:15:19] [Claims] Claims Validation Result: [{'claim_text': 'RICH IN ANTIOXIDANTS', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': "While Vitamin C (38.9% RDA per 100g) is a strong antioxidant, 'Rich in' claims for antioxidants generally require the product to meet 'High' thresholds for specific nutrients or provide total antioxidant capacity (TAC) data. Since only Vitamin C meets the high threshold and other potential antioxidants like Vitamin A (0%) do not, clinical data or specific polyphenol counts are needed to justify the plural 'Antioxidants' claim.", 'reference': 'FSSAI Nutritional Claims - Vitamins/Minerals High Threshold (30% RDA per 100g)', 'rda_percentage': 38.9, 'nutrient_involved': 'Antioxidants'}, {'claim_text': 'HIGH IN VITAMIN C', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The product contains 31.1mg of Vitamin C per 100g, which calculates to 38.9% of the RDA (80mg). This exceeds the FSSAI threshold for a 'High' claim, which requires ≥ 30% RDA per 100g for solids.", 'reference': 'FSSAI Nutritional Claims - Vitamins/Minerals High Threshold (≥ 30% RDA per 100g)', 'rda_percentage': 38.9, 'nutrient_involved': 'Vitamin C'}, {'claim_text': 'ANTI-INFLAMMATORY', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': 'This is a functional health claim. Under FSSAI regulations, such claims must be supported by specific clinical trial data or be an approved functional claim linked to a specific nutrient at a required level. No clinical evidence or GI/inflammatory marker studies were provided to support this physiological effect.', 'reference': 'FSSAI Health Claims - Functional Claims Requirements', 'nutrient_involved': 'Bioactive compounds'}, {'claim_text': 'Berries also contain bioactive compounds that exhibit anti-inflammatory effects', 'tag': 'Health Claim', 'status': 'Action', 'reasoning': "While berries naturally contain polyphenols, attributing a specific 'anti-inflammatory effect' to the final product requires clinical validation or a direct link to a nutrient meeting a specific threshold. Without clinical data on the finished formulation, this remains an unverified health claim.", 'reference': 'FSSAI Health Claims - Functional Claims Requirements', 'nutrient_involved': 'Bioactive compounds'}, {'claim_text': 'Made with Real Fruit', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list confirms the presence of Strawberry Pulp (29%), Apple Juice (20%), Blueberry Pulp (3%), and Cranberry Juice Concentrate (0.8%). The claim is accurately supported by the composition.', 'reference': 'Ingredients List Verification', 'nutrient_involved': 'Fruit Content'}]
+[2026-04-02 11:15:19] [Claims (RDA)] Antioxidants: 38.9% RDA captured in verdict
+[2026-04-02 11:15:19] [Claims (RDA)] Vitamin C: 38.9% RDA captured in verdict
+[2026-04-02 11:15:19] [Claims] Claims Analysis Result: Analyzed 5 claim(s). 2 passed, 0 failed, 3 need review.
+[2026-04-02 11:15:19] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 11:15:19] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 11:15:24] [Lab Tests] Generated 6 suggestions
+[2026-04-02 11:15:24] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 11:15:29] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 11:15:29] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 11:15:38] [Lab Tests] Generated 8 microbiological hazard-related tests
+[2026-04-02 11:15:38] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 11:15:38] [Analysis] Added Nutrition Check with nutritionDetails: 6 items
+[2026-04-02 11:15:38] [Analysis] Final Result: Nutrition Check found with status=CheckStatus.FAIL, nutritionDetails=6
+[2026-04-02 11:15:38] [SUCCESS] Final Score: 70.0%
+[2026-04-02 11:16:49] [STEP 1/9] Validating image context...
+[2026-04-02 11:16:49] [Context] source=default_general, type=general, code=None
+[2026-04-02 11:16:50] [STEP 2/9] Extracting OCR data...
+[2026-04-02 11:16:50] [OCR] Initiating OCR Extraction Service
+[2026-04-02 11:16:50] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 11:16:58] [RAW OCR TEXT] "Seal of Freshness\n2kg\nVALUE\nPACK\nTM\niD\n100% AUTHENTIC\nIDLY &\nDOSA\nBATTER\nHello! This batter is made fresh with traditional ingredients\nand is naturally fermented, just like in your kitchen.\nA home-made feast is only minutes away.\nNO ADDED\nPRESERVATIVES\nNO\nSODA\nRO-PURIFIED\nWATER\nMILDLY SALTED\nBUY ONLY IF\nREFRIGERATED\nTRY TASTIER,\nHEALTHIER\nPAROTAS!\nJUST HEAT\nPAROTA\niD\nPANEL 1\nSeal of Freshness\nTM\niD\n100% AUTHENTIC\nINGREDIENTS\nRice (34%), Urad Dal, Fenugreek,\nRO-purified Water (50%) and Edible\nCommon Salt.\nNUTRITIONAL FACTS\nPER 100g\nEnergy 143.35kcal \u2022 Protein 5.5g\nFat 1.6g \u2022 Saturated Fatty Acid 0.68g\nMUFA 0.52g \u2022 Sugar 0g \u2022 PUFA 0.3g\nTrans Fatty Acid 0g \u2022 Cholesterol 0mg\nCarbohydrate 26.3g \u2022 Sodium 92mg\nDIRECTIONS FOR USE\nAdd a little water to make dosas,\nafter which don't cook idlies.\nAdd salt as per your taste. The batter\nis mildly salted.\nSTORE IN\nREFRIGERATOR (0-5\u00b0C)\nCAUTION\nPlease don't buy a puffed-up pack.\nDo wash the pack before opening it.\nID FOLLOWS AUTHENTIC HOME-STYLE RECIPES\nIMPROVED BY TECHNOLOGY\nMADE THE WAY YOU WOULD\nNO ADDED FLAVOURS\nRO-PURIFIED WATER\nULTRA-HYGIENIC KITCHENS\nPREMIUM INGREDIENTS\n8 906020 580541\nNet weight: 2 kg\nMRP:\n(Inclusive of all taxes)\nUse-by:\nBatch no.:\ncooks about\n40 OR 28\nIdlies\nDosas\n(OR ONE REALLY BIG IDLY OR DOSA)\nMarketed by: iD Fresh Food (India) Pvt Ltd, 37,\nDoddenakundi Industrial Area, Whitefield Road,\nMahadevapura, Bengaluru-560048.\nFor mfg unit address, match the alphabet of batch no.\nwith the ones below. Manufactured by:\n(B) iD Fresh Food (India) Pvt Ltd, Shed # B-62, KSSIDC\nIndustrial Area, Pillagumpa, Hoskote, Bengaluru-562114.\nFSSAI Lic. No. 10014043001054\n(C) iD Fresh Food (India) Pvt Ltd, No. 282, SIDCO\nIndustrial Estate, Thirumudivakkam, Sri Perumbudur Taluk,\nChennai-600044. FSSAI Lic. No. 10014042001087\n(H) iD Fresh Food (India) Pvt Ltd, 5-9-287/42/A,\nRajiv Gandhi Nagar, Moosapet, Kukatpally,\nHyderabad-500072. FSSAI Lic. No. 13615013000258\n(M) iD Fresh Food (India) Pvt Ltd, No. 53, CTS No. 443/10,\nMarol Industrial Co-op Society, Andheri East,\nGreater Mumbai-400059. FSSAI Lic. No. 11514005000340\n2kg\nVALUE\nPACK\nKNOW-HOW FROM\nCFTRI, MYSORE\nCUSTOMER CARE:\n+91-9739910521\nWEB: www.idfresh.in\nMAIL: info@idfresh.in\nf/iDFresh\nPANEL 2"
+[2026-04-02 11:17:04] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 11:17:04] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 11:17:04] [Metadata] Extracting Brand Metadata
+[2026-04-02 11:17:08] [Metadata] Metadata LLM raw output: {
+    "brandName": "iD",
+    "productName": "IDLY & DOSA BATTER",
+    "fssaiCategory": "Batter",
+    "licenseNo": "10014043001054",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 11:17:08] [EXTRACTED METADATA] {
+  "brandName": "iD",
+  "productName": "IDLY & DOSA BATTER",
+  "fssaiCategory": "Batter",
+  "licenseNo": "10014043001054",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 11:17:08] [STEP 4/9] Running regulatory checks...
+[2026-04-02 11:17:08] [Core] Running Regulatory Analysis
+[2026-04-02 11:17:27] [STEP 5/9] Validating product category...
+[2026-04-02 11:17:27] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 11:17:29] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a basic fermented food staple (likely idli or dosa batter) consisting of rice, lentils, and water. It contains no specific nutritional enhancements or targeted claims, making it suitable for the general adult population.'}
+[2026-04-02 11:17:29] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a basic fermented food staple (likely idli or dosa batter) consisting of rice, lentils, and water. It contains no specific nutritional enhancements or targeted claims, making it suitable for the general adult population.'}
+[2026-04-02 11:17:29] [STEP 6/9] Substantiating claims...
+[2026-04-02 11:17:29] [Claims] Running Claims Subsystem
+[2026-04-02 11:17:29] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a basic fermented food staple (likely idli or dosa batter) consisting of rice, lentils, and water. It contains no specific nutritional enhancements or targeted claims, making it suitable for the general adult population.'}
+[2026-04-02 11:17:29] [Claims] RDA calculations complete: 11 nutrients processed
+[2026-04-02 11:17:29] [Claims] Energy: 7.2% RDA per 100g
+[2026-04-02 11:17:29] [Claims] Protein: 10.2% RDA per 100g
+[2026-04-02 11:17:29] [Claims] Sodium: 4.6% RDA per 100g
+[2026-04-02 11:17:29] [Claims (RDA)] RDA Percentages: {
+  "energy": 7.2,
+  "protein": 10.2,
+  "sodium": 4.6
+}
+[2026-04-02 11:17:29] [Claims (RDA)] RDA Percentages Count: 3
+[2026-04-02 11:17:36] [Claims] Claims Validation Result: [{'claim_text': 'NO ADDED PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list (Rice, Urad Dal, Fenugreek, RO-purified Water, Edible Common Salt) does not contain any chemical preservatives or additives listed under FSSAI Class I or Class II preservatives.', 'reference': 'Ingredients List', 'nutrient_involved': 'Preservatives'}, {'claim_text': 'NO SODA', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'Sodium Bicarbonate (Baking Soda) or other leavening agents are not present in the provided ingredients list.', 'reference': 'Ingredients List', 'nutrient_involved': 'Sodium Bicarbonate'}, {'claim_text': 'NO ADDED FLAVOURS', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list contains only primary food components and salt; no natural, nature-identical, or artificial flavoring substances are declared.', 'reference': 'Ingredients List', 'nutrient_involved': 'Flavours'}, {'claim_text': 'RO-PURIFIED WATER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'RO-purified Water is explicitly listed as an ingredient (50%) in the product composition.', 'reference': 'Ingredients List', 'nutrient_involved': 'Water'}, {'claim_text': 'PREMIUM INGREDIENTS', 'tag': 'Ingredient Claim', 'status': 'Action', 'reasoning': "'Premium' is a subjective quality descriptor. While the ingredients are standard for this product type, there is no objective FSSAI benchmark to validate 'premium' status without specific certifications or sourcing data.", 'reference': 'Marketing Descriptor', 'nutrient_involved': 'General Ingredients'}, {'claim_text': 'naturally fermented', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The combination of Rice, Urad Dal, and Fenugreek is the standard composition for idli/dosa batter, which undergoes natural lactic acid fermentation. The absence of chemical leavening agents (soda) supports this claim.', 'reference': 'Ingredients List', 'nutrient_involved': 'Probiotics/Fermentation'}, {'claim_text': '100% AUTHENTIC', 'tag': 'Ingredient Claim', 'status': 'Action', 'reasoning': "'Authentic' is a subjective marketing term. While the recipe follows traditional methods (Rice, Dal, Water, Salt), '100% Authentic' cannot be verified against a regulatory nutritional or safety threshold.", 'reference': 'Marketing Descriptor', 'nutrient_involved': 'General Ingredients'}]
+[2026-04-02 11:17:36] [Claims] Claims Analysis Result: Analyzed 7 claim(s). 5 passed, 0 failed, 2 need review.
+[2026-04-02 11:17:36] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 11:17:36] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 11:17:41] [Lab Tests] Generated 5 suggestions
+[2026-04-02 11:17:41] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 11:17:46] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 11:17:46] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 11:17:49] [Lab Tests] Generated 2 microbiological hazard-related tests
+[2026-04-02 11:17:49] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 11:17:49] [Analysis] Added Nutrition Check with nutritionDetails: 1 items
+[2026-04-02 11:17:49] [Analysis] Final Result: Nutrition Check found with status=CheckStatus.FAIL, nutritionDetails=1
+[2026-04-02 11:17:49] [SUCCESS] Final Score: 60.0%
+[2026-04-02 11:21:02] [STEP 1/9] Validating image context...
+[2026-04-02 11:21:02] [Context] source=default_general, type=general, code=None
+[2026-04-02 11:21:02] [STEP 2/9] Extracting OCR data...
+[2026-04-02 11:21:02] [OCR] Initiating OCR Extraction Service
+[2026-04-02 11:21:02] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 11:21:11] [RAW OCR TEXT] "Seal of Freshness\n2kg\nVALUE\nPACK\nTM\niD\n100% AUTHENTIC\nIDLY &\nDOSA\nBATTER\nHello! This batter is made fresh with traditional ingredients\nand is naturally fermented, just like in your kitchen.\nA home-made feast is only minutes away.\nNO ADDED\nPRESERVATIVES\nNO\nSODA\nRO-PURIFIED\nWATER\nMILDLY SALTED\nBUY ONLY IF\nREFRIGERATED\nTRY TASTIER,\nHEALTHIER\nPAROTAS!\nJUST HEAT\nPAROTA\niD\nPANEL 1\nSeal of Freshness\nTM\niD\n100% AUTHENTIC\nINGREDIENTS\nRice (34%), Urad Dal, Fenugreek,\nRO-purified Water (50%) and Edible\nCommon Salt.\nNUTRITIONAL FACTS\nPER 100g\nEnergy 143.35kcal \u2022 Protein 5.5g\nFat 1.6g \u2022 Saturated Fatty Acid 0.68g\nMUFA 0.52g \u2022 Sugar 0g \u2022 PUFA 0.3g\nTrans Fatty Acid 0g \u2022 Cholesterol 0mg\nCarbohydrate 26.3g \u2022 Sodium 92mg\nDIRECTIONS FOR USE\nAdd a little water to make dosas,\nafter which don't cook idlies.\nAdd salt as per your taste. The batter\nis mildly salted.\nSTORE IN\nREFRIGERATOR (0-5\u00b0C)\nCAUTION\nPlease don't buy a puffed-up pack.\nDo wash the pack before opening it.\nID FOLLOWS AUTHENTIC HOME-STYLE RECIPES\nIMPROVED BY TECHNOLOGY\nMADE THE WAY YOU WOULD\nNO ADDED FLAVOURS\nRO-PURIFIED WATER\nULTRA-HYGIENIC KITCHENS\nPREMIUM INGREDIENTS\n8 906020 580541\nNet weight: 2 kg\nMRP:\n(Inclusive of all taxes)\nUse-by:\nBatch no.:\ncooks about\n40 OR 28\nIdlies\nDosas\n(OR ONE REALLY BIG IDLY OR DOSA)\nMarketed by: iD Fresh Food (India) Pvt Ltd, 37,\nDoddenakundi Industrial Area, Whitefield Road,\nMahadevapura, Bengaluru-560048.\nFor mfg unit address, match the alphabet of batch no.\nwith the ones below. Manufactured by:\n(B) iD Fresh Food (India) Pvt Ltd, Shed # B-62, KSSIDC\nIndustrial Area, Pillagumpa, Hoskote, Bengaluru-562114.\nFSSAI Lic. No. 10014043001054\n(C) iD Fresh Food (India) Pvt Ltd, No. 282, SIDCO\nIndustrial Estate, Thirumudivakkam, Sri Perumbudur Taluk,\nChennai-600044. FSSAI Lic. No. 10014042001087\n(H) iD Fresh Food (India) Pvt Ltd, 5-9-287/42/A,\nRajiv Gandhi Nagar, Moosapet, Kukatpally,\nHyderabad-500072. FSSAI Lic. No. 13615013000258\n(M) iD Fresh Food (India) Pvt Ltd, No. 53, CTS No. 443/10,\nMarol Industrial Co-op Society, Andheri East,\nGreater Mumbai-400059. FSSAI Lic. No. 11514005000340\n2kg\nVALUE\nPACK\nKNOW-HOW FROM\nCFTRI, MYSORE\nCUSTOMER CARE:\n+91-9739910521\nWEB: www.idfresh.in\nMAIL: info@idfresh.in\nf/iDFresh\nPANEL 2"
+[2026-04-02 11:21:18] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 11:21:18] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 11:21:18] [Metadata] Extracting Brand Metadata
+[2026-04-02 11:21:21] [Metadata] Metadata LLM raw output: {
+    "brandName": "iD",
+    "productName": "IDLY & DOSA BATTER",
+    "fssaiCategory": "Batter",
+    "licenseNo": "10014043001054",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 11:21:21] [EXTRACTED METADATA] {
+  "brandName": "iD",
+  "productName": "IDLY & DOSA BATTER",
+  "fssaiCategory": "Batter",
+  "licenseNo": "10014043001054",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 11:21:21] [STEP 4/9] Running regulatory checks...
+[2026-04-02 11:21:21] [Core] Running Regulatory Analysis
+[2026-04-02 11:21:45] [STEP 5/9] Validating product category...
+[2026-04-02 11:21:45] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 11:21:47] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a basic food staple (likely idli or dosa batter) with no specific demographic claims, making it suitable for the general adult population.'}
+[2026-04-02 11:21:47] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a basic food staple (likely idli or dosa batter) with no specific demographic claims, making it suitable for the general adult population.'}
+[2026-04-02 11:21:47] [STEP 6/9] Substantiating claims...
+[2026-04-02 11:21:47] [Claims] Running Claims Subsystem
+[2026-04-02 11:21:47] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a basic food staple (likely idli or dosa batter) with no specific demographic claims, making it suitable for the general adult population.'}
+[2026-04-02 11:21:47] [Claims] RDA calculations complete: 11 nutrients processed
+[2026-04-02 11:21:47] [Claims] Energy: 7.2% RDA per 100g
+[2026-04-02 11:21:47] [Claims] Protein: 10.2% RDA per 100g
+[2026-04-02 11:21:47] [Claims] Sodium: 4.6% RDA per 100g
+[2026-04-02 11:21:47] [Claims (RDA)] RDA Percentages: {
+  "energy": 7.2,
+  "protein": 10.2,
+  "sodium": 4.6
+}
+[2026-04-02 11:21:47] [Claims (RDA)] RDA Percentages Count: 3
+[2026-04-02 11:21:53] [Claims] Claims Validation Result: [{'claim_text': 'NO ADDED PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list (Rice, Urad Dal, Fenugreek, RO-purified Water, Edible Common Salt) does not contain any chemical preservatives or additives.', 'reference': 'Ingredients List', 'nutrient_involved': 'Preservatives'}, {'claim_text': 'NO SODA', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'Sodium bicarbonate (baking soda) or other leavening agents are not listed in the ingredients.', 'reference': 'Ingredients List', 'nutrient_involved': 'Sodium Bicarbonate'}, {'claim_text': 'RO-PURIFIED WATER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'RO-purified Water (50%) is explicitly listed as an ingredient.', 'reference': 'Ingredients List', 'nutrient_involved': 'Water'}, {'claim_text': 'NO ADDED FLAVOURS', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No natural, nature-identical, or artificial flavoring substances are mentioned in the ingredients list.', 'reference': 'Ingredients List', 'nutrient_involved': 'Flavours'}, {'claim_text': 'PREMIUM INGREDIENTS', 'tag': 'Ingredient Claim', 'status': 'Action', 'reasoning': "'Premium' is a subjective marketing term. FSSAI requires objective justification for quality claims; no specific certifications or grade standards are provided to validate 'premium' status.", 'reference': 'FSSAI Advertising and Claims Regulations', 'nutrient_involved': 'General Quality'}, {'claim_text': '100% AUTHENTIC', 'tag': 'Nutritional Claim', 'status': 'Action', 'reasoning': 'Authenticity claims regarding traditional recipes require documentation or heritage proof which is not provided in the current data.', 'reference': 'FSSAI Advertising and Claims Regulations', 'nutrient_involved': 'General Quality'}, {'claim_text': 'Sugar 0g', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "The nutrition table confirms Sugar content is 0g per 100g, meeting the 'Sugar Free' threshold of ≤ 0.5g per 100g.", 'reference': 'Nutrition Table', 'nutrient_involved': 'Sugar'}, {'claim_text': 'Cholesterol 0mg', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': "Nutrition table shows 0mg cholesterol. It also meets the secondary requirement for 'Cholesterol Free' as Saturated Fat (0.68g) is ≤ 1.5g per 100g and provides < 10% of total energy (6.12 kcal from sat fat / 143.35 total kcal = 4.2%).", 'reference': 'Nutrition Table', 'nutrient_involved': 'Cholesterol'}]
+[2026-04-02 11:21:53] [Claims] Claims Analysis Result: Analyzed 8 claim(s). 6 passed, 0 failed, 2 need review.
+[2026-04-02 11:21:53] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 11:21:53] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 11:21:59] [Lab Tests] Generated 6 suggestions
+[2026-04-02 11:21:59] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 11:22:04] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 11:22:04] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 11:22:08] [Lab Tests] Generated 2 microbiological hazard-related tests
+[2026-04-02 11:22:08] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 11:22:08] [Analysis] Added Nutrition Check with nutritionDetails: 1 items
+[2026-04-02 11:22:08] [Analysis] Final Result: Nutrition Check found with status=CheckStatus.FAIL, nutritionDetails=1
+[2026-04-02 11:22:08] [SUCCESS] Final Score: 60.0%
+[2026-04-02 11:23:50] [STEP 1/9] Validating image context...
+[2026-04-02 11:23:50] [Context] source=default_general, type=general, code=None
+[2026-04-02 11:23:51] [STEP 2/9] Extracting OCR data...
+[2026-04-02 11:23:51] [OCR] Initiating OCR Extraction Service
+[2026-04-02 11:23:51] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 11:26:02] [RAW OCR TEXT] "Seal of Freshness\n2kg\nVALUE\nPACK\nTM\niD\n100% AUTHENTIC\nIDLY &\nDOSA\nBATTER\nHello! This batter is made fresh with traditional ingredients\nand is naturally fermented, just like in your kitchen.\nA home-made feast is only minutes away.\nNO ADDED\nPRESERVATIVES\nNO\nSODA\nRO-PURIFIED\nWATER\nMILDLY SALTED\nBUY ONLY IF\nREFRIGERATED\nTRY TASTIER,\nHEALTHIER\nPAROTAS!\nJUST HEAT\nPAROTA\niD\nPANEL 1\nSeal of Freshness\nTM\niD\n100% AUTHENTIC\nINGREDIENTS\nRice (34%), Urad Dal, Fenugreek,\nRO-purified Water (50%) and Edible\nCommon Salt.\nNUTRITIONAL FACTS\nPER 100g\nEnergy 143.35kcal \u2022 Protein 5.5g\nFat 1.6g \u2022 Saturated Fatty Acid 0.68g\nMUFA 0.52g \u2022 Sugar 0g \u2022 PUFA 0.3g\nTrans Fatty Acid 0g \u2022 Cholesterol 0mg\nCarbohydrate 26.3g \u2022 Sodium 92mg\nDIRECTIONS FOR USE\nAdd a little water to make dosas,\nafter which don't cook idlies.\nAdd salt as per your taste. The batter\nis mildly salted.\nSTORE IN\nREFRIGERATOR (0-5\u00b0C)\nCAUTION\nPlease don't buy a puffed-up pack.\nDo wash the pack before opening it.\nID FOLLOWS AUTHENTIC HOME-STYLE RECIPES\nIMPROVED BY TECHNOLOGY\nMADE THE WAY YOU WOULD\nNO ADDED FLAVOURS\nRO-PURIFIED WATER\nULTRA-HYGIENIC KITCHENS\nPREMIUM INGREDIENTS\n8 906020 580541\nNet weight: 2 kg\nMRP:\n(Inclusive of all taxes)\nUse-by:\nBatch no.:\ncooks about\n40 OR 28\nIdlies\nDosas\n(OR ONE REALLY BIG IDLY OR DOSA)\nMarketed by: iD Fresh Food (India) Pvt Ltd, 37,\nDoddenakundi Industrial Area, Whitefield Road,\nMahadevapura, Bengaluru-560048.\nFor mfg unit address, match the alphabet of batch no.\nwith the ones below. Manufactured by:\n(B) iD Fresh Food (India) Pvt Ltd, Shed # B-62, KSSIDC\nIndustrial Area, Pillagumpa, Hoskote, Bengaluru-562114.\nFSSAI Lic. No. 10014043001054\n(C) iD Fresh Food (India) Pvt Ltd, No. 282, SIDCO\nIndustrial Estate, Thirumudivakkam, Sri Perumbudur Taluk,\nChennai-600044. FSSAI Lic. No. 10014042001087\n(H) iD Fresh Food (India) Pvt Ltd, 5-9-287/42/A,\nRajiv Gandhi Nagar, Moosapet, Kukatpally,\nHyderabad-500072. FSSAI Lic. No. 13615013000258\n(M) iD Fresh Food (India) Pvt Ltd, No. 53, CTS No. 443/10,\nMarol Industrial Co-op Society, Andheri East,\nGreater Mumbai-400059. FSSAI Lic. No. 11514005000340\n2kg\nVALUE\nPACK\nKNOW-HOW FROM\nCFTRI, MYSORE\nCUSTOMER CARE:\n+91-9739910521\nWEB: www.idfresh.in\nMAIL: info@idfresh.in\nf/iDFresh\nPANEL 2"
+[2026-04-02 11:26:32] [STEP 1/9] Validating image context...
+[2026-04-02 11:26:32] [Context] source=default_general, type=general, code=None
+[2026-04-02 11:26:32] [STEP 2/9] Extracting OCR data...
+[2026-04-02 11:26:32] [OCR] Initiating OCR Extraction Service
+[2026-04-02 11:26:32] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 11:31:37] [STEP 1/9] Validating image context...
+[2026-04-02 11:31:37] [Context] source=default_general, type=general, code=None
+[2026-04-02 11:31:37] [STEP 2/9] Extracting OCR data...
+[2026-04-02 11:31:37] [OCR] Initiating OCR Extraction Service
+[2026-04-02 11:31:37] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 11:31:46] [RAW OCR TEXT] "Seal of Freshness\n2kg\nVALUE\nPACK\nTM\niD\n100% AUTHENTIC\nIDLY &\nDOSA\nBATTER\nHello! This batter is made fresh with traditional ingredients\nand is naturally fermented, just like in your kitchen.\nA home-made feast is only minutes away.\nNO ADDED\nPRESERVATIVES\nNO\nSODA\nRO-PURIFIED\nWATER\nMILDLY SALTED\nBUY ONLY IF\nREFRIGERATED\nTRY TASTIER,\nHEALTHIER\nPAROTAS!\nJUST HEAT\nPAROTA\niD\nPANEL 1\nSeal of Freshness\nTM\niD\n100% AUTHENTIC\nINGREDIENTS\nRice (34%), Urad Dal, Fenugreek,\nRO-purified Water (50%) and Edible\nCommon Salt.\nNUTRITIONAL FACTS\nPER 100g\nEnergy 143.35kcal \u2022 Protein 5.5g\nFat 1.6g \u2022 Saturated Fatty Acid 0.68g\nMUFA 0.52g \u2022 Sugar 0g \u2022 PUFA 0.3g\nTrans Fatty Acid 0g \u2022 Cholesterol 0mg\nCarbohydrate 26.3g \u2022 Sodium 92mg\nDIRECTIONS FOR USE\nAdd a little water to make dosas,\nafter which don't cook idlies.\nAdd salt as per your taste. The batter\nis mildly salted.\nSTORE IN\nREFRIGERATOR (0-5\u00b0C)\nCAUTION\nPlease don't buy a puffed-up pack.\nDo wash the pack before opening it.\nID FOLLOWS AUTHENTIC HOME-STYLE RECIPES\nIMPROVED BY TECHNOLOGY\nMADE THE WAY YOU WOULD\nNO ADDED FLAVOURS\nRO-PURIFIED WATER\nULTRA-HYGIENIC KITCHENS\nPREMIUM INGREDIENTS\n8 906020 580541\nNet weight: 2 kg\nMRP:\n(Inclusive of all taxes)\nUse-by:\nBatch no.:\ncooks about\n40 OR 28\nIdlies\nDosas\n(OR ONE REALLY BIG IDLY OR DOSA)\nMarketed by: iD Fresh Food (India) Pvt Ltd, 37,\nDoddenakundi Industrial Area, Whitefield Road,\nMahadevapura, Bengaluru-560048.\nFor mfg unit address, match the alphabet of batch no.\nwith the ones below. Manufactured by:\n(B) iD Fresh Food (India) Pvt Ltd, Shed # B-62, KSSIDC\nIndustrial Area, Pillagumpa, Hoskote, Bengaluru-562114.\nFSSAI Lic. No. 10014043001054\n(C) iD Fresh Food (India) Pvt Ltd, No. 282, SIDCO\nIndustrial Estate, Thirumudivakkam, Sri Perumbudur Taluk,\nChennai-600044. FSSAI Lic. No. 10014042001087\n(H) iD Fresh Food (India) Pvt Ltd, 5-9-287/42/A,\nRajiv Gandhi Nagar, Moosapet, Kukatpally,\nHyderabad-500072. FSSAI Lic. No. 13615013000258\n(M) iD Fresh Food (India) Pvt Ltd, No. 53, CTS No. 443/10,\nMarol Industrial Co-op Society, Andheri East,\nGreater Mumbai-400059. FSSAI Lic. No. 11514005000340\n2kg\nVALUE\nPACK\nKNOW-HOW FROM\nCFTRI, MYSORE\nCUSTOMER CARE:\n+91-9739910521\nWEB: www.idfresh.in\nMAIL: info@idfresh.in\nf/iDFresh\nPANEL 2"
+[2026-04-02 11:31:54] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 11:31:54] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 11:31:54] [Metadata] Extracting Brand Metadata
+[2026-04-02 11:31:57] [Metadata] Metadata LLM raw output: {
+    "brandName": "iD",
+    "productName": "IDLY & DOSA BATTER",
+    "fssaiCategory": "Batter",
+    "licenseNo": "10014043001054",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 11:31:57] [EXTRACTED METADATA] {
+  "brandName": "iD",
+  "productName": "IDLY & DOSA BATTER",
+  "fssaiCategory": "Batter",
+  "licenseNo": "10014043001054",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 11:31:57] [STEP 4/9] Running regulatory checks...
+[2026-04-02 11:31:57] [Core] Running Regulatory Analysis
+[2026-04-02 11:32:18] [STEP 5/9] Validating product category...
+[2026-04-02 11:32:18] [Nutrition] Running Nutrition Subsystem
+[2026-04-02 11:32:20] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a basic fermented food staple (likely idli or dosa batter) consisting of rice, lentils, and water. It contains no specific nutritional enhancements or targeted claims, making it suitable for the general adult population.'}
+[2026-04-02 11:32:20] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a basic fermented food staple (likely idli or dosa batter) consisting of rice, lentils, and water. It contains no specific nutritional enhancements or targeted claims, making it suitable for the general adult population.'}
+[2026-04-02 11:32:20] [STEP 6/9] Substantiating claims...
+[2026-04-02 11:32:20] [Claims] Running Claims Subsystem
+[2026-04-02 11:32:20] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a basic fermented food staple (likely idli or dosa batter) consisting of rice, lentils, and water. It contains no specific nutritional enhancements or targeted claims, making it suitable for the general adult population.'}
+[2026-04-02 11:32:20] [Claims] RDA calculations complete: 11 nutrients processed
+[2026-04-02 11:32:20] [Claims] Energy: 7.2% RDA per 100g
+[2026-04-02 11:32:20] [Claims] Protein: 10.2% RDA per 100g
+[2026-04-02 11:32:20] [Claims] Sodium: 4.6% RDA per 100g
+[2026-04-02 11:32:20] [Claims (RDA)] RDA Percentages: {
+  "energy": 7.2,
+  "protein": 10.2,
+  "sodium": 4.6
+}
+[2026-04-02 11:32:20] [Claims (RDA)] RDA Percentages Count: 3
+[2026-04-02 11:32:28] [Claims] Claims Validation Result: [{'claim_text': 'NO ADDED PRESERVATIVES', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'The ingredients list (Rice, Urad Dal, Fenugreek, RO-purified Water, Edible Common Salt) does not contain any chemical preservatives or additives listed in the FSSAI class titles for preservatives.', 'reference': 'Ingredients List', 'nutrient_involved': 'Preservatives'}, {'claim_text': 'NO SODA', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'Sodium Bicarbonate (Baking Soda) or other leavening agents are absent from the provided ingredients list.', 'reference': 'Ingredients List', 'nutrient_involved': 'Sodium Bicarbonate'}, {'claim_text': 'NO ADDED FLAVOURS', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'No natural, nature-identical, or artificial flavoring substances are declared in the ingredients list.', 'reference': 'Ingredients List', 'nutrient_involved': 'Flavours'}, {'claim_text': 'RO-PURIFIED WATER', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': 'RO-purified Water is explicitly listed as an ingredient (50%) in the product composition.', 'reference': 'Ingredients List', 'nutrient_involved': 'Water'}, {'claim_text': 'PREMIUM INGREDIENTS', 'tag': 'Ingredient Claim', 'status': 'Action', 'reasoning': "The term 'Premium' is a subjective quality descriptor. Under FSSAI, such claims should be justified by highlighting specific superior attributes compared to standard ingredients, which are not detailed here.", 'reference': 'FSSAI Advertising and Claims Regulations', 'nutrient_involved': 'General Ingredients'}, {'claim_text': 'naturally fermented', 'tag': 'Nutritional Claim', 'status': 'Complies', 'reasoning': 'The product (Idli/Dosa batter based on Rice and Urad Dal) is a traditional fermented food. The absence of chemical leavening agents (No Soda) supports the claim of natural fermentation.', 'reference': 'Ingredients List', 'nutrient_involved': 'Probiotics/Fermentation'}, {'claim_text': '100% AUTHENTIC', 'tag': 'Ingredient Claim', 'status': 'Action', 'reasoning': "Absolute claims like '100% Authentic' are difficult to verify objectively. FSSAI requires that such claims do not mislead the consumer regarding the nature or origin of the product.", 'reference': 'FSSAI Advertising and Claims Regulations', 'nutrient_involved': 'General Quality'}]
+[2026-04-02 11:32:28] [Claims] Claims Analysis Result: Analyzed 7 claim(s). 5 passed, 0 failed, 2 need review.
+[2026-04-02 11:32:28] [STEP 7/9] Verifying nutrition limits...
+[2026-04-02 11:32:28] [Lab Tests] Running Lab Test Pipeline
+[2026-04-02 11:32:34] [Lab Tests] Generated 5 suggestions
+[2026-04-02 11:32:34] [Lab Tests] Starting contaminants analysis...
+[2026-04-02 11:32:45] [Lab Tests] Generated 3 contaminants-related tests
+[2026-04-02 11:32:45] [Lab Tests] Starting microbiological hazards analysis...
+[2026-04-02 11:32:54] [Lab Tests] Generated 2 microbiological hazard-related tests
+[2026-04-02 11:32:54] [STEP 8/9] Generating lab test suggestions...
+[2026-04-02 11:32:54] [Analysis] Added Nutrition Check with nutritionDetails: 1 items
+[2026-04-02 11:32:54] [Analysis] Final Result: Nutrition Check found with status=CheckStatus.FAIL, nutritionDetails=1
+[2026-04-02 11:32:54] [SUCCESS] Final Score: 60.0%
+[2026-04-02 11:37:27] [STEP 1/9] Validating image context...
+[2026-04-02 11:37:27] [Context] source=default_general, type=general, code=None
+[2026-04-02 11:37:28] [STEP 2/9] Extracting OCR data...
+[2026-04-02 11:37:28] [OCR] Initiating OCR Extraction Service
+[2026-04-02 11:37:28] [OCR Phase 2] Starting structured JSON extraction...
+[2026-04-02 11:37:38] [RAW OCR TEXT] "RAW\u00ae\nPRESSERY\nDAILY DOSE\nBerry\nHealthy\nStrawberry, Blueberry\n& Cranberry\nANTI-INFLAMMATORY.\nRICH IN ANTIOXIDANTS.\nHIGH IN VITAMIN C.\nBENEFITS\nPANEL 1\nNUTRITION FACTS**\n1 SERVING PER CONTAINER\nSERVING SIZE 1 GLASS (250 ml)\nPer %RDA*\n100ml (per 250ml)\nENERGY VALUE 30.4kcal 3.79%\nTOTAL FAT 0.1g 0.10%\nSODIUM 1.3mg 0.16%\nTOTAL CARBOHYDRATES 7.3g\nDIETARY FIBER 0.1g 1.17%\nTOTAL SUGARS 7.3g\nADDED SUGAR 2.5g 12.5%\nPROTEIN 0.1g 0.23%\nVITAMIN A 0.2mcg 0.06%\nVITAMIN C 31.1mg 97.3%\nCALCIUM 5.1mg 1.29%\nIRON 0.02mg 0.32%\nPOTASSIUM 56.0mg 4.00%\nINGREDIENTS: WATER, STRAWBERRY PULP\n(29%), APPLE JUICE(20%), BLUEBERRY\nPULP(3%), KHANDSARI SUGAR, CRANBERRY\nJUICE CONCENTRATE(0.8%), ACIDITY\nREGULATOR (INS 330), PECTIN, NATURAL\nFLAVORING SUBSTANCES, ANTIOXIDANTS\n[VITAMIN C - INS 300), INS 224], NATURAL\nCOLOUR [INS 163 (ii)], STEVIA\nAllergen Advice: Contains Sulphite,\nManufactured in the same facility which\nprocesses Nut, Milk\nManufactured By:\n(VB) VINAYAK BEVERAGES\nSy. No. 593/A, Nandigama Village, Patancheru\nMandal, Sangareddy,\nTelangana- 502300 fssai\nLic. No. 10014047000299\nMarketed By: RAW PRESSERY PRIVATE LIMITED\nOffice No. 910, 9th Floor, Niharika Mirage,\nPlot No. 274, Sector-10, Kharghar, Navi Mumbai,\nRaigad, Maharashtra- 410210\nwww.wingreensworld.com fssai\nLic. No. 10016022005650\nContact Consumer Care Executive:\nSAME AS MARKETED BY ADDRESS\n+91 8800-793-638,\nsupport@wingreens.in\nPANEL 2\nRAW DAILY DOSE\nIT'S REFRESHING. IT'S NOURISHING. IT'S DELICIOUS!\nIT'S BERRY BERRY HEALTHY!\nA delicious blend of Strawberries, Blueberries, &\nCranberries, all rich in Vitamin C and natural\nantioxidants. Berries also contain bioactive compounds\nthat exhibit anti-inflammatory effects. Each sip will leave\nyou feeling \"berry healthy\" and inspired to\nBE YOU. BE RAW.\nREADY TO SERVE FRUIT BEVERAGES\nNET QUANTITY\n250ml\nIMAGES USED FOR ILLUSTRATIVE PURPOSE ONLY.\nSTORE AWAY FROM DIRECT SUNLIGHT. SEE BOTTLE NECK FOR\nTHE DATE OF MANUFACTURE, USE BY DATE, BATCH NO. AND MRP\n(incl. of all taxes)\nOUR BOTTLES ARE FOOD-GRADE. THE TASTE OF OUR PRODUCT\nMAY VARY FROM SEASON TO SEASON.\nRECYCLE VALUE IN MAHARASHTRA Rs. 15/kg.\nPRODUCT OF INDIA. SHAKE WELL BEFORE DRINKING.\n8 904258 703893\nTASTES BEST WHEN\nCONSUMED CHILLED\nDO NOT CONSUME IF\nTHE BOTTLE IS\nPUFFED/BLOATED\nRAW\nA brand of\nWINGREENS WORLD.COM\nKEEP REFRIGERATED ONCE\nOPENED. CONSUME WITHIN\nTWO DAYS OF OPENING\nFor illustrative purposes only.\nPANEL 3"
+[2026-04-02 11:37:45] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-04-02 11:37:45] [STEP 3/9] Extracting brand metadata...
+[2026-04-02 11:37:45] [Metadata] Extracting Brand Metadata
+[2026-04-02 11:37:47] [Metadata] Metadata LLM raw output: {
+    "brandName": "RAW PRESSERY",
+    "productName": "Berry Healthy",
+    "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+    "licenseNo": "10014047000299",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-04-02 11:37:47] [EXTRACTED METADATA] {
+  "brandName": "RAW PRESSERY",
+  "productName": "Berry Healthy",
+  "fssaiCategory": "READY TO SERVE FRUIT BEVERAGES",
+  "licenseNo": "10014047000299",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-04-02 11:37:47] [STEP 4/9] Running regulatory checks...
+[2026-04-02 11:37:47] [Core] Running Regulatory Analysis
