@@ -12,6 +12,9 @@ __init__.py
 # Environment variables
 .env
 
+# logs
+logs/app.log
+
 # Credentials
 bettrlabs-vertex-ai.json
 !requirements.txt

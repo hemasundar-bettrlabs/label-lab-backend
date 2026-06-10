@@ -26,6 +26,35 @@ load_dotenv()
 logger = logging.getLogger(__name__)
 _pipeline_logger = pipeline_logger  # Alias for use in methods
 
+# Allowed FSSAI product categories for LLM classification
+ALLOWED_CATEGORIES = [
+    "Dairy & Dairy Products",
+    "Edible Oils & Fats",
+    "Cereals & Cereal Products",
+    "Fruits & Vegetable Products",
+    "Sweetening Agents",
+    "Beverages",
+    "Spices & Condiments",
+    "Meat & Poultry",
+    "Fish & Fishery Products",
+    "Salt, Vinegar & Related",
+    "Confectionery & Chocolates",
+    "Bakery Products",
+    "Snacks and Savouries",
+    "Ready to Eat Foods",
+    "Ready to Cook Foods",
+    "Infant Nutrition Food",
+    "Health Supplements",
+    "Nutraceuticals",
+    "Probiotic / Prebiotic Food",
+    "Food for Special Dietary Use (FSDU)",
+    "Food for Special Medical Purpose (FSMP)",
+    "Fortified Food",
+    "Proprietary Food",
+    "Novel Food",
+    "Non-Specified Food",
+]
+
 # Environment configuration
 CATEGORY_PREDICTION_MODEL = os.getenv("CATEGORY_PREDICTION_MODEL", "gemini-2.5-flash")
 CATEGORY_PREDICTION_TEMPERATURE = float(os.getenv("CATEGORY_PREDICTION_TEMPERATURE", "0.5"))
@@ -95,7 +124,7 @@ class ProductCategoryPredictor:
         categories_str = "\n".join(f"  - {cat}" for cat in ALLOWED_CATEGORIES)
 
         # concatenate prompt with product info and instructions
-        with open(CATEGORY_PREDICTION_PROMPT, "r") as f:
+        with open(CATEGORY_PREDICTION_PROMPT, "r", encoding="utf-8") as f:
             base_prompt = f.read()
         
         prompt = f"""{base_prompt}

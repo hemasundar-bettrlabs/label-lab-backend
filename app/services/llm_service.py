@@ -1,9 +1,20 @@
 import os
 import logging
+import warnings
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
 from typing import Optional, Any, Union, Dict, List
+
+# Gemini 2.5 models always attach a `thought_signature` field to response parts
+# even when thinking_budget=0. The SDK warns when it encounters these non-text
+# parts while reading .text / .parsed. The text content is still returned
+# correctly, so suppress the noisy but harmless warning.
+warnings.filterwarnings(
+    "ignore",
+    message="there are non-text parts in the response",
+    category=UserWarning,
+)
 
 load_dotenv()
 
@@ -21,14 +32,13 @@ class VertexLLMService:
 
     @classmethod
     def _initialize_client(cls):
-        gcp_project_id = os.getenv("GCP_PROJECT_ID")
-        gcp_location = os.getenv("GCP_LOCATION", "us-central1")
+        gemini_api_key = os.getenv("GEMINI_API_KEY")
         
-        if not gcp_project_id:
-            logger.warning("GCP_PROJECT_ID is not set. Vertex AI initialization may fail.")
+        if not gemini_api_key:
+            logger.warning("GEMINI_API_KEY is not set. Gemini API initialization may fail.")
         
-        cls._client = genai.Client(vertexai=True, project=gcp_project_id, location=gcp_location)
-        logger.info(f"VertexLLMService initialized for project {gcp_project_id} in {gcp_location}")
+        cls._client = genai.Client(api_key=gemini_api_key)
+        logger.info("VertexLLMService initialized with Gemini API key")
 
     def generate_content(
         self,
