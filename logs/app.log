@@ -3750,3 +3750,72 @@ checks.28.status
 }
 [2026-04-02 11:37:47] [STEP 4/9] Running regulatory checks...
 [2026-04-02 11:37:47] [Core] Running Regulatory Analysis
+[2026-06-24 12:33:53] [STEP 1/9] Validating image context...
+[2026-06-24 12:33:53] [Context] source=default_general, type=general, code=None
+[2026-06-24 12:33:54] [STEP 2/9] Extracting OCR data...
+[2026-06-24 12:33:54] [OCR] Initiating OCR Extraction Service
+[2026-06-24 12:33:54] [OCR Phase 2] Starting structured JSON extraction...
+[2026-06-24 12:34:02] [RAW OCR TEXT] "MADE WITH \u2764\ufe0f\nTEAR HERE\nPacked With Love\nSAM'S DELIGHT\nCALIFORNIA\nALMONDS\nPREMIUM\nQUALITY\nSOURCE\nHARVEST\nFrom our Farms to your Bowls\npicture is inspired from our farm in freshno california.\nThe images shown are for\npictorial representation only.\nSAM'S DELIGHT\n\nTEAR HERE\nSAM'S DELIGHT\nNUTRITIONAL INFORMATION\n(Approximate Values)\nNo. of servings : 25\nServing Size : 20g\nPer\n100g\nPer\nServe\n% RDA *\n(Per Serve)\nEnergy (kcal)\n627.3\n125.5\n6.27 %\nProtein (g)\n22.7\n4.5\n8.41 %\nTotal Carbohydrate (g)\n18.7\n3.7\n2.88 %\nDietary Fibre (g)\n10.7\n2.1\n7.13 %\nTotal Sugar (g)\n3.3\n0.7\n0.0 %\nAdded Sugar (g)\n0.0\n0.0\n0.0 %\nTotal Fat (g)\n51.3\n10.3\n15.31 %\nSaturated Fat (g)\n4.7\n0.9\n4.27 %\nTrans Fat (g)\n0.0\n0.0\n0.0 %\nCholesterol (mg)\n0.0\n0.0\n0.0 %\nSodium (mg)\n22.0\n4.4\n0.22 %\n*%RDA (Recommended Dietary Allowance) based on 2000 Kcal for Adult\n(Average) per serving size are according to Indian Council of Medical\nResearch Guideline.\nINGREDIENTS:\nAlmonds.\nSTORAGE:\nStore in a cool and dry place,\naway from direct sunlight.\nALLERGEN ADVICE:\nContains Nuts.\nCUSTOMER CARE:\nFor Customer complaints & feedbacks,\nPlease do write to our customer care at\ncustomersupport@innoutfi.com\nor call us on +91 9247583253.\nMARKETED BY:\nSam's Delights Fruit Nuts Private Ltd.\n401, Vimbri Boulevard, Road no 04 & 06,\nGreen Valley, Banjara Hills, Hyderabad,\nTelangana-500034\nMANUFACTURED BY\nSy no 459/1,459/2 Kyathaganicheruvu\nVillage ,Somandepalle Mandal Pendukonda\nTaluk,Hindupur,Anantapur District,Andhra\nPradesh,515122, Anantapur, Anantapur,\nAndhra Pradesh-515122\nfssai\nLic. No.10125999000471\nMRP.\n(inc. of all taxes)\nUSP.\nNET WEIGHT\nMFG. DATE\nBATCH NO.\nBEST BEFORE DATE"
+[2026-06-24 12:34:18] [OCR] Phase 2 structured JSON extracted successfully.
+[2026-06-24 12:34:18] [STEP 3/9] Extracting brand metadata...
+[2026-06-24 12:34:18] [Metadata] Extracting Brand Metadata
+[2026-06-24 12:34:19] [Metadata] Metadata LLM raw output: {
+    "brandName": "SAM'S DELIGHT",
+    "productName": "CALIFORNIA ALMONDS",
+    "fssaiCategory": "Dried Fruits and Nuts",
+    "licenseNo": "10125999000471",
+    "sampleType": "Physical Pack",
+    "pdpArea": "",
+    "nablReportId": "",
+    "claimsBasis": ""
+}
+[2026-06-24 12:34:19] [EXTRACTED METADATA] {
+  "brandName": "SAM'S DELIGHT",
+  "productName": "CALIFORNIA ALMONDS",
+  "fssaiCategory": "Dried Fruits and Nuts",
+  "licenseNo": "10125999000471",
+  "sampleType": "Physical Pack",
+  "pdpArea": "",
+  "nablReportId": "",
+  "claimsBasis": "",
+  "productCompliant": null,
+  "categoryCompliant": null
+}
+[2026-06-24 12:34:19] [STEP 4/9] Running regulatory checks...
+[2026-06-24 12:34:19] [Core] Running Regulatory Analysis
+[2026-06-24 12:34:30] [STEP 5/9] Validating product category...
+[2026-06-24 12:34:30] [Nutrition] Running Nutrition Subsystem
+[2026-06-24 12:34:31] [Nutrition] Predicted Target Audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a single-ingredient whole food (almonds) with no specific health claims or demographic targeting, therefore it is categorized for the general adult population.'}
+[2026-06-24 12:34:31] [Nutrition] Nutrition validation complete with audience: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a single-ingredient whole food (almonds) with no specific health claims or demographic targeting, therefore it is categorized for the general adult population.'}
+[2026-06-24 12:34:31] [STEP 6/9] Substantiating claims...
+[2026-06-24 12:34:31] [Claims] Running Claims Subsystem
+[2026-06-24 12:34:31] [Claims] Using RDA demographic: {'gender': 'men', 'activity_level': 'sedentary', 'specific_period': None, 'reasoning': 'The product is a single-ingredient whole food (almonds) with no specific health claims or demographic targeting, therefore it is categorized for the general adult population.'}
+[2026-06-24 12:34:31] [Claims] RDA calculations complete: 11 nutrients processed
+[2026-06-24 12:34:31] [Claims] Energy: 31.4% RDA per 100g
+[2026-06-24 12:34:31] [Claims] Protein: 42.0% RDA per 100g
+[2026-06-24 12:34:31] [Claims] Total Carbohydrate: 6.2% RDA per 100g
+[2026-06-24 12:34:31] [Claims] Total Fat: 76.6% RDA per 100g
+[2026-06-24 12:34:31] [Claims] Saturated Fat: 21.4% RDA per 100g
+[2026-06-24 12:34:31] [Claims] Sodium: 1.1% RDA per 100g
+[2026-06-24 12:34:31] [Claims (RDA)] RDA Percentages: {
+  "energy": 31.4,
+  "protein": 42.0,
+  "total carbohydrate": 6.2,
+  "total fat": 76.6,
+  "saturated fat": 21.4,
+  "sodium": 1.1
+}
+[2026-06-24 12:34:31] [Claims (RDA)] RDA Percentages Count: 6
+[2026-06-24 12:34:42] [Claims] Claims Validation Result: [{'claim_text': 'PREMIUM QUALITY', 'tag': 'Ingredient Claim', 'status': 'Action', 'reasoning': "The term 'Premium' is a subjective quality descriptor. Under FSSAI guidelines, such claims should be justified by specific superior attributes (e.g., grade of almonds) which are not detailed in the provided data.", 'reference': 'FSSAI Advertising and Claims Regulations', 'nutrient_involved': 'Quality'}, {'claim_text': 'SOURCE HARVEST', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "The ingredient list contains only 'Almonds', which are a primary agricultural harvest product. The claim is consistent with the single-ingredient nature of the product.", 'reference': 'Ingredients List', 'nutrient_involved': 'Almonds'}, {'claim_text': 'From our Farms to your Bowls', 'tag': 'Ingredient Claim', 'status': 'Action', 'reasoning': "This is a provenance/supply chain claim. While plausible for a single-ingredient nut product, it requires verification of the brand's direct sourcing or farm-ownership model to ensure it is not misleading.", 'reference': 'FSSAI General Principles for Claims', 'nutrient_involved': 'Sourcing'}, {'claim_text': 'MADE WITH ❤️', 'tag': 'Ingredient Claim', 'status': 'Complies', 'reasoning': "This is considered 'puffery' or a poetic expression of care in manufacturing. It is not a regulated nutritional or health claim and does not mislead the consumer regarding the product's composition.", 'reference': 'FSSAI General Principles', 'nutrient_involved': 'General'}]
+[2026-06-24 12:34:42] [Claims] Claims Analysis Result: Analyzed 4 claim(s). 2 passed, 0 failed, 2 need review.
+[2026-06-24 12:34:42] [STEP 7/9] Verifying nutrition limits...
+[2026-06-24 12:34:42] [Lab Tests] Running Lab Test Pipeline
+[2026-06-24 12:34:48] [Lab Tests] Generated 3 suggestions
+[2026-06-24 12:34:48] [Lab Tests] Starting contaminants analysis...
+[2026-06-24 12:36:38] [Lab Tests] Generated 3 contaminants-related tests
+[2026-06-24 12:36:38] [Lab Tests] Starting microbiological hazards analysis...
+[2026-06-24 12:36:44] [Lab Tests] Generated 8 microbiological hazard-related tests
+[2026-06-24 12:36:44] [STEP 8/9] Generating lab test suggestions...
+[2026-06-24 12:36:44] [Analysis] Added Nutrition Check with nutritionDetails: 0 items
+[2026-06-24 12:36:44] [Analysis] Final Result: Nutrition Check found with status=CheckStatus.PASS, nutritionDetails=0
+[2026-06-24 12:36:44] [SUCCESS] Final Score: 85.0%
